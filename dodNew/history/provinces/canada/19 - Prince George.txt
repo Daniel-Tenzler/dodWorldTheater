@@ -1,7 +1,7 @@
 owner = DNG
 controller = DNG
 add_core = DNG
-trade_goods = timber
+trade_goods = iron
 life_rating = 20
 terrain = new_world_montane_tundra
 1861.1.1 = {

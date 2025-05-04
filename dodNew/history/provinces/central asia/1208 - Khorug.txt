@@ -3,5 +3,5 @@ controller = CHG
 add_core = CHG   
 add_core = ARY
 add_core = TJK
-trade_goods = cattle
+trade_goods = iron
 life_rating = 35

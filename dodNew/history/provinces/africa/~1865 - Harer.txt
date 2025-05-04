@@ -3,7 +3,7 @@ controller = ADA
 add_core = ADA
 add_core = ETH
 add_core = AMT
-trade_goods = coffee
+trade_goods = iron
 life_rating = 20
 
  

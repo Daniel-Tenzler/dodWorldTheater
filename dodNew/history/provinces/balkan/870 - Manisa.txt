@@ -1,7 +1,7 @@
 owner = TUR
 controller = TUR
 add_core = TUR
-trade_goods = grain
+trade_goods = iron
 life_rating = 35
 revolt = {
 	type = reactionary_rebels

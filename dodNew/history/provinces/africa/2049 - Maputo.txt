@@ -2,5 +2,5 @@ owner = NFL
 controller = NFL
 add_core = NFL
  
-trade_goods = grain
+trade_goods = iron
 life_rating = 35

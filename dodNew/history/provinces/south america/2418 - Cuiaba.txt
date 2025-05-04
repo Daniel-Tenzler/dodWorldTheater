@@ -1,6 +1,6 @@
 
 add_core = EQN 
 add_core = TAP
-trade_goods = fruit
+trade_goods = coal
 life_rating = 25
 colonial = 1
