@@ -1,0 +1,33 @@
+political_decisions = {
+	I AM BACK BABY = {
+		potential = {
+			NOT = { has_country_flag = am_back }
+			tag = CHG
+		}	
+		allow = {
+		tag = CHG
+		}
+		effect = {
+			UGH = { all_core = { add_core = CHG } }
+			KOK = { all_core = { add_core = CHG } }
+			KZH = { all_core = { add_core = CHG } }
+			MGL = { all_core = { add_core = CHG } }
+			UZB = { all_core = { add_core = CHG } }
+			TJK = { all_core = { add_core = CHG } }
+			TNT = { all_core = { add_core = CHG } }
+			
+			inherit = UGH
+			inherit = KOK
+			inherit = KZH
+			inherit = MGL
+			inherit = UZB
+			inherit = TJK
+			inherit = TNT
+			
+			set_country_flag = am_back
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

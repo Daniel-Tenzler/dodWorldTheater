@@ -1,0 +1,911 @@
+political_decisions = {
+	form_arcadia_vinland = { # Vinland
+    picture = "UniteARC"
+		potential = {
+			tag = VIN
+      NOT = { ARC = { exists = yes } }
+			has_country_flag = vin_manifest_destiny
+		}
+		allow = {
+      war = no
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						     OR = {
+							   in_sphere = THIS
+							   vassal_of = THIS
+							   }
+						}
+		                province_id = 30
+						province_id = 34
+						province_id = 33
+						province_id = 27
+						province_id = 23
+						province_id = 114
+						province_id = 113
+						province_id = 116
+						province_id = 115
+						province_id = 35
+						province_id = 22
+						province_id = 24
+						province_id = 25
+						province_id = 26
+						province_id = 28
+						province_id = 20
+						province_id = 21
+						province_id = 19
+						province_id = 16
+						province_id = 17
+						province_id = 2629
+						province_id = 18
+						province_id = 2597
+						province_id = 2598
+						province_id = 2599
+						province_id = 7
+						province_id = 6
+						province_id = 18
+						province_id = 3
+						province_id = 2630
+						province_id = 2
+						province_id = 1
+						province_id = 5
+						province_id = 4
+						province_id = 2631
+						province_id = 13
+						province_id = 14
+						province_id = 78
+						province_id = 15
+						province_id = 39
+						province_id = 38
+						province_id = 31
+						province_id = 32
+						province_id = 2596
+						province_id = 11
+						province_id = 9																
+					}
+			}
+      NOT = { PLA = { is_greater_power = yes } }
+      NOT = { NBG = { is_greater_power = yes } }
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+				prestige = 20   
+				VIN = { all_core = { add_core = ARC	} }
+				PLA = { all_core = { add_core = ARC	} }
+				NBG = { all_core = { add_core = ARC	} }
+				VIN = { all_core = { remove_core = VIN	} }
+        
+        change_tag = ARC
+			  any_country = {
+				limit = {
+					OR = {
+                        tag = PLA
+                        tag = NBG
+                        tag = KKN
+		                tag = ATS
+                    }
+		            OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			  }				
+				country_event = 333452
+				set_country_flag = vinlandic_arcadia
+		}  
+    ai_will_do = {
+			factor = 1
+		}
+  } 
+  
+	form_arcadia_septiman = { # 7Rep  
+    picture = "UniteARC"
+		potential = {
+			tag = NBG
+      NOT = { ARC = { exists = yes } }
+			has_country_flag = nbg_manifest_destiny
+		}
+		allow = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						     OR = {
+							   in_sphere = THIS
+							   vassal_of = THIS
+							   }
+						}
+					}
+			}
+      NOT = { PLA = { is_greater_power = yes } }
+      NOT = { VIN = { is_greater_power = yes } }
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+				prestige = 20  
+				VIN = { all_core = { add_core = ARC	} }
+				PLA = { all_core = { add_core = ARC	} }
+				NBG = { all_core = { add_core = ARC	} }
+				NBG = { all_core = { remove_core = NBG	} }
+        
+        change_tag = ARC 
+			  any_country = {
+				limit = {
+					OR = {
+          tag = PLA
+          tag = VIN
+		  tag = ATS
+          }
+				    OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			  }				  
+				country_event = 333452
+				
+				set_country_flag = septiman_arcadia
+		}   
+    ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  
+	form_arcadia_plantagenia = { # Plantagenia    
+    picture = "UniteARC"
+		potential = {
+			tag = PLA
+      NOT = { ARC = { exists = yes } }
+			has_country_flag = pla_manifest_destiny
+		}
+		allow = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+						     OR = {
+							   in_sphere = THIS
+							   vassal_of = THIS
+							   }
+						}
+					}
+			}
+      NOT = { VIN = { is_greater_power = yes } }
+      NOT = { NBG = { is_greater_power = yes } }
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+				prestige = 20  
+				VIN = { all_core = { add_core = ARC	} }
+				PLA = { all_core = { add_core = ARC	} }
+				NBG = { all_core = { add_core = ARC	} }
+				PLA = { all_core = { remove_core = PLA } }
+        
+        change_tag = ARC  
+			  any_country = {
+				limit = {
+					OR = {
+          tag = VIN
+          tag = NBG
+          tag = LST
+		  tag = ATS
+          }
+				    OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			  }				
+				country_event = 333452
+				
+				set_country_flag = plantagenian_arcadia
+		} 
+    ai_will_do = {
+			factor = 1
+		}
+  }
+  ###################################################################
+  erase_vinland = { # Vinland   
+    picture = "Vinland"
+		potential = {
+			tag = ARC
+			NOT = { accepted_culture = vinlander } 
+			NOT = { primary_culture = vinlander }
+		}
+		allow = {
+      VIN = {
+			all_core = {
+			  OR = {
+						owned_by = THIS
+			            province_id = 30
+						province_id = 34
+						province_id = 33
+						province_id = 27
+						province_id = 23
+						province_id = 114
+						province_id = 113
+						province_id = 116
+						province_id = 115
+						province_id = 35
+						province_id = 22
+						province_id = 24
+						province_id = 25
+						province_id = 26
+						province_id = 28
+						province_id = 20
+						province_id = 21
+						province_id = 19
+						province_id = 16
+						province_id = 17
+						province_id = 2629
+						province_id = 18
+						province_id = 2597
+						province_id = 2598
+						province_id = 2599
+						province_id = 7
+						province_id = 6
+						province_id = 18
+						province_id = 3
+						province_id = 2630
+						province_id = 2
+						province_id = 1
+						province_id = 5
+						province_id = 4
+						province_id = 2631
+						province_id = 13
+						province_id = 14
+						province_id = 78
+						province_id = 15
+						province_id = 39
+						province_id = 38
+						province_id = 31
+						province_id = 32
+						province_id = 2596
+						province_id = 11
+						province_id = 9		
+						}
+			}
+      }
+			social_thought = 1
+		}
+		effect = {
+	prestige = 10
+    add_accepted_culture = vinlander
+    VIN = { all_core = { remove_core = VIN	} }
+		any_pop = {
+			limit = {
+				culture = vinlander
+			}
+			militancy = -2
+      consciousness = 2 
+ 			 ideology = {
+			 	 value = liberal
+				  factor = 0.05
+			 }         
+		}    
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+ 			 ideology = {
+			 	 value = reactionary
+				  factor = 0.05
+			 }     
+			scaled_militancy = {
+					ideology = reactionary
+					factor = 2
+			} 
+			scaled_militancy = {
+					ideology = fascist
+					factor = 2
+			}    
+			scaled_militancy = {
+					ideology = conservative
+					factor = 1
+			} 
+			scaled_consciousness = {
+					ideology = reactionary
+					factor = 2
+			} 
+			scaled_consciousness = {
+					ideology = fascist
+					factor = 2
+			}    
+			scaled_consciousness = {
+					ideology = conservative
+					factor = 1
+			}  
+		}
+		}  
+    ai_will_do = {
+			factor = 1
+		}
+  }        
+  erase_nbg = { # 7Rep    
+    picture = "SevenRep"
+		potential = {
+			tag = ARC
+			NOT = { accepted_culture = septiman } 
+			NOT = { primary_culture = septiman }
+			
+		}
+		allow = {
+      NBG = {
+			all_core = {
+						owned_by = THIS
+			}
+      }
+			social_thought = 1
+		}
+		effect = {
+	prestige = 10
+    add_accepted_culture = septiman
+    NBG = { all_core = { remove_core = NBG	} }
+		any_pop = {
+			limit = {
+				culture = septiman
+			}
+			militancy = -2
+      consciousness = 2
+			 ideology = {
+			 	 value = liberal
+				  factor = 0.05
+			 }     
+		}    
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			 ideology = {
+			 	 value = reactionary
+				  factor = 0.05
+			 } 
+			scaled_militancy = {
+					ideology = reactionary
+					factor = 2
+			} 
+			scaled_militancy = {
+					ideology = fascist
+					factor = 2
+			}    
+			scaled_militancy = {
+					ideology = conservative
+					factor = 1
+			} 
+			scaled_consciousness = {
+					ideology = reactionary
+					factor = 2
+			} 
+			scaled_consciousness = {
+					ideology = fascist
+					factor = 2
+			}    
+			scaled_consciousness = {
+					ideology = conservative
+					factor = 1
+			}  
+		}      
+		}  
+    ai_will_do = {
+			factor = 1
+		}
+  }
+  erase_plantagenia = { # Plantagenia
+    picture = "Plantagenia"
+		potential = {
+			tag = ARC
+			NOT = { accepted_culture = plantagenian } 
+			NOT = { primary_culture = plantagenian }
+		}
+		allow = {
+      PLA = {
+			all_core = {
+						owned_by = THIS
+			}
+      }
+			social_thought = 1
+		}
+		effect = {
+			    prestige = 10
+    add_accepted_culture = plantagenian
+    PLA = { all_core = { remove_core = PLA	} }
+		any_pop = {
+			limit = {
+				culture = plantagenian
+			}
+			militancy = -2
+      consciousness = 2
+			 ideology = {
+			 	 value = liberal
+				  factor = 0.05
+			 }      
+		}    
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			 ideology = {
+			 	 value = reactionary
+				  factor = 0.05
+			 } 
+			scaled_militancy = {
+					ideology = reactionary
+					factor = 2
+			} 
+			scaled_militancy = {
+					ideology = fascist
+					factor = 2
+			}    
+			scaled_militancy = {
+					ideology = conservative
+					factor = 1
+			} 
+			scaled_consciousness = {
+					ideology = reactionary
+					factor = 2
+			} 
+			scaled_consciousness = {
+					ideology = fascist
+					factor = 2
+			}    
+			scaled_consciousness = {
+					ideology = conservative
+					factor = 1
+			}  
+		}
+		}
+    ai_will_do = {
+			factor = 1
+		}
+  } 
+  
+  erase_lusitania = { # Lusitania, bonus treatment for PLA 
+    picture = "lusitania"
+		potential = {
+			tag = ARC
+			has_country_flag = pla_manifest_destiny
+			NOT = { accepted_culture = lusitanian } 
+		}
+		allow = {
+      LST = {
+			all_core = {
+						owned_by = THIS
+			}
+      }
+			social_thought = 1
+		}
+		effect = {
+			    prestige = 10
+    add_accepted_culture = lusitanian
+    LST = { all_core = { remove_core = LST	} }
+		any_pop = {
+			limit = {
+				culture = lusitanian
+			}
+			militancy = -2
+      consciousness = 2
+			 ideology = {
+			 	 value = liberal
+				  factor = 0.05
+			 }      
+		}    
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			 ideology = {
+			 	 value = reactionary
+				  factor = 0.05
+			 } 
+			scaled_militancy = {
+					ideology = reactionary
+					factor = 2
+			} 
+			scaled_militancy = {
+					ideology = fascist
+					factor = 2
+			}    
+			scaled_militancy = {
+					ideology = conservative
+					factor = 1
+			} 
+			scaled_consciousness = {
+					ideology = reactionary
+					factor = 2
+			} 
+			scaled_consciousness = {
+					ideology = fascist
+					factor = 2
+			}    
+			scaled_consciousness = {
+					ideology = conservative
+					factor = 1
+			}  
+		} 
+		}
+    ai_will_do = {
+			factor = 1
+		}
+  } 
+  ###################################################################
+  embrace_panarcadianism = {       
+    picture = "Panarcadianism"
+		potential = {
+			tag = ARC
+			OR = {
+				has_country_flag = plantagenian_arcadia
+				has_country_flag = septiman_arcadia
+				has_country_flag = vinlandic_arcadia			
+			}
+			VIN = { exists = no }
+			NBG = { exists = no }
+			PLA = { exists = no }
+      NOT = { has_country_flag = panarcadianism }
+		}
+		allow = {
+			is_greater_power = yes
+			political_thought = 1  
+      war = no  
+		}
+		effect = {
+				prestige = 30			
+				set_country_flag = panarcadianism 
+		any_pop = {
+			limit = {
+				is_accepted_culture = yes
+			}
+			militancy = -2
+      consciousness = 2
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 1
+				}      
+		}         
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+			}
+			scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+			} 
+			scaled_militancy = {
+					ideology = fascist
+					factor = 3
+			}    
+			scaled_militancy = {
+					ideology = conservative
+					factor = 1
+			} 
+			scaled_consciousness = {
+					ideology = reactionary
+					factor = 3
+			} 
+			scaled_consciousness = {
+					ideology = fascist
+					factor = 3
+			}    
+			scaled_consciousness = {
+					ideology = conservative
+					factor = 1
+			}
+			scaled_consciousness = {
+					ideology = liberal
+					factor = 1
+			}   
+			scaled_militancy = {
+					ideology = liberal
+					factor = 1
+			}        
+		}         
+        add_country_modifier = {
+				  name = the_homestead_act
+				  duration = -1
+			  }
+		}
+    ai_will_do = {
+			factor = 1
+		}
+  }   
+  discuss_capital = {      
+    picture = "ARCcapital"
+		potential = {
+			tag = ARC
+      has_country_flag = panarcadianism
+      NOT = { has_country_flag = new_capital }
+		}
+		allow = {
+			political_thought = 1
+      war = no 
+      money = 50000     
+      ARC = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						province_id = 30
+						province_id = 34
+						province_id = 33
+						province_id = 27
+						province_id = 23
+						province_id = 114
+						province_id = 113
+						province_id = 116
+						province_id = 115
+						province_id = 35
+						province_id = 22
+						province_id = 24
+						province_id = 25
+						province_id = 26
+						province_id = 28
+						province_id = 20
+						province_id = 21
+						province_id = 19
+						province_id = 16
+						province_id = 17
+						province_id = 2629
+						province_id = 18
+						province_id = 2597
+						province_id = 2598
+						province_id = 2599
+						province_id = 7
+						province_id = 6
+						province_id = 18
+						province_id = 3
+						province_id = 2630
+						province_id = 2
+						province_id = 1
+						province_id = 5
+						province_id = 4
+						province_id = 2631
+						province_id = 13
+						province_id = 14
+						province_id = 78
+						province_id = 15
+						province_id = 39
+						province_id = 38
+						province_id = 31
+						province_id = 32
+						province_id = 2596
+						province_id = 11
+						province_id = 9					
+					}
+			}
+      }
+		}
+		effect = {	
+				set_country_flag = new_capital   
+				country_event = 333453        
+		}
+    ai_will_do = {
+			factor = 1
+		}
+  } 
+
+###########################
+#	Caribbean cultures	  #
+###########################
+	accepting_athesia = {
+	picture = "athesia"
+	potential = { 
+	ATS = { exists = no }
+	OR = { 
+	tag = PLA 
+	tag = ARC 
+	tag = CUB 
+	tag = SFJ 
+	tag = AZL 
+	tag = UBD
+	}
+	NOT = { has_country_flag = athesian_culture }
+	}
+
+	allow = { 
+	OR = { 
+	government = democracy 
+	government = hms_government 
+	}
+	OR = { 
+	citizenship_policy = full_citizenship
+	citizenship_policy = limited_citizenship
+		}
+	owns = 200
+	state_n_government = 1 
+	OR = {
+				upper_house = {
+					ideology = socialist
+					value = 0.3
+				}
+				upper_house = {
+					ideology = liberal
+					value = 0.3
+				}
+				AND = {
+					upper_house = {
+						ideology = socialist
+						value = 0.15
+					}
+					upper_house = {
+						ideology = liberal
+						value = 0.15
+					}
+				}
+			}
+	
+	}
+	
+	effect = { 
+	add_accepted_culture = athesian 
+	set_country_flag = athesian_culture
+	any_pop = { 
+	limit = { culture = athesian }
+		militancy = -3
+			}
+	random_owned = {
+			limit = { 
+			200 = { NOT = { is_core = THIS } } 
+			}
+			NA_16 = { add_core = THIS }
+			}
+		}
+	}
+	
+	accepting_caribenos = { 
+	potential = { 
+	CUB = { exists = no }
+	OR = { 
+	tag = PLA 
+	tag = CLM
+	tag = ARC 
+	tag = ATS 
+	tag = SFJ 
+	tag = AZL 
+	tag = UBD
+	} 
+	NOT = { has_country_flag = caribeno_culture }
+	}
+
+	allow = { 
+	OR = { 
+	government = democracy 
+	government = hms_government 
+	}
+	OR = { 
+	citizenship_policy = full_citizenship
+	citizenship_policy = limited_citizenship
+		}
+	owns = 2209
+	state_n_government = 1 
+	OR = {
+				upper_house = {
+					ideology = socialist
+					value = 0.3
+				}
+				upper_house = {
+					ideology = liberal
+					value = 0.3
+				}
+				AND = {
+					upper_house = {
+						ideology = socialist
+						value = 0.15
+					}
+					upper_house = {
+						ideology = liberal
+						value = 0.15
+					}
+				}
+			}
+		
+	}
+	
+	effect = { 
+	add_accepted_culture = caribeno 
+	set_country_flag = caribeno_culture
+	any_pop = { 
+	limit = { culture = caribeno }
+		militancy = -3
+			}
+	random_owned = {
+			limit = {
+			2209 = { NOT = { is_core = THIS } } 
+			}
+			SPA_2209 = { add_core = THIS }
+			}
+		}
+	}
+	
+	accepting_ayitians = { 
+	potential = { 
+	NOT = { SFJ = { exists = yes } }
+	OR = { 
+	tag = PLA
+	tag = VIN
+	tag = ARC 
+	tag = ATS 
+	tag = CUB 
+	tag = AZL 
+	tag = UBD
+	}
+	NOT = { has_country_flag = ayitian_culture }
+	}
+
+	allow = { 
+	OR = { 
+	government = democracy 
+	government = hms_government 
+	}
+	OR = { 
+	citizenship_policy = full_citizenship
+	citizenship_policy = limited_citizenship
+		}
+	owns = 2213
+	state_n_government = 1 
+	OR = {
+				upper_house = {
+					ideology = socialist
+					value = 0.3
+				}
+				upper_house = {
+					ideology = liberal
+					value = 0.3
+				}
+				AND = {
+					upper_house = {
+						ideology = socialist
+						value = 0.15
+					}
+					upper_house = {
+						ideology = liberal
+						value = 0.15
+					}
+				}
+			}
+	}
+	
+	effect = { 
+	add_accepted_culture = ayitian 
+	set_country_flag = ayitian_culture
+	any_pop = { 
+	limit = { culture = ayitian }
+		militancy = -3
+			}
+	random_owned = {
+			limit = {
+			2213 = { NOT = { is_core = THIS } } 
+			}
+			HAI_2213 = { add_core = THIS }
+		}
+	}
+	}
+	
+	Western_border_treaty = { 
+	picture = Manifest_Destiny_ARC
+	
+	potential = { 
+	tag = ARC 
+	NOT = { DNG = { rank = 8 } }
+	NOT = { has_country_flag = manifest_destiny_arc }
+	has_country_flag = panarcadianism 
+		}
+		
+	allow = { 
+	DNG = { NOT = { war = yes }}
+	NOT = { war = yes }
+	money = 1000000
+		}
+	
+	effect = { 
+	prestige = 5 
+	badboy = 10 
+	country_event = 333470
+	set_country_flag = manifest_destiny_arc
+		}
+		
+	}
+
+}

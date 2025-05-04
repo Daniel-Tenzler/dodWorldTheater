@@ -1,0 +1,222 @@
+political_decisions = {
+
+	player_alliances = { # Credit to Reno
+		picture = host_nation
+		alert = yes
+		potential = {
+			tag = SIK
+			ai = no
+		}
+		allow = { 
+			tag = SIK
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				create_alliance = SIK				
+			}
+		}
+	}
+	
+	Kick_player = { # Credit to Zombie
+        potential = {
+ 			tag = SIK
+            ai = no
+        }
+        allow = {
+			tag = SIK
+            ai = no
+        }
+        effect = {
+            any_country = {
+                Limit = {
+                    NOT = {
+                        alliance_with = THIS
+                        has_country_flag = host_nation
+                    }
+                    ai = no
+                }
+                country_event = 50004
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	open_unsiege_system = {
+        potential = {
+ 			tag = SIK
+            ai = no
+			NOT = { has_country_flag = unsiege_system_active }
+        }
+        allow = {
+			tag = SIK
+            ai = no
+			NOT = { has_country_flag = unsiege_system_active }
+        }
+ 		effect = {
+			THIS = { set_country_flag = unsiege_system_active }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	close_unsiege_system = {
+        potential = {
+ 			tag = SIK
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = SIK
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			THIS = { clr_country_flag = unsiege_system_active }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+	unsiege_this_nation = {
+        potential = {
+ 			tag = SIK
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = SIK
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					NOT = {
+						alliance_with = THIS
+						has_country_flag = host_nation
+                    }
+				}
+				set_country_flag = unsiege_this
+				create_alliance = SIK
+			}
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+	unsiege_now = {
+        potential = {
+ 			tag = SIK
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = SIK
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					has_country_flag = unsiege_this
+				}
+				country_event = { id=476008 days=0 }
+			}
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	clear_unsiege_flags = {
+        potential = {
+ 			tag = SIK
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = SIK
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = { clr_country_flag = unsiege_this }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }	
+	
+	infamy_change = { # Credit to me, accompanying event file in host_nation_events in the events folder
+		picture = host_nation
+		alert = yes
+		potential = {
+			tag = SIK
+			ai = no
+		}
+		allow = {
+			tag = SIK
+			ai = no
+		}
+		effect = {
+			SIK = {
+				country_event = 12817513
+			}
+		}
+	}
+	
+		gib_money_to_players = {
+        potential = {
+ 			tag = SIK
+            ai = no
+        }
+        allow = {
+			tag = SIK
+            ai = no
+        }
+ 		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				country_event = { id=420691 days=0 }
+			}
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	gib_money_to_pops = {
+        potential = {
+ 			tag = SIK
+            ai = no
+        }
+        allow = {
+			tag = SIK
+            ai = no
+        }
+ 		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				country_event = { id=420692 days=0 }
+			}
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

@@ -1,0 +1,4 @@
+trade_goods = fruits
+life_rating = 15
+
+ 

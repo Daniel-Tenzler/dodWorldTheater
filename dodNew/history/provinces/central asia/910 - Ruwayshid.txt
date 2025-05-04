@@ -1,0 +1,6 @@
+add_core = NEJ 
+add_core = TUR
+controller = TUR
+owner = TUR
+trade_goods = grain
+life_rating = 10
