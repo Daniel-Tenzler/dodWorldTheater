@@ -1,7 +1,0 @@
-owner = ARA
-controller = ARA
-colonial = 1
-trade_goods = cattle
-life_rating = 35
-
- 

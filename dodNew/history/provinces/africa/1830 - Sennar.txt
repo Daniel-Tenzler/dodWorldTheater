@@ -1,7 +1,0 @@
-owner = FUN
-controller = FUN
-add_core = FUN
-trade_goods = timber
-life_rating = 30
-
- 

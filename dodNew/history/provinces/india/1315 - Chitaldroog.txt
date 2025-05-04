@@ -1,8 +1,0 @@
-owner = TRA
-controller = TRA
- 
- 
-#add_core = VIJ
-add_core = TRA
-trade_goods = coffee
-life_rating = 32

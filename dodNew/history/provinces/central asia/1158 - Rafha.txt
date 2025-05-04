@@ -1,5 +1,0 @@
-add_core = NEJ
-controller = NEJ
-owner = NEJ
-trade_goods = wool
-life_rating = 10

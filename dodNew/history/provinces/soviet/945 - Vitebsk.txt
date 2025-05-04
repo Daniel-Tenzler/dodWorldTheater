@@ -1,8 +1,0 @@
-owner = BLR
-controller = BLR
-add_core = BLR
-add_core = PLC
- 
-
-trade_goods = grain
-life_rating = 35

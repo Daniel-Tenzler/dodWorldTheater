@@ -1,6 +1,0 @@
-owner = LFG
-controller = LFG
-add_core = LFG
- 
-trade_goods = coffee
-life_rating = 15

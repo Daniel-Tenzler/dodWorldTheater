@@ -1,9 +1,0 @@
-owner = HYD
-controller = HYD
-#add_core = VIJ
- 
- 
-add_core = HYD
- 
-trade_goods = tobacco
-life_rating = 32
