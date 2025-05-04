@@ -13,20 +13,22 @@
 
 very_easy_player = {
 	supply_consumption = -0.5
-	research_points_modifier = 0.5
+	research_points_modifier = 1
 	war_exhaustion = -0.1
 	leadership_modifier = 0.5
+	tax_efficiency = 0.15
 }
 
 easy_player = {
 	supply_consumption = -0.25
-	research_points_modifier = 0.25
+	research_points_modifier = 0.5
 	leadership_modifier = 0.25
 }
 
 hard_player = {
 	loan_interest = 0.1
 	leadership_modifier = -0.25
+	tax_efficiency = -0.05
 	unit_start_experience = -10
 }
 
@@ -34,9 +36,8 @@ very_hard_player = {
 	loan_interest = 0.25
 	leadership_modifier = -0.5
 	unit_start_experience = -10
-	prestige = -0.02
-	research_points_modifier = -0.1
-	tax_efficiency = -0.05
+	research_points_modifier = -0.2
+	tax_efficiency = -0.15
 	education_efficiency_modifier = -0.05
 }
 
@@ -46,10 +47,11 @@ very_hard_player = {
 very_easy_ai = {
 	land_organisation = -0.25
 	naval_organisation = -0.25
-
+	diplomatic_points_modifier = -1.0
 }
 
 easy_ai = {
+	diplomatic_points_modifier = -1.0
 }
 
 hard_ai = {
@@ -61,6 +63,7 @@ hard_ai = {
 	unit_start_experience = 5
 	global_pop_militancy_modifier = -0.02
 	war_exhaustion = -0.25
+	diplomatic_points_modifier = -1.0
 }
 
 very_hard_ai = {
@@ -72,6 +75,7 @@ very_hard_ai = {
 	unit_start_experience = 10
 	global_pop_militancy_modifier = -0.04
 	war_exhaustion = -0.5
+	diplomatic_points_modifier = -1.0
 }
 
 
@@ -80,7 +84,7 @@ very_hard_ai = {
 ##########################################################################
 
 overseas = {
-	assimilation_rate = -0.3
+	assimilation_rate = -0.1
 	pop_militancy_modifier = -0.01
 }
 
@@ -138,9 +142,9 @@ nationalism = {
 }
 
 infrastructure = {
-	local_factory_throughput = 1		#each % of infra boost throughput 1%
-	local_rgo_output = 1			#each % of infra boost throughput 1%
-	supply_limit = 4
+	local_factory_throughput = 1.5		#each % of infra boost throughput 1%
+	local_rgo_output = 1.5			#each % of infra boost throughput 1%
+	supply_limit = 5
 }
 
 
@@ -157,25 +161,25 @@ war = {
 	max_war_exhaustion = 100			#base max at war.
 	#supply_consumption = -0.5
 	#war_exhaustion = 0.1
-	badboy = -0.05
-	import_cost = 0.01
+	badboy = -0.1
+	import_cost = 0.02
 }
 
 peace = {
-	max_war_exhaustion = 50			#base max at peace.
+	max_war_exhaustion = 90			#base max at peace.
 	#supply_consumption = -0.5
 	war_exhaustion = -1
-	badboy = -0.3
+	badboy = -0.5
 }
 
 disarming = {
-	badboy = -0.3
+	badboy = -0.6
 }
 
 war_exhaustion = {
 	org_regain = -0.01
-	factory_throughput = -0.01
-	RGO_throughput = -0.01
+	factory_throughput = -0.02
+	RGO_throughput = -0.02
 	cb_generation_speed_modifier = -0.02
 }
 
@@ -199,7 +203,7 @@ great_power = {
 	prestige = 0.05
 	research_points = 1.5
 	diplomatic_points_modifier = 1.0
-	leadership = 2.0
+	leadership = 1.0
 }
 
 second_power = {
@@ -231,7 +235,7 @@ average_literacy = {
 }
 
 plurality = { 
-	research_points_modifier = 0.01
+	research_points_modifier = 0.02
 }
 
 generalised_debt_default = {
@@ -252,7 +256,7 @@ in_bankrupcy = {
 	max_loan_modifier = -1.0
 	min_tariff = 0.75
 	min_tax = 0.45
-	max_military_spending = -0.2
+	#max_military_spending = -0.2
 	#max_social_spending = 0.5
 	ruling_party_support = -0.75
 }
