@@ -1,0 +1,6 @@
+owner = LWE
+controller = LWE
+add_core = LWE
+ 
+trade_goods = fruit
+life_rating = 35

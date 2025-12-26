@@ -1,0 +1,6 @@
+owner = MEW
+controller = MEW
+add_core = MEW
+ 
+trade_goods = precious_metal
+life_rating = 32

@@ -1,0 +1,29 @@
+country_event = {
+	id = 420691
+	title = "Joseph Smith Shares Gods Warmth"
+	desc = "YES I AM SERIOUS!"
+	picture = "josephsmith"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "MAY WE ALL ENTER THE CELESTIAL KINGDOM"
+		treasury = 100000
+	}
+}
+
+country_event = {
+	id = 420692
+	title = "Joseph Smith Shares Gods Warmth"
+	desc = "YES I AM SERIOUS!"
+	picture = "josephsmith"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "MAY WE ALL ENTER THE CELESTIAL KINGDOM"
+		any_pop = {
+			money = 2500
+		}
+	}
+}
