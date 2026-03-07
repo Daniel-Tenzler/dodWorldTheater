@@ -275,14 +275,14 @@ telephone_factory = {
 
 ############# STRATEGIC FACTORIES
 
-electric_gear_factory = {       
+electric_gear_factory = {
 	template = factory_template
-	input_goods = { 
-		rubber = 4		#28
+	input_goods = {
+		rubber = 3		#21
 		coal = 5		#11.5
-		steel = 5		#23.5	total input+maint = 73
+		steel = 5		#23.5	total input+maint = 66
 	}
-	output_goods = electric_gear 
+	output_goods = electric_gear
 	value = 5.5			#88
 	bonus = {
 		trigger = { trade_goods_in_state = rubber }
@@ -376,11 +376,11 @@ steamer_shipyard = {
 
 ############# LUXURY GOODS FACTORIES
 
-luxury_clothes_factory = {       
+luxury_clothes_factory = {
 	template = factory_template
-	input_goods = {   
+	input_goods = {
 		regular_clothes = 0.9	#5.22
-		silk = 3.9		#39	total input+maint = 54
+		silk = 2.5		#25	total input+maint = 40
 	}
 	output_goods = luxury_clothes
 	value = 1			#65
@@ -540,33 +540,34 @@ regular_clothes_factory = {
 	}
 }
        
-explosives_factory = {       
+explosives_factory = {
 	template = factory_template
-	input_goods = {   
+	input_goods = {
 		fertilizer = 10		#30
-		ammunition = 0.8	#14	total input+maint = 54
+		sulphur = 3		#18	total input+maint = 58
 	}
-	output_goods = explosives 
+	output_goods = explosives
 	value = 3			#60
 	bonus = {
 		trigger = { has_building = fertilizer_factory }
 		value = 0.15
 	}
 	bonus = {
-		trigger = { has_building = ammunition_factory }
+		trigger = { trade_goods_in_state = sulphur }
 		value = 0.1
 	}
 }
 
 ############# CHEAP FACTORIES
 
-ammunition_factory = {       
+ammunition_factory = {
 	template = cheap_factory_template
-	input_goods = {      
+	input_goods = {
 		sulphur = 4		#12
-		steel = 5		#14.1	total input+maint = 30.1
+		steel = 5		#14.1
+		coal = 2		#4.6	total input+maint = 34.7
 	}
-	output_goods = ammunition 
+	output_goods = ammunition
 	value = 4			#35
 	bonus = {
 		trigger = { trade_goods_in_state = sulphur }
@@ -575,6 +576,10 @@ ammunition_factory = {
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = coal }
+		value = 0.1
 	}
 }
 
