@@ -5,6 +5,8 @@ state_capital_only = yes
 leadership = 3
 research_optimum = 0.002	#used for leadership as well.
 
+can_reduce_consciousness = yes
+
 
 
 rebel =
@@ -40,11 +42,11 @@ luxury_needs = {
 	luxury_furniture = 1
 	telephones = 1.25
 	automobiles = 1.0
-	wine = 10
+	wine = 12
 	aeroplanes = 0.4
 	radio = 1.0
 	fuel = 0.2
-	coffee = 2
+	coffee = 2.5
 }
 
 everyday_needs = {
@@ -55,7 +57,7 @@ everyday_needs = {
 	paper = 5
 	glass = 1
 	tobacco = 3
-	tea = 3
+	tea = 5
 }
 
 life_needs = {
