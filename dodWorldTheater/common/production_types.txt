@@ -1012,8 +1012,8 @@ tea_plantation = {
 
 timber_lodge = {
 	template = RGO_template_labourers
-	output_goods = timber 
-	value = 6 #8
+	output_goods = timber
+	value = 4.5 #6 #8 - nerfed from 6 for balance
 	farm = yes
 }
 

@@ -77,13 +77,13 @@ categories =  {
 	jungle = {
 		movement_cost = 1.2
 		defence = 1
-		
+
 		color = { 32 151 0 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = -0.2
-		supply_limit = 4
+		supply_limit = 5
 		min_build_railroad = 2
 		combat_width = -0.25
 	}
@@ -200,11 +200,12 @@ categories =  {
 	desert = {
 		movement_cost = 1.5
 		color = { 218 195 0 }
-	
+
 		farm_rgo_size = -0.5
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
+		min_build_railroad = 2
 	}
 	
 	semidesert = {
@@ -215,6 +216,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
 		supply_limit = 4
+		min_build_railroad = 1
 	}
 	
 	
@@ -304,13 +306,13 @@ categories =  {
 	new_world_jungle = {
 		movement_cost = 1.2
 		defence = 1
-		
+
 		color = { 210 155 13 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = -0.2
-		supply_limit = 4
+		supply_limit = 5
 		min_build_railroad = 2
 		combat_width = -0.25
 	}
@@ -343,6 +345,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
 		supply_limit = 4
+		min_build_railroad = 2
 	}
 	
 	new_world_semidesert = {
@@ -353,6 +356,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
 		supply_limit = 4
+		min_build_railroad = 1
 	}
 }
 
