@@ -1,0 +1,43 @@
+# Claude Code / AI Assistant files
+AGENTS.md
+CLAUDE.md
+.claude/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Git files (redundant but safe)
+.git/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts (if any build system is added)
+build/
+dist/
+*.log
+
+# Test/playground files not meant for mod
+test/
+playground/
