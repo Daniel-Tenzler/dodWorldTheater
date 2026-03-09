@@ -342,7 +342,7 @@ production_focus = {
 		fabric = 15
 		dye = 15
 		icon = 26
-		limit = { 
+		limit = {
 			#civilized = yes
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { owner = { economic_policy = planned_economy } }

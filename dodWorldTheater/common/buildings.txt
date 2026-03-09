@@ -90,7 +90,7 @@ radio_factory = {
 		steel = 200
 		cement = 200
 	}
-	time = 182
+	time = 365
 	visibility = yes
 	onmap = no
 
@@ -112,7 +112,7 @@ telephone_factory = {
 		steel = 200
 		cement = 200
 	}
-	time = 182
+	time = 365
 	visibility = yes
 	onmap = no
 
@@ -394,10 +394,10 @@ paper_mill = {
 		cement = 200
 		steel = 50
 	}
-	time = 365
+	time = 182
 	visibility = yes
 	onmap = no
-	
+
 	production_type = paper_mill
 	pop_build_factory = yes
 }
@@ -457,7 +457,7 @@ ammunition_factory = {
 		cement = 200
 		steel = 100
 	}
-	time = 365
+	time = 182
 	visibility = yes
 	onmap = no
 
@@ -515,10 +515,10 @@ canned_food_fish_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 180
-		iron = 200
-		cement = 200
-		steel = 100
+		machine_parts = 150
+		iron = 150
+		cement = 150
+		steel = 50
 	}
 	time = 365
 	visibility = yes
@@ -537,7 +537,7 @@ dye_factory = {
 	goods_cost =
 	{
 		machine_parts = 180
-		steel = 100 #was iron
+		steel = 100
 		cement = 200
 	}
 	time = 182
@@ -546,7 +546,6 @@ dye_factory = {
 
 	production_type = dye_factory
 	pop_build_factory = yes
-	strategic_factory = yes #Wasn't strategic
 }
 
 liquor_distillery = {
@@ -631,6 +630,7 @@ lumber_mill = {
 	visibility = yes
 	onmap = no
 
+	default_enabled = yes
 	production_type = lumber_mill
 	pop_build_factory = yes
 }
@@ -650,6 +650,7 @@ fabric_factory = {
 	visibility = yes
 	onmap = no
 
+	default_enabled = yes
 	production_type = fabric_factory
 	pop_build_factory = yes
 }

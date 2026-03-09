@@ -1,0 +1,46 @@
+###########################################################################
+# Migration Nerf Decision
+# Removes new_world_nation flag from all countries to reduce immigration bias
+###########################################################################
+
+political_decisions = {
+
+nerf_global_migration = {
+	picture = "emigration"
+
+	potential = {
+		ai = no
+	}
+
+	allow = {
+		always = yes
+	}
+
+	effect = {
+		every_country = {
+			clr_country_flag = new_world_nation
+		}
+		country_event = 999991
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+}
+
+# Optional: Event to confirm the decision took effect
+country_event = {
+	id = 999991
+	title = "EVTNAME999991"
+	desc = "EVTDESC999991"
+	picture = "emigration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA999991"
+		prestige = -5
+	}
+}
