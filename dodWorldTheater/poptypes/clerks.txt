@@ -1,5 +1,5 @@
 strata = middle
-research_points = 2
+research_points = 2.3
 research_optimum = 0.04
 
 rebel =
@@ -19,25 +19,25 @@ can_work_factory = yes
 color = { 240 240 240 }
 
 luxury_needs = {
-	opium = 1.0
-	luxury_clothes = 1
-	luxury_furniture = 1
-	telephones = 1.25
-	automobiles = 1.0
-	wine = 10
-	aeroplanes = 0.4
-	radio = 1.0
-	fuel = 0.2
-	coffee = 2
+	opium = 0.8
+	luxury_clothes = 0.8
+	luxury_furniture = 0.8
+	telephones = 1.5
+	automobiles = 1.25
+	wine = 8
+	aeroplanes = 0.5
+	radio = 1.25
+	fuel = 0.3
+	coffee = 1.5
 }
 
 everyday_needs = {
-	coal = 1
-	liquor = 5
-	regular_clothes = 5
-	furniture = 4
-	paper = 5
-	glass = 1
+	coal = 2
+	liquor = 4
+	regular_clothes = 6
+	furniture = 5
+	paper = 4
+	glass = 1.5
 	tobacco = 3
 	tea = 5
 }

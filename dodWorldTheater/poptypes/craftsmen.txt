@@ -5,6 +5,8 @@ color = { 12 157 162 }
 
 strata = poor
 
+workplace_output = 0.05
+
 
 
 everyday_needs = {
@@ -24,17 +26,17 @@ life_needs = {
 }
 
 
-luxury_needs = {	
-	regular_clothes = 3
-	furniture = 3
-	liquor = 1.5
-	paper = 1.0
-	telephones = 1.0
-	automobiles = 0.5
-	radio = 1.0
-	fuel = 0.1
-	coffee = 0.45
-	tobacco = 0.95
+luxury_needs = {
+	regular_clothes = 4
+	furniture = 4
+	liquor = 2.0
+	paper = 1.5
+	telephones = 1.5
+	automobiles = 1.0
+	radio = 1.5
+	fuel = 0.2
+	coffee = 0.75
+	tobacco = 1.5
 	#dye = 0.5
 }
 
