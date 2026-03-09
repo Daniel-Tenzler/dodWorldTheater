@@ -236,3 +236,22 @@ infamy_gain_4 = {
 	}
 	badboy = 0.2
 }
+
+#########################################
+#		MIGRATION NERF MODIFIER			#
+#########################################
+
+nerfed_new_world_immigration = {
+	trigger = {
+		has_global_flag = migration_nerf_active
+		capital_scope = {
+			OR = {
+				continent = north_america
+				continent = south_america
+				continent = australia_new_zealand
+			}
+		}
+	}
+	immigrant_attract = -10.0
+	icon = 8
+}

@@ -1,5 +1,7 @@
 nerf_global_migration;End the New World Dream;;;;;;;;;;;;;
-nerf_global_migration_desc;The age of unlimited immigration to the Americas must end. We will enact policies that remove the special status of New World nations, making immigration a truly global phenomenon rather than a one-way flow.;;;;;;;;;;;;;
+nerf_global_migration_desc;The age of unlimited immigration to the Americas must end. We will enact heavy restrictions on New World immigration, making the flow of people more balanced globally.;;;;;;;;;;;;;
 EVTNAME999991;Migration Reform Enacted;;;;;;;;;;;;;
-EVTDESC999991;We have successfully ended the special immigration privileges of New World nations. The world will now see a more balanced distribution of immigrants.;;;;;;;;;;;;;
-EVTOPTA999991;Let the world adapt;;;;;;;;;;;;;
+EVTDESC999991;We have enacted policies that make New World nations significantly less attractive to immigrants. The massive influx to the Americas should now subside.;;;;;;;;;;;;;
+EVTOPTA999991;Excellent;;;;;;;;;;;;;
+nerfed_new_world_immigration;Restricted New World Immigration;;;;;;;;;;;;;
+nerfed_new_world_immigration_desc;This nation's immigration policies have been restricted as part of global migration reforms.;;;;;;;;;;;;;
