@@ -6,6 +6,71 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Sphere_modding
 ---
 
+## Quick Reference
+
+**File Locations:**
+- `history/units/TAG_oob.txt` - 1836 sphere definitions
+- `history/units/1861/TAG_oob.txt` - 1861 sphere definitions
+- `history/countries/TAG - Name.txt` - References OOB files
+
+**Sphere Structure (in OOB files):**
+```paradox
+TAG = {
+    value = 125              # Relations (-200 to 200)
+    level = 5                # Sphere level (0-5)
+    influence_value = 25     # Unused influence points
+}
+```
+
+**Sphere Levels:**
+| Level | Opinion | Description |
+|-------|---------|-------------|
+| 0 | Hostile | Base enemy status |
+| 1 | Opposed | Dislikes country |
+| 2 | Neutral | Default (no influence) |
+| 3 | Cordial | Friendly |
+| 4 | Friendly | Very friendly |
+| 5 | Sphere | In sphere of influence |
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Add country to sphere | `history/units/TAG_oob.txt` | `TARGET = { level = 5 }` |
+| Add sphere via event | Event effect | `add_to_sphere = THIS` |
+| Remove from sphere | Event effect | `remove_from_sphere = THIS` |
+| Check sphere membership | Trigger block | `in_sphere = TAG` |
+| Check sphere owner | Trigger block | `sphere_owner = { tag = TAG }` |
+| Get influence | Event effect | `diplomacy_influence = { who = TAG value = 10 }` |
+
+**Setting Up Starting Spheres:**
+1. Create/edit `history/units/TAG_oob.txt` for GP
+2. Add sphere member blocks:
+```paradox
+LIB = {
+    value = 125
+    level = 5              # 5 = in sphere
+    influence_value = 25
+}
+```
+3. Reference OOB in country history:
+```paradox
+# In history/countries/USA - United States.txt
+oob = "USA_oob.txt"
+```
+
+**Common Pitfalls:**
+- **Sphere not applying** → Check country history file references OOB
+- **Wrong date folder** → 1836 uses root, 1861 uses `/1861/` folder
+- **Level 5 not working** → Target must not be GP or in another sphere
+- **OOB not loading** → File must be referenced in country history
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Task workflows
+- [PATTERNS.md](PATTERNS.md) - Pattern 5: Sphere of Influence
+- [Full_list_of_effects.md](Full_list_of_effects.md) - Sphere effects
+
+---
+
 Sphere modding is the modding of historical spheres of influence in Victoria 2.
 
 Files

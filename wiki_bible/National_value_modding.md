@@ -6,6 +6,52 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/National_value_modding
 ---
 
+## Quick Reference
+
+**File Locations:**
+- `common/nationalvalues.txt` - National value definitions
+- `history/countries/TAG - Name.txt` - Country's starting national value
+
+**National Value Structure:**
+```paradox
+nv_value_name = {
+    mobilisation_size = 0.04         # Mobilization size modifier
+    mobilisation_economy_impact = 1.0 # Economic impact of mobilization
+    # Add other country modifiers here...
+}
+```
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Add new NV | `common/nationalvalues.txt` | Add NV block with modifiers |
+| Set country NV | `history/countries/TAG - Name.txt` | `nationalvalue = nv_order` |
+| Change NV via event | Event effect | `nationalvalue = nv_liberty` |
+| Check current NV | Trigger block | `nationalvalue = nv_order` |
+
+**Vanilla National Values:**
+| Value | Effects |
+|-------|---------|
+| `nv_order` | +4% mobilization size, 1.0 eco impact |
+| `nv_liberty` | +2% mobilization size, 0.75 eco impact |
+| `nv_equality` | +6% mobilization size, 1.25 eco impact |
+
+**Available Modifiers:**
+Any country modifier from `common/static_modifiers.txt` or `common/event_modifiers.txt` can be used in national values.
+
+**Common Pitfalls:**
+- **NV not applying** → Check country history file has correct `nationalvalue =` line
+- **Modifier not working** → Verify modifier name exists in modifier files
+- **Changing NV has no effect** → Some effects are hardcoded (POP ideology weights)
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Step-by-step workflows
+- [Country_modding.md](Country_modding.md) - Setting up countries
+- [Event_modding.md](Event_modding.md) - NV change events
+- [Modifier_effects.md](Modifier_effects.md) - All available modifiers
+
+---
+
 This page documents the how to edit to effects of National values, how to add new ones, and how the change the national value of each specific country. The documents needed are nationalvalues.txt found in the Victoria 2 -> Common folder and country files found in Victoria 2 -> History -> Countries
 
 Editing and creating National Values

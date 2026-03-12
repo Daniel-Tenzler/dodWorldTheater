@@ -6,6 +6,63 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Provinces
 ---
 
+## Quick Reference
+
+**What Are Provinces?**
+Provinces are the smallest geographic entity in Victoria 2. They are permanent, numbered IDs grouped into states and continents.
+
+**Key Files:**
+- `map/definition.csv` - Province ID to color mapping
+- `history/provinces/[region]/[ID] - Name.txt` - Province history data
+- `map/positions.txt` - Unit and city positions on map
+- `map/adjacencies.csv` - Province connections
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Find province ID | `map/definition.csv` | Search for RGB color |
+| Check owner | Event/decision trigger | `PROV_ID = { owned_by = TAG }` |
+| Transfer province | Event effect | `PROV_ID = { secede_province = TAG }` |
+| Add core | Event effect | `PROV_ID = { add_core = TAG }` |
+| Check trade good | Event/decision trigger | `PROV_ID = { trade_goods = coal }` |
+| Change trade good | Event effect | `PROV_ID = { trade_goods = iron }` |
+| Add building | Event effect | `PROV_ID = { fort = 1 }` / `railroad = 1`` |
+
+**Quick Search Tips:**
+- **Use Ctrl+F** to search province name in this file
+- **Use `debug showid`** in console to see IDs on hover
+- **Check `map/definition.csv`** for full province list
+
+**Important Province IDs (Common):**
+| ID | Name | Region | 1836 Owner | Resource |
+|----|------|--------|------------|----------|
+| 1 | Sitka | Alaska | Russia | Timber |
+| 13 | Vancouver | British Columbia | UK | Timber |
+| 46 | Toronto | Ontario | UK | Grain |
+| 58 | Montreal | Quebec | UK | Cattle |
+| 84 | San Francisco | California | Mexico | Fruit |
+| 132 | Houston | Texas | Texas | Cattle |
+| 2414 | London | europe | UK | - |
+| 1680 | Berlin | europe | PRU | - |
+
+**Province History File Format:**
+```paradox
+owner = TAG              # Current owner
+controller = TAG         # Current controller
+add_core = TAG          # Core claim
+trade_goods = good      # RGO output
+life_rating = 35        # Colonization/POP growth
+terrain = plains        # Terrain type
+```
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Task workflows
+- [Province_history_modding.md](Province_history_modding.md) - Province setup
+- [Map_modding.md](Map_modding.md) - Map data
+- [Full_list_of_scopes.md](Full_list_of_scopes.md) - Province scopes
+
+---
+
 Map with all province IDs
 
 Provinces are the smallest type of geographic entity. The provinces are permanent and cannot be altered. They are grouped together in States, which is again grouped in continents.

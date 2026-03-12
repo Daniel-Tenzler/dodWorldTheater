@@ -6,6 +6,82 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Province_history_modding
 ---
 
+## Quick Reference
+
+**File Location:** `history/provinces/[region]/[ID] - Name.txt`
+
+**Province History Structure:**
+```paradox
+# Required fields
+owner = TAG              # Province owner
+controller = TAG         # Current controller (occupation)
+add_core = TAG          # Core claim
+trade_goods = good      # RGO resource
+life_rating = 35         # Colonization limit
+
+# Optional fields
+fort = 1                 # Fort level (0-6)
+railroad = 1             # Railroad level (0-6)
+naval_base = 1           # Naval base level (0-6)
+terrain = plains         # Terrain type
+
+# Dated changes (for 1861 bookmark, etc.)
+1861.1.1 = {
+    owner = PRU
+    railroad = 3
+}
+```
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Add province history | `history/provinces/[region]/[ID] - Name.txt` | Create file |
+| Set owner/controller | Province history file | `owner = TAG` / `controller = TAG` |
+| Add core | Province history file | `add_core = TAG` |
+| Set trade good | Province history file | `trade_goods = coal` |
+| Add building | Province history file | `fort = 1` / `railroad = 1` / `naval_base = 1` |
+| Add factory (state-level) | Any province in state | `state_building = { building = factory }` |
+| Add party loyalty | Province history file | `party_loyalty = { ideology = liberal loyalty_value = 10 }` |
+
+**Trade Goods Options:**
+`grain`, `cotton`, `coffee`, `tea`, `tobacco`, `opium`, `fruit`, `cattle`, `fish`, `wool`, `silk`, `dye`, `timber`, `coal`, `sulphur`, `iron`, `precious_metal`, `gold`, `lead`, `rubber`, `oil`, `tropical_wood`, `diamonds`
+
+**Terrain Types:**
+`ocean`, `urban`, `plains`, `steppe`, `savanna`, `arctic`, `forest`, `boreal`, `hills`, `dryhills`, `jungle`, `marsh`, `mountain`, `desert`, `semidesert`, `coastal_desert`, `small_island`, `coral_island`, `farmlands`, `new_world_*` variants
+
+**Factory Structure (State-Level):**
+```paradox
+state_building = {
+    level = 1
+    building = furniture_factory
+    upgrade = yes
+}
+```
+
+**Dated Changes:**
+```paradox
+# Changes for 1861 bookmark
+1861.1.1 = {
+    owner = PRU
+    controller = PRU
+    remove_core = AUS
+    railroad = 3
+}
+```
+
+**Common Pitfalls:**
+- **File not found** → Province ID must match filename exactly
+- **Wrong region folder** → Check `region.txt` for correct region
+- **Core shows rebel flag** → Country TAG doesn't exist in `common/countries.txt`
+- **Factory not appearing** → Factories are state-level, add to any province in state
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Task workflows
+- [Provinces.md](Provinces.md) - Province list and IDs
+- [FolderFile_overview.md](FolderFile_overview.md) - History folder structure
+
+---
+
 This page documents the formatting and creation of province history files.
 
 

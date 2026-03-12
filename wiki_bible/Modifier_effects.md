@@ -6,6 +6,91 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Modifier_effects
 ---
 
+## Quick Reference
+
+**What Are Modifiers?**
+Modifiers apply temporary or permanent bonuses/penalties to countries, provinces, or POPs. Used in events, decisions, buildings, and triggered modifiers.
+
+**Modifier Types:**
+- **Country modifiers** - Applied to entire countries
+- **Province modifiers** - Applied to individual provinces
+- **Event modifiers** - Temporary effects from events/decisions
+- **Static modifiers** - Permanent game-defined bonuses
+
+**Common Country Modifiers:**
+| Modifier | Effect | Example Usage |
+|----------|--------|---------------|
+| `prestige` | Add/subtract prestige | `prestige = 20` |
+| `badboy` | Add/subtract infamy | `badboy = -5` (reduce infamy) |
+| `military_score` | Add military score | `military_score = 10` |
+| `tax_efficiency` | Tax collection modifier | `tax_efficiency = 0.1` (+10%) |
+| `tariff_efficiency` | Tariff income modifier | `tariff_efficiency = 0.05` (+5%) |
+| `research_points` | Grant RP | `research_points = 100` |
+| `leadership` | Add leadership points | `leadership = 5` |
+
+**Common Province Modifiers:**
+| Modifier | Effect | Example Usage |
+|----------|--------|---------------|
+| `life_rating` | Province life rating | `life_rating = 5` |
+| `fort` | Fort level | `fort = 1` |
+| `naval_base` | Naval base level | `naval_base = 1` |
+| `railroad` | Railroad level | `railroad = 1` |
+| `local_rgo_output` | RGO production | `local_rgo_output = 0.2` (+20%) |
+| `local_factory_output` | Factory output | `local_factory_output = 0.1` (+10%) |
+| `pop_consciousness_modifier` | POP consciousness change | `pop_consciousness_modifier = 0.05` |
+
+**Common POP Modifiers:**
+| Modifier | Effect | Example Usage |
+|----------|--------|---------------|
+| `consciousness` | Change consciousness | `consciousness = 1` |
+| `militancy` | Change militancy | `militancy = -1` |
+| `literacy` | Change literacy | `literacy = 0.05` (+5%) |
+| `size` | Add POPs | `size = 1000` |
+
+**Using Modifiers in Events:**
+```paradox
+option = {
+    name = "OPTION_A"
+
+    # Country modifier with duration
+    add_country_modifier = {
+        name = "industrial_boom"
+        duration = 365              # Days
+    }
+
+    # Province modifier with duration
+    2414 = {
+        add_province_modifier = {
+            name = "fort_construction"
+            duration = 180
+        }
+    }
+
+    # Direct effect (no duration)
+    prestige = 20
+    badboy = -5
+}
+```
+
+**Defining Custom Modifiers:**
+Add to `common/event_modifiers.txt`:
+```paradox
+your_modifier = {
+    icon = 1
+    prestige = 0.05              # +5% prestige
+    military_score = 10          # +10 military score
+    global_assimilation_rate = 0.1  # +10% assimilation
+}
+```
+
+**See Also:**
+- [Event_modding.md](Event_modding.md) - Modifiers in events
+- [Decision_modding.md](Decision_modding.md) - Modifiers in decisions
+- [Full_list_of_effects.md](Full_list_of_effects.md) - All modifier effects
+- [PATTERNS.md](PATTERNS.md) - Patterns 9-10 (Modifier examples)
+
+---
+
 List of the variables that modifiers can affect. It is mainly used in modding or to understand the files, if you want to read the exact effects of decisions, events and so forth.
 
 Country Modifiers

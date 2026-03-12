@@ -6,6 +6,52 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Culture_modding
 ---
 
+## Quick Reference
+
+**File Location:** `common/cultures.txt`
+
+**Culture Group Structure:**
+```paradox
+group_name = {
+    leader = european          # Leader portrait type
+    unit = EuropeanGC          # Unit sprite type
+    union = GER                # Cultural union country
+
+    culture_name = {
+        color = { 90 60 60 }   # RGB color for pie charts
+        first_names = { ... }  # Leader first names
+        last_names = { ... }   # Leader last names
+    }
+}
+```
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Add new culture | `common/cultures.txt` | Add culture block to group |
+| Add culture to POPs | `history/pops/*.txt` | Set `culture = new_culture` |
+| Check culture in triggers | Events/Decisions | `culture = xyz` / `primary_culture = xyz` |
+| Add accepted culture | Event effect | `add_accepted_culture = culture_name` |
+| Remove accepted culture | Event effect | `remove_accepted_culture = culture_name` |
+
+**Leader Portrait Types:** european, southamerican, russian, arab, asian, indian, african, polar_bear
+
+**Unit Sprite Types:** EuropeanGC, BritishGC, ItalianGC, SpanishGC, FrenchGC, AustriaHungaryGC, RussianGC, MiddleEasternGC, IndianGC, AsianGC, ChineseGC, AfricanGC, ZuluGC
+
+**Common Pitfalls:**
+- **Wrong file location** → Must be `common/cultures.txt`, not `history/countries/`
+- **Missing name lists** → Each culture needs at least 1 first name and 1 last name
+- **Wrong color format** → Use RGB `0-255` format: `color = { R G B }`
+- **POP culture not updating** → Edit `history/pops/` files to set starting POP cultures
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Step-by-step workflows
+- [Population_modding.md](Population_modding.md) - POP culture and religion
+- [Country_modding.md](Country_modding.md) - Creating countries with new cultures
+- [PATTERNS.md](PATTERNS.md) - Common modding patterns
+
+---
+
 This guide will direct you through the process of creating a new culture or to edit an already existing culture.
 
 Finding the Files

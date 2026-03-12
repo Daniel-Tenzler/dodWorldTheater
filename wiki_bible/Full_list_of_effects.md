@@ -6,6 +6,71 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Full_list_of_effects
 ---
 
+## Quick Reference
+
+**What Are Effects?**
+Effects are actions that happen when an event option is chosen, a decision is taken, or within `effect = { }` blocks.
+
+**Most Common Effects:**
+| Effect | Type | Example |
+|--------|------|---------|
+| `prestige = X` | Country | `prestige = 20` (can be negative) |
+| `add_core = TAG` | Province | `add_core = ENG` (adds claim) |
+| `remove_core = TAG` | Province | `remove_core = FRA` (removes claim) |
+| `secede_province = TAG` | Province | Transfer province to country |
+| `country_event = ID` | Country | `country_event = 10001` (fires event) |
+| `set_country_flag = name` | Country | Sets country flag |
+| `set_global_flag = name` | Global | Sets global flag |
+| `clr_country_flag = name` | Country | Clears country flag |
+| `clr_global_flag = name` | Global | Clears global flag |
+| `casus_belli = { }` | Country | Grants CB on target |
+| `change_tag = TAG` | Country | Change country tag |
+| `annex = THIS` | Country | Annex country |
+| `release = TAG` | Country | Release country as vassal |
+| `add_to_sphere = TAG` | Country | Add to sphere of influence |
+| `badboy = X` | Country | Add infamy |
+
+**Effect Pattern with Limit:**
+```paradox
+any_owned = {                  # Target: all owned provinces
+    limit = {                  # Condition: only provinces where...
+        region = BRZ_2408      # ...in this region
+    }
+    add_core = AMA             # Effect: add core
+}
+```
+
+**Usage Locations:**
+- **Event options**: `option = { name = "KEY" [effects] }`
+- **Decisions**: `effect = { [effects] }`
+- **Any effect block**: Nested with limit conditions
+
+**Quick Example:**
+```paradox
+effect = {
+    prestige = 20
+    add_core = 2414
+    TAG = {                    # Scope to specific country
+        country_event = 10001  # Fire event for them
+    }
+    any_owned = {              # Scope to provinces
+        limit = {
+            region = germany
+        }
+        trade_goods = coal     # Change trade good
+    }
+}
+```
+
+**See Also:**
+- [Event_modding.md](Event_modding.md) - How to use effects in events
+- [Decision_modding.md](Decision_modding.md) - How to use effects in decisions
+- [List_of_conditions.md](List_of_conditions.md) - All available triggers
+- [Full_list_of_scopes.md](Full_list_of_scopes.md) - Scope switching
+- [COMMON_PITFALLS.md](COMMON_PITFALLS.md) - Common effect mistakes
+
+---
+
 This article lists all possible event effects. Add any that are missing.
 
 Syntax and terminology

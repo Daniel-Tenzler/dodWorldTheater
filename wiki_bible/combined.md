@@ -1386,7 +1386,7 @@ effect
 		prestige = 10				#The taker gains 10 prestige.
 		inherit = TIB				#The taker annexes Tibet.
 		any_owned = {				#Any province owned by the taker
-			limit = {			#for which the follwoing is true:
+			limit = {			#for which the following is true:
 				is_core = TIB		#It is a core of Tibet
 				NOT = { is_core = CHI }	#It isn't a core of China
 			}
@@ -3208,7 +3208,7 @@ Syntax:
 sea_zone = { triggers … }
 
 Scope:
-Changes the current scope to every neighbouring sea proinces.
+Changes the current scope to every neighbouring sea provinces.
 
 state_scope
 
@@ -3469,7 +3469,7 @@ Syntax:
 sea_zone = { effects … }
 
 Scope:
-Changes the current scope to every neighbouring sea proinces.
+Changes the current scope to every neighbouring sea provinces.
 
 
 ---

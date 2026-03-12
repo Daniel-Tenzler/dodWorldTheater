@@ -6,6 +6,112 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Population_modding
 ---
 
+## Quick Reference
+
+**File Locations:**
+- `history/pops/1836.1.1/` - Starting POPs for 1836 bookmark
+- `history/pops/1861.4.14/` - Starting POPs for 1861 bookmark (optional)
+- `common/poptypes/` - POP type definitions
+
+**POP Structure:**
+```paradox
+[PROVINCE_ID] = {
+    pop_type = {
+        culture = culture_name
+        religion = religion_name
+        size = quantity
+    }
+}
+```
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Add starting POPs | `history/pops/1836.1.1/*.txt` | Add POP blocks |
+| Change POP size | `history/pops/*.txt` | Edit `size = N` |
+| Change POP culture | `history/pops/*.txt` | Edit `culture = xyz` |
+| Change POP religion | `history/pops/*.txt` | Edit `religion = xyz` |
+| Modify POP via event | Event effect | `any_pop = { size = 1000 }` |
+| Check POP conditions | Trigger block | `any_pop = { limit = { } }` |
+| Promote POP type | Event effect | `any_pop = { pop_type = craftsmen }` |
+
+**POP Types (13 total):**
+| Type | Strata | Description |
+|------|--------|-------------|
+| Aristocrats | Rich | Land-owners, contribute to RGO output |
+| Capitalists | Rich | Factory owners, invest in industry |
+| Clergymen | Middle | Education, literacy rate |
+| Clerks | Middle | Factory workers, increase throughput |
+| Artisans | Middle | Workshop producers |
+| Officers | Rich | Military leadership |
+| Craftsmen | Poor | Factory workers |
+| Farmers | Poor | RGO workers (agriculture) |
+| Labourers | Poor | RGO workers (mines/forests) |
+| Soldiers | Poor | Military recruitment pool |
+| Slaves | Poor | No mobility, forced labor |
+| Bureaucrats | Middle | Administration, efficiency |
+
+**POP Attributes (Event Effects):**
+| Effect | Description |
+|--------|-------------|
+| `size = N` | Add N POPs to this POP type |
+| `consciousness = X` | Change consciousness (-10 to +10) |
+| `militancy = X` | Change militancy (-10 to +10) |
+| `ideology = { factor = X value = Y }` | Change ideology support |
+| `dominant_issue = { factor = X value = Y }` | Change issue support |
+| `culture = xyz` | Convert to culture |
+| `religion = xyz` | Convert to religion |
+| `money = X` | Add cash reserves |
+| `move_pop = PROV_ID` | Move POP to province |
+
+**Common POP File Patterns:**
+```paradox
+# Single province POPs
+3249 = {
+    farmers = {
+        culture = dutch
+        religion = protestant
+        size = 8000
+    }
+    soldiers = {
+        culture = dutch
+        religion = protestant
+        size = 3700
+    }
+}
+
+# Multiple POPs of same type (different cultures/religions)
+3249 = {
+    farmers = {
+        culture = dutch
+        religion = protestant
+        size = 8000
+    }
+    farmers = {
+        culture = wallonian
+        religion = catholic
+        size = 1000
+    }
+}
+```
+
+**Common Pitfalls:**
+- **Wrong province ID** → Verify ID in `map/definition.csv`
+- **Culture doesn't exist** → Check `common/cultures.txt`
+- **Religion doesn't exist** → Check `common/religion.txt`
+- **POP type doesn't exist** → Check `common/poptypes/`
+- **File in wrong folder** → Must be in `history/pops/` subfolder
+- **1861 POPs missing** → Copy and grow 1836 file by ~3%
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Step-by-step workflows
+- [PATTERNS.md](PATTERNS.md) - Patterns 3, 11, 12 (POP effects)
+- [Culture_modding.md](Culture_modding.md) - Adding cultures
+- [Religion_modding.md](Religion_modding.md) - Adding religions
+- [Province_history_modding.md](Province_history_modding.md) - Province setup
+
+---
+
 Population modding can be used to change the population of a country. The files needed are in history/pops/. In vanilla Victoria 2 there are two folders: 1836.1.1 and 1861.4.14, they determine in what bookmarks the content of these folders are used.
 
 In these folders there are files, based on modern borders. These files contain the information needed for the population in-game. For example, the file Estonia.txt contains:

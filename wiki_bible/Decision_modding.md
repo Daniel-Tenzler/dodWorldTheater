@@ -6,6 +6,54 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Decision_modding
 ---
 
+## Quick Reference
+
+**Key Blocks:**
+- `potential = { }` - When decision is **visible** in UI (checked constantly)
+- `allow = { }` - When decision can be **taken** (checked on click)
+- `effect = { }` - What happens when decision is taken
+- `ai_will_do = { factor = X }` - AI behavior (highly recommended!)
+
+**Common Pitfalls:**
+- Putting everything in `allow` - decision won't be visible! Use `potential` for visibility
+- Missing spaces around `=` (use `tag = ENG` not `tag=ENG`)
+- Forgetting `ai_will_do` - AI will never take the decision
+- Unbalanced braces `{ }` - every opening brace must have a closing brace
+
+**Basic Decision Template:**
+```paradox
+political_decisions = {
+    your_decision = {
+        potential = {
+            tag = ENG                 # Decision visible to England
+        }
+        allow = {
+            is_greater_power = yes    # Can only take if GP
+            prestige = 50
+        }
+        effect = {
+            prestige = 20
+            add_core = 2414           # Add core on province
+        }
+        ai_will_do = {
+            factor = 1                # AI takes when conditions met
+        }
+    }
+}
+```
+
+**Localization:**
+- Decision name automatically generates keys: `your_decision_title` and `your_decision_desc`
+- Add to localisation CSV: `your_decision_title;Display Name;;;;;;;;;;;;;`
+
+**See Also:**
+- [Event_modding.md](Event_modding.md) - Event creation guide
+- [List_of_conditions.md](List_of_conditions.md) - All available triggers
+- [Full_list_of_effects.md](Full_list_of_effects.md) - All available effects
+- [COMMON_PITFALLS.md](COMMON_PITFALLS.md) - Common errors and solutions
+
+---
+
 Unlike events, which are usually outside the player's control, decisions can be taken directly by the player (and any AI country). They can have a variety of effects, from adding or removing modifiers for single provinces to unifying countries and changing international politics. This article is an introduction into the basics of decision modding.
 
 Basics
@@ -150,7 +198,7 @@ effect
 		prestige = 10				#The taker gains 10 prestige.
 		inherit = TIB				#The taker annexes Tibet.
 		any_owned = {				#Any province owned by the taker
-			limit = {			#for which the follwoing is true:
+			limit = {			#for which the following is true:
 				is_core = TIB		#It is a core of Tibet
 				NOT = { is_core = CHI }	#It isn't a core of China
 			}
@@ -201,7 +249,7 @@ This file is now saved as a .CSV file in the localisation folder of the mod, for
 
 Mod File
 
-A mod file for such a small mod only neeeds two lines: name for the name that will be displayed in the launcher, and path to tell the engine which files to load.
+A mod file for such a small mod only needs two lines: name for the name that will be displayed in the launcher, and path to tell the engine which files to load.
 
 name = "Annex Tibet"
 path = "mod/AnnexTibet"

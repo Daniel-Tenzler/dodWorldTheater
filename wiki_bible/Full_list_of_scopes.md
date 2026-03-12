@@ -6,6 +6,84 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Full_list_of_scopes
 ---
 
+## Quick Reference
+
+**What Are Scopes?**
+Scopes switch the target of triggers, effects, or limits between countries, provinces, and POPs. They enable you to affect/check things other than the current target.
+
+**Scope Types:**
+- **Country scope**: `TAG`, `owner`, `controller`, `overlord`, `from`
+- **Province scope**: `PROV_ID`, `capital_scope`, `state_scope`
+- **POP scope**: `location`, `country`
+- **Multiple targets**: `any_owned`, `any_country`, `any_pop`, `all_core`
+- **Random selection**: `random_owned`, `random_country`, `random_pop`
+
+**Most Common Scopes:**
+| Scope | From | To | Example |
+|-------|------|-------|---------|
+| `owner` | Province | Country | `owner = { prestige = 20 }` |
+| `controller` | Province | Country | `controller = { ... }` |
+| `capital_scope` | Country | Province | `capital_scope = { fort = 1 }` |
+| `TAG` | Any | Country | `ENG = { relation = { who = THIS value = 50 } }` |
+| `PROV_ID` | Any | Province | `2414 = { add_core = TAG }` |
+| `from` | Any | Triggering country | `from = { prestige = 10 }` |
+| `any_owned` | Country | Provinces | `any_owned = { limit = { } effect = { } }` |
+| `any_country` | Country | Countries | `any_country = { limit = { } effect = { } }` |
+
+**Quick Examples:**
+```paradox
+# Country event affecting a province
+country_event = {
+    id = 10001
+    trigger = {
+        any_owned = {
+            limit = {
+                trade_goods = coal
+            }
+        }
+    }
+    option = {
+        name = "A"
+        any_owned = {
+            limit = {
+                trade_goods = coal
+            }
+            life_rating = 5
+        }
+    }
+}
+
+# Province event checking the owner
+province_event = {
+    id = 10002
+    trigger = {
+        owner = {
+            is_greater_power = yes
+        }
+    }
+    option = {
+        name = "A"
+        owner = {
+            prestige = 10
+        }
+    }
+}
+```
+
+**Scope Special Variables:**
+- `THIS` - Current object in scope
+- `FROM` - Country/province that triggered the event
+- `ROOT` - Original actor in a chain
+
+**See Also:**
+- [Event_modding.md](Event_modding.md) - How to use scopes in events
+- [Decision_modding.md](Decision_modding.md) - How to use scopes in decisions
+- [List_of_conditions.md](List_of_conditions.md) - All available triggers
+- [Full_list_of_effects.md](Full_list_of_effects.md) - All available effects
+- [COMMON_PITFALLS.md](COMMON_PITFALLS.md) - Common scope mistakes
+
+---
+
 This is a full list of scopes for scripting event triggers, decision prerequisites, and limits.
 
 Scopes are used to change what an event, decision, or limit is looking at. For example, if you have a provincial event, and wish to look at a population within that province, you use a scope.
@@ -209,7 +287,7 @@ Syntax:
 sea_zone = { triggers … }
 
 Scope:
-Changes the current scope to every neighbouring sea proinces.
+Changes the current scope to every neighbouring sea provinces.
 
 state_scope
 
@@ -470,4 +548,4 @@ Syntax:
 sea_zone = { effects … }
 
 Scope:
-Changes the current scope to every neighbouring sea proinces.
+Changes the current scope to every neighbouring sea provinces.

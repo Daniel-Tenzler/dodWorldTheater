@@ -6,6 +6,56 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Map_modding
 ---
 
+## Quick Reference
+
+**Map Files Location:** `map/`
+
+**Key Map Files:**
+| File | Purpose | Format |
+|------|---------|--------|
+| `provinces.bmp` | Province shapes | 2048x2048 BMP, RGB colors |
+| `definition.csv` | Province ID ↔ Color mapping | CSV: `R,G,B,ProvinceID,Name` |
+| `terrain.bmp` | Terrain types | BMP with terrain colors |
+| `rivers.bmp` | River paths | BMP with green/red/blue pixels |
+| `positions.txt` | City/unit positions | Text coordinates |
+| `adjacencies.csv` | Province connections | CSV adjacency data |
+| `continent.txt` | Continent definitions | Text province list |
+| `region.txt` | Strategic regions | Text province list |
+| `climate.txt` | Climate zones | Text province list |
+| `terrain.txt` | Terrain definitions | Terrain type settings |
+| `default.map` | Map settings | Configuration |
+
+**Common Tasks:**
+| Task | File | Action |
+|------|------|--------|
+| Add province | `provinces.bmp`, `definition.csv` | Paint new province, add CSV entry |
+| Change terrain | `terrain.bmp` | Paint with terrain color |
+| Add river | `rivers.bmp` | Draw with green/red/blue pixels |
+| Set positions | `positions.txt` | Add `position = { }` block |
+| Create region | `region.txt` | Add province list to region |
+
+**Province Colors (definition.csv):**
+- Each province has unique RGB color
+- Format: `Red,Green,Blue,ProvinceID,Name`
+- Example: `0,0,128,1,Sitka`
+
+**River Drawing:**
+- **Green pixel** = River source
+- **Red pixel** = River junction (merge)
+- **Blue pixels** = River flow (darker = wider)
+
+**Common Pitfalls:**
+- **Game crashes on load** → definition.csv has duplicate colors
+- **Province not selectable** → Missing from positions.txt
+- **Terrain not applying** → Wrong color in terrain.bmp
+- **Rivers not flowing** → Missing green source or red junction
+
+**See Also:**
+- [FolderFile_overview.md](FolderFile_overview.md) - Map folder structure
+- [Provinces.md](Provinces.md) - Province list and IDs
+- [Province_history_modding.md](Province_history_modding.md) - Province setup
+
+---
 
 This page contains information on the map files.
 

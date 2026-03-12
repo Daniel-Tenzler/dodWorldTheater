@@ -6,6 +6,71 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/National_focus_modding
 ---
 
+## Quick Reference
+
+**File Location:** `common/national_focus.txt`
+
+**National Focus Structure:**
+```paradox
+focus_category = {
+    focus_name = {
+        pop_type = 0.20              # 20% promotion bonus
+        icon = 1                     # Icon index
+        limit = {                    # When available
+            civilized = yes
+        }
+    }
+}
+```
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Add new NF | `common/national_focus.txt` | Add focus block |
+| Modify NF bonus | `common/national_focus.txt` | Edit `pop_type = X` value |
+| Add NF requirement | `common/national_focus.txt` | Add `limit = { }` block |
+| Check NF in use | Trigger block | `national_focus = focus_name` |
+| Set NF via event | Event effect | `state_scope = { national_focus = focus_name }` |
+
+**National Focus Categories:**
+| Category | Icon Range | Effect |
+|----------|------------|--------|
+| `rail_focus` | 1 | Encourage railroads |
+| `immigration_focus` | 2-3 | Attract immigrants |
+| `diplomatic_focus` | 4 | Flashpoint tension |
+| `promotion_focus` | 5-15 | Promote POP types |
+| `production_focus` | 16-24 | Encourage industry |
+| `party_loyalty_focus` | 25-31 | Party ideology loyalty |
+
+**POP Type Promotion Values:**
+| POP Type | NF Name | Effect |
+|----------|---------|--------|
+| Aristocrats | `promote_aristocrats` | +20% promotion |
+| Artisans | `promote_artisans` | +20% promotion |
+| Bureaucrats | `promote_bureaucrats` | +20% promotion |
+| Capitalists | `promote_capitalists` | +20% promotion (civilized only) |
+| Clergymen | `promote_clergymen` | +20% promotion |
+| Clerks | `promote_clerks` | +20% promotion (civilized only) |
+| Craftsmen | `promote_craftsmen` | +20% promotion (civilized only) |
+| Farmers | `promote_farmers` | +20% promotion |
+| Labourers | `promote_labourers` | +20% promotion |
+| Officers | `promote_officers` | +20% promotion |
+| Soldiers | `promote_soldiers` | +20% promotion |
+
+**Common Pitfalls:**
+- **NF not showing** → Check country has enough primary culture POPs (defined in `defines.lua`: `NATIONAL_FOCUS_DIVIDER`)
+- **NF not working** → Verify `limit = { }` conditions are met
+- **Wrong icon** → Icon must exist in GFX strip
+- **Production NF effects** → Values like `18.3` mean 18.3% bonus, `0.3` means 30% bonus
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Step-by-step workflows
+- [Population_modding.md](Population_modding.md) - POP mechanics
+- [Event_modding.md](Event_modding.md) - NF via events
+- [PATTERNS.md](PATTERNS.md) - Common modding patterns
+
+---
+
 This page documents the how to edit to effects of the various National focus, how to add new ones. The documents needed are national_focus.txt found in the Victoria 2 -> Common folder and the icon files found in Victoria 2 -> History -> GFX. Lastly you will need the localisation files to edit the name and description of the national focus.
 
 Editing and creating National Values

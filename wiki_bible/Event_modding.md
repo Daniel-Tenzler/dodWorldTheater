@@ -6,6 +6,50 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Event_modding
 ---
 
+## Quick Reference
+
+**Key Commands:**
+- `trigger = { }` - Conditions that must be met for event to fire
+- `mean_time_to_happen = { months = X }` - Average time until event fires (50% chance)
+- `is_triggered_only = yes` - Event only fires when triggered by other events/decisions
+- `option = { name = "KEY.A" }` - Player choices (at least one required)
+
+**Common Pitfalls:**
+- Missing spaces around `=` (use `tag = ENG` not `tag=ENG`)
+- Unbalanced braces `{ }` - every opening brace must have a closing brace
+- Using both `is_triggered_only` and `mean_time_to_happen` (they conflict!)
+- Circular event chains - use flags to prevent infinite loops
+
+**Basic Event Template:**
+```paradox
+country_event = {
+    id = 10001                    # Unique event ID
+    trigger = {
+        tag = ENG                 # Conditions to fire
+    }
+    mean_time_to_happen = {       # Remove if using is_triggered_only
+        months = 12
+    }
+    title = "EVT_10001.T"         # Localization key for title
+    desc = "EVT_10001.D"          # Localization key for description
+    picture = "event_name"        # Optional: gfx/pictures/events/event_name.dds
+    option = {
+        name = "EVT_10001.A"      # Localization key for option
+        ai_chance = { factor = 50 }
+        # Effects here...
+    }
+}
+```
+
+**See Also:**
+- [Decision_modding.md](Decision_modding.md) - Player-triggered decisions
+- [List_of_conditions.md](List_of_conditions.md) - All available triggers
+- [Full_list_of_effects.md](Full_list_of_effects.md) - All available effects
+- [Full_list_of_scopes.md](Full_list_of_scopes.md) - Scope switching
+- [COMMON_PITFALLS.md](COMMON_PITFALLS.md) - Common errors and solutions
+
+---
+
 This page will show how to create more advanced events, it is recommend to learn the basics first.
 
 

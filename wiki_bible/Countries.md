@@ -6,6 +6,82 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Countries
 ---
 
+## Quick Reference
+
+**What Are Country Tags?**
+3-letter uppercase codes (e.g., ENG, FRA, GER) used to identify countries in modding and console commands.
+
+**Key Files:**
+- `common/countries/TAG - Name.txt` - Country definition (color, unit names)
+- `history/countries/TAG - Name.txt` - Country starting data
+- `common/countries.txt` - TAG to filename mapping
+- `common/country_colors.txt` - TAG to RGB color mapping
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Check country tag | Event/decision trigger | `tag = ENG` / `THIS = { tag = ENG }` |
+| Check exists | Event/decision trigger | `ENG = { exists = yes }` |
+| Switch country | Event effect | `change_tag = GER` |
+| Annex country | Event effect | `annex = THIS` / `GER = { annex = THIS }` |
+| Release country | Event effect | `release = POL` / `release_vassal = POL` |
+| Check GP status | Event/decision trigger | `is_greater_power = yes` |
+
+**Great Powers (1836 Start):**
+| Country | TAG | Region |
+|---------|-----|--------|
+| United Kingdom | ENG | Europe |
+| France | FRA | Europe |
+| Prussia | PRU | Europe |
+| Russia | RUS | Europe/Asia |
+| Austria | AUS | Europe |
+| United States | USA | North America |
+| Ottoman Empire | TUR | Middle East |
+| Spain | SPA | Europe |
+
+**Secondary Powers (1836 Start):**
+| Country | TAG | Region |
+|---------|-----|--------|
+| Belgium | BEL | Europe |
+| Brazil | BRZ | South America |
+| Denmark | DEN | Europe |
+| Mexico | MEX | North America |
+| Netherlands | NET | Europe |
+| Portugal | POR | Europe |
+| Sardinia-Piedmont | SAR | Europe |
+| Sweden | SWE | Europe |
+
+**Formable Countries:**
+| Country | TAG | Formation Notes |
+|---------|-----|-----------------|
+| Germany | GER | Germanic culture group |
+| Italy | ITA | Italian culture group |
+| Romania | ROM | Romanian/South Slavic cultures |
+| Yugoslavia | YUG | South Slavic cultures |
+| Scandinavia | SCA | Nordic cultures |
+| Poland | POL | Polish/other Slavic cultures |
+
+**Common Console Commands:**
+```bash
+tag [TAG]          # Switch to play as country
+debug fow          # Toggle fog of war
+debug showid        # Show province IDs
+event [ID] [TAG]    # Fire event for country
+```
+
+**Common Pitfalls:**
+- **TAG not found** → Check `common/countries.txt` for exact spelling
+- **Country not appearing** → Missing from `common/countries/` or `history/countries/`
+- **Wrong color** → Check `common/country_colors.txt`
+- **Flag missing** → Need `gfx/flags/TAG.tga` file
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Task 3: Create a New Country
+- [Country_modding.md](Country_modding.md) - Creating countries
+- [PATTERNS.md](PATTERNS.md) - Patterns 1, 5, 14 (country actions)
+
+---
+
 Please help create and format strategy guides according to the National strategy guides. Note that nations marked with (1861–P) are able to be played at the beginning of 1861, (1861–R) are able to be released at the beginning of the 1861 start date, (V2) are specific to the original Victoria 2 game, (AHD) is specific to the A House Divided expansion, and (HOD) is specific to the Heart of Darkness expansion. Jan Mayen, besides the colonial dominions, is the only new country in Heart of Darkness. Behind the country name is its TAG used for modding and console commands.
 
 Maps

@@ -6,6 +6,83 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Building_modding
 ---
 
+## Quick Reference
+
+**File Location:** `common/buildings.txt`
+
+**Province Building Structure:**
+```paradox
+fort = {
+    type = fort
+    goods_cost = {
+        lumber = 100
+        cement = 100
+        explosives = 50
+        small_arms = 50
+        artillery = 40
+    }
+    time = 1080                  # Days to build
+    visibility = yes
+    onmap = yes
+    max_level = 6
+    province = yes               # One per province
+    fort_level = 1
+}
+```
+
+**Factory Structure:**
+```paradox
+fabric_factory = {
+    type = factory
+    on_completion = factory
+    completion_size = 0.2
+    max_level = 99
+    goods_cost = {
+        machine_parts = 20
+        iron = 200
+        cement = 200
+    }
+    time = 365                   # Days to build
+    production_type = fabric_factory
+    pop_build_factory = yes      # Capitalists can build
+}
+```
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Modify building cost | `common/buildings.txt` | Edit `goods_cost` and `time` |
+| Modify max level | `common/buildings.txt` | Edit `max_level = N` |
+| Add fort to province | Event effect | `PROV_ID = { fort = 1 }` |
+| Add naval base | Event effect | `PROV_ID = { naval_base = 1 }` |
+| Expand railroad | Event effect | `PROV_ID = { railroad = 1 }` |
+| Build factory via event | Event effect | `state_scope = { any_owned = { building = factory } }` |
+| Check building level | Trigger block | `fort = X` / `railroad = X` / `naval_base = X` |
+
+**Province Building Types:**
+| Building | Effect | Max Level |
+|----------|--------|-----------|
+| `fort` | Defense bonus | 6 |
+| `naval_base` | Naval capacity, colonial points | 6 |
+| `railroad` | Movement speed, supply limit | Based on tech |
+
+**Factory Production Types:**
+Located in `common/production_types.txt` - defines inputs, outputs, and workforce requirements.
+
+**Common Pitfalls:**
+- **Goods cost not scaling** → `goods_cost` is static per level
+- **Factory not buildable** → Check `production_type` exists in `production_types.txt`
+- **Naval base on non-port** → Requires province with `port = yes`
+- **Fort/RR not expanding** → Check `max_level` and tech requirements
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Step-by-step workflows
+- [Province_history_modding.md](Province_history_modding.md) - Starting buildings
+- [Event_modding.md](Event_modding.md) - Building via events
+- [PATTERNS.md](PATTERNS.md) - Common modding patterns
+
+---
+
 Buildings (forts, naval bases, railroads and factories) are defined in this file. Factories act fundamentally different than the three others, since they are build at state level, while the other is build on province level.[1]
 
 Syntax

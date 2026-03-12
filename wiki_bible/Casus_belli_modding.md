@@ -6,6 +6,83 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/Casus_belli_modding
 ---
 
+## Quick Reference
+
+**File Location:** `common/cb_types.txt`
+
+**CB Type Structure:**
+```paradox
+cb_name = {
+    is_triggered_only = yes       # Can only be granted by events/decisions
+    months = 12                   # CB validity duration
+
+    can_use = {                   # Who can use this CB
+        NOT = { is_our_vassal = THIS }
+    }
+
+    badboy_factor = 2.2           # Infamy cost multiplier (×10)
+    prestige_factor = 5           # Prestige gained on success
+    peace_cost_factor = 1         # War score cost modifier
+    construction_speed = 0.5      # Fabrication speed (0.5 = 2x slower)
+
+    on_add = {                    # Effect when CB is added
+        move_issue_percentage = { from = jingoism to = pro_military value = 0.25 }
+    }
+
+    po_transfer_provinces = yes   # Peace options available
+    war_name = WAR_CONQUEST_NAME  # War display name
+}
+```
+
+**Common Tasks:**
+| Task | File | Effect/Command |
+|------|------|----------------|
+| Add new CB | `common/cb_types.txt` | Add CB block |
+| Grant CB via event | Event effect | `casus_belli = { target = TAG type = cb_name months = 12 }` |
+| Check has CB | Trigger block | `has_casus_belli = { target = TAG type = cb_name }` |
+| Declare war | Event effect | `war = { target = TAG type = cb_name }` |
+
+**Available Peace Options (po_):**
+| Option | Description |
+|--------|-------------|
+| `po_annex` | Annex target country |
+| `po_demand_state` | Take entire state |
+| `po_transfer_provinces` | Take specific provinces |
+| `po_add_to_sphere` | Add to sphere of influence |
+| `po_make_puppet` | Release as puppet |
+| `po_release_puppet` | Release puppet as independent |
+| `po_disarmament` | Reduce military capacity |
+| `po_reparations` | Economic compensation |
+| `po_remove_prestige` | Reduce target prestige |
+| `po_status_quo` | End war with no changes |
+| `po_install_communist_gov_type` | Change government to communist |
+| `po_colony` | Colonial expansion |
+| `po_remove_cores` | Remove core claims |
+
+**Common CB Types in Vanilla:**
+| CB | Description | Peace Options |
+|----|-------------|---------------|
+| `conquest` | Take provinces | po_transfer_provinces |
+| `acquire_state` | Take entire state | po_demand_state |
+| `annex_core_country` | Annex if own all cores | po_annex |
+| `liberate_country` | Release new country | po_release_puppet |
+| `place_in_the_sun` | Colonial expansion | po_colony |
+| `cut_down_to_size` | Dismantle military | po_disarmament |
+| `humiliate` | Prestige hit | po_remove_prestige |
+
+**Common Pitfalls:**
+- **CB not triggering** → Check `is_triggered_only = yes` (requires event to grant)
+- **Wrong peace options** → Must include at least one `po_XXX = yes`
+- **Infamy too high** → `badboy_factor` is multiplied by 10 (2.2 = 22 infamy)
+- **War name not showing** → Must use valid `WAR_XXX_NAME` from localization
+
+**See Also:**
+- [QUICKSTART.md](QUICKSTART.md) - Task 5: Create a Casus Belli
+- [Event_modding.md](Event_modding.md) - Granting CBs via events
+- [War_modding.md](War_modding.md) - War mechanics
+- [PATTERNS.md](PATTERNS.md) - Pattern 6: Grant Casus Belli
+
+---
 
 This page documents the how to edit casus belli and how to add new ones. The documents needed is cb_types.txt found in the Victoria 2 -> Common folder.
 

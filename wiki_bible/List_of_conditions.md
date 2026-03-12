@@ -6,6 +6,54 @@ source: Victoria 2 Wiki
 url: https://vic2.paradoxwikis.com/List_of_conditions
 ---
 
+## Quick Reference
+
+**What Are Conditions (Triggers)?**
+Conditions ask logical questions that return yes/no answers. They determine when events fire, decisions appear, and effects can execute.
+
+**Most Common Triggers:**
+| Trigger | Type | Example |
+|---------|------|---------|
+| `tag = TAG` | Country | `tag = ENG` |
+| `is_greater_power = yes` | Country | Is a Great Power |
+| `owns = PROV_ID` | Province | `owns = 2414` |
+| `controls = PROV_ID` | Province | `controls = 1680` |
+| `war = yes` | Country | Is at war |
+| `prestige = X` | Country | Has X prestige |
+| `has_country_flag = name` | Country | Has specific flag |
+| `has_global_flag = name` | Global | Global flag is set |
+| `trade_goods = good` | Province | Produces good |
+| `life_rating = X` | Province | Minimum life rating |
+
+**Boolean Operators:**
+- `AND = { }` - All conditions must be true (default when listing multiple)
+- `OR = { }` - At least one condition must be true
+- `NOT = { }` - Condition must be false
+
+**Usage Locations:**
+- **Events**: `trigger = { }`, `mean_time_to_happen = { }`, `limit = { }`
+- **Decisions**: `potential = { }`, `allow = { }`, `ai_will_do = { }`
+- **Effects**: `limit = { }` blocks
+
+**Quick Example:**
+```paradox
+trigger = {
+    tag = ENG
+    is_greater_power = yes
+    owns = 2414
+    NOT = { has_global_flag = england_fallen }
+}
+```
+
+**See Also:**
+- [Event_modding.md](Event_modding.md) - How to use triggers in events
+- [Decision_modding.md](Decision_modding.md) - How to use triggers in decisions
+- [Full_list_of_effects.md](Full_list_of_effects.md) - All available effects
+- [Full_list_of_scopes.md](Full_list_of_scopes.md) - Scope switching
+- [COMMON_PITFALLS.md](COMMON_PITFALLS.md) - Common trigger mistakes
+
+---
+
 This is a full list of conditions usable in event and decision scripting.
 
 Conditions are pieces of script that ask simple logical questions, and return a yes/no answer. These are used in various situations, usually to determine whether or not the prerequisites are met for a certain action to occur.
