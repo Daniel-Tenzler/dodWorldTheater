@@ -26,7 +26,7 @@ sea_starts = {
 }
 
 #definitions = "definition.csv"
-definitions = "../mod/Femboy_DoD 4.0.1b/map/definition.csv"
+definitions = "../mod/dodWorldTheater/map/definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"

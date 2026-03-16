@@ -68,37 +68,19 @@ if not exist "%PARENT%" (
     echo.
 )
 
-echo Removing old mod directory...
-if exist "%DEST%" (
-    rmdir /s /q "%DEST%"
-    if errorlevel 1 (
-        echo ERROR: Failed to remove old mod directory
-        echo.
-        echo Possible causes:
-        echo   - Victoria 2 is currently running
-        echo   - Files are in use
-        echo   - Insufficient permissions
-        pause
-        exit /b 1
-    )
-    echo Old mod directory removed successfully
-) else (
-    echo No old mod directory found, skipping removal
-)
+echo Syncing mod files (using mirror mode)...
 
-echo Copying new mod files...
-
-REM Use robocopy for silent fast copy
-REM /E    - Copy subdirectories, including empty ones
+REM Use robocopy mirror mode for cleaner sync
+REM /MIR  - Mirror source to destination (deletes dest extras)
 REM /NFL  - No file list
 REM /NDL  - No directory list
 REM /NP   - No progress (too fast to see on SSD)
 REM /NJH  - No job header
 REM /NJS  - No job summary
-REM /R:0  - 0 retries on failure
-REM /W:0  - Wait 0 seconds between retries
+REM /R:2  - 2 retries on failure (helps with transient locks)
+REM /W:1  - Wait 1 second between retries
 REM /MT   - Use multi-threaded copying (faster)
-robocopy "%SOURCE%" "%DEST%" /E /NFL /NDL /NP /NJH /NJS /R:0 /W:0 /MT >nul
+robocopy "%SOURCE%" "%DEST%" /MIR /NFL /NDL /NP /NJH /NJS /R:2 /W:1 /MT >nul
 
 REM Robocopy returns various exit codes:
 REM 0 = No files copied, no errors
@@ -111,6 +93,30 @@ if %ERRORLEVEL% LEQ 3 (
     echo ========================================
     echo Mod deployed successfully!
     echo ========================================
+    echo.
+
+    REM Copy .mod file to Victoria 2 mod directory
+    REM The .mod file must be in the parent mod/ folder
+    for %%F in ("!DEST!") do set "MOD_DIR=%%~dpF"
+    echo.
+    echo ========================================
+    echo Copying .mod descriptor file...
+    echo ========================================
+    echo   Source: %~dp0dodWorldTheater.mod
+    echo   Target: !MOD_DIR!dodWorldTheater.mod
+    echo.
+
+    if exist "%~dp0dodWorldTheater.mod" (
+        copy /Y "%~dp0dodWorldTheater.mod" "!MOD_DIR!dodWorldTheater.mod"
+        if errorlevel 1 (
+            echo WARNING: Failed to copy .mod file (error code !ERRORLEVEL!)
+        ) else (
+            echo [OK] .mod file copied successfully
+        )
+    ) else (
+        echo WARNING: dodWorldTheater.mod not found in script directory
+        echo   Looking at: %~dp0dodWorldTheater.mod
+    )
     echo.
 ) else (
     echo.
