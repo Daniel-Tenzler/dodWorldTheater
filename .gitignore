@@ -39,3 +39,7 @@ dist/
 # Test/playground files not meant for mod
 test/
 playground/
+
+# Local deployment configuration
+*.local
+deploy.config.local

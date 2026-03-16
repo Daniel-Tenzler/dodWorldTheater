@@ -1,0 +1,13 @@
+# Deployment Configuration for dodWorldTheater
+# Copy this file to deploy.config.local and update the paths
+
+# Source directory (relative to this file)
+# Default: dodWorldTheater folder in the same directory as the batch file
+SOURCE=dodWorldTheater
+
+# Destination directory (full path to Victoria 2 mod folder)
+# Examples:
+#   DEST=D:\SteamLibrary\steamapps\common\Victoria 2\mod\dodWorldTheater
+#   DEST=G:\SteamLibrary\steamapps\common\Victoria 2\mod\dodWorldTheater
+#   DEST=C:\Games\Victoria 2\mod\dodWorldTheater
+DEST=D:\SteamLibrary\steamapps\common\Victoria 2\mod\dodWorldTheater
