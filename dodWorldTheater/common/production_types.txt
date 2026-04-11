@@ -3,32 +3,32 @@
 
 factory_template = {
 	efficiency = {
-		cement = 0.5 #if no cement, work at 75% efficiency #cost = 8
-		machine_parts = 0.05 # was 0.01 cost = 36.5		# 9.825/day/level for both
+		cement = 0.3 # was 0.5 - less penalty for missing cement #if no cement, work at 75% efficiency #cost = 8
+		machine_parts = 0.03 # was 0.05 - less penalty for missing machine parts # was 0.01 cost = 36.5		# 9.825/day/level for both
 	}
 	
 	owner = {
 		poptype = capitalists
 		effect = input
-		effect_multiplier = -2.5
+		effect_multiplier = -2.0  # was -2.5 - capitalists reduce input costs less
 	}
 	
-	employees = {		
-		{ 
+	employees = {
+		{
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
-		}		
-		{ 
-			poptype = clerks 
+			amount = 0.75	# was 0.8 - fewer craftsmen
+		}
+		{
+			poptype = clerks
 			effect = output
 			effect_multiplier = 1.5
-			amount = 0.2
+			amount = 0.25	# was 0.2 - more clerks for output bonus
 		}
-	
+
 	}
 	type = factory
-	workforce = 10000 
+	workforce = 10000
 }
 
 cheap_factory_template = {
@@ -37,53 +37,53 @@ cheap_factory_template = {
 	}
 	
 	owner = {
-		poptype = capitalists 
+		poptype = capitalists
 		effect = input
-		effect_multiplier = -1.5
+		effect_multiplier = -2.0  # was -1.5 - capitalists reduce input costs less
 	}
 	
-	employees = {		
-		{ 
+	employees = {
+		{
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
-		}		
-		{ 
-			poptype = clerks 
+			amount = 0.75	# was 0.8 - fewer craftsmen
+		}
+		{
+			poptype = clerks
 			effect = output
 			effect_multiplier = 1.5
-			amount = 0.2
+			amount = 0.25	# was 0.2 - more clerks for output bonus
 		}
-	
+
 	}
 	type = factory
-	workforce = 10000 
+	workforce = 10000
 }
 
 machine_part_user_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 16.0
 	}
-	
+
 	owner = {
-		poptype = capitalists 
+		poptype = capitalists
 		effect = input
-		effect_multiplier = -2.5
+		effect_multiplier = -2.0  # was -2.5 - capitalists reduce input costs less
 	}
 	
-	employees = {		
-		{ 
+	employees = {
+		{
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
-		}		
-		{ 
-			poptype = clerks 
+			amount = 0.75	# was 0.8 - fewer craftsmen
+		}
+		{
+			poptype = clerks
 			effect = output
 			effect_multiplier = 1.5
-			amount = 0.2
+			amount = 0.25	# was 0.2 - more clerks for output bonus
 		}
-	
+
 	}
 	type = factory
 	workforce = 10000
@@ -138,37 +138,37 @@ leather_factory = {
 cement_template = {
 	efficiency = {
 		iron = 2.3 #if no cement, work at 75% efficiency #cost = 16.0
-		machine_parts = 0.05 # was 0.01 cost = 36.5 		#9.825/day/level for both
+		machine_parts = 0.03 # was 0.05 - less penalty for missing machine parts # was 0.01 cost = 36.5 		#9.825/day/level for both
 	}
-	
+
 	owner = {
-		poptype = capitalists 
+		poptype = capitalists
 		effect = input
-		effect_multiplier = -2.5
+		effect_multiplier = -2.0  # was -2.5 - capitalists reduce input costs less
 	}
 	
-	employees = {		
-		{ 
+	employees = {
+		{
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
-		}		
-		{ 
-			poptype = clerks 
+			amount = 0.75	# was 0.8 - fewer craftsmen
+		}
+		{
+			poptype = clerks
 			effect = output
 			effect_multiplier = 1.5
-			amount = 0.2
+			amount = 0.25	# was 0.2 - more clerks for output bonus
 		}
-	
+
 	}
 	type = factory
-	workforce = 10000 
+	workforce = 10000
 }
 
 
 ############# LATE GAME FACTORIES
 
-aeroplane_factory = {       
+aeroplane_factory = {
 	template = machine_part_user_template
 	input_goods = {
 		machine_parts = 1.11	#38.69
@@ -177,7 +177,7 @@ aeroplane_factory = {
 		lumber = 3.3 		#3.3	total input+maint = 90
 	}
 	output_goods = aeroplanes
-	value = 0.91			#100
+	value = 1.05			#115.5 - was 0.91 - better profit margin
 	bonus = {
 		trigger = { has_building = machine_parts_factory }
 		value = 0.25
@@ -305,7 +305,7 @@ machine_parts_factory = {
 		coal = 3		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
-	value = 4			#73
+	value = 3.6			#65.7
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.2
@@ -1033,7 +1033,7 @@ tropical_wood_lodge = {
 
 ### Artisans #####################################################################################
 
-artisan_aeroplane = {       
+artisan_aeroplane = {
 	input_goods = {
 		machine_parts = 1.11	#38.69
 		electric_gear = 2	#32
@@ -1041,7 +1041,7 @@ artisan_aeroplane = {
 		lumber = 3.3 		#3.3	total input+maint = 90
 	}
 	output_goods = aeroplanes
-	value = 0.91			#100
+	value = 1.05			#115.5 - was 0.91 - better profit margin
 	
 	owner = {
 		poptype = artisans 
@@ -1157,7 +1157,7 @@ artisan_machine_parts = {
 		coal = 5		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
-	value = 2			#73
+	value = 1.8			#65.7
 	
 	owner = {
 		poptype = artisans 

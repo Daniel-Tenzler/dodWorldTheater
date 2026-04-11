@@ -109,7 +109,7 @@ if %ERRORLEVEL% LEQ 3 (
     if exist "%~dp0dodWorldTheater.mod" (
         copy /Y "%~dp0dodWorldTheater.mod" "!MOD_DIR!dodWorldTheater.mod"
         if errorlevel 1 (
-            echo WARNING: Failed to copy .mod file (error code !ERRORLEVEL!)
+            echo WARNING: Failed to copy .mod file - error code !ERRORLEVEL!
         ) else (
             echo [OK] .mod file copied successfully
         )

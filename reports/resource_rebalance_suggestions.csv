@@ -1,0 +1,1 @@
+priority,action,target_province_id,target_name,current_good,suggested_good,donor_province_id,donor_name,donor_current_good,donor_suggested_good,expected_paired_before,expected_paired_after,reason,locked_violation,confidence

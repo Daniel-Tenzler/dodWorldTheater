@@ -1,0 +1,3321 @@
+id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_tag,start_pop,total_life_rating
+1,Sitka,True,False,timber,3,3,3,PASS,JAP,,35
+2,Yakutat,True,False,fish,3,3,3,PASS,JAP,,20
+3,Kenai,True,False,fish,5,1,5,PASS,JAP,,20
+4,Dutch Harbor,True,False,fish,6,1,6,PASS,JAP,,20
+5,Unalakleet,True,False,coal,6,0,6,PASS,JAP,,20
+6,Whitehorse,True,False,timber,3,3,3,PASS,JAP,,10
+7,Dawson,True,False,fish,3,3,3,PASS,JAP,,10
+8,Ross River,True,False,iron,0,1,1,PASS,VEN,,35
+9,Fort Simpson,True,False,timber,3,3,3,PASS,,,15
+10,Inuvik,True,False,timber,1,1,1,PASS,ARA,,35
+11,Echo Bay,True,False,fish,2,3,3,PASS,,,15
+12,Reliance,True,False,precious_metal,3,5,5,PASS,JAP,,30
+13,Vancouver,True,False,fish,1,1,1,PASS,DNG,,35
+14,Vancouver Island,True,False,coal,2,0,2,PASS,DNG,,31
+15,Prince Rupert,True,False,fish,2,2,2,PASS,DNG,,20
+16,Glenora,True,False,timber,1,2,2,PASS,DNG,,20
+17,Atlin,True,False,timber,2,3,3,PASS,,,20
+18,Fort Saint John,True,False,timber,1,2,2,PASS,,,25
+19,Prince George,True,False,iron,0,2,2,PASS,DNG,,20
+20,Kelowna,True,False,grain,1,2,2,PASS,DNG,,30
+21,Vernon,True,False,iron,0,1,1,PASS,DNG,,31
+22,Edmonton,True,False,grain,1,1,1,PASS,,,30
+23,Athabaska Landing,True,False,timber,1,2,2,PASS,HHR,,15
+24,Jasper,True,False,timber,1,1,1,PASS,,,30
+25,Banff,True,False,coal,1,0,1,PASS,,,30
+26,Calgary,True,False,timber,1,1,1,PASS,,,30
+27,Denwood,True,False,iron,0,2,2,PASS,HHR,,35
+28,Fort MacLeod,True,False,iron,0,1,1,PASS,,,30
+29,Medicine Hat,True,False,fruit,4,1,4,PASS,CHG,,15
+30,Regina,True,False,grain,2,1,2,PASS,HHR,,30
+31,Stanley,True,False,timber,1,2,2,PASS,,,15
+32,Prince Albert,True,False,timber,1,1,1,PASS,,,15
+33,Asquith,True,False,timber,1,1,1,PASS,HHR,,30
+34,Saskatoon,True,False,coal,2,0,2,PASS,HHR,,30
+35,Maple Creek,True,False,grain,1,2,2,PASS,,,30
+36,Winnipeg,True,False,grain,2,1,2,PASS,,,30
+37,Churchill,True,False,fish,1,2,2,PASS,VIN,,10
+38,Indian Lakes,True,False,iron,0,2,2,PASS,,,15
+39,Norway House,True,False,timber,1,2,2,PASS,,,15
+40,Dauphin,True,False,timber,2,1,2,PASS,,,30
+41,Brandon,True,False,grain,3,1,3,PASS,,,30
+42,Pembina,True,False,fish,3,1,3,PASS,,,30
+43,Arviat,True,False,fish,1,3,3,PASS,VIN,,35
+44,Echo Bay,True,False,fish,-1,-1,-1,ISLAND,SPA,,30
+45,Baffin Island,True,False,fish,5,2,5,PASS,VIN,,30
+46,Toronto,True,False,grain,1,3,3,PASS,VIN,,35
+47,Fort Severn,True,False,fish,2,2,2,PASS,VIN,,10
+48,Fort Albany,True,False,fish,2,2,2,PASS,VIN,,20
+49,Dryden,True,False,coal,3,0,3,PASS,VIN,,25
+50,Thunder Bay,True,False,cattle,2,1,2,PASS,VIN,,30
+51,Sault Ste Marie,True,False,cattle,1,2,2,PASS,VIN,,30
+52,Sudbury,True,False,iron,0,3,3,PASS,VIN,,30
+53,Barrie,True,False,fruit,1,3,3,PASS,VIN,,30
+54,Windsor,True,False,grain,2,3,3,PASS,VIN,,35
+55,Hamilton,True,False,fish,2,2,2,PASS,VIN,,35
+56,Kingston,True,False,fruit,1,4,4,PASS,VIN,,35
+57,Ottawa,True,False,grain,1,4,4,PASS,VIN,,31
+58,Montreal,True,False,cattle,1,4,4,PASS,VIN,,35
+59,Nitchequon,True,False,timber,2,1,2,PASS,VIN,,20
+60,Charles Fort,True,False,timber,2,2,2,PASS,VIN,,35
+61,Chicoutimi,True,False,grain,2,2,2,PASS,VIN,,30
+62,Sept-Iles,True,False,fish,1,2,2,PASS,VIN,,30
+63,Temiscaming,True,False,cattle,1,3,3,PASS,VIN,,30
+64,Trois Rivieres,True,False,iron,0,4,4,PASS,VIN,,35
+65,Quebec City,True,False,grain,1,3,3,PASS,VIN,,35
+66,Sherbrooke,True,False,grain,1,4,4,PASS,VIN,,30
+67,Rimouski,True,False,grain,2,4,4,PASS,VIN,,30
+68,Fredericton,True,False,timber,4,2,4,PASS,VIN,,30
+69,Bathurst,True,False,cattle,3,3,3,PASS,VIN,,30
+70,Prince Edward Island,True,False,fish,5,3,5,PASS,VIN,,30
+71,Halifax,True,False,fish,6,2,6,PASS,VIN,,30
+72,Truro,True,False,timber,5,1,5,PASS,VIN,,30
+73,Cape Breton Island,True,False,coal,6,0,6,PASS,VIN,,30
+74,Saint Johns,True,False,fish,1,4,4,PASS,VIN,,25
+75,Millertown,True,False,iron,0,3,3,PASS,VIN,,25
+76,Hopedale,True,False,fish,2,1,2,PASS,VIN,,10
+77,St Pierre & Miquelon,True,False,fish,2,5,5,PASS,VIN,,30
+78,Seattle,True,False,timber,2,1,2,PASS,DNG,,35
+79,Spokane,True,False,timber,1,2,2,PASS,DNG,,35
+80,Walla Walla,True,False,timber,2,2,2,PASS,DNG,,35
+81,Portland,True,False,fish,2,2,2,PASS,DNG,,20
+82,Baker City,True,False,timber,2,3,3,PASS,DNG,,20
+83,Klamath Falls,True,False,timber,1,3,3,PASS,DNG,,20
+84,San Francisco,True,False,cattle,2,3,3,PASS,DNG,,35
+85,Eureka,True,False,fish,2,3,3,PASS,DNG,,35
+86,Sacramento,True,False,fruit,1,3,3,PASS,DNG,,35
+87,Monterey,True,False,fruit,2,3,3,PASS,DNG,,35
+88,Mariposa,True,False,fruit,1,2,2,PASS,DNG,,30
+89,Los Angeles,True,False,grain,2,3,3,PASS,DNG,,35
+90,San Diego,True,False,grain,1,2,2,PASS,CLM,,35
+91,Boise,True,False,iron,0,2,2,PASS,DNG,,35
+92,Coeur D'Alene,True,False,timber,1,2,2,PASS,DNG,,35
+93,Pocatello,True,False,iron,0,1,1,PASS,,,35
+94,Carson City,True,False,iron,0,2,2,PASS,DNG,,35
+95,Elko,True,False,iron,0,1,1,PASS,DNG,,35
+96,Las Vegas,True,False,iron,0,1,1,PASS,DNG,,35
+97,Salt Lake City,True,False,coal,1,0,1,PASS,,,35
+98,Loa,True,False,grain,1,1,1,PASS,,,35
+99,Moab,True,False,coal,1,0,1,PASS,,,35
+100,Phoenix,True,False,cattle,1,2,2,PASS,CLM,,35
+101,Flagstaff,True,False,iron,0,1,1,PASS,CLM,,35
+102,Tucson,True,False,cattle,2,2,2,PASS,CLM,,30
+103,Santa Fe,True,False,fruit,1,2,2,PASS,,,35
+104,Albuquerque,True,False,fruit,1,1,1,PASS,CLM,,35
+105,Las Cruces,True,False,cattle,1,2,2,PASS,CLM,,35
+106,Denver,True,False,cattle,1,2,2,PASS,,,35
+107,Grand Junction,True,False,cattle,1,1,1,PASS,,,35
+108,Alamosa,True,False,iron,0,1,1,PASS,,,35
+109,Pueblo,True,False,cattle,1,2,2,PASS,,,35
+110,Chyenne,True,False,grain,2,1,2,PASS,,,35
+111,Cody,True,False,coal,1,0,1,PASS,,,35
+112,Casper,True,False,sulphur,2,1,2,PASS,,,35
+113,Bozeman,True,False,sulphur,1,1,1,PASS,,,35
+114,Missoula,True,False,cattle,1,1,1,PASS,,,35
+115,Great Falls,True,False,cattle,1,1,1,PASS,,,35
+116,Billings,True,False,cattle,2,1,2,PASS,,,35
+117,Bismarck,True,False,coal,3,0,3,PASS,,,35
+118,Minot,True,False,coal,2,0,2,PASS,,,35
+119,Dickinson,True,False,cattle,3,1,3,PASS,,,35
+120,Sioux Falls,True,False,grain,4,1,4,PASS,,,35
+121,Dupree,True,False,coal,3,0,3,PASS,,,35
+122,Rapid City,True,False,timber,3,1,3,PASS,,,35
+123,Omaha,True,False,fruit,3,2,3,PASS,,,35
+124,Alliance,True,False,grain,2,2,2,PASS,,,35
+125,North Platte,True,False,grain,2,1,2,PASS,,,35
+126,Topeka,True,False,grain,3,1,3,PASS,,,35
+127,Goodland,True,False,fruit,2,2,2,PASS,,,35
+128,Wichita,True,False,grain,2,2,2,PASS,,,35
+129,Oklahoma City,True,False,grain,2,2,2,PASS,,,35
+130,Tahlequah,True,False,silk,3,1,3,PASS,,,35
+131,Okmulgee,True,False,fruit,3,2,3,PASS,,,35
+132,Houston,True,False,cattle,3,3,3,PASS,CLM,,35
+133,Austin,True,False,cattle,3,2,3,PASS,CLM,,35
+134,Dallas,True,False,cattle,3,3,3,PASS,CLM,,35
+135,Lubbock,True,False,sulphur,2,2,2,PASS,CLM,,35
+136,El Paso,True,False,cotton,2,1,2,PASS,CLM,,35
+137,San Antonio,True,False,cattle,3,2,3,PASS,CLM,,35
+138,Laredo,True,False,cattle,3,1,3,PASS,CLM,,35
+139,New Orleans,True,False,precious_goods,3,4,4,PASS,PLA,,35
+140,Baton Rouge,True,False,cotton,2,3,3,PASS,PLA,,35
+141,Lake Charles,True,False,sulphur,2,3,3,PASS,PLA,,35
+142,Shreveport,True,False,sulphur,2,3,3,PASS,PLA,,35
+143,Little Rock,True,False,cotton,2,2,2,PASS,PLA,,35
+144,Hot Springs,True,False,grain,3,2,3,PASS,PLA,,35
+145,Fayetteville,True,False,timber,3,1,3,PASS,,,35
+146,St Louis,True,False,cattle,4,1,4,PASS,,,35
+147,Joplin,True,False,coal,4,0,4,PASS,,,35
+148,Malden,True,False,grain,3,1,3,PASS,PLA,,35
+149,Jefferson City,True,False,coal,4,0,4,PASS,,,35
+150,Kansas City,True,False,coal,3,0,3,PASS,,,35
+151,Des Moines,True,False,grain,3,1,3,PASS,,,35
+152,Oskaloosa,True,False,grain,4,1,4,PASS,,,35
+153,Cedar Rapids,True,False,cattle,5,1,5,PASS,,,35
+154,Sioux City,True,False,grain,4,1,4,PASS,,,35
+155,Minneapolis,True,False,timber,4,1,4,PASS,VIN,,35
+156,Granite Falls,True,False,coal,5,0,5,PASS,,,35
+157,Moorehead,True,False,timber,3,1,3,PASS,VIN,,35
+158,Duluth,True,False,fish,3,1,3,PASS,VIN,,35
+159,Milwaukee,True,False,timber,4,1,4,PASS,VIN,,35
+160,Eau Claire,True,False,grain,3,1,3,PASS,VIN,,35
+161,Green Bay,True,False,timber,3,1,3,PASS,VIN,,35
+162,Madison,True,False,coal,4,0,4,PASS,VIN,,35
+163,Chicago,True,False,coal,5,0,5,PASS,VIN,,35
+164,Rockford,True,False,coal,5,0,5,PASS,VIN,,35
+165,Champaign,True,False,coal,4,0,4,PASS,VIN,,35
+166,Peoria,True,False,cattle,5,1,5,PASS,PLA,,35
+167,Springfield,True,False,cattle,4,1,4,PASS,PLA,,35
+168,Carbondale,True,False,cattle,3,1,3,PASS,PLA,,35
+169,Indianapolis,True,False,grain,5,1,5,PASS,VIN,,35
+170,Evansville,True,False,grain,4,1,4,PASS,PLA,,35
+171,South Bend,True,False,timber,5,1,5,PASS,VIN,,35
+172,Fort Wayne,True,False,timber,5,2,5,PASS,VIN,,35
+173,Detroit,True,False,timber,3,2,3,PASS,VIN,,35
+174,Grand Rapids,True,False,timber,4,2,4,PASS,VIN,,35
+175,Saginaw,True,False,timber,4,3,4,PASS,VIN,,35
+176,Traverse City,True,False,timber,3,3,3,PASS,VIN,,35
+177,Marquette,True,False,fish,2,2,2,PASS,VIN,,35
+178,Cleveland,True,False,coal,3,0,3,PASS,VIN,,35
+179,Columbus,True,False,grain,4,1,4,PASS,VIN,,35
+180,Sandusky,True,False,timber,4,1,4,PASS,VIN,,35
+181,Dayton,True,False,grain,5,2,5,PASS,VIN,,35
+182,Cincinnati,True,False,grain,4,1,4,PASS,VIN,,35
+183,Marietta,True,False,cotton,4,1,4,PASS,PLA,,35
+184,Louisville,True,False,tobacco,3,1,3,PASS,PLA,,35
+185,Lexington,True,False,coal,3,0,3,PASS,PLA,,35
+186,Bowling Green,True,False,cattle,2,1,2,PASS,PLA,,35
+187,Paducah,True,False,cattle,2,2,2,PASS,PLA,,35
+188,Nashville,True,False,grain,1,1,1,PASS,PLA,,35
+189,Memphis,True,False,cotton,2,2,2,PASS,PLA,,35
+190,Knoxville,True,False,coal,2,0,2,PASS,PLA,,35
+191,Chattanooga,True,False,coal,1,0,1,PASS,PLA,,35
+192,Jackson,True,False,cotton,1,2,2,PASS,PLA,,35
+193,Vicksburg,True,False,cotton,1,2,2,PASS,PLA,,35
+194,Biloxi,True,False,timber,2,3,3,PASS,PLA,,35
+195,Montgomery,True,False,cotton,1,1,1,PASS,PLA,,35
+196,Tuscaloosa,True,False,iron,0,1,1,PASS,PLA,,35
+197,Mobile,True,False,cotton,2,2,2,PASS,PLA,,35
+198,Tallahassee,True,False,cotton,2,1,2,PASS,PLA,,35
+199,St Augustine,True,False,coal,1,0,1,PASS,VEN,,35
+200,Tampa,True,False,fruit,2,1,2,PASS,VEN,,35
+201,Atlanta,True,False,coal,1,0,1,PASS,PLA,,35
+202,Valdosta,True,False,cotton,1,1,1,PASS,PLA,,35
+203,Bermuda,True,False,fish,-1,-1,-1,ISLAND,PLA,,35
+204,Savannah,True,False,iron,0,1,1,PASS,PLA,,35
+205,Charleston,True,False,cotton,1,2,2,PASS,PLA,,35
+206,Columbia,True,False,cotton,2,1,2,PASS,PLA,,35
+207,Raleigh,True,False,tobacco,3,3,3,PASS,PLA,,35
+208,Winston-Salem,True,False,tobacco,3,2,3,PASS,PLA,,35
+209,Charlotte,True,False,tobacco,2,2,2,PASS,PLA,,35
+210,WIlmington,True,False,cotton,2,3,3,PASS,PLA,,35
+211,Richmond,True,False,tobacco,4,2,4,PASS,NBG,,35
+212,Manassas,True,False,tobacco,3,1,3,PASS,NBG,,35
+213,Fredericksburg,True,False,tobacco,4,2,4,PASS,NBG,,35
+214,Norfolk,True,False,tobacco,4,3,4,PASS,NBG,,35
+215,Staunton,True,False,grain,4,1,4,PASS,NBG,,35
+216,Roanoke,True,False,tobacco,3,1,3,PASS,PLA,,35
+217,Wheeling,True,False,coal,3,0,3,PASS,NBG,,35
+218,Huntington,True,False,coal,4,0,4,PASS,PLA,,35
+219,Baltimore,True,False,tobacco,1,2,2,PASS,NBG,,35
+220,Washington,True,False,grain,2,2,2,PASS,NBG,,35
+221,Hagerstown,True,False,tobacco,2,1,2,PASS,NBG,,35
+222,Dover,True,False,grain,1,3,3,PASS,NBG,,35
+223,Philadelphia,True,False,iron,0,2,2,PASS,NBG,,35
+224,Scranton,True,False,grain,1,1,1,PASS,NBG,,35
+225,Williamsport,True,False,coal,2,0,2,PASS,NBG,,35
+226,Harrisburg,True,False,tobacco,1,1,1,PASS,NBG,,35
+227,Pittsburgh,True,False,coal,2,0,2,PASS,NBG,,35
+228,Erie,True,False,timber,3,1,3,PASS,NBG,,35
+229,Newark,True,False,iron,0,2,2,PASS,NBG,,35
+230,Trenton,True,False,fish,1,3,3,PASS,NBG,,35
+231,Atlantic City,True,False,fish,1,3,3,PASS,NBG,,35
+232,New York,True,False,grain,1,2,2,PASS,NBG,,35
+233,Long Island,True,False,grain,2,3,3,PASS,NBG,,35
+234,Albany,True,False,iron,0,2,2,PASS,NBG,,35
+235,Binghamton,True,False,grain,1,1,1,PASS,NBG,,35
+236,Buffalo,True,False,timber,2,1,2,PASS,NBG,,35
+237,Rochester,True,False,grain,2,2,2,PASS,NBG,,35
+238,Syracuse,True,False,grain,1,2,2,PASS,NBG,,35
+239,Watertown,True,False,iron,0,3,3,PASS,NBG,,35
+240,Plattsburgh,True,False,timber,1,3,3,PASS,NBG,,35
+241,Hartford,True,False,fish,1,3,3,PASS,NBG,,35
+242,Providence,True,False,grain,1,4,4,PASS,NBG,,35
+243,Boston,True,False,grain,1,4,4,PASS,NBG,,35
+244,New Bedford,True,False,grain,2,5,5,PASS,NBG,,35
+245,Pittsfield,True,False,iron,0,3,3,PASS,NBG,,35
+246,Burlington,True,False,timber,1,3,3,PASS,NBG,,35
+247,Concord,True,False,timber,1,4,4,PASS,NBG,,35
+248,Lewiston,True,False,timber,2,4,4,PASS,VIN,,35
+249,Bangor,True,False,timber,3,3,3,PASS,VIN,,35
+250,Caribou,True,False,grain,3,3,3,PASS,VIN,,35
+251,Nuuk,True,False,fish,-1,-1,-1,ISLAND,SCA,,10
+252,Iceland,True,False,fish,-1,-1,-1,ISLAND,SCA,,32
+253,Faroe Islands,True,False,fish,-1,-1,-1,ISLAND,SCA,,30
+254,Belfast,True,False,cattle,4,1,4,PASS,DUA,,35
+255,Londonderry,True,False,cattle,3,2,3,PASS,DUA,,35
+256,Armagh,True,False,cattle,3,2,3,PASS,DUA,,35
+257,Donegal,True,False,cattle,3,3,3,PASS,DUA,,35
+258,Galway,True,False,cattle,1,4,4,PASS,DUA,,35
+259,Sligo,True,False,cattle,2,3,3,PASS,DUA,,35
+260,Cork,True,False,iron,0,5,5,PASS,DUA,,35
+261,Limerick,True,False,iron,0,5,5,PASS,DUA,,35
+262,Waterford,True,False,fish,1,4,4,PASS,DUA,,35
+263,Dublin,True,False,grain,3,3,3,PASS,DUA,,35
+264,Kildare,True,False,cattle,2,3,3,PASS,DUA,,35
+265,Wexford,True,False,fish,2,4,4,PASS,DUA,,35
+266,Aberdeen,True,False,iron,0,2,2,PASS,SCA,,35
+267,Inverness,True,False,sulphur,1,1,1,PASS,SCA,,35
+268,Dundee,True,False,fish,1,1,1,PASS,SCA,,35
+269,Edinburgh,True,False,coal,3,0,3,PASS,SCA,,35
+270,Stirling,True,False,coal,2,0,2,PASS,SCA,,35
+271,Glasgow,True,False,coal,3,0,3,PASS,SCA,,35
+272,Dumfries,True,False,coal,3,0,3,PASS,SCA,,35
+273,Cardiff,True,False,coal,1,0,1,PASS,DUA,,35
+274,Cardigan,True,False,iron,0,1,1,PASS,DUA,,35
+275,Llandrindod,True,False,sulphur,1,1,1,PASS,DUA,,35
+276,Holyhead,True,False,fish,1,2,2,PASS,DUA,,35
+277,Liverpool,True,False,fish,2,1,2,PASS,DUA,,40
+278,Manchester,True,False,coal,2,0,2,PASS,DUA,,40
+279,Carlisle,True,False,grain,3,1,3,PASS,DUA,,35
+280,Newcastle On Tyne,True,False,coal,2,0,2,PASS,DUA,,35
+281,Hull,True,False,coal,1,0,1,PASS,DUA,,35
+282,Leeds,True,False,coal,2,0,2,PASS,DUA,,35
+283,Sheffield,True,False,coal,2,0,2,PASS,DUA,,35
+284,Birmingham,True,False,coal,1,0,1,PASS,DUA,,35
+285,Chester,True,False,fish,1,1,1,PASS,DUA,,35
+286,Shrewesbury,True,False,iron,0,1,1,PASS,DUA,,35
+287,Coventry,True,False,grain,1,1,1,PASS,DUA,,35
+288,Nottingham,True,False,coal,1,0,1,PASS,DUA,,35
+289,Leicester,True,False,grain,1,1,1,PASS,DUA,,35
+290,Lincoln,True,False,iron,0,1,1,PASS,DUA,,35
+291,Cambridge,True,False,grain,1,1,1,PASS,DUA,,35
+292,Ipswich,True,False,grain,1,1,1,PASS,DUA,,35
+293,Chelmsford,True,False,coal,2,0,2,PASS,DUA,,35
+294,Oxford,True,False,grain,1,2,2,PASS,DUA,,35
+295,St Albans,True,False,grain,2,1,2,PASS,DUA,,35
+296,Bristol,True,False,iron,0,1,1,PASS,DUA,,35
+297,Salisbury,True,False,grain,1,2,2,PASS,DUA,,35
+298,Bath,True,False,grain,1,2,2,PASS,DUA,,35
+299,Plymouth,True,False,fish,2,3,3,PASS,DUA,,35
+300,London,True,False,grain,2,1,2,PASS,DUA,,45
+301,Canterbury,True,False,coal,2,0,2,PASS,DUA,,35
+302,Brighton,True,False,fish,2,1,2,PASS,DUA,,35
+303,Southampton,True,False,fish,2,2,2,PASS,DUA,,35
+304,Isle of Man,True,False,fish,4,1,4,PASS,DUA,,35
+305,Trondheim,True,False,timber,1,4,4,PASS,SCA,,20
+306,Bodo,True,False,fish,2,5,5,PASS,SCA,,20
+307,Hammerfest,True,False,timber,1,6,6,PASS,SCA,,10
+308,Alesund,True,False,fish,1,5,5,PASS,SCA,,20
+309,Bergen,True,False,iron,0,5,5,PASS,SCA,,20
+310,Christiansand,True,False,fish,1,6,6,PASS,SCA,,35
+311,Skien,True,False,timber,1,6,6,PASS,SCA,,35
+312,Drammen,True,False,precious_metal,1,5,5,PASS,SCA,,35
+313,Christiania,True,False,fish,2,4,4,PASS,SCA,,40
+314,Hamar,True,False,grain,1,3,3,PASS,SCA,,20
+315,Lillehammer,True,False,timber,1,4,4,PASS,SCA,,20
+316,Frederiksstad,True,False,fish,2,4,4,PASS,SCA,,35
+317,Gavle,True,False,timber,1,2,2,PASS,SCA,,35
+318,Sundsvall,True,False,timber,1,3,3,PASS,SCA,,35
+319,Ostersund,True,False,iron,0,3,3,PASS,SCA,,20
+320,Umea,True,False,timber,1,4,4,PASS,SCA,,20
+321,Lulea,True,False,timber,1,5,5,PASS,SCA,,10
+322,Stockholm,True,False,coal,1,0,1,PASS,SCA,,40
+323,Falun,True,False,iron,0,2,2,PASS,SCA,,35
+324,Uppsala,True,False,timber,1,1,1,PASS,SCA,,35
+325,Norrkoping,True,False,grain,1,2,2,PASS,SCA,,35
+326,Vasteras,True,False,iron,0,1,1,PASS,SCA,,35
+327,Orebro,True,False,timber,1,2,2,PASS,SCA,,35
+328,Karlstad,True,False,timber,1,3,3,PASS,SCA,,35
+329,Gothenburg,True,False,timber,2,4,4,PASS,SCA,,35
+330,Boras,True,False,fish,2,3,3,PASS,SCA,,35
+331,Gotland,True,False,grain,3,4,4,PASS,SCA,,35
+332,Kalmar,True,False,grain,2,3,3,PASS,SCA,,35
+333,Vaxjo,True,False,timber,2,3,3,PASS,SCA,,35
+334,Malmo,True,False,grain,3,4,4,PASS,SCA,,35
+335,Karlskrona,True,False,fish,3,4,4,PASS,SCA,,35
+336,Oulu,True,False,timber,1,5,5,PASS,SCA,,10
+337,Kajaani,True,False,timber,1,6,6,PASS,SCA,,10
+338,Tornio,True,False,iron,0,6,6,PASS,SCA,,10
+339,Viipuri,True,False,timber,1,5,5,PASS,SCA,,35
+340,Kotka,True,False,timber,2,5,5,PASS,SCA,,35
+341,Mikkeli,True,False,timber,1,5,5,PASS,SCA,,35
+342,Kuopio,True,False,iron,0,5,5,PASS,SCA,,35
+343,Helsinki,True,False,grain,3,4,4,PASS,SCA,,35
+344,Hameenlinna,True,False,timber,2,4,4,PASS,SCA,,35
+345,Turku,True,False,grain,2,3,3,PASS,SCA,,35
+346,Vaasa,True,False,timber,1,4,4,PASS,SCA,,35
+347,Tampere,True,False,timber,2,4,4,PASS,SCA,,35
+348,Aland Islands,True,False,fish,2,2,2,PASS,SCA,,35
+349,Reval,True,False,grain,5,6,6,PASS,SCA,,40
+350,Narva,True,False,cattle,4,5,5,PASS,SCA,,35
+351,Parnu,True,False,grain,4,5,5,PASS,SCA,,35
+352,Dorpat,True,False,cattle,3,4,4,PASS,SCA,,35
+353,Kuressaare,True,False,grain,4,5,5,PASS,SCA,,35
+354,Riga,True,False,fish,3,4,4,PASS,SCA,,40
+355,Valmiera,True,False,cattle,3,4,4,PASS,SCA,,35
+356,Daugavpils,True,False,grain,2,3,3,PASS,SCA,,35
+357,Jelgava,True,False,cattle,2,3,3,PASS,KRL,,35
+358,Ventspils,True,False,fish,3,4,4,PASS,KRL,,35
+359,Liepaja,True,False,grain,4,5,5,PASS,KRL,,35
+360,Vilnius,True,False,grain,1,2,2,PASS,LIT,,40
+361,Kaunas,True,False,grain,2,3,3,PASS,LIT,,35
+362,Marijampole,True,False,grain,2,2,2,PASS,LIT,,35
+363,Panevezys,True,False,grain,2,3,3,PASS,LIT,,35
+364,Siauliai,True,False,cattle,3,3,3,PASS,LIT,,35
+365,Palanga,True,False,grain,4,4,4,PASS,LIT,,35
+366,Aarhus,True,False,grain,2,1,2,PASS,SCA,,35
+367,Aalborg,True,False,coal,2,0,2,PASS,SCA,,35
+368,Ribe,True,False,iron,0,2,2,PASS,SCA,,35
+369,Kiel,True,False,cattle,3,4,4,PASS,SCA,,40
+370,Flensburg,True,False,cattle,2,3,3,PASS,SCA,,35
+371,Abenra,True,False,cattle,1,2,2,PASS,SCA,,35
+372,Copenhagen,True,False,precious_goods,3,3,3,PASS,SCA,,40
+373,Odense,True,False,grain,2,2,2,PASS,SCA,,35
+374,Bornholm,True,False,fish,4,5,5,PASS,SCA,,35
+375,Amsterdam,True,False,cattle,4,2,4,PASS,BRG,,35
+376,Rotterdam,True,False,fish,4,2,4,PASS,BRG,,35
+377,Utrecht,True,False,grain,3,1,3,PASS,BRG,,35
+378,Middelburg,True,False,fish,3,2,3,PASS,BRG,,35
+379,Eindhoven,True,False,coal,2,0,2,PASS,BRG,,35
+380,Breda,True,False,cattle,3,1,3,PASS,BRG,,35
+381,Maastricht,True,False,coal,1,0,1,PASS,BRG,,35
+382,Arnhem,True,False,cattle,3,1,3,PASS,BRG,,35
+383,Groningen,True,False,grain,5,2,5,PASS,BRG,,35
+384,Zwolle,True,False,fish,4,1,4,PASS,BRG,,35
+385,Leeuwarden,True,False,cattle,5,2,5,PASS,BRG,,35
+386,Assen,True,False,wool,5,2,5,PASS,BRG,,35
+387,Brussels,True,False,sulphur,1,1,1,PASS,BRG,,35
+388,Bruges,True,False,grain,1,1,1,PASS,BRG,,35
+389,Ghent,True,False,wool,2,1,2,PASS,BRG,,35
+390,Antwerp,True,False,cattle,2,1,2,PASS,BRG,,40
+391,Hasselt,True,False,coal,1,0,1,PASS,BRG,,35
+392,Namur,True,False,iron,0,1,1,PASS,BRG,,35
+393,Tournai,True,False,coal,1,0,1,PASS,BRG,,35
+394,Charleroi,True,False,coal,1,0,1,PASS,BRG,,35
+395,Liege,True,False,iron,0,1,1,PASS,BRG,,35
+396,Spa,True,False,coal,1,0,1,PASS,BRG,,35
+397,Luxembourg,True,False,iron,0,1,1,PASS,BRG,,35
+398,Arlon,True,False,timber,1,1,1,PASS,BRG,,35
+399,Lille,True,False,iron,0,1,1,PASS,BRG,,31
+400,Dunkirk,True,False,fish,1,1,1,PASS,BRG,,31
+401,Arras,True,False,coal,1,0,1,PASS,BRG,,31
+402,Amiens,True,False,fish,2,1,2,PASS,DUA,,31
+403,Laon,True,False,grain,2,1,2,PASS,DUA,,31
+404,Cambrai,True,False,coal,1,0,1,PASS,BRG,,31
+405,Charleville,True,False,coal,1,0,1,PASS,BRG,,31
+406,Troyes,True,False,timber,1,2,2,PASS,DUA,,31
+407,Chaumont,True,False,iron,0,1,1,PASS,BRG,,31
+408,Chalons,True,False,fruit,1,1,1,PASS,DUA,,32
+409,Strasbourg,True,False,grain,2,1,2,PASS,BRG,,33
+410,Colmar,True,False,sulphur,2,1,2,PASS,BRG,,31
+411,Nancy,True,False,dye,1,2,2,PASS,BRG,,31
+412,Metz,True,False,cattle,1,1,1,PASS,BRG,,32
+413,Verdun,True,False,grain,1,1,1,PASS,BRG,,31
+414,Epinal,True,False,sulphur,1,1,1,PASS,BRG,,31
+415,Rouen,True,False,fish,3,2,3,PASS,DUA,,32
+416,Evreux,True,False,grain,2,2,2,PASS,DUA,,32
+417,Alencon,True,False,cotton,2,2,2,PASS,DUA,,31
+418,Caen,True,False,cattle,3,2,3,PASS,DUA,,31
+419,Channel Islands,True,False,fish,4,3,4,PASS,DUA,,35
+420,Brest,True,False,grain,4,3,4,PASS,DUA,,31
+421,St Brieuc,True,False,grain,4,3,4,PASS,DUA,,32
+422,Vannes,True,False,fish,3,2,3,PASS,DUA,,31
+423,Nantes,True,False,grain,2,1,2,PASS,DUA,,31
+424,Rennes,True,False,grain,3,2,3,PASS,DUA,,33
+425,Paris,True,False,grain,3,2,3,PASS,DUA,,35
+426,Chartres,True,False,grain,2,2,2,PASS,DUA,,32
+427,Melun,True,False,grain,2,2,2,PASS,DUA,,31
+428,Dijon,True,False,fruit,1,1,1,PASS,BRG,,33
+429,Auxerre,True,False,iron,0,1,1,PASS,BRG,,31
+430,Moulins,True,False,coal,1,0,1,PASS,BRG,,31
+431,Macon,True,False,coal,1,0,1,PASS,BRG,,31
+432,Besancon,True,False,coal,1,0,1,PASS,BRG,,33
+433,Lons,True,False,grain,1,1,1,PASS,BRG,,33
+434,Angers,True,False,coal,1,0,1,PASS,DUA,,31
+435,Laval,True,False,timber,2,1,2,PASS,DUA,,31
+436,Le Mans,True,False,grain,1,1,1,PASS,DUA,,31
+437,La Roche,True,False,grain,2,1,2,PASS,DUA,,32
+438,Orleans,True,False,timber,1,1,1,PASS,DUA,,32
+439,Bourges,True,False,timber,2,1,2,PASS,DUA,,32
+440,Blois,True,False,grain,1,2,2,PASS,DUA,,31
+441,Tours,True,False,iron,0,1,1,PASS,DUA,,31
+442,La Rochelle,True,False,fish,2,1,2,PASS,DUA,,31
+443,Poitiers,True,False,grain,1,1,1,PASS,DUA,,31
+444,Angouleme,True,False,cattle,2,2,2,PASS,DUA,,31
+445,Limoges,True,False,cattle,2,2,2,PASS,DUA,,31
+446,Chateauroux,True,False,grain,1,1,1,PASS,DUA,,32
+447,Tulle,True,False,fruit,2,1,2,PASS,DUA,,31
+448,Clermont-Ferrand,True,False,coal,2,0,2,PASS,DUA,,31
+449,Aurillac,True,False,cattle,2,1,2,PASS,DUA,,31
+450,Cahors,True,False,timber,3,2,3,PASS,DUA,,31
+451,Lyon,True,False,iron,0,1,1,PASS,DUA,,34
+452,St Etienne,True,False,coal,1,0,1,PASS,DUA,,32
+453,Valence,True,False,fruit,1,1,1,PASS,DUA,,31
+454,Grenoble,True,False,wool,2,2,2,PASS,DUA,,31
+455,Toulouse,True,False,grain,3,2,3,PASS,DUA,,31
+456,Montauban,True,False,tobacco,3,2,3,PASS,DUA,,31
+457,Foix,True,False,grain,2,1,2,PASS,DUA,,32
+458,Bordeaux,True,False,fruit,2,2,2,PASS,DUA,,31
+459,Mont de Marsan,True,False,grain,2,2,2,PASS,DUA,,31
+460,Pau,True,False,grain,1,1,1,PASS,DUA,,31
+461,Montpellier,True,False,cattle,3,3,3,PASS,DUA,,31
+462,Rodez,True,False,cattle,3,2,3,PASS,DUA,,31
+463,Carcassone,True,False,grain,3,2,3,PASS,DUA,,31
+464,Perpignan,True,False,grain,3,2,3,PASS,ARA,,31
+465,Annency,True,False,coal,1,0,1,PASS,SAR,,31
+466,Chambery,True,False,grain,1,1,1,PASS,SAR,,31
+467,Marseilles,True,False,fruit,3,3,3,PASS,PRV,,32
+468,Avignon,True,False,sulphur,2,2,2,PASS,PRV,,31
+469,Digne,True,False,silk,3,2,3,PASS,PRV,,31
+470,Toulon,True,False,silk,3,3,3,PASS,PRV,,32
+471,Frejus,True,False,silk,4,3,4,PASS,PRV,,31
+472,Nice,True,False,grain,3,2,3,PASS,GEN,,33
+473,Corsica,True,False,fish,-1,2,-1,ISLAND,ARA,,34
+474,La Coruna,True,False,fish,3,1,3,PASS,SPA,,35
+475,Oviedo,True,False,coal,2,0,2,PASS,SPA,,35
+476,Vigo,True,False,fish,3,1,3,PASS,SPA,,35
+477,Leon,True,False,coal,2,0,2,PASS,SPA,,35
+478,Santander,True,False,fish,1,1,1,PASS,SPA,,35
+479,Burgos,True,False,iron,0,2,2,PASS,SPA,,35
+480,Valladolid,True,False,cattle,1,1,1,PASS,SPA,,35
+481,Soria,True,False,grain,1,2,2,PASS,SPA,,35
+482,Salamanca,True,False,grain,1,1,1,PASS,SPA,,35
+483,Avila,True,False,grain,1,2,2,PASS,SPA,,35
+484,Badajoz,True,False,wool,1,2,2,PASS,SPA,,35
+485,Almendralejo,True,False,wool,1,2,2,PASS,SPA,,35
+486,Caceres,True,False,iron,0,2,2,PASS,SPA,,35
+487,Madrid,True,False,precious_goods,1,3,3,PASS,SPA,,40
+488,Siguenza,True,False,grain,1,3,3,PASS,SPA,,35
+489,Toledo,True,False,iron,0,3,3,PASS,SPA,,35
+490,Cuenca,True,False,grain,1,3,3,PASS,SPA,,35
+491,Ciudad Real,True,False,grain,1,2,2,PASS,SPA,,35
+492,BIlbao,True,False,iron,0,2,2,PASS,NAV,,35
+493,Pamplona,True,False,fruit,1,1,1,PASS,NAV,,35
+494,Logrono,True,False,iron,0,2,2,PASS,NAV,,35
+495,Zaragoza,True,False,grain,1,1,1,PASS,ARA,,35
+496,Huesca,True,False,coal,2,0,2,PASS,ARA,,35
+497,Teruel,True,False,iron,0,2,2,PASS,ARA,,35
+498,Barcelona,True,False,precious_goods,2,1,2,PASS,ARA,,40
+499,Gerona,True,False,fruit,3,1,3,PASS,ARA,,35
+500,Lerida,True,False,coal,2,0,2,PASS,ARA,,35
+501,Tarragona,True,False,grain,1,1,1,PASS,ARA,,35
+502,Balearic Islands,True,False,cattle,-1,-1,-1,ISLAND,ARA,,35
+503,Valencia,True,False,fruit,1,3,3,PASS,ARA,,35
+504,Castellon,True,False,fruit,1,2,2,PASS,ARA,,35
+505,Alicante,True,False,fruit,1,3,3,PASS,ARA,,35
+506,Cartagena,True,False,iron,0,3,3,PASS,SPA,,35
+507,Murcia,True,False,iron,0,3,3,PASS,SPA,,35
+508,Albacete,True,False,fruit,1,2,2,PASS,SPA,,35
+509,Seville,True,False,grain,2,1,2,PASS,SPA,,35
+510,Cordoba,True,False,grain,1,1,1,PASS,SPA,,35
+511,Huelva,True,False,grain,1,2,2,PASS,SPA,,35
+512,Cadiz,True,False,fish,2,1,2,PASS,SPA,,35
+513,Granada,True,False,iron,0,1,1,PASS,SPA,,35
+514,Malaga,True,False,coal,1,0,1,PASS,SPA,,35
+515,Almeria,True,False,iron,0,2,2,PASS,SPA,,35
+516,Jaen,True,False,grain,1,2,2,PASS,SPA,,35
+517,Gibraltar,True,False,fish,2,1,2,PASS,SPA,,35
+518,Oporto,True,False,fruit,2,2,2,PASS,SPA,,35
+519,Vila Real,True,False,fruit,2,1,2,PASS,SPA,,35
+520,Covilha,True,False,wool,1,2,2,PASS,SPA,,35
+521,Lisbon,True,False,grain,2,4,4,PASS,SPA,,35
+522,Coimbra,True,False,fruit,2,3,3,PASS,SPA,,35
+523,Abrantes,True,False,grain,2,3,3,PASS,SPA,,35
+524,Setubal,True,False,fish,1,4,4,PASS,SPA,,35
+525,Evora,True,False,grain,1,3,3,PASS,SPA,,35
+526,Beja,True,False,iron,0,3,3,PASS,SPA,,35
+527,Faro,True,False,fruit,1,3,3,PASS,SPA,,35
+528,Hamburg,True,False,fruit,4,3,4,PASS,SCA,,40
+529,Lauenburg,True,False,grain,4,3,4,PASS,SCA,,40
+530,Lubeck,True,False,fish,4,4,4,PASS,SCA,,40
+531,Stade,True,False,cattle,4,3,4,PASS,HAN,,40
+532,Luneburg,True,False,cattle,3,2,3,PASS,HAN,,40
+533,Heligoland,True,False,fish,4,5,5,PASS,SCA,,30
+534,Hanover,True,False,fruit,3,1,3,PASS,HAN,,40
+535,Nienburg,True,False,grain,3,2,3,PASS,HAN,,40
+536,Brunswick,True,False,fruit,2,1,2,PASS,BRA,,40
+537,Gottingen,True,False,grain,1,1,1,PASS,BRA,,40
+538,Osnabruck,True,False,grain,3,1,3,PASS,LIP,,40
+539,Bremen,True,False,fish,4,3,4,PASS,BRE,,40
+540,Oldenburg,True,False,fish,5,3,5,PASS,OLD,,40
+541,Cloppenburg,True,False,precious_metal,4,2,4,PASS,OLD,,40
+542,Lingen,True,False,cattle,4,1,4,PASS,FRI,,40
+543,Emden,True,False,fish,5,2,5,PASS,FRI,,40
+544,Schwerin,True,False,grain,4,3,4,PASS,SCA,,40
+545,Neustrelitz,True,False,grain,3,3,3,PASS,SCA,,40
+546,Stettin,True,False,fish,2,2,2,PASS,SCA,,40
+547,Swinemunde,True,False,fruit,3,3,3,PASS,SCA,,40
+548,Stralsund,True,False,fish,4,4,4,PASS,SCA,,40
+549,Berlin,True,False,fruit,2,2,2,PASS,BOH,,45
+550,Prenzlau,True,False,cattle,2,2,2,PASS,BOH,,40
+551,Pritzwalk,True,False,cattle,3,3,3,PASS,BOH,,40
+552,Cottbus,True,False,fruit,2,1,2,PASS,BOH,,40
+553,Magdeburg,True,False,cattle,1,2,2,PASS,BOH,,40
+554,Erfurt,True,False,iron,0,1,1,PASS,THU,,40
+555,Dessau,True,False,fruit,1,2,2,PASS,BOH,,40
+556,Halle,True,False,fruit,1,1,1,PASS,BOH,,40
+557,Stendal,True,False,grain,2,2,2,PASS,BOH,,40
+558,Dresden,True,False,coal,1,0,1,PASS,BOH,,40
+559,Leipzig,True,False,coal,1,0,1,PASS,BOH,,40
+560,Chemnitz,True,False,iron,0,1,1,PASS,BOH,,40
+561,Weimar,True,False,sulphur,1,1,1,PASS,THU,,40
+562,Gotha,True,False,iron,0,1,1,PASS,THU,,40
+563,Meiningen,True,False,iron,0,2,2,PASS,THU,,40
+564,Frankfurt,True,False,fruit,2,2,2,PASS,FRM,,40
+565,Wiesbaden,True,False,fruit,1,2,2,PASS,NAS,,40
+566,Kassel,True,False,coal,1,0,1,PASS,HEK,,40
+567,Giessen,True,False,cattle,2,1,2,PASS,HEK,,40
+568,Fulda,True,False,grain,1,1,1,PASS,HEK,,40
+569,Mannheim,True,False,grain,2,2,2,PASS,BAD,,40
+570,Mainz,True,False,sulphur,1,2,2,PASS,BRG,,40
+571,Kaiserlautern,True,False,fruit,1,1,1,PASS,BRG,,40
+572,Trier,True,False,iron,0,1,1,PASS,BRG,,40
+573,Saarbrucken,True,False,coal,1,0,1,PASS,BRG,,40
+574,Kreuznach,True,False,iron,0,1,1,PASS,BRG,,40
+575,Cologne,True,False,coal,1,0,1,PASS,BRG,,40
+576,Aachen,True,False,coal,1,0,1,PASS,BRG,,40
+577,Kleves,True,False,coal,2,0,2,PASS,BRG,,40
+578,Dusseldorf,True,False,coal,2,0,2,PASS,BEG,,40
+579,Koblenz,True,False,timber,1,2,2,PASS,BEG,,40
+580,Dortmund,True,False,coal,3,0,3,PASS,MNR,,40
+581,Munster,True,False,coal,3,0,3,PASS,MNR,,40
+582,Minden,True,False,cattle,2,1,2,PASS,LIP,,40
+583,Siegen,True,False,cattle,2,1,2,PASS,NAS,,40
+584,Korbach,True,False,timber,2,1,2,PASS,NAS,,40
+585,Detmold,True,False,coal,3,0,3,PASS,LIP,,40
+586,Karlsruhe,True,False,fruit,2,2,2,PASS,BAD,,40
+587,Freiburg,True,False,fruit,1,2,2,PASS,BAD,,40
+588,Konstanz,True,False,timber,1,3,3,PASS,BAD,,40
+589,Stuttgart,True,False,fruit,3,2,3,PASS,WUR,,40
+590,Heilbronn,True,False,fruit,2,2,2,PASS,WUR,,40
+591,Tubingen,True,False,grain,2,3,3,PASS,WUR,,40
+592,Augsburg,True,False,cattle,2,1,2,PASS,BAV,,40
+593,Ulm,True,False,grain,2,2,2,PASS,WUR,,40
+594,Sigmaringen,True,False,grain,2,3,3,PASS,WUR,,40
+595,Nuremburg,True,False,grain,2,1,2,PASS,BAV,,40
+596,Aschaffenburg,True,False,grain,2,2,2,PASS,BAV,,40
+597,Wurzburg,True,False,fruit,1,2,2,PASS,BAV,,40
+598,Bayreuth,True,False,timber,1,1,1,PASS,BAV,,40
+599,Munich,True,False,coal,2,0,2,PASS,BAV,,40
+600,Landshut,True,False,cattle,2,1,2,PASS,BAV,,40
+601,Ingolstadt,True,False,grain,3,1,3,PASS,BAV,,40
+602,Regensburg,True,False,coal,2,0,2,PASS,BAV,,40
+603,Zurich,True,False,iron,0,2,2,PASS,SWI,,40
+604,Basel,True,False,fruit,1,1,1,PASS,SWI,,40
+605,Bern,True,False,iron,0,1,1,PASS,SWI,,40
+606,Lucern,True,False,timber,1,2,2,PASS,SWI,,40
+607,Geneva,True,False,grain,1,1,1,PASS,BRG,,33
+608,Neuchatel,True,False,coal,1,0,1,PASS,BRG,,32
+609,Sitten,True,False,coal,1,0,1,PASS,SAR,,31
+610,Ponape,True,False,fish,-1,-1,-1,ISLAND,,,10
+611,Chur,True,False,cattle,1,2,2,PASS,SWI,,40
+612,Innsbruck,True,False,timber,2,1,2,PASS,TIR,,40
+613,Salzburg,True,False,grain,1,1,1,PASS,BAV,,40
+614,Bregenz,True,False,timber,1,2,2,PASS,SWI,,40
+615,Lienz,True,False,timber,1,1,1,PASS,TIR,,40
+616,Graz,True,False,iron,0,1,1,PASS,AUS,,35
+617,Judenburg,True,False,iron,0,1,1,PASS,AUS,,35
+618,Klagenfurt,True,False,coal,1,0,1,PASS,AUS,,35
+619,Vienna,True,False,grain,2,1,2,PASS,AUS,,35
+620,Sankt Polten,True,False,coal,1,0,1,PASS,AUS,,35
+621,Krems,True,False,grain,2,1,2,PASS,AUS,,35
+622,Linz,True,False,sulphur,1,1,1,PASS,AUS,,35
+623,Sopron,True,False,fruit,2,2,2,PASS,HUN,,35
+624,Eisenstadt,True,False,grain,1,1,1,PASS,HUN,,35
+625,Prague,True,False,coal,1,0,1,PASS,BOH,,35
+626,Hradec Kralove,True,False,coal,1,0,1,PASS,BOH,,35
+627,Karlsbad,True,False,iron,0,1,1,PASS,BOH,,35
+628,Aussig,True,False,coal,1,0,1,PASS,BOH,,35
+629,Plzen,True,False,coal,1,0,1,PASS,BOH,,35
+630,Budejovice,True,False,coal,2,0,2,PASS,BOH,,35
+631,Brno,True,False,coal,1,0,1,PASS,BOH,,35
+632,Olomouc,True,False,coal,1,0,1,PASS,BOH,,35
+633,Bratislava,True,False,cattle,1,1,1,PASS,HUN,,35
+634,Trencin,True,False,iron,0,1,1,PASS,HUN,,35
+635,Nitra,True,False,precious_metal,1,1,1,PASS,HUN,,35
+636,Banska Bystrica,True,False,iron,0,1,1,PASS,HUN,,35
+637,Kosice,True,False,coal,1,0,1,PASS,HUN,,35
+638,Roznava,True,False,coal,1,0,1,PASS,HUN,,35
+639,Zalaegerszeg,True,False,cattle,2,2,2,PASS,HUN,,35
+640,Pecs,True,False,cattle,1,1,1,PASS,HUN,,35
+641,Budapest,True,False,cattle,1,2,2,PASS,HUN,,40
+642,Gyor,True,False,cattle,2,2,2,PASS,HUN,,35
+643,Szekesfehevar,True,False,grain,1,3,3,PASS,HUN,,35
+644,Kaposvar,True,False,cattle,1,2,2,PASS,HUN,,35
+645,Kecskemet,True,False,iron,0,2,2,PASS,HUN,,35
+646,Miskolc,True,False,fruit,2,1,2,PASS,HUN,,35
+647,Oradea,True,False,wool,2,2,2,PASS,HUN,,35
+648,Debrecen,True,False,fruit,2,1,2,PASS,HUN,,35
+649,Szeged,True,False,fruit,1,2,2,PASS,HUN,,35
+650,Bekescsaba,True,False,fruit,1,2,2,PASS,HUN,,35
+651,Szatmar,True,False,fruit,2,1,2,PASS,HUN,,35
+652,Temesvar,True,False,grain,2,2,2,PASS,HUN,,35
+653,Resicabanya,True,False,grain,2,2,2,PASS,HUN,,35
+654,Cluj,True,False,grain,1,2,2,PASS,HUN,,35
+655,Gyulafehervar,True,False,grain,1,3,3,PASS,HUN,,35
+656,Deva,True,False,grain,2,2,2,PASS,HUN,,35
+657,Nagyszeben,True,False,cattle,1,2,2,PASS,HUN,,35
+658,Hawaii,True,False,fish,-1,-1,-1,ISLAND,HAW,,35
+659,Brasso,True,False,wool,1,2,2,PASS,HUN,,35
+660,Udvarhely,True,False,wool,1,1,1,PASS,HUN,,35
+661,Beszterce,True,False,grain,1,1,1,PASS,HUN,,35
+662,Cernauti,True,False,precious_metal,1,2,2,PASS,MOL,,35
+663,Suceava,True,False,cattle,2,2,2,PASS,MOL,,35
+664,Bucharest,True,False,grain,1,1,1,PASS,WAL,,35
+665,Tirgu Jiu,True,False,grain,1,1,1,PASS,WAL,,35
+666,Craiova,True,False,coal,1,0,1,PASS,WAL,,35
+667,Tirgoviste,True,False,iron,0,1,1,PASS,WAL,,35
+668,Braila,True,False,coal,1,0,1,PASS,WAL,,35
+669,Calarasi,True,False,coal,2,0,2,PASS,WAL,,35
+670,Iasi,True,False,fruit,3,2,3,PASS,MOL,,35
+671,Botosani,True,False,fruit,2,2,2,PASS,MOL,,35
+672,Bacau,True,False,grain,2,1,2,PASS,MOL,,35
+673,Galati,True,False,grain,2,1,2,PASS,MOL,,35
+674,Constanta,True,False,grain,3,1,3,PASS,TUR,,35
+675,Tulcea,True,False,coal,2,0,2,PASS,TUR,,35
+676,Chisinau,True,False,fruit,2,2,2,PASS,MOL,,35
+677,Balti,True,False,fruit,2,2,2,PASS,MOL,,35
+678,Izmail,True,False,fish,3,1,3,PASS,MOL,,35
+679,Kolberg,True,False,grain,2,2,2,PASS,SCA,,40
+680,Koslin,True,False,grain,3,3,3,PASS,SCA,,40
+681,Kustrin,True,False,grain,1,1,1,PASS,BOH,,40
+682,Breslau,True,False,grain,1,1,1,PASS,BOH,,40
+683,Liegnitz,True,False,iron,0,1,1,PASS,BOH,,40
+684,Oppeln,True,False,coal,1,0,1,PASS,BOH,,40
+685,Kattowitz,True,False,coal,2,0,2,PASS,BOH,,40
+686,Line Islands,True,False,opium,3,1,3,PASS,AFS,,15
+687,Gorlitz,True,False,coal,1,0,1,PASS,BOH,,40
+688,Troppau,True,False,coal,1,0,1,PASS,BOH,,35
+689,Tesin,True,False,coal,1,0,1,PASS,BOH,,35
+690,Danzig,True,False,fish,3,4,4,PASS,PLC,,40
+691,Tuchel,True,False,cattle,3,3,3,PASS,PLC,,40
+692,Deutsch Krone,True,False,grain,2,2,2,PASS,PLC,,40
+693,Elbing,True,False,cattle,2,3,3,PASS,PRU,,40
+694,Torun,True,False,grain,2,2,2,PASS,PLC,,40
+695,Konigsburg,True,False,cattle,2,4,4,PASS,PRU,,40
+696,Allenstein,True,False,cattle,1,3,3,PASS,PRU,,40
+697,Gumbinnen,True,False,grain,2,3,3,PASS,PRU,,40
+698,Memel,True,False,fish,3,4,4,PASS,LIT,,40
+699,Posen,True,False,grain,2,2,2,PASS,PLC,,40
+700,Bromberg,True,False,grain,3,2,3,PASS,PLC,,40
+701,Gniezno,True,False,grain,2,1,2,PASS,PLC,,40
+702,Lvov,True,False,coal,1,0,1,PASS,PLC,,35
+703,Krakow,True,False,coal,2,0,2,PASS,PLC,,40
+704,Novy Sacz,True,False,grain,1,1,1,PASS,PLC,,35
+705,Przemysl,True,False,coal,2,0,2,PASS,PLC,,35
+706,Warsaw,True,False,cattle,1,1,1,PASS,PLC,,40
+707,Suwalki,True,False,grain,1,2,2,PASS,LIT,,35
+708,Plock,True,False,fruit,1,2,2,PASS,PLC,,35
+709,Lomza,True,False,iron,0,2,2,PASS,PLC,,35
+710,Skierniewicz,True,False,fruit,2,1,2,PASS,PLC,,35
+711,Siedlice,True,False,cattle,1,1,1,PASS,PLC,,35
+712,Lodz,True,False,cattle,3,1,3,PASS,PLC,,35
+713,Radom,True,False,coal,2,0,2,PASS,PLC,,35
+714,Tarnow,True,False,grain,2,1,2,PASS,PLC,,35
+715,Lublin,True,False,sulphur,2,1,2,PASS,PLC,,35
+716,Kielce,True,False,coal,3,0,3,PASS,PLC,,35
+717,Kalisz,True,False,grain,2,1,2,PASS,PLC,,35
+718,Minsk,True,False,timber,1,1,1,PASS,BLR,,40
+719,Bialystock,True,False,grain,1,2,2,PASS,PLC,,35
+720,Turin,True,False,fruit,2,1,2,PASS,SAR,,40
+721,Aosta,True,False,silk,2,1,2,PASS,SAR,,35
+722,Novara,True,False,silk,1,1,1,PASS,SAR,,35
+723,Alessandria,True,False,fruit,1,2,2,PASS,SAR,,35
+724,Genoa,True,False,fruit,1,3,3,PASS,GEN,,40
+725,Savona,True,False,fish,2,2,2,PASS,GEN,,35
+726,Milan,True,False,iron,0,2,2,PASS,LOM,,45
+727,Bergamo,True,False,cattle,1,3,3,PASS,LOM,,35
+728,Brescia,True,False,silk,1,3,3,PASS,LOM,,35
+729,Venice,True,False,fish,2,3,3,PASS,VEN,,40
+730,Verona,True,False,cattle,1,2,2,PASS,VEN,,35
+731,Padua,True,False,fruit,2,3,3,PASS,VEN,,40
+732,Treviso,True,False,timber,1,2,2,PASS,VEN,,35
+733,Udine,True,False,fish,1,2,2,PASS,VEN,,35
+734,Trent,True,False,grain,1,2,2,PASS,VEN,,35
+735,Bozen,True,False,grain,1,2,2,PASS,TIR,,40
+736,Trieste,True,False,grain,2,2,2,PASS,VEN,,40
+737,Gorizia,True,False,grain,1,1,1,PASS,VEN,,35
+738,Parma,True,False,iron,0,3,3,PASS,PAR,,35
+739,Modena,True,False,iron,0,3,3,PASS,MOD,,35
+740,Massa,True,False,timber,1,4,4,PASS,MOD,,35
+741,Bologna,True,False,timber,1,2,2,PASS,FRR,,35
+742,Ferrara,True,False,grain,1,2,2,PASS,FRR,,35
+743,Ravenna,True,False,wool,1,1,1,PASS,FRR,,35
+744,Florence,True,False,fruit,1,2,2,PASS,TUS,,40
+745,Leghorn,True,False,fish,2,3,3,PASS,TUS,,35
+746,Lucca,True,False,grain,1,3,3,PASS,LUC,,35
+747,Siena,True,False,grain,1,2,2,PASS,TUS,,35
+748,Grosetto,True,False,cattle,1,2,2,PASS,TUS,,35
+749,Rome,True,False,precious_goods,1,1,1,PASS,PAP,,45
+750,Viterbo,True,False,fruit,1,2,2,PASS,PAP,,35
+751,Perugia,True,False,iron,0,1,1,PASS,PAP,,35
+752,Ancona,True,False,coal,1,0,1,PASS,PAP,,35
+753,Aquila,True,False,coal,1,0,1,PASS,ARA,,35
+754,Naples,True,False,fish,2,1,2,PASS,ARA,,40
+755,Salerno,True,False,fruit,2,1,2,PASS,ARA,,35
+756,Bari,True,False,grain,3,2,3,PASS,ARA,,40
+757,Foggia,True,False,fish,2,1,2,PASS,ARA,,35
+758,Brindisi,True,False,fish,3,2,3,PASS,ARA,,40
+759,Reggio di Calabria,True,False,fish,2,1,2,PASS,ARA,,35
+760,Catanzaro,True,False,coal,3,0,3,PASS,ARA,,35
+761,Potenza,True,False,fruit,2,1,2,PASS,ARA,,35
+762,Palermo,True,False,iron,0,3,3,PASS,ARA,,35
+763,Messina,True,False,sulphur,1,2,2,PASS,ARA,,40
+764,Catania,True,False,sulphur,1,3,3,PASS,ARA,,40
+765,Cagliari,True,False,coal,-1,0,-1,ISLAND,ARA,,35
+766,Sassari,True,False,grain,-1,1,-1,ISLAND,ARA,,35
+767,Maribor,True,False,timber,1,1,1,PASS,AUS,,35
+768,Ljubljana,True,False,cotton,2,1,2,PASS,AUS,,35
+769,Postojna,True,False,grain,2,1,2,PASS,VEN,,35
+770,Pola,True,False,grain,2,2,2,PASS,VEN,,35
+771,Zagreb,True,False,timber,2,2,2,PASS,CRO,,35
+772,Sisak,True,False,cattle,2,2,2,PASS,CRO,,35
+773,Karlovac,True,False,fruit,1,2,2,PASS,CRO,,35
+774,Senj,True,False,iron,0,3,3,PASS,VEN,,35
+775,Varadzin,True,False,wool,2,2,2,PASS,CRO,,35
+776,Bjelovar,True,False,grain,2,1,2,PASS,CRO,,35
+777,Pozega,True,False,fruit,3,1,3,PASS,CRO,,35
+778,Fiume,True,False,fruit,1,2,2,PASS,VEN,,35
+779,Osijek,True,False,coal,2,0,2,PASS,HUN,,35
+780,Split,True,False,fish,1,2,2,PASS,VEN,,35
+781,Zadar,True,False,fish,1,3,3,PASS,VEN,,35
+782,Dubrovnik,True,False,fish,2,2,2,PASS,VEN,,35
+783,Sarajevo,True,False,fruit,2,1,2,PASS,CRO,,35
+784,Bihac,True,False,grain,1,3,3,PASS,CRO,,35
+785,Banja Luka,True,False,fruit,2,2,2,PASS,CRO,,35
+786,Tuzla,True,False,grain,2,1,2,PASS,CRO,,35
+787,Foca,True,False,coal,1,0,1,PASS,CRO,,35
+788,Mostar,True,False,grain,2,1,2,PASS,CRO,,35
+789,Livno,True,False,grain,2,2,2,PASS,CRO,,35
+790,Kitwe,True,False,tobacco,4,2,4,PASS,,,15
+791,Mitrovica,True,False,coal,2,0,2,PASS,HUN,,35
+792,Pancevo,True,False,grain,2,1,2,PASS,HUN,,35
+793,Vukovar,True,False,cattle,2,1,2,PASS,HUN,,35
+794,Belgrade,True,False,grain,2,1,2,PASS,TUR,,35
+795,Bor,True,False,grain,2,1,2,PASS,TUR,,35
+796,Kragujevac,True,False,coal,1,0,1,PASS,TUR,,35
+797,Uzice,True,False,grain,1,1,1,PASS,TUR,,35
+798,Nis,True,False,timber,1,1,1,PASS,TUR,,35
+799,Leskovac,True,False,timber,1,2,2,PASS,TUR,,35
+800,Ulcinj,True,False,grain,1,2,2,PASS,MON,,35
+801,Tahiti,True,False,fish,-1,-1,-1,ISLAND,FRA,,15
+802,Pristina,True,False,timber,1,2,2,PASS,TUR,,35
+803,Prizren,True,False,timber,1,2,2,PASS,TUR,,35
+804,Novi Pazar,True,False,iron,0,1,1,PASS,TUR,,35
+805,Salonika,True,False,cattle,2,2,2,PASS,MAC,,35
+806,Skopje,True,False,timber,1,2,2,PASS,MAC,,35
+807,Bitola,True,False,timber,2,1,2,PASS,MAC,,35
+808,Petrich,True,False,wool,1,3,3,PASS,MAC,,35
+809,Sofia,True,False,iron,0,2,2,PASS,TUR,,35
+810,Vidin,True,False,grain,1,1,1,PASS,TUR,,35
+811,Ruse,True,False,grain,2,2,2,PASS,TUR,,35
+812,Pleven,True,False,grain,1,2,2,PASS,TUR,,35
+813,Shumen,True,False,grain,1,2,2,PASS,TUR,,35
+814,Varna,True,False,cotton,2,2,2,PASS,TUR,,35
+815,Plovdiv,True,False,tobacco,1,3,3,PASS,TUR,,35
+816,Stara Zagora,True,False,iron,0,3,3,PASS,TUR,,35
+817,Burgas,True,False,grain,1,3,3,PASS,TUR,,35
+818,Silistre,True,False,grain,2,1,2,PASS,TUR,,35
+819,Florina,True,False,coal,3,0,3,PASS,MAC,,35
+820,Grevena,True,False,grain,2,1,2,PASS,MAC,,35
+821,Edessa,True,False,silk,2,1,2,PASS,MAC,,35
+822,Polygyros,True,False,tobacco,3,3,3,PASS,MAC,,35
+823,Kavala,True,False,tobacco,2,3,3,PASS,TUR,,35
+824,Janina,True,False,wool,2,1,2,PASS,ALB,,35
+825,Arta,True,False,wool,1,2,2,PASS,VEN,,35
+826,Corfu,True,False,fish,3,2,3,PASS,VEN,,30
+827,Zante,True,False,fish,2,2,2,PASS,VEN,,35
+828,Edirne,True,False,tobacco,1,4,4,PASS,TUR,,35
+829,Xanthe,True,False,grain,2,4,4,PASS,TUR,,35
+830,Dedeagatch,True,False,grain,1,4,4,PASS,TUR,,35
+831,Larisa,True,False,fruit,1,2,2,PASS,VEN,,35
+832,Volos,True,False,grain,1,2,2,PASS,VEN,,35
+833,Trikkala,True,False,grain,1,2,2,PASS,VEN,,35
+834,Athens,True,False,fruit,2,1,2,PASS,VEN,,35
+835,Amfissa,True,False,coal,1,0,1,PASS,VEN,,35
+836,Lamia,True,False,iron,0,1,1,PASS,VEN,,35
+837,Missolonghi,True,False,precious_metal,1,1,1,PASS,VEN,,35
+838,Khalkis,True,False,grain,3,2,3,PASS,VEN,,35
+839,Nafplion,True,False,sulphur,4,3,4,PASS,VEN,,35
+840,Corinth,True,False,silk,3,2,3,PASS,VEN,,35
+841,Kalamata,True,False,timber,5,4,5,PASS,VEN,,35
+842,Patras,True,False,fruit,4,3,4,PASS,VEN,,35
+843,Chios,True,False,fish,2,2,2,PASS,TUR,,32
+844,Myteline,True,False,grain,3,4,4,PASS,TUR,,35
+845,Cyclades,True,False,fish,4,3,4,PASS,VEN,,30
+846,Dodecanese,True,False,grain,3,1,3,PASS,TUR,,35
+847,Chania,True,False,fruit,-1,-1,-1,ISLAND,VEN,,35
+848,Iraklion,True,False,fruit,-1,-1,-1,ISLAND,VEN,,35
+849,Tirana,True,False,grain,2,2,2,PASS,ALB,,35
+850,Shkoder,True,False,grain,1,2,2,PASS,ALB,,35
+851,Durres,True,False,cattle,2,3,3,PASS,ALB,,35
+852,Vlore,True,False,cattle,3,2,3,PASS,ALB,,35
+853,Gjirokaster,True,False,cattle,3,1,3,PASS,ALB,,35
+854,Malta,True,False,fish,-1,-1,-1,ISLAND,ARA,,32
+855,Nicosia,True,False,fruit,-1,1,-1,ISLAND,VEN,,35
+856,Limassol,True,False,coal,-1,0,-1,ISLAND,VEN,,35
+857,Famagusta,True,False,fruit,-1,2,-1,ISLAND,VEN,,35
+858,Kirklareli,True,False,tobacco,2,4,4,PASS,TUR,,35
+859,Gallipoli,True,False,tobacco,2,4,4,PASS,TUR,,35
+860,Istanbul,True,False,precious_goods,3,3,3,PASS,TUR,,40
+861,Uskudar,True,False,grain,2,2,2,PASS,TUR,,35
+862,Izmit,True,False,fruit,1,1,1,PASS,TUR,,35
+863,Bursa,True,False,iron,0,1,1,PASS,TUR,,35
+864,Balikesir,True,False,grain,1,2,2,PASS,TUR,,35
+865,Canakkale,True,False,fish,2,3,3,PASS,TUR,,35
+866,Afyon,True,False,opium,2,1,2,PASS,TUR,,35
+867,Kutahya,True,False,grain,1,2,2,PASS,TUR,,35
+868,Eskishehir,True,False,wool,1,1,1,PASS,TUR,,35
+869,Izmir,True,False,sulphur,1,1,1,PASS,TUR,,35
+870,Manisa,True,False,iron,0,2,2,PASS,TUR,,35
+871,Denizli,True,False,grain,1,1,1,PASS,TUR,,35
+872,Mugla,True,False,coal,2,0,2,PASS,TUR,,35
+873,Konya,True,False,coal,2,0,2,PASS,TUR,,35
+874,Burdur,True,False,grain,2,1,2,PASS,TUR,,35
+875,Antalya,True,False,fish,3,1,3,PASS,TUR,,35
+876,Ankara,True,False,fruit,2,1,2,PASS,TUR,,35
+877,Amasya,True,False,coal,2,0,2,PASS,TUR,,35
+878,Kayseri,True,False,wool,2,1,2,PASS,TUR,,35
+879,Sivas,True,False,wool,1,1,1,PASS,TUR,,35
+880,Kastamonu,True,False,coal,2,0,2,PASS,TUR,,35
+881,Bolu,True,False,coal,1,0,1,PASS,TUR,,35
+882,Trabzon,True,False,cattle,1,3,3,PASS,TUR,,35
+883,Sinop,True,False,fish,2,1,2,PASS,TUR,,35
+884,Giresun,True,False,fruit,1,2,2,PASS,TUR,,35
+885,Kars,True,False,iron,0,2,2,PASS,AZB,,35
+886,Ardahan,True,False,wool,1,2,2,PASS,AZB,,35
+887,Erzurum,True,False,cattle,1,3,3,PASS,TUR,,35
+888,Erzincan,True,False,iron,0,2,2,PASS,TUR,,35
+889,Malatya,True,False,iron,0,2,2,PASS,TUR,,35
+890,Van,True,False,iron,0,2,2,PASS,TUR,,35
+891,Bitlis,True,False,grain,1,3,3,PASS,TUR,,35
+892,Hakkari,True,False,fruit,1,3,3,PASS,TUR,,35
+893,Diyarbakir,True,False,iron,0,3,3,PASS,TUR,,35
+894,Adana,True,False,wool,2,2,2,PASS,TUR,,35
+895,Mersin,True,False,fish,3,1,3,PASS,TUR,,35
+896,Marash,True,False,wool,1,2,2,PASS,TUR,,35
+897,Aleppo,True,False,grain,2,4,4,PASS,TUR,,35
+898,Antep,True,False,wool,2,3,3,PASS,TUR,,35
+899,Urfa,True,False,grain,1,3,3,PASS,TUR,,35
+900,Antioch,True,False,fruit,2,3,3,PASS,TUR,,35
+901,Dayr al-Zour,True,False,grain,1,4,4,PASS,TUR,,20
+902,Damascus,True,False,grain,2,6,6,PASS,TUR,,35
+903,Homs,True,False,grain,1,5,5,PASS,TUR,,35
+904,Hama,True,False,grain,2,5,5,PASS,TUR,,35
+905,Latakia,True,False,tobacco,1,4,4,PASS,TUR,,35
+906,Suwayda,True,False,grain,3,6,6,PASS,TUR,,10
+907,Palmyra,True,False,grain,2,5,5,PASS,TUR,,10
+908,Amman,True,False,grain,4,5,5,PASS,TUR,,35
+909,Jerash,True,False,grain,3,6,6,PASS,TUR,,31
+910,Ruwayshid,True,False,grain,4,5,5,PASS,TUR,,10
+911,Maan,True,False,cattle,3,5,5,PASS,TUR,,10
+912,Baalbeck,True,False,timber,1,6,6,PASS,TUR,,35
+913,Beirut,True,False,silk,1,6,6,PASS,TUR,,35
+914,Askaleh,True,False,iron,0,5,5,PASS,TUR,,35
+915,Sidon,True,False,fruit,2,7,7,WARN,TUR,,35
+916,Acre,True,False,fruit,3,6,6,PASS,TUR,,35
+917,Jerusalem,True,False,grain,5,5,5,PASS,TUR,,35
+918,Nablus,True,False,fruit,4,6,6,PASS,TUR,,35
+919,Jaffa,True,False,fruit,4,5,5,PASS,TUR,,35
+920,Gaza,True,False,grain,4,4,4,PASS,TUR,,35
+921,Beersheba,True,False,grain,5,4,5,PASS,TUR,,10
+922,Aqaba,True,False,wool,4,5,5,PASS,TUR,,20
+923,Mosul,True,False,sulphur,2,4,4,PASS,IRQ,,35
+924,Arbil,True,False,wool,2,3,3,PASS,IRQ,,35
+925,Kirkuk,True,False,grain,2,3,3,PASS,IRQ,,35
+926,Baghdad,True,False,grain,3,5,5,PASS,IRQ,,35
+927,Samarra,True,False,grain,2,4,4,PASS,IRQ,,35
+928,Mendeli,True,False,grain,3,4,4,PASS,IRQ,,35
+929,Karbala,True,False,grain,3,5,5,PASS,IRQ,,35
+930,Kut,True,False,grain,3,5,5,PASS,IRQ,,35
+931,Rutbah,True,False,sulphur,2,5,5,PASS,IRQ,,10
+932,Basra,True,False,fruit,3,5,5,PASS,IRQ,,35
+933,Nasiriyya,True,False,fruit,3,5,5,PASS,IRQ,,35
+934,Najaf,True,False,fruit,3,6,6,PASS,IRQ,,35
+935,Kuwait,True,False,fruit,3,6,6,PASS,ALH,,35
+936,Grodno,True,False,grain,1,1,1,PASS,LIT,,35
+937,Brest-Litovsk,True,False,grain,2,1,2,PASS,PLC,,35
+938,Lida,True,False,iron,0,1,1,PASS,LIT,,35
+939,Baranovichi,True,False,coal,1,0,1,PASS,LIT,,35
+940,Pinsk,True,False,grain,2,1,2,PASS,PLC,,35
+941,Slutsk,True,False,cattle,1,1,1,PASS,BLR,,15
+942,Mozyr,True,False,cattle,1,1,1,PASS,BLR,,15
+943,Smolensk,True,False,cattle,2,2,2,PASS,MUS,,35
+944,Orsha,True,False,grain,1,1,1,PASS,BLR,,35
+945,Vitebsk,True,False,grain,1,2,2,PASS,BLR,,35
+946,Polotsk,True,False,wool,1,2,2,PASS,BLR,,35
+947,Pastavy,True,False,grain,1,2,2,PASS,LIT,,35
+948,Mogilev,True,False,iron,0,1,1,PASS,BLR,,35
+949,Gomel,True,False,coal,1,0,1,PASS,BLR,,35
+950,Uzgorord,True,False,coal,2,0,2,PASS,HUN,,35
+951,Stryi,True,False,coal,2,0,2,PASS,PLC,,35
+952,Ternopil,True,False,iron,0,1,1,PASS,PLC,,35
+953,Stanislavov,True,False,grain,1,1,1,PASS,PLC,,35
+954,Vinnitsa,True,False,cattle,1,2,2,PASS,PLC,,35
+955,Proskorov,True,False,cattle,1,2,2,PASS,PLC,,35
+956,Rovne,True,False,grain,1,1,1,PASS,PLC,,35
+957,Kovel,True,False,grain,2,1,2,PASS,PLC,,35
+958,Kiev,True,False,grain,1,1,1,PASS,UKR,,40
+959,Korosten,True,False,grain,1,2,2,PASS,UKR,,15
+960,Zhitomir,True,False,iron,0,2,2,PASS,UKR,,35
+961,Cherkassy,True,False,cattle,1,1,1,PASS,UKR,,35
+962,Chernigov,True,False,grain,2,1,2,PASS,UKR,,35
+963,Poltava,True,False,coal,2,0,2,PASS,UKR,,35
+964,Simferopol,True,False,fish,1,2,2,PASS,CRI,,35
+965,Cherson,True,False,fish,2,1,2,PASS,CRI,,35
+966,Kerch,True,False,iron,0,3,3,PASS,CRI,,35
+967,Sevastopol,True,False,fish,1,3,3,PASS,CRI,,35
+968,Odessa,True,False,fish,2,1,2,PASS,CRI,,40
+969,Pervomaisk,True,False,cattle,1,1,1,PASS,CRI,,35
+970,Nikolaev,True,False,fish,3,1,3,PASS,CRI,,35
+971,Krivoy Rog,True,False,coal,2,0,2,PASS,CRI,,35
+972,Ekaterinoslav,True,False,coal,3,0,3,PASS,CRI,,35
+973,Melitopol,True,False,coal,3,0,3,PASS,CRI,,35
+974,Kramatorsk,True,False,coal,3,0,3,PASS,CRI,,35
+975,Yuzovka,True,False,coal,3,0,3,PASS,CRI,,35
+976,Mariopol,True,False,coal,4,0,4,PASS,CRI,,35
+977,Kursk,True,False,grain,2,1,2,PASS,MUS,,35
+978,Kharkov,True,False,coal,2,0,2,PASS,CRI,,35
+979,Rostov,True,False,coal,3,0,3,PASS,CRI,,40
+980,Luhansk,True,False,coal,2,0,2,PASS,CRI,,35
+981,Archangel,True,False,timber,2,3,3,PASS,NOV,,15
+982,Petsamo,True,False,iron,0,7,7,WARN,SCA,,10
+983,Kandalaksha,True,False,sulphur,1,6,6,PASS,NOV,,10
+984,Kostomushka,True,False,timber,1,5,5,PASS,NOV,,10
+985,Mezen,True,False,timber,3,2,3,PASS,NOV,,10
+986,Naryn Mar,True,False,timber,4,3,4,PASS,NOV,,10
+987,Ust Sysolsk,True,False,timber,3,2,3,PASS,NOV,,35
+988,Povyents,True,False,timber,2,5,5,PASS,NOV,,35
+989,Vologda,True,False,timber,1,3,3,PASS,NOV,,35
+990,Kotlas,True,False,timber,3,2,3,PASS,NOV,,35
+991,Uglich,True,False,timber,2,3,3,PASS,NOV,,35
+992,Belozersk,True,False,iron,0,3,3,PASS,NOV,,35
+993,Vyterga,True,False,timber,1,4,4,PASS,NOV,,35
+994,St Petersburg,True,False,grain,2,5,5,PASS,PSV,,40
+995,Petrozavorsk,True,False,grain,1,4,4,PASS,NOV,,35
+996,Luga,True,False,grain,3,5,5,PASS,PSV,,35
+997,Gdov,True,False,grain,3,4,4,PASS,PSV,,35
+998,Tver,True,False,timber,1,2,2,PASS,MUS,,35
+999,Rzhev,True,False,timber,2,3,3,PASS,MUS,,35
+1000,Staritsa,True,False,timber,2,3,3,PASS,MUS,,35
+1001,Yaroslavl,True,False,timber,1,2,2,PASS,MUS,,35
+1002,Manzhouli,True,False,cattle,2,1,2,PASS,MCK,,30
+1003,Novgorod,True,False,grain,2,4,4,PASS,NOV,,35
+1004,Tikhvin,True,False,grain,1,4,4,PASS,NOV,,35
+1005,Borovichi,True,False,grain,1,3,3,PASS,NOV,,35
+1006,Pskov,True,False,cattle,2,3,3,PASS,PSV,,35
+1007,Velikiye Luki,True,False,grain,2,3,3,PASS,MUS,,35
+1008,Moscow,True,False,timber,2,1,2,PASS,MUS,,40
+1009,Borodino,True,False,timber,2,2,2,PASS,MUS,,40
+1010,Kaluga,True,False,timber,2,1,2,PASS,MUS,,40
+1011,Tula,True,False,coal,1,0,1,PASS,MUS,,40
+1012,Ryazan,True,False,iron,0,1,1,PASS,MUS,,35
+1013,Vladimir,True,False,timber,1,1,1,PASS,MUS,,40
+1014,Vyazma,True,False,timber,3,2,3,PASS,MUS,,35
+1015,Peremyshl,True,False,timber,2,1,2,PASS,MUS,,35
+1016,Bryansk,True,False,cattle,2,1,2,PASS,MUS,,35
+1017,Orel,True,False,timber,1,1,1,PASS,MUS,,35
+1018,Belgorod,True,False,grain,2,1,2,PASS,MUS,,35
+1019,Voronets,True,False,grain,1,1,1,PASS,MUS,,35
+1020,Nizhni Novgorod,True,False,timber,2,2,2,PASS,MUS,,40
+1021,Penza,True,False,grain,2,3,3,PASS,MUS,,35
+1022,Ivanovo,True,False,timber,2,2,2,PASS,MUS,,35
+1023,Kostorma,True,False,timber,2,3,3,PASS,NOV,,35
+1024,Galich,True,False,timber,3,3,3,PASS,NOV,,35
+1025,Tambov,True,False,grain,1,2,2,PASS,MUS,,35
+1026,Perm,True,False,coal,1,0,1,PASS,NOV,,35
+1027,Vetluga,True,False,timber,3,3,3,PASS,NOV,,35
+1028,Vyatkha,True,False,grain,2,2,2,PASS,NOV,,35
+1029,Glasov,True,False,timber,2,1,2,PASS,NOV,,35
+1030,Kazan,True,False,grain,2,2,2,PASS,MUS,,40
+1031,Sarapol,True,False,timber,1,1,1,PASS,NOV,,35
+1032,Chistopol,True,False,timber,1,2,2,PASS,NOG,,35
+1033,Simbirsk,True,False,cattle,2,3,3,PASS,MUS,,35
+1034,Samara,True,False,grain,1,2,2,PASS,NOG,,40
+1035,Syzran,True,False,grain,2,3,3,PASS,NOG,,35
+1036,Astrakhan,True,False,wool,3,2,3,PASS,ASK,,35
+1037,Saratov,True,False,grain,2,2,2,PASS,NOG,,35
+1038,Novo Uzensk,True,False,grain,2,3,3,PASS,NOG,,35
+1039,Tsaritsyn,True,False,cattle,2,1,2,PASS,ASK,,35
+1040,Zarevka,True,False,wool,3,2,3,PASS,ASK,,35
+1041,Elitsa,True,False,wool,3,1,3,PASS,ASK,,35
+1042,Ufa,True,False,iron,0,1,1,PASS,NOG,,35
+1043,Busuluk,True,False,cattle,1,3,3,PASS,NOG,,35
+1044,Orenburg,True,False,iron,0,2,2,PASS,NOG,,35
+1045,Migolinskaya,True,False,cattle,2,1,2,PASS,ASK,,35
+1046,Chirskaya,True,False,coal,3,0,3,PASS,ASK,,35
+1047,Azov,True,False,cattle,3,1,3,PASS,ASK,,35
+1048,Ekaterinodar,True,False,cattle,2,2,2,PASS,ASK,,35
+1049,Novorossiysk,True,False,grain,1,3,3,PASS,CIR,,35
+1050,Stavropol,True,False,wool,2,1,2,PASS,ASK,,35
+1051,Adygei,True,False,grain,2,2,2,PASS,CIR,,35
+1052,Derbent,True,False,fruit,1,2,2,PASS,AZB,,35
+1053,Gunib,True,False,silk,1,3,3,PASS,AZB,,35
+1054,Vladikavkaz,True,False,wool,1,3,3,PASS,ASK,,35
+1055,Grozny,True,False,grain,1,2,2,PASS,ASK,,35
+1056,Pyatigorsk,True,False,grain,2,2,2,PASS,CIR,,35
+1057,Kizylyar,True,False,silk,2,2,2,PASS,ASK,,35
+1058,Ekaterinburg,True,False,precious_metal,1,1,1,PASS,SIB,,40
+1059,Chelyabinsk,True,False,iron,0,1,1,PASS,SIB,,35
+1060,Orsk,True,False,iron,0,2,2,PASS,NOG,,35
+1061,Tyumen,True,False,timber,1,2,2,PASS,SIB,,35
+1062,Berezov,True,False,iron,0,2,2,PASS,SIB,,15
+1063,Tomsk,True,False,precious_metal,2,1,2,PASS,CHG,,35
+1064,Omsk,True,False,sulphur,1,1,1,PASS,SIB,,40
+1065,Surgut,True,False,timber,2,1,2,PASS,,,15
+1066,Tobolsk,True,False,timber,1,1,1,PASS,SIB,,35
+1067,Kemerevo,True,False,coal,2,0,2,PASS,CHG,,35
+1068,Ulala,True,False,coal,1,0,1,PASS,CHG,,35
+1069,Yakutsk,True,False,cattle,3,2,3,PASS,,,15
+1070,Tunginskoye,True,False,coal,1,0,1,PASS,,,15
+1071,Lazo,True,False,fish,2,5,5,PASS,ZND,,35
+1072,Okhotsk,True,False,grain,3,3,3,PASS,AIN,,30
+1073,Gizhiga,True,False,grain,2,4,4,PASS,AIN,,15
+1074,Petropavlovsk,True,False,coal,5,0,5,PASS,AIN,,15
+1075,Irkutsk,True,False,coal,2,0,2,PASS,CHG,,35
+1076,Chunskoye,True,False,coal,2,0,2,PASS,,,35
+1077,Krasnoyarsk,True,False,timber,2,1,2,PASS,CHG,,35
+1078,Chita,True,False,timber,2,1,2,PASS,CHG,,35
+1079,Nerchinsk,True,False,grain,3,1,3,PASS,CHG,,35
+1080,Bauntovskiy,True,False,cattle,4,1,4,PASS,AIN,,35
+1081,Yaksa,True,False,grain,3,1,3,PASS,AIN,,35
+1082,HaIshenwai,True,False,coal,2,0,2,PASS,MCK,,32
+1083,Boli,True,False,coal,2,0,2,PASS,MCK,,32
+1084,Utchan,True,False,coal,3,0,3,PASS,MCK,,32
+1085,Ulusamudan,True,False,grain,3,1,3,PASS,MCK,,32
+1086,Pogobi,True,False,fish,-1,1,-1,ISLAND,JAP,,15
+1087,Ootomari,True,False,coal,-1,0,-1,ISLAND,JAP,,15
+1088,Shumshu,True,False,coal,-1,0,-1,ISLAND,JAP,,15
+1089,Etorofu,True,False,fish,3,2,3,PASS,JAP,,15
+1090,Tblisi,True,False,wool,1,1,1,PASS,AZB,,35
+1091,Pasanauri,True,False,iron,0,2,2,PASS,AZB,,35
+1092,Kutaisi,True,False,fruit,1,3,3,PASS,AZB,,35
+1093,Akhaltsikhe,True,False,wool,1,2,2,PASS,AZB,,35
+1094,Poti,True,False,fish,2,4,4,PASS,AZB,,35
+1095,Sukhumi,True,False,grain,2,3,3,PASS,AZB,,35
+1096,Batum,True,False,fish,2,3,3,PASS,AZB,,35
+1097,New Caledonia,True,False,coffee,-1,-1,-1,ISLAND,FRA,,15
+1098,Erivan,True,False,iron,0,1,1,PASS,AZB,,35
+1099,Gyumri,True,False,wool,1,1,1,PASS,AZB,,35
+1100,Kapan,True,False,iron,0,2,2,PASS,AZB,,35
+1101,Nakhichevan,True,False,iron,0,2,2,PASS,AZB,,35
+1102,Baku,True,False,grain,2,2,2,PASS,AZB,,35
+1103,Siyazen,True,False,fruit,2,2,2,PASS,AZB,,35
+1104,Sheki,True,False,grain,1,1,1,PASS,AZB,,35
+1105,Ganja,True,False,coal,1,0,1,PASS,AZB,,35
+1106,Agdam,True,False,wool,1,1,1,PASS,AZB,,35
+1107,Lankaran,True,False,grain,2,2,2,PASS,AZB,,35
+1108,Tabriz,True,False,coal,2,0,2,PASS,AZB,,35
+1109,Khvoy,True,False,cotton,1,1,1,PASS,AZB,,35
+1110,Urumia,True,False,wool,1,2,2,PASS,AZB,,35
+1111,Mahabad,True,False,wool,2,1,2,PASS,AZB,,35
+1112,Ardabil,True,False,timber,1,1,1,PASS,AZB,,35
+1113,Rasht,True,False,timber,2,2,2,PASS,QAJ,,35
+1114,Noshehr,True,False,timber,3,2,3,PASS,QAJ,,35
+1115,Sari,True,False,wool,3,1,3,PASS,QAJ,,35
+1116,Gorgan,True,False,wool,3,1,3,PASS,AFS,,35
+1117,Kermanshah,True,False,wool,2,3,3,PASS,IRQ,,35
+1118,Sanandaj,True,False,wool,2,2,2,PASS,IRQ,,35
+1119,Ilam,True,False,cotton,2,4,4,PASS,IRQ,,35
+1120,Khoramabad,True,False,cotton,1,3,3,PASS,IRQ,,35
+1121,Tehran,True,False,cotton,2,1,2,PASS,QAJ,,40
+1122,Hamadan,True,False,fruit,1,2,2,PASS,IRQ,,35
+1123,Zanjan,True,False,cattle,2,1,2,PASS,AZB,,35
+1124,Qazvin,True,False,timber,2,2,2,PASS,QAJ,,35
+1125,Qom,True,False,grain,1,1,1,PASS,QAJ,,35
+1126,Semnan,True,False,coal,2,0,2,PASS,QAJ,,35
+1127,Isfahan,True,False,cattle,1,2,2,PASS,QAJ,,35
+1128,Arak,True,False,iron,0,2,2,PASS,QAJ,,35
+1129,Kashan,True,False,wool,1,1,1,PASS,QAJ,,35
+1130,Yazd,True,False,iron,0,2,2,PASS,QAJ,,35
+1131,Ahvaz,True,False,grain,2,4,4,PASS,IRQ,,35
+1132,Abadan,True,False,fish,2,4,4,PASS,IRQ,,35
+1133,Dezful,True,False,cotton,1,3,3,PASS,IRQ,,35
+1134,Dehkord,True,False,cotton,2,3,3,PASS,IRQ,,35
+1135,Shiraz,True,False,opium,1,4,4,PASS,ZND,,35
+1136,Bushire,True,False,fish,2,5,5,PASS,IRQ,,35
+1137,Yasuj,True,False,fruit,1,3,3,PASS,ZND,,35
+1138,Kangan,True,False,fish,2,5,5,PASS,ZND,,35
+1139,Sirjan,True,False,iron,0,3,3,PASS,ZND,,35
+1140,Kerman,True,False,cotton,1,2,2,PASS,ZND,,35
+1141,Lengeh,True,False,fish,1,4,4,PASS,ZND,,35
+1142,Bandar Abbas,True,False,fruit,1,4,4,PASS,ZND,,35
+1143,Bam,True,False,cotton,1,3,3,PASS,ZND,,35
+1144,Zahedan,True,False,grain,2,2,2,PASS,ZND,,35
+1145,Jask,True,False,fruit,2,3,3,PASS,ZND,,35
+1146,Chabahar,True,False,fish,3,3,3,PASS,ZND,,35
+1147,Mashhad,True,False,coal,2,0,2,PASS,AFS,,35
+1148,Birjand,True,False,cotton,1,1,1,PASS,QAJ,,35
+1149,Sabzevar,True,False,coal,2,0,2,PASS,QAJ,,35
+1150,Bojnurd,True,False,coal,3,0,3,PASS,AFS,,35
+1151,Mecca,True,False,grain,4,3,4,PASS,HDJ,,35
+1152,Jidda,True,False,grain,5,3,5,PASS,HDJ,,35
+1153,Medina,True,False,grain,5,4,5,PASS,HDJ,,35
+1154,Tabuk,True,False,wool,4,4,4,PASS,HDJ,,35
+1155,Abha,True,False,wool,4,2,4,PASS,HDJ,,35
+1156,Kaf,True,False,wool,4,5,5,PASS,NEJ,,10
+1157,Riyadh,True,False,wool,4,4,4,PASS,NEJ,,35
+1158,Rafha,True,False,wool,3,5,5,PASS,NEJ,,10
+1159,Halaban,True,False,wool,4,4,4,PASS,NEJ,,10
+1160,Hail,True,False,wool,4,5,5,PASS,NEJ,,35
+1161,Sharawrah,True,False,wool,4,5,5,PASS,NEJ,,10
+1162,Bahrain,True,False,fruit,5,6,6,PASS,ABU,,34
+1163,Qatif,True,False,fish,4,5,5,PASS,ALH,,35
+1164,Hufuf,True,False,grain,3,4,4,PASS,ALH,,35
+1165,Doha,True,False,fish,4,5,5,PASS,ABU,,34
+1166,Muscat,True,False,opium,3,5,5,PASS,OMA,,35
+1167,Abu Dhabi,True,False,fish,2,4,4,PASS,ABU,,31
+1168,Dubai,True,False,fruit,1,5,5,PASS,ABU,,31
+1169,Suhar,True,False,grain,2,5,5,PASS,OMA,,20
+1170,Nizwa,True,False,opium,2,4,4,PASS,OMA,,32
+1171,Sur,True,False,fruit,3,4,4,PASS,OMA,,35
+1172,Duqm,True,False,fish,3,3,3,PASS,OMA,,10
+1173,Mukalla,True,False,opium,5,2,5,PASS,YEM,,32
+1174,Salalah,True,False,opium,4,3,4,PASS,OMA,,20
+1175,Ghayda,True,False,opium,4,2,4,PASS,YEM,,10
+1176,Bayda,True,False,fish,5,1,5,PASS,YEM,,32
+1177,Socotra,True,False,fish,-1,-1,-1,ISLAND,SPA,,20
+1178,Sana,True,False,coffee,5,1,5,PASS,YEM,,35
+1179,Hodeida,True,False,grain,5,1,5,PASS,YEM,,35
+1180,Taizz,True,False,coal,6,0,6,PASS,YEM,,35
+1181,Qaraganda,True,False,coal,1,0,1,PASS,CHG,,35
+1182,Guryev,True,False,opium,2,2,2,PASS,NOG,,35
+1183,Aqtobe,True,False,wool,1,2,2,PASS,NOG,,35
+1184,Kokshetau,True,False,iron,0,1,1,PASS,CHG,,35
+1185,Yasi,True,False,wool,2,1,2,PASS,CHG,,30
+1186,Alma Ata,True,False,grain,2,2,2,PASS,CHG,,30
+1187,Semipalatinsk,True,False,timber,1,1,1,PASS,CHG,,35
+1188,Qaratal,True,False,grain,2,1,2,PASS,CHG,,35
+1189,Bishkek,True,False,wool,2,2,2,PASS,CHG,,35
+1190,Naryn,True,False,grain,1,3,3,PASS,CHG,,35
+1191,Khiva,True,False,wool,4,1,4,PASS,CHG,,35
+1192,Nukus,True,False,opium,3,2,3,PASS,NOG,,35
+1193,Kyzylorda,True,False,coal,3,0,3,PASS,CHG,,30
+1194,Aqtau,True,False,fish,3,2,3,PASS,NOG,,25
+1195,Tashkent,True,False,grain,3,2,3,PASS,CHG,,35
+1196,Dashhowuz,True,False,cattle,4,2,4,PASS,AFS,,35
+1197,Shymkent,True,False,grain,3,1,3,PASS,CHG,,35
+1198,Bukhara,True,False,wool,3,2,3,PASS,CHG,,35
+1199,Samarkand,True,False,grain,3,2,3,PASS,CHG,,35
+1200,Qarshi,True,False,wool,2,3,3,PASS,CHG,,35
+1201,Khojand,True,False,grain,2,3,3,PASS,CHG,,35
+1202,Kokand,True,False,grain,3,3,3,PASS,CHG,,35
+1203,Osh,True,False,grain,2,3,3,PASS,CHG,,35
+1204,Ashkabad,True,False,fruit,3,1,3,PASS,AFS,,35
+1205,Kizil Arvat,True,False,fish,4,2,4,PASS,AFS,,20
+1206,Merv,True,False,grain,3,2,3,PASS,AFS,,35
+1207,Kulob,True,False,grain,1,3,3,PASS,CHG,,35
+1208,Khorug,True,False,iron,0,4,4,PASS,CHG,,35
+1209,Kabul,True,False,timber,2,3,3,PASS,AFG,,35
+1210,Faizabad,True,False,wool,1,3,3,PASS,AFG,,35
+1211,Balkh,True,False,grain,2,2,2,PASS,AFG,,35
+1212,Herat,True,False,fruit,2,1,2,PASS,AFG,,35
+1213,Bamyan,True,False,grain,3,2,3,PASS,AFG,,35
+1214,Farrah,True,False,cotton,2,2,2,PASS,AFG,,35
+1215,Kandahar,True,False,wool,3,3,3,PASS,AFG,,35
+1216,Jalalabad,True,False,grain,2,4,4,PASS,AFG,,35
+1217,Ghazni,True,False,wool,3,3,3,PASS,AFG,,35
+1218,Peshawar,True,False,grain,3,4,4,PASS,AFG,,35
+1219,Quetta,True,False,wool,4,4,4,PASS,AFG,,35
+1220,Dalbandin,True,False,wool,3,3,3,PASS,SIN,,35
+1221,Kalat,True,False,wool,3,3,3,PASS,SIN,,32
+1222,Bela,True,False,fish,3,3,3,PASS,SIN,,35
+1223,Chitral,True,False,grain,2,4,4,PASS,KAS,,35
+1224,Srinagar,True,False,silk,3,5,5,PASS,KAS,,32
+1225,Gilgit,True,False,wool,2,4,4,PASS,KAS,,35
+1226,Leh,True,False,wool,2,4,4,PASS,KAS,,35
+1227,Lahore,True,False,wool,4,5,5,PASS,AFG,,32
+1228,Multan,True,False,cattle,4,4,4,PASS,SIN,,32
+1229,Sialkot,True,False,cotton,4,6,6,PASS,AFG,,32
+1230,Attock,True,False,wool,3,5,5,PASS,AFG,,32
+1231,Bahawalpur,True,False,cattle,4,5,5,PASS,SIN,,32
+1232,Shahpur,True,False,wool,4,5,5,PASS,AFG,,32
+1233,Amritsar,True,False,fruit,3,5,5,PASS,AFG,,32
+1234,Firuzapur,True,False,wool,3,5,5,PASS,AFG,,32
+1235,Simla,True,False,wool,2,4,4,PASS,MUG,,32
+1236,Delhi,True,False,fruit,2,5,5,PASS,MUG,,35
+1237,Panipat,True,False,cattle,2,5,5,PASS,MUG,,32
+1238,Dehra Dun,True,False,wool,1,4,4,PASS,MUG,,32
+1239,Meerut,True,False,grain,1,4,4,PASS,MUG,,32
+1240,Agra,True,False,dye,2,5,5,PASS,MUG,,32
+1241,Cawnpore,True,False,dye,2,4,4,PASS,MUG,,32
+1242,Lucknow,True,False,timber,1,4,4,PASS,MUG,,32
+1243,Allahabad,True,False,tobacco,2,3,3,PASS,MUG,,32
+1244,Fyzabad,True,False,timber,1,4,4,PASS,MUG,,32
+1245,Benares,True,False,opium,2,2,2,PASS,MUG,,32
+1246,Gorakhpur,True,False,fruit,1,3,3,PASS,MUG,,32
+1247,Patna,True,False,opium,1,2,2,PASS,MUG,,32
+1248,Gaya,True,False,cattle,2,1,2,PASS,MUG,,32
+1249,Kharswari,True,False,coal,1,0,1,PASS,MUG,,28
+1250,Bhagalpur,True,False,fish,2,1,2,PASS,MUG,,32
+1251,Calcutta,True,False,dye,1,1,1,PASS,BEN,,32
+1252,Darjeeling,True,False,wool,2,1,2,PASS,BEN,,32
+1253,Bardwan,True,False,coal,2,0,2,PASS,BEN,,32
+1254,Dacca,True,False,dye,3,2,3,PASS,BEN,,32
+1255,Rajshahi,True,False,grain,3,1,3,PASS,BEN,,32
+1256,Jessore,True,False,wool,2,1,2,PASS,BEN,,32
+1257,Chittagong,True,False,dye,4,3,4,PASS,BEN,,32
+1258,Gauhati,True,False,fish,3,2,3,PASS,BEN,,32
+1259,Imphal,True,False,cattle,4,3,4,PASS,BUR,,32
+1260,Dibrugarh,True,False,fruit,4,3,4,PASS,BUR,,32
+1261,Cuttack,True,False,grain,1,2,2,PASS,MUG,,32
+1262,Keunjahr,True,False,iron,0,1,1,PASS,MUG,,32
+1263,Sambalpur,True,False,grain,1,2,2,PASS,MUG,,32
+1264,Ajmer,True,False,precious_metal,3,6,6,PASS,MEW,,32
+1265,Jaisalmer,True,False,wool,4,5,5,PASS,JAS,,32
+1266,Jodhpur,True,False,fruit,3,5,5,PASS,JOD,,32
+1267,Bikaner,True,False,wool,3,6,6,PASS,BIK,,32
+1268,Jaipur,True,False,timber,3,5,5,PASS,JAI,,32
+1269,Udaipur,True,False,opium,2,5,5,PASS,MEW,,32
+1270,Gwalior,True,False,dye,2,4,4,PASS,MUG,,32
+1271,Indore,True,False,opium,1,5,5,PASS,MUG,,32
+1272,Bhopal,True,False,dye,2,4,4,PASS,MUG,,32
+1273,Chatarpur,True,False,dye,3,3,3,PASS,MUG,,32
+1274,Rewa,True,False,cattle,2,2,2,PASS,MUG,,32
+1275,Jubulpore,True,False,dye,2,3,3,PASS,MUG,,32
+1276,Hoshangabad,True,False,dye,1,4,4,PASS,MUG,,32
+1277,Nagpur,True,False,dye,2,3,3,PASS,NAG,,32
+1278,Amarati,True,False,cattle,1,4,4,PASS,VIJ,,32
+1279,Jagdalpur,True,False,grain,2,3,3,PASS,HYD,,32
+1280,Raipur,True,False,dye,2,2,2,PASS,NAG,,32
+1281,Bilaspur,True,False,grain,2,2,2,PASS,NAG,,32
+1282,Raigarh,True,False,grain,1,1,1,PASS,MUG,,32
+1283,Hyderabad,True,False,grain,3,4,4,PASS,HYD,,32
+1284,Aurangabad,True,False,cotton,1,4,4,PASS,VIJ,,32
+1285,Nizamabad,True,False,fruit,2,3,3,PASS,HYD,,32
+1286,Gulbarga,True,False,cotton,2,4,4,PASS,VIJ,,32
+1287,Warangal,True,False,cotton,2,3,3,PASS,HYD,,32
+1288,Karachi,True,False,fruit,4,4,4,PASS,SIN,,35
+1289,Sukkur,True,False,grain,4,4,4,PASS,SIN,,35
+1290,Umarkot,True,False,cattle,3,5,5,PASS,SIN,,32
+1291,Ahmedabad,True,False,tobacco,2,7,7,WARN,BER,,32
+1292,Rajkot,True,False,fish,3,6,6,PASS,BER,,32
+1293,Mandvi,True,False,cotton,3,5,5,PASS,BER,,32
+1294,Patan,True,False,cotton,2,6,6,PASS,BER,,32
+1295,Baroda,True,False,fish,1,6,6,PASS,BER,,32
+1296,Surat,True,False,grain,1,6,6,PASS,BER,,32
+1297,Bombay,True,False,tobacco,1,6,6,PASS,VIJ,,32
+1298,Nasik,True,False,iron,0,5,5,PASS,VIJ,,32
+1299,Poona,True,False,grain,1,5,5,PASS,VIJ,,32
+1300,Bijapur,True,False,fruit,2,5,5,PASS,VIJ,,32
+1301,Kolhapur,True,False,fish,2,6,6,PASS,VIJ,,32
+1302,Belgaum,True,False,fruit,3,5,5,PASS,VIJ,,32
+1303,Goa,True,False,fish,3,6,6,PASS,SPA,,32
+1304,Madras,True,False,cotton,3,3,3,PASS,MDR,,32
+1305,Vizagapatnam,True,False,tobacco,1,2,2,PASS,HYD,,32
+1306,Masulipatnam,True,False,grain,2,3,3,PASS,BRG,,32
+1307,Nellore,True,False,grain,3,4,4,PASS,VIJ,,32
+1308,Kurnool,True,False,cattle,3,4,4,PASS,VIJ,,32
+1309,Tanjore,True,False,dye,2,2,2,PASS,MDR,,32
+1310,Madurai,True,False,dye,1,2,2,PASS,MDR,,32
+1311,Coimbatore,True,False,cattle,2,3,3,PASS,MDR,,32
+1312,Pondicherry,True,False,precious_metal,4,4,4,PASS,ARA,,32
+1313,Bangalore,True,False,fruit,3,4,4,PASS,TRA,,32
+1314,Mysore,True,False,silk,3,4,4,PASS,TRA,,32
+1315,Chitaldroog,True,False,coffee,4,5,5,PASS,TRA,,32
+1316,Mangalore,True,False,fruit,3,5,5,PASS,TRA,,32
+1317,Calicut,True,False,fish,2,4,4,PASS,TRA,,32
+1318,Cochin,True,False,grain,1,3,3,PASS,TRA,,32
+1319,Trivandrum,True,False,iron,0,3,3,PASS,TRA,,32
+1320,Andaman Islands,True,False,grain,-1,-1,-1,ISLAND,SPA,,30
+1321,Colombo,True,False,fruit,3,1,3,PASS,DUA,,35
+1322,Jaffna,True,False,coffee,2,1,2,PASS,DUA,,33
+1323,Kandy,True,False,coffee,3,1,3,PASS,DUA,,33
+1324,Trincomalee,True,False,coal,3,0,3,PASS,DUA,,33
+1325,Maldives,True,False,fish,-1,-1,-1,ISLAND,SCA,,32
+1326,Katmandu,True,False,grain,1,2,2,PASS,NEP,,25
+1327,Jumla,True,False,iron,0,3,3,PASS,NEP,,25
+1328,Tumlong,True,False,wool,2,2,2,PASS,SIK,,32
+1329,Thimpu,True,False,wool,3,2,3,PASS,BHU,,25
+1330,Rangoon,True,False,grain,3,6,6,PASS,SPA,,35
+1331,Bassein,True,False,fish,3,5,5,PASS,SPA,,35
+1332,Pegu,True,False,grain,2,5,5,PASS,BUR,,35
+1333,Toungoo,True,False,opium,2,4,4,PASS,BUR,,35
+1334,Ava,True,False,tropical_wood,4,4,4,PASS,BUR,,35
+1335,Kyaukse,True,False,opium,3,4,4,PASS,BUR,,35
+1336,Magwe,True,False,tropical_wood,4,5,5,PASS,BUR,,35
+1337,Prome,True,False,grain,3,5,5,PASS,BUR,,35
+1338,Taunggyi,True,False,opium,3,3,3,PASS,BUR,,32
+1339,Haka,True,False,tropical_wood,5,4,5,PASS,BUR,,35
+1340,Lashio,True,False,tropical_wood,4,3,4,PASS,BUR,,33
+1341,Putao,True,False,timber,4,3,4,PASS,BUR,,31
+1342,Myitkyina,True,False,grain,4,3,4,PASS,BUR,,33
+1343,Moulmein,True,False,grain,1,4,4,PASS,SIA,,33
+1344,Mergui,True,False,fish,1,3,3,PASS,SIA,,31
+1345,Sittwe,True,False,grain,4,4,4,PASS,BUR,,35
+1346,Bangkok,True,False,grain,1,5,5,PASS,SIA,,40
+1347,Lopburi,True,False,opium,1,5,5,PASS,SIA,,35
+1348,Nakhon Sawan,True,False,opium,1,5,5,PASS,CAM,,33
+1349,Sukothai,True,False,opium,2,5,5,PASS,CAM,,35
+1350,Nakhon Ratchasima,True,False,cattle,2,4,4,PASS,CAM,,35
+1351,Prachinburi,True,False,grain,2,4,4,PASS,CAM,,35
+1352,Phuket,True,False,timber,2,2,2,PASS,SIA,,35
+1353,Ratchaburi,True,False,iron,0,4,4,PASS,SIA,,35
+1354,Nakhon Si Thammanet,True,False,timber,1,3,3,PASS,SIA,,35
+1355,Chiang Mai,True,False,opium,2,4,4,PASS,CAM,,32
+1356,Luangprabang,True,False,tropical_wood,4,4,4,PASS,DAI,,31
+1357,Vientiane,True,False,grain,4,5,5,PASS,DAI,,35
+1358,Udon Thani,True,False,fruit,3,5,5,PASS,CAM,,35
+1359,Sisaket,True,False,cattle,3,4,4,PASS,CAM,,35
+1360,Xiangabouli,True,False,tropical_wood,3,4,4,PASS,CAM,,32
+1361,Savannakhet,True,False,grain,4,4,4,PASS,DAI,,33
+1362,Satavan,True,False,tobacco,4,3,4,PASS,DAI,,32
+1363,Pakche,True,False,grain,4,3,4,PASS,CAM,,33
+1364,Oudong,True,False,tropical_wood,4,2,4,PASS,CHP,,40
+1365,Chanthaburi,True,False,grain,3,3,3,PASS,CAM,,37
+1366,Battambang,True,False,grain,3,3,3,PASS,CAM,,35
+1367,Kampot,True,False,tropical_wood,4,2,4,PASS,CHP,,35
+1368,Stongtreng,True,False,grain,4,2,4,PASS,CHP,,32
+1369,Hanoi,True,False,grain,5,5,5,PASS,DAI,,40
+1370,Haiphong,True,False,grain,5,5,5,PASS,DAI,,40
+1371,Cao Bang,True,False,grain,4,4,4,PASS,DAI,,33
+1372,Son La,True,False,tropical_wood,5,4,5,PASS,DAI,,33
+1373,Lang Son,True,False,grain,4,4,4,PASS,DAI,,34
+1374,Thanh Hoa,True,False,grain,5,5,5,PASS,DAI,,34
+1375,Hue,True,False,grain,5,4,5,PASS,DAI,,34
+1376,Vinh,True,False,grain,5,4,5,PASS,DAI,,34
+1377,Tourane,True,False,tobacco,5,3,5,PASS,DAI,,35
+1378,Pleiku,True,False,tobacco,5,2,5,PASS,CHP,,32
+1379,Quinhon,True,False,silk,6,2,6,PASS,CHP,,34
+1380,Saigon,True,False,coal,6,0,6,PASS,CHP,,40
+1381,Dongquai,True,False,cotton,5,1,5,PASS,CHP,,34
+1382,Hatien,True,False,tropical_wood,5,1,5,PASS,CHP,,35
+1383,Vinhlong,True,False,grain,6,1,6,PASS,CHP,,35
+1384,Singapore,True,False,tropical_wood,5,4,5,PASS,SCA,,35
+1385,Johor Bahru,True,False,tropical_wood,5,3,5,PASS,JOH,,37
+1386,Malacca,True,False,tropical_wood,5,3,5,PASS,JOH,,37
+1387,Kuala Lumpur,True,False,timber,4,2,4,PASS,JOH,,35
+1388,Penang,True,False,coal,4,0,4,PASS,BRG,,37
+1389,Alor Setar,True,False,timber,3,1,3,PASS,JOH,,35
+1390,Kuantan,True,False,timber,4,2,4,PASS,JOH,,35
+1391,Kota Bahru,True,False,tropical_wood,3,2,3,PASS,JOH,,35
+1392,Pattani,True,False,tropical_wood,2,2,2,PASS,JOH,,35
+1393,Brunei,True,False,iron,0,3,3,PASS,BRU,,30
+1394,Kuching,True,False,coffee,2,1,2,PASS,BRU,,30
+1395,Bintulu,True,False,timber,1,2,2,PASS,BRU,,30
+1396,Api,True,False,grain,2,3,3,PASS,SUL,,32
+1397,Sandakan,True,False,grain,3,4,4,PASS,SUL,,31
+1398,Jambi,True,False,grain,3,4,4,PASS,PLM,,31
+1399,Palembang,True,False,grain,4,5,5,PASS,PLM,,35
+1400,Inderagiri,True,False,grain,3,3,3,PASS,PLM,,31
+1401,Siak,True,False,grain,2,2,2,PASS,PLM,,35
+1402,Tanjungpinang,True,False,timber,4,5,5,PASS,SCA,,30
+1403,Lampung,True,False,timber,4,5,5,PASS,PLM,,35
+1404,Palakpinang,True,False,timber,5,6,6,PASS,PLM,,32
+1405,Banda Aceh,True,False,coal,1,0,1,PASS,ATJ,,35
+1406,Medan,True,False,tobacco,1,1,1,PASS,ATJ,,38
+1407,Tapaktuan,True,False,iron,0,1,1,PASS,ATJ,,35
+1408,Padang,True,False,tobacco,2,3,3,PASS,PLM,,32
+1409,Sibolga,True,False,coffee,1,2,2,PASS,ATJ,,35
+1410,Bencoolen,True,False,tobacco,3,4,4,PASS,PLM,,35
+1411,Gunungsitoli,True,False,fish,3,4,4,PASS,PLM,,32
+1412,Aden,True,False,fish,6,1,6,PASS,YEM,,35
+1413,Batavia,True,False,coffee,5,6,6,PASS,BRG,,35
+1414,Bogor,True,False,coffee,4,7,7,WARN,BRG,,35
+1415,Cirebon,True,False,coffee,4,7,7,WARN,JAV,,35
+1416,Yogyakarta,True,False,fruit,3,6,6,PASS,JAV,,35
+1417,Semarang,True,False,fruit,3,6,6,PASS,JAV,,35
+1418,Surabaya,True,False,sulphur,2,5,5,PASS,JAV,,35
+1419,Surakarta,True,False,fruit,2,5,5,PASS,JAV,,35
+1420,Probolinggo,True,False,sulphur,1,4,4,PASS,JAV,,35
+1421,Madura,True,False,sulphur,3,6,6,PASS,JAV,,35
+1422,Muraleve,True,False,grain,2,2,2,PASS,KLM,,15
+1423,Banjarmasin,True,False,sulphur,3,2,3,PASS,KLM,,35
+1424,Pasir,True,False,sulphur,3,3,3,PASS,KLM,,35
+1425,Tarakan,True,False,timber,2,3,3,PASS,KTI,,25
+1426,Pontianak,True,False,coal,3,0,3,PASS,LFG,,32
+1427,Kota Waringin,True,False,grain,3,1,3,PASS,LFG,,30
+1428,Sintang,True,False,coffee,2,1,2,PASS,LFG,,15
+1429,Samarinda,True,False,sulphur,3,3,3,PASS,KTI,,20
+1430,Makassar,True,False,timber,3,4,4,PASS,MKS,,32
+1431,Bone,True,False,timber,2,4,4,PASS,MKS,,30
+1432,Mamuju,True,False,grain,2,3,3,PASS,MKS,,30
+1433,Menado,True,False,dye,4,4,4,PASS,SCA,,32
+1434,Luwuk,True,False,timber,2,2,2,PASS,SCA,,30
+1435,Palu,True,False,timber,3,3,3,PASS,SCA,,30
+1436,Kendari,True,False,dye,1,3,3,PASS,MKS,,30
+1437,Bulon,True,False,iron,0,4,4,PASS,MKS,,30
+1438,Bali,True,False,iron,0,3,3,PASS,BAL,,35
+1439,Flores,True,False,coffee,3,2,3,PASS,BAL,,31
+1440,Sumbawa,True,False,timber,2,1,2,PASS,BAL,,35
+1441,Sumba,True,False,coal,3,0,3,PASS,BAL,,31
+1442,Lombok,True,False,timber,1,2,2,PASS,BAL,,35
+1443,Roti,True,False,timber,4,1,4,PASS,DUA,,31
+1444,Alor,True,False,tropical_wood,4,3,4,PASS,DUA,,30
+1445,Kaupeng,True,False,timber,5,2,5,PASS,DUA,,31
+1446,Dili,True,False,coffee,5,3,5,PASS,DUA,,32
+1447,Ternate,True,False,fish,3,1,3,PASS,SCA,,30
+1448,Jilolo,True,False,coal,4,0,4,PASS,SCA,,31
+1449,Ambon,True,False,grain,4,2,4,PASS,SCA,,30
+1450,Ceram,True,False,grain,4,3,4,PASS,SCA,,32
+1451,Aru,True,False,fish,4,4,4,PASS,DUA,,30
+1452,Biak,True,False,fish,3,6,6,PASS,,,30
+1453,Sorong,True,False,fish,3,4,4,PASS,,,30
+1454,Merah,True,False,fish,2,5,5,PASS,,,10
+1455,Manila,True,False,coffee,3,-1,-1,ISLAND,TNG,,40
+1456,Vigan,True,False,tobacco,4,-1,-1,ISLAND,TNG,,35
+1457,Legazpi,True,False,grain,2,-1,-1,ISLAND,TNG,,35
+1458,Mindoro,True,False,fish,2,-1,-1,ISLAND,TNG,,35
+1459,Palawan,True,False,tropical_wood,3,-1,-1,ISLAND,TON,,35
+1460,Iloilo,True,False,fruit,1,-1,-1,ISLAND,TON,,35
+1461,Tacloban,True,False,grain,1,-1,-1,ISLAND,TON,,35
+1462,Zamboanga,True,False,iron,0,-1,-1,ISLAND,SCA,,35
+1463,Davao,True,False,iron,0,-1,-1,ISLAND,SCA,,35
+1464,Sulu,True,False,fish,1,-1,-1,ISLAND,SUL,,35
+1465,Urga,True,False,cattle,2,2,2,PASS,CHG,,35
+1466,Dalandzadgad,True,False,timber,2,2,2,PASS,CHG,,35
+1467,Bayan Tumen,True,False,cattle,2,1,2,PASS,CHG,,35
+1468,Altai,True,False,grain,1,2,2,PASS,CHG,,35
+1469,Kyzyl,True,False,coal,1,0,1,PASS,CHG,,35
+1470,Anqing,True,False,tea,2,4,4,PASS,TAI,,32
+1471,Chizhou,True,False,tea,2,3,3,PASS,TAI,,32
+1472,Fengyang,True,False,tea,3,4,4,PASS,MCK,,32
+1473,Huizhou,True,False,tea,2,3,3,PASS,MIG,,32
+1474,Luzhou,True,False,cattle,2,3,3,PASS,TAI,,32
+1475,Ningguo,True,False,timber,2,4,4,PASS,MIG,,32
+1476,Sizhou,True,False,tea,4,5,5,PASS,MCK,,32
+1477,Taiping,True,False,silk,3,4,4,PASS,MIG,,32
+1478,Yingzhou,True,False,tea,3,3,3,PASS,MCK,,32
+1479,Mukden,True,False,timber,1,2,2,PASS,MCK,,32
+1480,Jinzhou,True,False,timber,1,2,2,PASS,MCK,,32
+1481,Port Arthur,True,False,timber,2,3,3,PASS,MCK,,32
+1482,Fuzhou,True,False,tea,4,2,4,PASS,TNG,,35
+1483,Jianning,True,False,tea,3,2,3,PASS,TAI,,35
+1484,Quanzhou,True,False,tea,4,2,4,PASS,TNG,,35
+1485,Taibei,True,False,tea,3,5,5,PASS,TNG,,32
+1486,Tingzhou,True,False,tea,3,1,3,PASS,TAI,,35
+1487,Zhangzhou,True,False,tea,4,2,4,PASS,TNG,,35
+1488,Gansu,True,False,cotton,2,1,2,PASS,CHG,,35
+1489,Gongchang,True,False,timber,2,1,2,PASS,MCK,,32
+1490,Lanzhou,True,False,timber,2,1,2,PASS,MCK,,32
+1491,Ningxia,True,False,grain,2,1,2,PASS,MCK,,32
+1492,Pingliang,True,False,grain,1,1,1,PASS,MCK,,32
+1493,Canton,True,False,fish,4,2,4,PASS,TAI,,32
+1494,Chaozhou,True,False,silk,4,1,4,PASS,TNG,,32
+1495,Gauzhou,True,False,grain,4,3,4,PASS,TAI,,32
+1496,Hong Kong,True,False,tea,5,2,5,PASS,TNG,,35
+1497,Waizao,True,False,silk,4,1,4,PASS,TNG,,32
+1498,Macao,True,False,precious_goods,5,3,5,PASS,SPA,,35
+1499,Hainan,True,False,fish,5,4,5,PASS,TAI,,32
+1500,Shaozhou,True,False,tropical_wood,3,1,3,PASS,TAI,,32
+1501,Zhaoqing,True,False,fish,4,3,4,PASS,TAI,,32
+1502,Nanning,True,False,fish,3,3,3,PASS,TAI,,32
+1503,Guilin,True,False,cotton,2,3,3,PASS,TAI,,32
+1504,Pingle,True,False,tea,3,2,3,PASS,TAI,,32
+1505,Guiyang,True,False,tea,2,3,3,PASS,TAI,,32
+1506,Anshun,True,False,tea,3,3,3,PASS,TAI,,32
+1507,Zhenyuan,True,False,tea,1,3,3,PASS,TAI,,32
+1508,Kaifeng,True,False,tea,2,2,2,PASS,MCK,,32
+1509,Guide,True,False,tea,3,3,3,PASS,MCK,,32
+1510,Henan,True,False,cattle,1,1,1,PASS,MCK,,32
+1511,Huaiqing,True,False,tea,2,1,2,PASS,MCK,,32
+1512,Chenzhou,True,False,tea,3,3,3,PASS,MCK,,32
+1513,Nanyang,True,False,grain,2,1,2,PASS,TAI,,32
+1514,Runing,True,False,tea,2,2,2,PASS,MCK,,32
+1515,Weihui,True,False,wool,3,2,3,PASS,MCK,,32
+1516,Hanyang,True,False,tea,1,3,3,PASS,TAI,,32
+1517,Dean,True,False,tea,2,2,2,PASS,TAI,,32
+1518,Huangzhou,True,False,tea,1,3,3,PASS,TAI,,32
+1519,Anlu,True,False,tea,2,2,2,PASS,TAI,,32
+1520,Jingzhou,True,False,tea,1,2,2,PASS,TAI,,32
+1521,Shinan,True,False,silk,1,2,2,PASS,TAI,,32
+1522,Wuchang,True,False,iron,0,3,3,PASS,TAI,,32
+1523,Xiangyang,True,False,grain,2,1,2,PASS,TAI,,32
+1524,Changsha,True,False,tea,1,2,2,PASS,TAI,,32
+1525,Changde,True,False,silk,1,3,3,PASS,TAI,,32
+1526,Baoqing,True,False,timber,1,2,2,PASS,TAI,,32
+1527,Hengzhou,True,False,tea,2,1,2,PASS,TAI,,32
+1528,Yuezhou,True,False,iron,0,3,3,PASS,TAI,,32
+1529,Yongshun,True,False,iron,0,3,3,PASS,TAI,,32
+1530,Yongzhou,True,False,silk,2,2,2,PASS,TAI,,32
+1531,New Ireland,True,False,coffee,-1,-1,-1,ISLAND,,,10
+1532,Guihua Tumed,True,False,coal,2,0,2,PASS,CHG,,35
+1533,Jirim Chuulgan,True,False,timber,1,1,1,PASS,MCK,,32
+1534,Ulaan Chab Chuulghan,True,False,precious_metal,1,1,1,PASS,CHG,,35
+1535,Yeke Juu Chuulghan,True,False,timber,2,1,2,PASS,CHG,,35
+1536,Huaian,True,False,silk,4,5,5,PASS,MCK,,32
+1537,Changzhou,True,False,tea,2,5,5,PASS,MIG,,32
+1538,Shanghai,True,False,tea,1,6,6,PASS,MIG,,32
+1539,Suzhou,True,False,silk,1,6,6,PASS,MIG,,32
+1540,Taicangzhou,True,False,fish,2,7,7,WARN,MIG,,32
+1541,Tongzhou,True,False,tea,2,6,6,PASS,MIG,,32
+1542,Xuzhou,True,False,silk,3,4,4,PASS,MCK,,32
+1543,Yangzhou,True,False,silk,3,5,5,PASS,MCK,,32
+1544,Zhenjiang,True,False,silk,3,5,5,PASS,MIG,,32
+1545,Nanchang,True,False,cattle,1,2,2,PASS,TAI,,32
+1546,Guangxin,True,False,tea,3,2,3,PASS,TAI,,32
+1547,Jian,True,False,tea,2,1,2,PASS,TAI,,32
+1548,Jianchang,True,False,precious_metal,2,1,2,PASS,TAI,,32
+1549,Jiujiang,True,False,cattle,1,3,3,PASS,TAI,,32
+1550,Ganzhou,True,False,coal,3,0,3,PASS,TAI,,32
+1551,Raozhou,True,False,timber,2,2,2,PASS,TAI,,32
+1552,Qiqihar,True,False,coal,1,0,1,PASS,MCK,,32
+1553,Aigun,True,False,coal,2,0,2,PASS,MCK,,32
+1554,Ninguta,True,False,coal,1,0,1,PASS,MCK,,32
+1555,Jilin,True,False,iron,0,1,1,PASS,MCK,,32
+1556,Makhai,True,False,grain,3,1,3,PASS,TIB,,32
+1557,Balekungomi,True,False,coal,3,0,3,PASS,TIB,,32
+1558,Kegudo,True,False,grain,3,1,3,PASS,TIB,,32
+1559,Xian,True,False,timber,1,1,1,PASS,MCK,,32
+1560,Merauke,True,False,fish,2,6,6,PASS,,,10
+1561,Yenan,True,False,coal,1,0,1,PASS,MCK,,32
+1562,Hanzhong,True,False,coal,1,0,1,PASS,MCK,,32
+1563,Jinan,True,False,cotton,3,2,3,PASS,MCK,,32
+1564,Caozhou,True,False,silk,3,3,3,PASS,MCK,,32
+1565,Laizhou,True,False,fish,1,5,5,PASS,MCK,,32
+1566,Qingdao,True,False,fruit,2,5,5,PASS,MCK,,32
+1567,Qingzhou,True,False,grain,2,4,4,PASS,MCK,,32
+1568,Taian,True,False,grain,3,3,3,PASS,MCK,,32
+1569,Weihaiwei,True,False,iron,0,6,6,PASS,MCK,,32
+1570,Wuding,True,False,grain,3,3,3,PASS,MCK,,32
+1571,Yizhou,True,False,tea,2,4,4,PASS,MCK,,32
+1572,Taiyuan,True,False,coal,2,0,2,PASS,MCK,,32
+1573,Fenzhou,True,False,coal,2,0,2,PASS,MCK,,32
+1574,Luan,True,False,cotton,2,1,2,PASS,MCK,,32
+1575,Pingyang,True,False,coal,1,0,1,PASS,MCK,,32
+1576,Datong,True,False,precious_metal,2,1,2,PASS,MCK,,32
+1577,Chongqing,True,False,tea,1,2,2,PASS,TAI,,32
+1578,Chengdu,True,False,tea,4,1,4,PASS,TAI,,32
+1579,Baotung,True,False,tea,2,1,2,PASS,TAI,,32
+1580,Jiading,True,False,fruit,3,2,3,PASS,TAI,,32
+1581,Kuizhou,True,False,tea,2,1,2,PASS,TAI,,32
+1582,Longan,True,False,coal,3,0,3,PASS,TAI,,32
+1583,Shunqing,True,False,tea,2,2,2,PASS,TAI,,32
+1584,Tongchuan,True,False,fruit,3,1,3,PASS,TAI,,32
+1585,Yibin,True,False,tea,2,2,2,PASS,TAI,,32
+1586,Yazhou,True,False,timber,3,1,3,PASS,TAI,,32
+1587,Lhasa,True,False,grain,3,3,3,PASS,TIB,,35
+1588,Chamdo,True,False,cattle,3,2,3,PASS,TIB,,30
+1589,Shigatse,True,False,cattle,2,3,3,PASS,TIB,,30
+1590,Lhodrak,True,False,wool,3,3,3,PASS,TIB,,25
+1591,Changtang,True,False,cattle,2,2,2,PASS,TIB,,30
+1592,Ngari,True,False,cattle,1,3,3,PASS,TIB,,30
+1593,Tawang,True,False,cattle,4,3,4,PASS,TIB,,32
+1594,Kashgar,True,False,cotton,1,4,4,PASS,CHG,,35
+1595,Ili,True,False,sulphur,3,2,3,PASS,CHG,,35
+1596,Tulta,True,False,cotton,2,1,2,PASS,CHG,,35
+1597,Aksu,True,False,sulphur,2,3,3,PASS,CHG,,35
+1598,Khotan,True,False,grain,2,3,3,PASS,CHG,,35
+1599,Kumul,True,False,grain,2,2,2,PASS,CHG,,35
+1600,Urumqi,True,False,cotton,3,2,3,PASS,CHG,,35
+1601,Kunming,True,False,silk,3,3,3,PASS,TAI,,32
+1602,Dali,True,False,timber,3,2,3,PASS,TAI,,32
+1603,Puer,True,False,tea,4,3,4,PASS,TAI,,32
+1604,Hangzhou,True,False,silk,1,4,4,PASS,MIG,,32
+1605,Huzhou,True,False,silk,1,5,5,PASS,MIG,,32
+1606,Jiaxing,True,False,iron,0,5,5,PASS,MIG,,32
+1607,Jinhua,True,False,timber,2,3,3,PASS,MIG,,32
+1608,Ningbo,True,False,cotton,3,5,5,PASS,TNG,,32
+1609,Shaoxing,True,False,timber,2,4,4,PASS,MIG,,32
+1610,Taizhou,True,False,tea,3,4,4,PASS,TNG,,32
+1611,Wenzhou,True,False,tea,3,3,3,PASS,TNG,,32
+1612,Beijing,True,False,tea,2,2,2,PASS,MCK,,32
+1613,Chengde,True,False,iron,0,2,2,PASS,MCK,,32
+1614,Daming,True,False,grain,3,1,3,PASS,MCK,,32
+1615,Jizhou,True,False,silk,3,2,3,PASS,MCK,,32
+1616,Shuntian,True,False,tea,1,1,1,PASS,MCK,,32
+1617,Tianjin,True,False,silk,2,2,2,PASS,MCK,,32
+1618,Zhongding,True,False,silk,3,1,3,PASS,MCK,,32
+1619,Pyongyang,True,False,coal,1,0,1,PASS,KOR,,35
+1620,Chonchon,True,False,iron,0,1,1,PASS,KOR,,35
+1621,Hamhung,True,False,iron,0,1,1,PASS,KOR,,35
+1622,Chongjin,True,False,coal,1,0,1,PASS,KOR,,35
+1623,Kimchaek,True,False,coal,1,0,1,PASS,KOR,,35
+1624,Seoul,True,False,grain,2,2,2,PASS,KOR,,35
+1625,Kaesong,True,False,grain,1,1,1,PASS,KOR,,35
+1626,Haeju,True,False,iron,0,2,2,PASS,KOR,,35
+1627,Sariwon,True,False,iron,0,1,1,PASS,KOR,,35
+1628,Inchon,True,False,grain,2,2,2,PASS,KOR,,35
+1629,Wonsan,True,False,grain,1,1,1,PASS,KOR,,35
+1630,Kangnung,True,False,grain,2,2,2,PASS,KOR,,35
+1631,Wonju,True,False,timber,3,1,3,PASS,KOR,,35
+1632,Pusan,True,False,grain,5,1,5,PASS,KOR,,35
+1633,Taegu,True,False,timber,4,1,4,PASS,KOR,,35
+1634,Pohang,True,False,coal,4,0,4,PASS,KOR,,35
+1635,Kwangju,True,False,grain,4,2,4,PASS,KOR,,35
+1636,Taejon,True,False,fish,3,2,3,PASS,KOR,,35
+1637,Cheju,True,False,grain,-1,-1,-1,ISLAND,KOR,,35
+1638,Hiroshima,True,False,cotton,4,3,4,PASS,JAP,,35
+1639,Okayama,True,False,fruit,3,4,4,PASS,JAP,,35
+1640,Yamaguchi,True,False,grain,4,2,4,PASS,JAP,,35
+1641,Matsue,True,False,fish,3,3,3,PASS,JAP,,35
+1642,Hakodate,True,False,coal,1,0,1,PASS,JAP,,35
+1643,Ishikara,True,False,fish,2,1,2,PASS,JAP,,10
+1644,Nemuru,True,False,timber,2,1,2,PASS,JAP,,10
+1645,Niigata,True,False,grain,2,4,4,PASS,JAP,,35
+1646,Kanazawa,True,False,fish,3,6,6,PASS,JAP,,35
+1647,Fukui,True,False,fish,3,5,5,PASS,JAP,,35
+1648,Toyama,True,False,tea,3,5,5,PASS,JAP,,35
+1649,Edo,True,False,grain,4,6,6,PASS,JAP,,40
+1650,Chiba,True,False,grain,4,6,6,PASS,JAP,,35
+1651,Yokohama,True,False,grain,4,7,7,WARN,JAP,,35
+1652,Urawa,True,False,silk,4,6,6,PASS,JAP,,35
+1653,Mito,True,False,fish,3,5,5,PASS,JAP,,35
+1654,Bonin,True,False,fish,-1,-1,-1,ISLAND,JAP,,15
+1655,Osaka,True,False,tea,1,4,4,PASS,JAP,,35
+1656,Wakayama,True,False,iron,0,5,5,PASS,JAP,,35
+1657,Kyoto,True,False,tea,2,4,4,PASS,JAP,,35
+1658,Nara,True,False,grain,1,5,5,PASS,JAP,,35
+1659,Kobe,True,False,cattle,2,3,3,PASS,JAP,,35
+1660,Fukuoka,True,False,tea,3,1,3,PASS,JAP,,35
+1661,Nagasaki,True,False,coal,3,0,3,PASS,JAP,,35
+1662,Kagoshima,True,False,grain,1,1,1,PASS,JAP,,35
+1663,Miyazaki,True,False,tobacco,2,1,2,PASS,JAP,,35
+1664,Kumamoto,True,False,coal,2,0,2,PASS,JAP,,35
+1665,Kochi,True,False,fish,4,2,4,PASS,JAP,,35
+1666,Matsuyama,True,False,timber,3,1,3,PASS,JAP,,35
+1667,Tokushima,True,False,tobacco,3,2,3,PASS,JAP,,35
+1668,Sendai,True,False,grain,1,3,3,PASS,JAP,,35
+1669,Fukushima,True,False,fish,2,4,4,PASS,JAP,,35
+1670,Morioka,True,False,sulphur,1,2,2,PASS,JAP,,35
+1671,Akita,True,False,iron,0,2,2,PASS,JAP,,35
+1672,Aomori,True,False,iron,0,1,1,PASS,JAP,,35
+1673,Yamagata,True,False,silk,1,3,3,PASS,JAP,,35
+1674,Utsunomiya,True,False,tobacco,3,5,5,PASS,JAP,,35
+1675,Nagoya,True,False,silk,2,5,5,PASS,JAP,,35
+1676,Shizuoka,True,False,precious_metal,3,6,6,PASS,JAP,,35
+1677,Nagano,True,False,tea,3,5,5,PASS,JAP,,35
+1678,Okinawa,True,False,grain,1,3,3,PASS,JAP,,35
+1679,Amari,True,False,iron,0,2,2,PASS,JAP,,35
+1680,Fez,True,False,grain,2,2,2,PASS,SPA,,35
+1681,Wazzan,True,False,grain,3,2,3,PASS,SPA,,35
+1682,Meknes,True,False,grain,2,3,3,PASS,SPA,,35
+1683,Taza,True,False,wool,2,1,2,PASS,SPA,,35
+1684,Wujda,True,False,coal,1,0,1,PASS,SPA,,35
+1685,Rabat,True,False,grain,3,3,3,PASS,SPA,,35
+1686,Tangier,True,False,grain,3,2,3,PASS,SPA,,35
+1687,Tetouan,True,False,grain,3,2,3,PASS,SPA,,35
+1688,Ajdir,True,False,fish,2,1,2,PASS,SPA,,35
+1689,Melilla,True,False,fish,3,2,3,PASS,SPA,,35
+1690,Marrakesh,True,False,fruit,2,3,3,PASS,SPA,,35
+1691,Casablanca,True,False,grain,3,4,4,PASS,SPA,,35
+1692,Huribka,True,False,grain,2,3,3,PASS,SPA,,35
+1693,Sawira,True,False,grain,3,4,4,PASS,SPA,,35
+1694,Agadir,True,False,fish,3,4,4,PASS,SPA,,35
+1695,Ifni,True,False,fish,4,5,5,PASS,SPA,,30
+1696,Tarfaya,True,False,fish,2,4,4,PASS,,,10
+1697,Figuig,True,False,fruit,1,1,1,PASS,MGH,,35
+1698,Rashidia,True,False,grain,1,2,2,PASS,MGH,,35
+1699,Warzazat,True,False,fruit,2,3,3,PASS,MGH,,35
+1700,Algiers,True,False,grain,2,4,4,PASS,ARA,,35
+1701,Bougie,True,False,grain,1,4,4,PASS,ARA,,35
+1702,Setif,True,False,wool,1,3,3,PASS,ARA,,35
+1703,Medea,True,False,grain,2,3,3,PASS,ARA,,35
+1704,Oran,True,False,grain,1,2,2,PASS,ARA,,35
+1705,Tlemcen,True,False,iron,0,1,1,PASS,ARA,,35
+1706,Mustaghanim,True,False,fruit,2,3,3,PASS,ARA,,35
+1707,Mascara,True,False,fruit,1,2,2,PASS,ARA,,35
+1708,Constantine,True,False,iron,0,4,4,PASS,ARA,,35
+1709,Bone,True,False,grain,1,5,5,PASS,ARA,,35
+1710,Biskra,True,False,iron,0,3,3,PASS,MGH,,35
+1711,Ouargla,True,False,wool,2,2,2,PASS,MGH,,35
+1712,Tuggurt,True,False,wool,1,3,3,PASS,MGH,,35
+1713,Laghwat,True,False,grain,1,2,2,PASS,MGH,,35
+1714,Bechar,True,False,iron,0,6,6,PASS,INC,,35
+1715,Naama,True,False,wool,1,1,1,PASS,MGH,,35
+1716,Tindouf,True,False,fruit,1,3,3,PASS,,,10
+1717,Chenachene,True,False,grain,1,3,3,PASS,,,10
+1718,In Salah,True,False,grain,1,3,3,PASS,,,10
+1719,Ilizi,True,False,wool,2,3,3,PASS,,,10
+1720,Timimoun,True,False,fruit,1,2,2,PASS,,,10
+1721,In Guezzam,True,False,sulphur,2,4,4,PASS,,,10
+1722,Tin Zawatene,True,False,fruit,2,4,4,PASS,,,10
+1723,Panama Canal,True,False,fruit,3,5,5,PASS,CLM,,31
+1724,Tamanrasset,True,False,precious_metal,2,2,2,PASS,SCA,,35
+1725,Tunis,True,False,grain,2,5,5,PASS,ARA,,35
+1726,Bizerte,True,False,grain,1,5,5,PASS,ARA,,35
+1727,Gafsa,True,False,sulphur,1,4,4,PASS,TUN,,35
+1728,Kairouan,True,False,fruit,2,5,5,PASS,TUN,,35
+1729,Tozeur,True,False,wool,2,4,4,PASS,TUN,,35
+1730,Gabes,True,False,grain,2,5,5,PASS,TUN,,35
+1731,Tripoli,True,False,fruit,2,5,5,PASS,TUN,,35
+1732,Ghayran,True,False,fruit,1,5,5,PASS,TUN,,25
+1733,Misratah,True,False,fruit,2,6,6,PASS,TUN,,35
+1734,Sirt,True,False,wool,1,6,6,PASS,TUN,,35
+1735,Benghazi,True,False,fruit,1,5,5,PASS,EGY,,35
+1736,Darna,True,False,fish,2,5,5,PASS,EGY,,35
+1737,Tobruk,True,False,grain,2,4,4,PASS,EGY,,35
+1738,Jaghbub,True,False,grain,1,4,4,PASS,EGY,,10
+1739,Kufra,True,False,fruit,-1,-1,-1,ISLAND,SCA,,10
+1740,Waddan,True,False,iron,0,5,5,PASS,TUN,,10
+1741,Murzuk,True,False,fruit,2,4,4,PASS,TUN,,25
+1742,Sabha,True,False,wool,1,5,5,PASS,TUN,,25
+1743,Ghat,True,False,cattle,4,1,4,PASS,FRI,,40
+1744,Ghadamis,True,False,fruit,2,4,4,PASS,TUN,,25
+1745,Cairo,True,False,grain,2,1,2,PASS,EGY,,40
+1746,Dumyat,True,False,grain,2,1,2,PASS,TUR,,35
+1747,Tanta,True,False,cotton,1,1,1,PASS,EGY,,35
+1748,Mansura,True,False,coal,2,0,2,PASS,TUR,,35
+1749,Ziqaziq,True,False,cotton,3,1,3,PASS,TUR,,35
+1750,Giza,True,False,cotton,1,2,2,PASS,EGY,,35
+1751,Alexandria,True,False,cotton,1,2,2,PASS,EGY,,35
+1752,Matruh,True,False,fruit,1,3,3,PASS,EGY,,35
+1753,Sidi Barrani,True,False,fruit,2,4,4,PASS,EGY,,35
+1754,Siwa,True,False,grain,1,3,3,PASS,EGY,,10
+1755,Suez Canal,True,False,cotton,3,2,3,PASS,TUR,,32
+1756,Al Arish,True,False,fruit,3,3,3,PASS,TUR,,20
+1757,Sharm al-Shaykh,True,False,fruit,4,3,4,PASS,TUR,,20
+1758,Hariga,True,False,fruit,1,3,3,PASS,,,25
+1759,Bawiti,True,False,iron,0,2,2,PASS,EGY,,35
+1760,Mut,True,False,grain,1,3,3,PASS,EGY,,35
+1761,Baris,True,False,fruit,1,4,4,PASS,EGY,,35
+1762,Asyut,True,False,cotton,2,3,3,PASS,EGY,,35
+1763,Bani Suwayf,True,False,grain,1,2,2,PASS,EGY,,35
+1764,Minya,True,False,cotton,1,3,3,PASS,EGY,,35
+1765,Fayyum,True,False,cotton,1,3,3,PASS,EGY,,35
+1766,Aswan,True,False,iron,0,4,4,PASS,EGY,,35
+1767,Luxor,True,False,grain,2,4,4,PASS,EGY,,35
+1768,Idfu,True,False,cotton,1,5,5,PASS,EGY,,35
+1769,Qina,True,False,cotton,2,4,4,PASS,EGY,,35
+1770,Qusayr,True,False,grain,2,3,3,PASS,EGY,,35
+1771,Marsa Alam,True,False,grain,1,4,4,PASS,EGY,,35
+1772,Ras Gharib,True,False,grain,2,2,2,PASS,EGY,,35
+1773,Aaiun,True,False,fish,1,4,4,PASS,,,10
+1774,Dakhla,True,False,wool,1,5,5,PASS,,,10
+1775,Nouakchott,True,False,fish,2,6,6,PASS,,,20
+1776,Rosso,True,False,wool,3,6,6,PASS,,,20
+1777,Aleg,True,False,wool,2,5,5,PASS,,,20
+1778,Maghama,True,False,timber,2,4,4,PASS,,,15
+1779,Shingit,True,False,grain,1,5,5,PASS,,,20
+1780,Tishit,True,False,fruit,2,2,2,PASS,MAC,,35
+1781,Walata,True,False,wool,1,4,4,PASS,,,10
+1782,Bir Murghayn,True,False,iron,0,4,4,PASS,,,10
+1783,Dakar,True,False,iron,0,6,6,PASS,,,25
+1784,Saint-Louis,True,False,fruit,2,6,6,PASS,VEN,,30
+1785,Banjul,True,False,fruit,3,4,4,PASS,KRL,,35
+1786,Linguere,True,False,grain,2,5,5,PASS,,,20
+1787,Diourbel,True,False,grain,2,5,5,PASS,,,20
+1788,Kaolack,True,False,grain,2,4,4,PASS,,,20
+1789,Podor,True,False,fruit,3,5,5,PASS,VEN,,30
+1790,Matam,True,False,fruit,3,4,4,PASS,,,20
+1791,Bakel,True,False,cattle,3,3,3,PASS,,,20
+1792,Ziguinchor,True,False,grain,4,4,4,PASS,,,20
+1793,Velingara,True,False,fish,3,3,3,PASS,,,20
+1794,Bamako,True,False,fruit,2,2,2,PASS,,,15
+1795,Kayes,True,False,wool,3,3,3,PASS,,,15
+1796,Nioro,True,False,fruit,2,4,4,PASS,,,15
+1797,Kita,True,False,fruit,3,3,3,PASS,,,15
+1798,Bougouni,True,False,cattle,2,1,2,PASS,,,15
+1799,Sikasso,True,False,cotton,1,1,1,PASS,,,15
+1800,Segu,True,False,fruit,2,2,2,PASS,,,15
+1801,Mourdiah,True,False,grain,2,3,3,PASS,,,15
+1802,Jenne,True,False,grain,2,2,2,PASS,,,15
+1803,Timbuktu,True,False,cattle,2,3,3,PASS,,,10
+1804,Bandiagara,True,False,cattle,1,2,2,PASS,,,15
+1805,Gao,True,False,sulphur,2,3,3,PASS,,,15
+1806,Taoudenni,True,False,grain,2,5,5,PASS,FUN,,30
+1807,Tessalit,True,False,grain,2,4,4,PASS,,,10
+1808,Niamey,True,False,tropical_wood,3,4,4,PASS,,,15
+1809,Say,True,False,grain,2,4,4,PASS,,,15
+1810,Dosso,True,False,grain,3,3,3,PASS,,,15
+1811,Maradi,True,False,grain,3,2,3,PASS,,,15
+1812,Agades,True,False,wool,3,2,3,PASS,,,10
+1813,Arlit,True,False,fruit,3,3,3,PASS,,,10
+1814,Madama,True,False,wool,3,3,3,PASS,,,10
+1815,Zinder,True,False,cattle,2,1,2,PASS,,,10
+1816,Kufe,True,False,grain,2,2,2,PASS,,,10
+1817,Bilma,True,False,fruit,3,2,3,PASS,,,10
+1818,Massenya,True,False,grain,2,4,4,PASS,,,15
+1819,Moundou,True,False,cotton,2,4,4,PASS,,,15
+1820,Bongor,True,False,grain,2,5,5,PASS,,,15
+1821,Abeche,True,False,grain,3,4,4,PASS,,,10
+1822,Am Timan,True,False,fruit,3,5,5,PASS,,,15
+1823,Mongo,True,False,grain,3,5,5,PASS,,,15
+1824,Mao,True,False,fish,3,3,3,PASS,,,10
+1825,Zouar,True,False,fruit,2,3,3,PASS,,,10
+1826,Faya,True,False,wool,2,4,4,PASS,,,10
+1827,Khartoum,True,False,cotton,3,5,5,PASS,FUN,,30
+1828,Wad Madani,True,False,grain,2,4,4,PASS,FUN,,30
+1829,Kassala,True,False,tropical_wood,2,3,3,PASS,FUN,,30
+1830,Sennar,True,False,timber,3,3,3,PASS,FUN,,30
+1831,Rabak,True,False,grain,3,4,4,PASS,FUN,,30
+1832,Fashoda,True,False,tropical_wood,3,4,4,PASS,FUN,,30
+1833,Suakin,True,False,cotton,2,4,4,PASS,FUN,,10
+1834,Halaib,True,False,fruit,2,4,4,PASS,FUN,,35
+1835,Dongola,True,False,fruit,1,4,4,PASS,FUN,,30
+1836,Hayya,True,False,tropical_wood,1,3,3,PASS,FUN,,30
+1837,Atbara,True,False,tropical_wood,2,4,4,PASS,FUN,,30
+1838,Obeid,True,False,wool,3,5,5,PASS,,,30
+1839,Nuhud,True,False,grain,3,5,5,PASS,,,30
+1840,Kaduqli,True,False,wool,4,5,5,PASS,,,30
+1841,Fasher,True,False,wool,4,6,6,PASS,,,15
+1842,Junayah,True,False,grain,3,5,5,PASS,,,10
+1843,Waw,True,False,grain,4,5,5,PASS,,,15
+1844,Bor,True,False,grain,3,4,4,PASS,,,15
+1845,Yambio,True,False,grain,4,5,5,PASS,,,15
+1846,Lado,True,False,timber,3,5,5,PASS,,,15
+1847,Kapoeta,True,False,wool,2,4,4,PASS,,,15
+1848,Asmara,True,False,fruit,3,2,3,PASS,AMT,,35
+1849,Massawa,True,False,fruit,2,3,3,PASS,AMT,,35
+1850,Akordat,True,False,fruit,2,2,2,PASS,AMT,,35
+1851,Assab,True,False,fruit,2,2,2,PASS,AMT,,35
+1852,Gonder,True,False,cattle,2,1,2,PASS,ETH,,35
+1853,Debre Tabor,True,False,sulphur,1,1,1,PASS,ETH,,35
+1854,Matamma,True,False,grain,3,2,3,PASS,ETH,,35
+1855,Debre Markos,True,False,cattle,2,2,2,PASS,ETH,,35
+1856,Aksum,True,False,cattle,2,1,2,PASS,AMT,,35
+1857,Antalo,True,False,coal,2,0,2,PASS,AMT,,35
+1858,Awsa,True,False,grain,1,1,1,PASS,AMT,,35
+1859,Ankober,True,False,coffee,1,2,2,PASS,ETH,,40
+1860,Awasa,True,False,cattle,2,3,3,PASS,ETH,,35
+1861,Aselia,True,False,grain,1,3,3,PASS,ADA,,35
+1862,Bonga,True,False,precious_metal,2,3,3,PASS,ETH,,35
+1863,Asosa,True,False,cattle,2,3,3,PASS,ETH,,35
+1864,Negele,True,False,coffee,1,4,4,PASS,ETH,,35
+1865,Harer,True,False,iron,0,2,2,PASS,ADA,,35
+1866,Goba,True,False,cattle,1,4,4,PASS,ADA,,35
+1867,Werder,True,False,iron,0,3,3,PASS,ADA,,35
+1868,Mogadishu,True,False,cattle,2,5,5,PASS,AJU,,35
+1869,Baidoa,True,False,cotton,1,4,4,PASS,AJU,,35
+1870,Kismayo,True,False,cattle,1,4,4,PASS,AJU,,35
+1871,Hobye,True,False,grain,1,4,4,PASS,AJU,,35
+1872,Busaso,True,False,grain,1,4,4,PASS,AJU,,35
+1873,Berbera,True,False,cotton,1,3,3,PASS,ADA,,35
+1874,Zeyla,True,False,grain,1,3,3,PASS,ADA,,35
+1875,Djibuti,True,False,cattle,1,2,2,PASS,AMT,,35
+1876,Cape Verde,True,False,coffee,-1,-1,-1,ISLAND,SCA,,35
+1877,Bissau,True,False,grain,3,4,4,PASS,SCA,,35
+1878,Gabu,True,False,grain,3,3,3,PASS,,,25
+1879,Boffa,True,False,fish,2,3,3,PASS,,,20
+1880,Timbo,True,False,fruit,2,2,2,PASS,,,15
+1881,Dinguiraye,True,False,fruit,2,2,2,PASS,,,15
+1882,Kankan,True,False,fruit,1,1,1,PASS,,,15
+1883,Beyla,True,False,iron,0,1,1,PASS,,,15
+1884,Freetown,True,False,grain,1,3,3,PASS,DUA,,35
+1885,Falaba,True,False,coffee,2,2,2,PASS,,,20
+1886,Bo,True,False,grain,1,2,2,PASS,,,20
+1887,Monrovia,True,False,coffee,1,3,3,PASS,DUA,,35
+1888,Harper,True,False,tropical_wood,2,3,3,PASS,DUA,,32
+1889,Bopolu,True,False,iron,0,2,2,PASS,,,32
+1890,Gbarnga,True,False,tropical_wood,1,2,2,PASS,,,32
+1891,Zwedru,True,False,tropical_wood,2,2,2,PASS,,,32
+1892,Grand Lahou,True,False,tropical_wood,3,2,3,PASS,,,20
+1893,Sassandra,True,False,cotton,2,2,2,PASS,,,20
+1894,Grand Bassam,True,False,cattle,4,3,4,PASS,BRG,,35
+1895,Bouake,True,False,cotton,2,1,2,PASS,,,20
+1896,Man,True,False,timber,1,1,1,PASS,,,20
+1897,Akoupe,True,False,tropical_wood,3,2,3,PASS,,,20
+1898,Kong,True,False,tropical_wood,2,1,2,PASS,,,15
+1899,Bondouku,True,False,tropical_wood,2,2,2,PASS,,,15
+1900,Odienne,True,False,coal,1,0,1,PASS,,,15
+1901,Wagadugu,True,False,grain,1,3,3,PASS,,,15
+1902,Wahiguya,True,False,iron,0,2,2,PASS,,,15
+1903,Dori,True,False,fruit,1,3,3,PASS,,,15
+1904,Fada Ngourma,True,False,grain,2,4,4,PASS,,,15
+1905,Bobo Dioulasso,True,False,grain,1,2,2,PASS,,,15
+1906,Orodaro,True,False,grain,1,2,2,PASS,,,15
+1907,Accra,True,False,cattle,4,4,4,PASS,ARA,,35
+1908,Cape Coast,True,False,fruit,5,4,5,PASS,SCA,,35
+1909,Sekondi,True,False,cattle,5,4,5,PASS,PLC,,35
+1910,Kumasi,True,False,grain,4,3,4,PASS,,,15
+1911,Kintampo,True,False,cattle,3,3,3,PASS,,,15
+1912,Wa,True,False,grain,2,3,3,PASS,,,15
+1913,Tamale,True,False,grain,2,4,4,PASS,,,15
+1914,Lome,True,False,fish,4,4,4,PASS,,,20
+1915,Ho,True,False,cattle,3,4,4,PASS,,,15
+1916,Yendi,True,False,cattle,2,4,4,PASS,,,15
+1917,Atakpane,True,False,grain,3,5,5,PASS,,,15
+1918,Sokode,True,False,grain,2,4,4,PASS,,,15
+1919,Cotonou,True,False,cattle,5,3,5,PASS,DHY,,20
+1920,Abomey,True,False,grain,4,4,4,PASS,DHY,,15
+1921,Nikki,True,False,grain,3,4,4,PASS,,,15
+1922,Jugu,True,False,grain,3,5,5,PASS,,,15
+1923,Lagos,True,False,timber,5,2,5,PASS,,,20
+1924,Abeokuta,True,False,tropical_wood,5,3,5,PASS,,,20
+1925,Ibadan,True,False,tropical_wood,4,3,4,PASS,,,20
+1926,Ife,True,False,tropical_wood,4,2,4,PASS,,,20
+1927,Ilorin,True,False,grain,3,3,3,PASS,,,20
+1928,Benin,True,False,cattle,4,1,4,PASS,,,20
+1929,Akure,True,False,grain,3,2,3,PASS,,,20
+1930,Lokoja,True,False,fruit,3,1,3,PASS,,,20
+1931,Warri,True,False,fish,5,1,5,PASS,,,20
+1932,Bonny,True,False,timber,4,1,4,PASS,,,20
+1933,Awka,True,False,coal,4,0,4,PASS,,,20
+1934,Calabar,True,False,coal,3,0,3,PASS,,,20
+1935,Aruchukwu,True,False,fish,3,1,3,PASS,,,20
+1936,Makurdi,True,False,grain,2,1,2,PASS,,,20
+1937,Tukari,True,False,cattle,1,2,2,PASS,,,20
+1938,Bussa,True,False,fruit,3,3,3,PASS,,,20
+1939,Zaria,True,False,cattle,1,2,2,PASS,,,20
+1940,Bida,True,False,grain,2,2,2,PASS,,,20
+1941,Abuja,True,False,cotton,2,2,2,PASS,,,20
+1942,Bauchi,True,False,iron,0,1,1,PASS,,,20
+1943,Jos,True,False,fruit,1,2,2,PASS,,,20
+1944,Gombe,True,False,cattle,1,2,2,PASS,,,20
+1945,Kano,True,False,fruit,1,1,1,PASS,,,20
+1946,Kebbi,True,False,cattle,3,3,3,PASS,,,20
+1947,Katsina,True,False,grain,2,1,2,PASS,,,20
+1948,Sokoto,True,False,cattle,2,2,2,PASS,,,20
+1949,Hadejia,True,False,coal,1,0,1,PASS,,,20
+1950,Yola,True,False,iron,0,3,3,PASS,,,20
+1951,Kuka,True,False,cotton,2,2,2,PASS,,,15
+1952,Nguru,True,False,cattle,1,1,1,PASS,,,15
+1953,Dikoa,True,False,fruit,1,3,3,PASS,,,15
+1954,Sao Tome,True,False,coffee,-1,-1,-1,ISLAND,SPA,,35
+1955,Fernando Po,True,False,wool,-1,-1,-1,ISLAND,SPA,,35
+1956,Douala,True,False,grain,2,2,2,PASS,GEN,,20
+1957,Buea,True,False,timber,3,1,3,PASS,GEN,,20
+1958,Kribi,True,False,coffee,2,3,3,PASS,,,20
+1959,Yaounde,True,False,timber,1,3,3,PASS,,,15
+1960,Bafoussam,True,False,timber,2,2,2,PASS,,,15
+1961,Bamenda,True,False,timber,2,1,2,PASS,,,15
+1962,Bertoua,True,False,grain,2,3,3,PASS,,,15
+1963,Ngaoundere,True,False,tropical_wood,1,3,3,PASS,,,15
+1964,Maroua,True,False,fruit,1,4,4,PASS,,,15
+1965,Bangui,True,False,timber,2,5,5,PASS,,,15
+1966,Nola,True,False,cattle,2,4,4,PASS,,,15
+1967,Bouar,True,False,cattle,2,4,4,PASS,,,15
+1968,Bossangoa,True,False,grain,3,5,5,PASS,,,15
+1969,Zemio,True,False,cattle,4,6,6,PASS,,,15
+1970,Bangassou,True,False,timber,3,6,6,PASS,,,15
+1971,Ndele,True,False,cattle,3,6,6,PASS,,,15
+1972,Libreville,True,False,timber,1,5,5,PASS,,,20
+1973,Bata,True,False,timber,1,4,4,PASS,,,20
+1974,Mayumbe,True,False,timber,1,6,6,PASS,,,20
+1975,Moanda,True,False,timber,1,5,5,PASS,,,15
+1976,Makokou,True,False,iron,0,4,4,PASS,,,15
+1977,Nkuna,True,False,fruit,1,6,6,PASS,,,20
+1978,Madingou,True,False,iron,0,6,6,PASS,,,15
+1979,Biloka,True,False,tropical_wood,2,5,5,PASS,CLM,,15
+1980,Djambala,True,False,timber,1,5,5,PASS,,,15
+1981,Impfondo,True,False,timber,1,4,4,PASS,,,15
+1982,Kinshasa,True,False,fruit,2,6,6,PASS,,,20
+1983,Boma,True,False,timber,1,7,7,WARN,,,20
+1984,Kananga,True,False,fruit,4,5,5,PASS,,,15
+1985,Kumbana,True,False,grain,3,6,6,PASS,,,15
+1986,Lusambo,True,False,tropical_wood,4,5,5,PASS,,,15
+1987,Bunkeya,True,False,grain,4,3,4,PASS,,,15
+1988,Mussumba,True,False,tropical_wood,3,4,4,PASS,,,15
+1989,Munza,True,False,tropical_wood,4,4,4,PASS,,,15
+1990,Nyangwe,True,False,fruit,4,5,5,PASS,,,15
+1991,Uvira,True,False,fruit,4,5,5,PASS,,,15
+1992,Basoko,True,False,timber,3,6,6,PASS,,,15
+1993,Irebu,True,False,grain,2,5,5,PASS,,,15
+1994,Nsheng,True,False,grain,3,6,6,PASS,,,15
+1995,Gemena,True,False,cotton,2,5,5,PASS,,,15
+1996,Kisangani,True,False,tropical_wood,3,6,6,PASS,,,15
+1997,Mungbane,True,False,fruit,4,6,6,PASS,,,15
+1998,Baramo,True,False,fruit,3,6,6,PASS,,,15
+1999,Luanda,True,False,coffee,3,7,7,WARN,SCA,,35
+2000,Cabinda,True,False,fruit,1,7,7,WARN,,,20
+2001,Mbanza,True,False,fruit,2,6,6,PASS,SCA,,35
+2002,Quibala,True,False,coffee,2,6,6,PASS,,,25
+2003,Benguela,True,False,grain,2,7,7,WARN,SCA,,35
+2004,Mocamedes,True,False,fish,1,6,6,PASS,SCA,,35
+2005,Huambo,True,False,fruit,1,6,6,PASS,,,25
+2006,Kuito,True,False,fruit,1,5,5,PASS,,,15
+2007,Mavinga,True,False,grain,1,5,5,PASS,,,15
+2008,Ondjiva,True,False,iron,0,5,5,PASS,,,15
+2009,Malanje,True,False,fruit,2,5,5,PASS,,,15
+2010,Saurimo,True,False,cattle,3,5,5,PASS,,,15
+2011,Kubanda,True,False,grain,2,4,4,PASS,,,15
+2012,Lusaka,True,False,grain,3,2,3,PASS,,,15
+2013,Mongu,True,False,cattle,2,4,4,PASS,,,15
+2014,Kasempa,True,False,grain,3,3,3,PASS,,,15
+2015,Monzo,True,False,grain,2,3,3,PASS,,,15
+2016,Kazembe,True,False,grain,4,2,4,PASS,,,15
+2017,Kasema,True,False,cattle,5,3,5,PASS,,,15
+2018,Chipata,True,False,grain,4,1,4,PASS,,,15
+2019,Entebbe,True,False,tea,4,5,5,PASS,,,15
+2020,Mbarara,True,False,cotton,4,5,5,PASS,,,15
+2021,Masindi,True,False,coffee,4,6,6,PASS,,,15
+2022,Kitgum,True,False,cotton,3,5,5,PASS,,,15
+2023,Jinja,True,False,cotton,3,6,6,PASS,,,15
+2024,Nairobi,True,False,grain,1,6,6,PASS,,,15
+2025,Marsabit,True,False,cattle,1,5,5,PASS,,,15
+2026,Lodwar,True,False,tea,2,5,5,PASS,,,15
+2027,Nakuru,True,False,tea,1,5,5,PASS,,,15
+2028,Kisumu,True,False,fish,2,5,5,PASS,,,15
+2029,Mombasa,True,False,fish,2,5,5,PASS,OMA,,35
+2030,Lamu,True,False,cattle,1,5,5,PASS,OMA,,35
+2031,Wajir,True,False,coffee,1,4,4,PASS,,,15
+2032,Garissa,True,False,iron,0,5,5,PASS,,,15
+2033,Voi,True,False,grain,1,5,5,PASS,OMA,,35
+2034,Kigali,True,False,coffee,4,5,5,PASS,,,15
+2035,Usumbura,True,False,cotton,4,4,4,PASS,,,15
+2036,Dar Es Salaam,True,False,fish,2,4,4,PASS,OMA,,35
+2037,Tanga,True,False,grain,2,4,4,PASS,OMA,,35
+2038,Kilwa,True,False,grain,2,4,4,PASS,OMA,,35
+2039,Lindi,True,False,grain,1,4,4,PASS,OMA,,35
+2040,Songea,True,False,grain,2,3,3,PASS,,,15
+2041,Masasi,True,False,cattle,1,3,3,PASS,,,15
+2042,Iringa,True,False,tobacco,3,2,3,PASS,,,15
+2043,Tabora,True,False,tobacco,3,3,3,PASS,,,15
+2044,Mwanza,True,False,cotton,3,4,4,PASS,,,15
+2045,Morogoro,True,False,fruit,2,3,3,PASS,,,15
+2046,Ujiji,True,False,coffee,4,3,4,PASS,,,15
+2047,Arusha,True,False,grain,2,4,4,PASS,,,15
+2048,Zanzibar,True,False,grain,3,5,5,PASS,OMA,,35
+2049,Maputo,True,False,iron,0,1,1,PASS,NFL,,35
+2050,Chaimate,True,False,grain,1,2,2,PASS,NFL,,35
+2051,Inhambane,True,False,grain,1,3,3,PASS,SCA,,35
+2052,Massekisse,True,False,grain,1,2,2,PASS,SCA,,35
+2053,Sena,True,False,grain,3,1,3,PASS,SCA,,35
+2054,Tete,True,False,coal,3,0,3,PASS,,,15
+2055,Songo,True,False,grain,2,1,2,PASS,,,15
+2056,Zombo,True,False,coffee,3,1,3,PASS,,,15
+2057,Sofala,True,False,tobacco,2,2,2,PASS,SCA,,35
+2058,Mossurize,True,False,grain,2,1,2,PASS,SCA,,35
+2059,Quelimane,True,False,grain,3,2,3,PASS,SCA,,35
+2060,Mocambique,True,False,cotton,1,3,3,PASS,SCA,,35
+2061,Angoche,True,False,tobacco,2,2,2,PASS,SCA,,35
+2062,Shangzhou,True,False,iron,0,1,1,PASS,MCK,,32
+2063,Ibo,True,False,iron,0,3,3,PASS,SCA,,35
+2064,Nampula,True,False,grain,1,2,2,PASS,,,35
+2065,Milange,True,False,grain,2,1,2,PASS,SCA,,35
+2066,Zomba,True,False,tobacco,2,1,2,PASS,,,15
+2067,Lilongwe,True,False,tea,3,1,3,PASS,,,15
+2068,Harare,True,False,coffee,2,3,3,PASS,,,20
+2069,Gweru,True,False,cattle,1,3,3,PASS,,,20
+2070,Mutare,True,False,tobacco,1,2,2,PASS,,,20
+2071,Bulawayo,True,False,iron,0,2,2,PASS,,,20
+2072,Hwange,True,False,cattle,1,3,3,PASS,,,20
+2073,Masvingo,True,False,iron,0,2,2,PASS,,,20
+2074,Gaborone,True,False,wool,1,2,2,PASS,GRQ,,25
+2075,Serowe,True,False,grain,1,2,2,PASS,GRQ,,20
+2076,Nokaneng,True,False,fruit,2,3,3,PASS,,,20
+2077,Tsabong,True,False,grain,1,3,3,PASS,GRQ,,15
+2078,Windhoek,True,False,wool,2,5,5,PASS,,,10
+2079,Swakopmund,True,False,fish,2,6,6,PASS,,,10
+2080,Tsumeb,True,False,wool,1,5,5,PASS,,,10
+2081,Linyati,True,False,tropical_wood,2,4,4,PASS,,,20
+2082,Otjinene,True,False,grain,1,4,4,PASS,,,20
+2083,Walvis Bay,True,False,wool,3,5,5,PASS,,,20
+2084,Angra Pequena,True,False,grain,2,4,4,PASS,,,20
+2085,Nugouses,True,False,grain,2,4,4,PASS,,,20
+2086,Karasburg,True,False,grain,1,3,3,PASS,,,15
+2087,Cape Town,True,False,fruit,2,4,4,PASS,BRG,,35
+2088,Springbok,True,False,wool,2,4,4,PASS,BRG,,35
+2089,Worcester,True,False,fruit,2,4,4,PASS,BRG,,35
+2090,Swettenham,True,False,wool,3,5,5,PASS,BRG,,35
+2091,Mossel Bay,True,False,fruit,3,5,5,PASS,LWE,,35
+2092,Beaufort,True,False,fruit,2,4,4,PASS,LWE,,35
+2093,Calvinia,True,False,grain,1,3,3,PASS,BRG,,35
+2094,Kimberley,True,False,cattle,1,2,2,PASS,GRQ,,25
+2095,Dikathong,True,False,iron,0,2,2,PASS,GRQ,,25
+2096,Port Elizabeth,True,False,fruit,2,4,4,PASS,LWE,,35
+2097,Graaf Reinet,True,False,fruit,1,3,3,PASS,LWE,,35
+2098,Bisho,True,False,wool,2,3,3,PASS,XHO,,35
+2099,Mathele,True,False,grain,1,2,2,PASS,XHO,,35
+2100,Umtata,True,False,wool,2,2,2,PASS,XHO,,35
+2101,Bloemfontein,True,False,wool,1,1,1,PASS,BSH,,35
+2102,Winburg,True,False,coal,2,0,2,PASS,BSH,,35
+2103,Philippolis,True,False,iron,0,2,2,PASS,BSH,,35
+2104,Thaba Bosiu,True,False,grain,1,1,1,PASS,BSH,,35
+2105,Pretoria,True,False,grain,1,1,1,PASS,TRN,,35
+2106,Johannesburg,True,False,wool,2,1,2,PASS,TRN,,35
+2107,Klerksdorp,True,False,grain,1,1,1,PASS,GRQ,,35
+2108,Mosega,True,False,iron,0,1,1,PASS,TRN,,35
+2109,Lydenburg,True,False,coal,1,0,1,PASS,TRN,,35
+2110,Thohoyandu,True,False,grain,1,1,1,PASS,TRN,,35
+2111,Durban,True,False,wool,2,1,2,PASS,ZUL,,35
+2112,Ladysmith,True,False,coal,2,0,2,PASS,ZUL,,35
+2113,Ulundi,True,False,wool,1,1,1,PASS,ZUL,,35
+2114,Mbabane,True,False,coal,1,0,1,PASS,SUA,,35
+2115,Tananarive,True,False,precious_metal,1,1,1,ISLAND,MAD,,35
+2116,Fianarantsoa,True,False,coal,2,0,2,ISLAND,MAD,,35
+2117,Ampanihy,True,False,grain,3,1,3,ISLAND,MAD,,35
+2118,Tolanaro,True,False,grain,2,1,2,ISLAND,MAD,,35
+2119,Toamasina,True,False,fruit,1,1,1,ISLAND,MAD,,35
+2120,Antsiranana,True,False,iron,0,2,2,ISLAND,MAD,,35
+2121,Mahajanga,True,False,timber,1,2,2,ISLAND,MAD,,35
+2122,Toliara,True,False,fruit,2,1,2,ISLAND,MAD,,35
+2123,Comoros,True,False,fish,-1,-1,-1,ISLAND,,,35
+2124,Mayotte,True,False,grain,-1,-1,-1,ISLAND,,,35
+2125,Mauritius,True,False,fruit,-1,-1,-1,ISLAND,SPA,,35
+2126,Bourbon,True,False,fish,-1,-1,-1,ISLAND,DUA,,35
+2127,Seychelles,True,False,fruit,-1,-1,-1,ISLAND,SCA,,35
+2128,Diego Garcia,True,False,fish,-1,-1,-1,ISLAND,BRG,,32
+2129,Saint Helena,True,False,fish,-1,-1,-1,ISLAND,DUA,,35
+2130,Ascension,True,False,fish,-1,-1,-1,ISLAND,SCA,,35
+2131,Falkland Islands,True,False,wool,-1,-1,-1,ISLAND,SCA,,30
+2132,Tristan da Cunha,True,False,fish,-1,-1,-1,ISLAND,BRG,,35
+2133,South Georgia,True,False,fish,-1,-1,-1,ISLAND,,,30
+2134,Azores,True,False,fruit,-1,-1,-1,ISLAND,SPA,,35
+2135,Madeira,True,False,fruit,-1,-1,-1,ISLAND,SPA,,35
+2136,Canary Islands,True,False,fruit,-1,-1,-1,ISLAND,SPA,,32
+2137,Hermosillo,True,False,cattle,1,3,3,PASS,CLM,,35
+2138,Loreto,True,False,fish,3,4,4,PASS,CLM,,30
+2139,Rosarito,True,False,fruit,2,3,3,PASS,CLM,,30
+2140,Nogales,True,False,grain,1,2,2,PASS,CLM,,30
+2141,Guaymas,True,False,cattle,1,3,3,PASS,CLM,,35
+2142,Chihuahua,True,False,iron,0,2,2,PASS,CLM,,35
+2143,Paso del Norte,True,False,grain,1,2,2,PASS,CLM,,30
+2144,Delicias,True,False,cattle,1,1,1,PASS,CLM,,30
+2145,Parral,True,False,iron,0,2,2,PASS,CLM,,35
+2146,Monterrey,True,False,wool,2,4,4,PASS,TUN,,25
+2147,Morelos,True,False,coal,2,0,2,PASS,CLM,,30
+2148,Reynosa,True,False,coal,2,0,2,PASS,CLM,,35
+2149,Matamoros,True,False,cattle,3,1,3,PASS,CLM,,30
+2150,Ciudad Victoria,True,False,cattle,2,1,2,PASS,CLM,,35
+2151,Saltillo,True,False,dye,2,2,2,PASS,CLM,,35
+2152,Monclova,True,False,dye,1,1,1,PASS,CLM,,30
+2153,Durango,True,False,cattle,2,3,3,PASS,CLM,,35
+2154,Santa Maria del Oro,True,False,grain,1,2,2,PASS,CLM,,35
+2155,Torreon,True,False,cattle,2,2,2,PASS,CLM,,35
+2156,Mazatlan,True,False,cattle,2,4,4,PASS,CLM,,35
+2157,Culiacan,True,False,cattle,1,3,3,PASS,CLM,,35
+2158,Zacatecas,True,False,grain,1,3,3,PASS,CLM,,35
+2159,San Luis Potosi,True,False,grain,2,3,3,PASS,CLM,,35
+2160,Aguascalientes,True,False,iron,0,4,4,PASS,CLM,,35
+2161,Tepic,True,False,fish,1,4,4,PASS,CLM,,35
+2162,Veracruz,True,False,grain,1,3,3,PASS,CLM,,35
+2163,Tampico,True,False,fish,2,2,2,PASS,CLM,,35
+2164,Mintatitlan,True,False,iron,0,4,4,PASS,CLM,,35
+2165,Villahermosa,True,False,coffee,1,5,5,PASS,CLM,,30
+2166,Guadalajara,True,False,timber,1,5,5,PASS,CLM,,35
+2167,Guanajuato,True,False,grain,1,4,4,PASS,CLM,,35
+2168,Puerto Vallarta,True,False,fish,2,5,5,PASS,CLM,,35
+2169,Colima,True,False,fish,2,5,5,PASS,CLM,,35
+2170,Morelia,True,False,wool,2,4,4,PASS,CLM,,35
+2171,Los Alaniles,True,False,grain,3,5,5,PASS,CLM,,35
+2172,Mexico City,True,False,precious_goods,2,4,4,PASS,CLM,,40
+2173,Queretaro,True,False,fruit,2,3,3,PASS,CLM,,35
+2174,Toluca,True,False,grain,3,4,4,PASS,CLM,,35
+2175,Tulacingo,True,False,grain,1,3,3,PASS,CLM,,35
+2176,Puebla,True,False,dye,2,4,4,PASS,CLM,,35
+2177,Oaxaca,True,False,coffee,1,4,4,PASS,CLM,,35
+2178,Collataro,True,False,grain,2,5,5,PASS,CLM,,35
+2179,Acapuilco,True,False,grain,2,5,5,PASS,CLM,,35
+2180,Chilpancingo,True,False,cattle,2,5,5,PASS,CLM,,35
+2181,Tuxtla,True,False,cotton,1,5,5,PASS,CLM,,30
+2182,Tapachula,True,False,cotton,1,4,4,PASS,CLM,,30
+2183,Merida,True,False,grain,3,6,6,PASS,CLM,,30
+2184,Campeche,True,False,timber,2,5,5,PASS,CLM,,30
+2185,Bacalar,True,False,timber,3,5,5,PASS,CLM,,30
+2186,Guatemala,True,False,coffee,2,3,3,PASS,CLM,,31
+2187,Quetzaltenango,True,False,iron,0,4,4,PASS,CLM,,31
+2188,Puerto Barrios,True,False,wool,1,3,3,PASS,CLM,,31
+2189,Sayaxche,True,False,timber,2,4,4,PASS,CLM,,31
+2190,Belize,True,False,fruit,2,4,4,PASS,CLM,,30
+2191,San Salvador,True,False,coffee,3,3,3,PASS,CLM,,32
+2192,San Miguel,True,False,tropical_wood,3,3,3,PASS,CLM,,30
+2193,Comayagua,True,False,fruit,3,2,3,PASS,CLM,,31
+2194,San Pedro Sula,True,False,grain,2,2,2,PASS,CLM,,31
+2195,La Ceiba,True,False,fruit,3,1,3,PASS,CLM,,31
+2196,Puerto Lempira,True,False,coal,4,0,4,PASS,CLM,,31
+2197,Managua,True,False,coffee,3,2,3,PASS,CLM,,31
+2198,Rivas,True,False,fish,2,2,2,PASS,CLM,,31
+2199,Le�n,True,False,coffee,4,2,4,PASS,CLM,,31
+2200,Bluefields,True,False,fruit,3,1,3,PASS,CLM,,31
+2201,San Jose,True,False,iron,0,4,4,PASS,CLM,,31
+2202,Liberia,True,False,fruit,1,3,3,PASS,CLM,,31
+2203,Limon,True,False,coffee,1,3,3,PASS,CLM,,31
+2204,Panama City,True,False,fruit,3,4,4,PASS,CLM,,32
+2205,David,True,False,coffee,1,4,4,PASS,CLM,,31
+2206,Penonome,True,False,fruit,2,5,5,PASS,CLM,,30
+2207,Sainshand,True,False,grain,2,1,2,PASS,CHG,,35
+2208,Yaviza,True,False,fruit,2,3,3,PASS,CLM,,31
+2209,Havana,True,False,tobacco,-1,-1,-1,ISLAND,SPA,,35
+2210,Jagua,True,False,tobacco,-1,-1,-1,ISLAND,SPA,,35
+2211,Camaguey,True,False,tobacco,-1,-1,-1,ISLAND,SPA,,35
+2212,Santiago de Cuba,True,False,coffee,-1,-1,-1,ISLAND,SPA,,35
+2213,Port Au Prince,True,False,coffee,-1,-1,-1,ISLAND,SCA,,35
+2214,Santo Domingo,True,False,tobacco,-1,-1,-1,ISLAND,SCA,,35
+2215,Cap Haitien,True,False,tobacco,-1,-1,-1,ISLAND,SCA,,35
+2216,La Vega,True,False,coffee,-1,-1,-1,ISLAND,SCA,,35
+2217,Jamaica,True,False,sulphur,-1,-1,-1,ISLAND,BRG,,35
+2218,Cayman Islands,True,False,fruit,-1,-1,-1,ISLAND,SPA,,35
+2219,Bahamas,True,False,cotton,-1,-1,-1,ISLAND,VEN,,35
+2220,Turks And Caicos,True,False,cotton,-1,-1,-1,ISLAND,VEN,,35
+2221,Nanjing,True,False,tea,3,5,5,PASS,MIG,,32
+2222,Puerto Rico,True,False,coffee,-1,-1,-1,ISLAND,SCA,,35
+2223,Saint Thomas,True,False,tobacco,-1,-1,-1,ISLAND,DUA,,35
+2224,Antigua,True,False,fruit,-1,-1,-1,ISLAND,ARA,,35
+2225,Montserrat,True,False,cotton,-1,-1,-1,ISLAND,SCA,,35
+2226,Tortola,True,False,tobacco,-1,-1,-1,ISLAND,DUA,,35
+2227,Saint Kitts,True,False,cotton,-1,-1,-1,ISLAND,SPA,,35
+2228,Martinique,True,False,cotton,-1,-1,-1,ISLAND,BRG,,35
+2229,Barbados,True,False,tobacco,-1,-1,-1,ISLAND,KRL,,35
+2230,Guadeloupe,True,False,fruit,-1,-1,-1,ISLAND,SCA,,35
+2231,Saint Lucia,True,False,cotton,-1,-1,-1,ISLAND,ARA,,35
+2232,Dominica,True,False,cotton,-1,-1,-1,ISLAND,SPA,,35
+2233,Grenada,True,False,cotton,-1,-1,-1,ISLAND,PLC,,35
+2234,Curacao,True,False,tobacco,-1,-1,-1,ISLAND,BRG,,35
+2235,Aruba,True,False,tobacco,-1,-1,-1,ISLAND,BRG,,35
+2236,Saint Martin,True,False,tobacco,-1,-1,-1,ISLAND,DUA,,30
+2237,Trinidad,True,False,cotton,-1,-1,-1,ISLAND,CLM,,35
+2238,Tobago,True,False,cotton,-1,-1,-1,ISLAND,KRL,,35
+2239,Georgetown,True,False,fruit,1,5,5,PASS,CLM,,32
+2240,Paramaribo,True,False,iron,0,6,6,PASS,CLM,,32
+2241,Cayenne,True,False,timber,1,5,5,PASS,CLM,,32
+2242,Mahdia,True,False,tropical_wood,2,4,4,PASS,CLM,,15
+2243,Essequibo,True,False,fruit,2,4,4,PASS,CLM,,31
+2244,Christmas Island,True,False,fish,-1,-1,-1,ISLAND,SPA,,15
+2245,Apetina,True,False,timber,1,5,5,PASS,CLM,,15
+2246,Maripasoula,True,False,timber,2,5,5,PASS,CLM,,15
+2247,Bogota,True,False,cattle,1,1,1,PASS,CLM,,35
+2248,Ibaque,True,False,wool,1,1,1,PASS,CLM,,32
+2249,Tunja,True,False,grain,2,1,2,PASS,CLM,,35
+2250,Manizales,True,False,iron,0,2,2,PASS,CLM,,32
+2251,Cucuta,True,False,coal,1,0,1,PASS,CLM,,32
+2252,Medellin,True,False,iron,0,1,1,PASS,CLM,,35
+2253,Quibdo,True,False,fish,1,2,2,PASS,CLM,,31
+2254,Cartagena de Indias,True,False,fish,1,2,2,PASS,CLM,,33
+2255,Barranquilla,True,False,fish,1,1,1,PASS,CLM,,35
+2256,Cali,True,False,cattle,1,1,1,PASS,CLM,,35
+2257,Popayan,True,False,coal,2,0,2,PASS,CLM,,32
+2258,Buenaventura,True,False,fish,2,1,2,PASS,CLM,,32
+2259,Pasto,True,False,cattle,2,1,2,PASS,CLM,,32
+2260,San Jose del Gauaviare,True,False,timber,2,1,2,PASS,CLM,,20
+2261,Obando,True,False,timber,2,2,2,PASS,CLM,,20
+2262,Casanare,True,False,cattle,2,2,2,PASS,CLM,,35
+2263,El Encanto,True,False,timber,1,1,1,PASS,CLM,,20
+2264,Caracas,True,False,coffee,4,2,4,PASS,CLM,,35
+2265,Guanare,True,False,fruit,3,1,3,PASS,CLM,,30
+2266,Calabozo,True,False,grain,3,2,3,PASS,CLM,,31
+2267,Cumana,True,False,coffee,4,3,4,PASS,CLM,,35
+2268,San Felipe,True,False,wool,4,1,4,PASS,CLM,,35
+2269,Guiria,True,False,coffee,4,4,4,PASS,CLM,,35
+2270,Maracaibo,True,False,cattle,2,1,2,PASS,CLM,,32
+2271,Valera,True,False,coal,2,0,2,PASS,CLM,,32
+2272,Coro,True,False,cattle,3,1,3,PASS,CLM,,32
+2273,Barquisimento,True,False,coal,3,0,3,PASS,CLM,,32
+2274,Barinas,True,False,cattle,2,1,2,PASS,CLM,,31
+2275,Angostura,True,False,timber,3,3,3,PASS,CLM,,31
+2276,Curiapo,True,False,fish,3,3,3,PASS,CLM,,32
+2277,El Jobal,True,False,fruit,3,2,3,PASS,CLM,,31
+2278,San Fernado de Atabapo,True,False,fruit,3,3,3,PASS,CLM,,20
+2279,Quito,True,False,fruit,2,2,2,PASS,CLM,,35
+2280,Guayaquil,True,False,fruit,3,3,3,PASS,CLM,,35
+2281,Esmereldas,True,False,grain,3,2,3,PASS,CLM,,35
+2282,Loja,True,False,cattle,3,3,3,PASS,CLM,,32
+2283,Zamora,True,False,wool,2,2,2,PASS,CLM,,32
+2284,Tena,True,False,timber,1,2,2,PASS,CLM,,32
+2285,Galapagos,True,False,fish,-1,-1,-1,ISLAND,CLM,,30
+2286,Iquitos,True,False,timber,1,2,2,PASS,CLM,,20
+2287,Yurimagues,True,False,timber,2,2,2,PASS,CLM,,31
+2288,Yuncos,True,False,fruit,1,3,3,PASS,CLM,,20
+2289,Puca Urco,True,False,iron,0,2,2,PASS,CLM,,20
+2290,Cajamarca,True,False,coal,1,0,1,PASS,CLM,,35
+2291,Piura,True,False,fish,2,2,2,PASS,CLM,,32
+2292,Trujillo,True,False,grain,2,1,2,PASS,CLM,,35
+2293,Huanuco,True,False,precious_metal,1,1,1,PASS,CLM,,35
+2294,Moyobamba,True,False,timber,1,1,1,PASS,CLM,,35
+2295,Lima,True,False,cattle,2,2,2,PASS,CLM,,35
+2296,Huancavelica,True,False,precious_metal,1,1,1,PASS,CLM,,35
+2297,Ica,True,False,fish,2,1,2,PASS,CLM,,35
+2298,Huaraz,True,False,wool,2,1,2,PASS,CLM,,35
+2299,Ayacucho,True,False,coal,2,0,2,PASS,CLM,,35
+2300,Pucallpa,True,False,iron,0,1,1,PASS,CLM,,31
+2301,Puerto Maldonado,True,False,fruit,1,2,2,PASS,CLM,,31
+2302,Cusco,True,False,wool,1,1,1,PASS,CLM,,35
+2303,Puno,True,False,iron,0,2,2,PASS,CLM,,35
+2304,Arequipa,True,False,sulphur,1,1,1,PASS,CLM,,20
+2305,Antofagasta,True,False,wool,1,5,5,PASS,INC,,15
+2306,Sorocaba,True,False,coffee,1,3,3,PASS,LOT,,35
+2307,Iquique,True,False,cattle,1,4,4,PASS,INC,,15
+2308,Arica,True,False,wool,1,3,3,PASS,INC,,15
+2309,Calama,True,False,fish,2,5,5,PASS,INC,,15
+2310,La Paz,True,False,cattle,1,3,3,PASS,INC,,35
+2311,Cochabamba,True,False,fruit,1,4,4,PASS,INC,,35
+2312,Oruro,True,False,iron,0,4,4,PASS,INC,,10
+2313,Chuquisaca,True,False,wool,1,3,3,PASS,INC,,35
+2314,Potosi,True,False,grain,1,4,4,PASS,INC,,15
+2315,Tarija,True,False,wool,2,3,3,PASS,INC,,35
+2316,Santa Cruz,True,False,fruit,2,3,3,PASS,,,30
+2317,San Ignacio,True,False,tropical_wood,3,2,3,PASS,,,25
+2318,Robore,True,False,wool,2,2,2,PASS,,,30
+2319,Santa Ana,True,False,timber,2,3,3,PASS,INC,,31
+2320,Riberalta,True,False,timber,2,3,3,PASS,,,25
+2321,Cobija,True,False,tropical_wood,1,3,3,PASS,,,31
+2322,Copiapo,True,False,iron,0,6,6,PASS,INC,,35
+2323,La Serena,True,False,grain,1,7,7,WARN,INC,,35
+2324,Santiago,True,False,grain,2,5,5,PASS,INC,,35
+2325,Valparaiso,True,False,fruit,1,6,6,PASS,INC,,35
+2326,Vina del Mar,True,False,cattle,2,6,6,PASS,INC,,35
+2327,Talca,True,False,grain,1,5,5,PASS,INC,,35
+2328,Valdivia,True,False,grain,2,5,5,PASS,,,35
+2329,Temuco,True,False,wool,1,5,5,PASS,,,35
+2330,Cauquenes,True,False,iron,0,6,6,PASS,INC,,35
+2331,Chillan,True,False,iron,0,5,5,PASS,,,35
+2332,Osorno,True,False,fish,2,4,4,PASS,,,35
+2333,Puerto Aisen,True,False,fruit,3,5,5,PASS,,,15
+2334,Punta Arenas,True,False,wool,4,6,6,PASS,CHL,,15
+2335,Porvenir,True,False,wool,5,7,7,WARN,,,15
+2336,Easter Island,True,False,fish,-1,-1,-1,ISLAND,RAP,,10
+2337,Fortin Falcon,True,False,tropical_wood,3,3,3,PASS,,,15
+2338,Puerto Gaurani,True,False,fish,2,2,2,PASS,,,15
+2339,Asuncion,True,False,cattle,3,4,4,PASS,LOT,,35
+2340,Pilar,True,False,grain,3,4,4,PASS,LOT,,31
+2341,Encarnacion,True,False,timber,2,3,3,PASS,LOT,,31
+2342,San Pedro,True,False,wool,2,4,4,PASS,LOT,,31
+2343,Concepcion,True,False,fruit,3,3,3,PASS,LOT,,31
+2344,Montevideo,True,False,cattle,3,2,3,PASS,LOT,,40
+2345,Paysandu,True,False,grain,3,2,3,PASS,LOT,,35
+2346,Tacumba,True,False,timber,3,2,3,PASS,LOT,,35
+2347,Melo,True,False,fish,2,1,2,PASS,LOT,,35
+2348,Buenos Aires,True,False,cattle,4,1,4,PASS,NAN,,35
+2349,Junin,True,False,cattle,3,1,3,PASS,NAN,,35
+2350,Azul,True,False,coal,4,0,4,PASS,NAN,,35
+2351,La Plata,True,False,fish,5,1,5,PASS,NAN,,35
+2352,Mar del Plata,True,False,cattle,5,1,5,PASS,NAN,,35
+2353,Trenque Lanquen,True,False,grain,3,1,3,PASS,NAN,,15
+2354,Bahia Blanca,True,False,wool,4,1,4,PASS,NAN,,35
+2355,Carmen,True,False,timber,4,2,4,PASS,NAN,,35
+2356,Corrientes,True,False,cattle,3,3,3,PASS,LOT,,31
+2357,Curuzu Cuatia,True,False,timber,3,2,3,PASS,LOT,,35
+2358,Santo Tomas,True,False,fruit,2,2,2,PASS,LOT,,31
+2359,Colon,True,False,cattle,3,3,3,PASS,LOT,,35
+2360,Parana,True,False,cattle,3,2,3,PASS,LOT,,35
+2361,Santa Espiritu,True,False,grain,2,3,3,PASS,NAN,,35
+2362,Reconquista,True,False,cattle,2,3,3,PASS,NAN,,15
+2363,Rosario,True,False,cattle,2,2,2,PASS,NAN,,35
+2364,Resistencia,True,False,timber,3,4,4,PASS,NAN,,15
+2365,Villa Angela,True,False,timber,3,4,4,PASS,NAN,,15
+2366,Formosa,True,False,timber,4,4,4,PASS,,,15
+2367,Xolotas,True,False,timber,3,4,4,PASS,,,15
+2368,Salta,True,False,wool,1,5,5,PASS,INC,,35
+2369,Jujuy,True,False,wool,2,5,5,PASS,INC,,31
+2370,Cochinoca,True,False,wool,1,5,5,PASS,INC,,31
+2371,Equia,True,False,timber,2,4,4,PASS,INC,,31
+2372,Rivadavia,True,False,timber,2,4,4,PASS,INC,,15
+2373,Tucuman,True,False,fruit,2,6,6,PASS,INC,,35
+2374,Catamarca,True,False,wool,1,5,5,PASS,INC,,35
+2375,Vinchina,True,False,iron,0,6,6,PASS,INC,,35
+2376,Santiago del Estero,True,False,timber,2,5,5,PASS,NAN,,35
+2377,Anatuya,True,False,timber,2,4,4,PASS,NAN,,15
+2378,Mailin,True,False,timber,1,4,4,PASS,NAN,,35
+2379,Cordoba de Argentina,True,False,iron,0,4,4,PASS,NAN,,35
+2380,Villa Nueva,True,False,grain,1,4,4,PASS,NAN,,35
+2381,Rio Cuarto,True,False,cattle,1,3,3,PASS,NAN,,35
+2382,Renanco,True,False,wool,2,2,2,PASS,NAN,,15
+2383,San Luis,True,False,grain,1,4,4,PASS,NAN,,35
+2384,Mercedes,True,False,cattle,2,3,3,PASS,NAN,,15
+2385,La Rioja,True,False,wool,1,6,6,PASS,INC,,35
+2386,Santa Rita,True,False,fruit,1,5,5,PASS,NAN,,35
+2387,San Juan,True,False,fruit,2,5,5,PASS,INC,,35
+2388,Calingasta,True,False,fruit,1,6,6,PASS,INC,,35
+2389,Mendoza,True,False,fruit,2,5,5,PASS,INC,,35
+2390,San Rafael,True,False,fruit,2,4,4,PASS,NAN,,15
+2391,Nequen,True,False,cattle,1,4,4,PASS,,,15
+2392,Viedma,True,False,wool,3,3,3,PASS,,,15
+2393,Telen,True,False,wool,3,2,3,PASS,NAN,,15
+2394,Bariloche,True,False,wool,2,3,3,PASS,,,15
+2395,Curaco,True,False,cattle,2,3,3,PASS,NAN,,15
+2396,Rawson,True,False,wool,3,4,4,PASS,,,15
+2397,Esquel,True,False,wool,3,4,4,PASS,,,15
+2398,Puerto Deseado,True,False,wool,4,5,5,PASS,,,15
+2399,Rio Galleagos,True,False,wool,4,6,6,PASS,,,15
+2400,Rio Grande,True,False,wool,5,7,7,WARN,,,15
+2401,Marabitanas,True,False,tobacco,2,2,2,PASS,CLM,,15
+2402,Manaus,True,False,tropical_wood,3,3,3,PASS,,,20
+2403,Cachoeira,True,False,tobacco,3,3,3,PASS,,,15
+2404,Tefe,True,False,tropical_wood,2,3,3,PASS,,,15
+2405,Borba,True,False,tropical_wood,3,2,3,PASS,,,15
+2406,Cocos Islands,True,False,fish,4,6,6,PASS,TNG,,32
+2407,Tabatinga,True,False,timber,2,3,3,PASS,,,15
+2408,Oriximina,True,False,tropical_wood,2,4,4,PASS,CLM,,15
+2409,Saint Vincent,True,False,cotton,-1,-1,-1,ISLAND,SPA,,35
+2410,Belem,True,False,fish,4,2,4,PASS,AMA,,35
+2411,Santarem,True,False,grain,4,2,4,PASS,,,20
+2412,Obidos,True,False,tropical_wood,3,3,3,PASS,CLM,,20
+2413,Maraba,True,False,grain,3,1,3,PASS,,,20
+2414,Amapa,True,False,grain,1,3,3,PASS,TUR,,35
+2415,Macapa,True,False,tropical_wood,2,4,4,PASS,CLM,,20
+2416,Dourados,True,False,fruit,2,2,2,PASS,LOT,,25
+2417,Vila Bela,True,False,tobacco,2,1,2,PASS,,,20
+2418,Cuiaba,True,False,coal,2,0,2,PASS,,,25
+2419,Corumba,True,False,tropical_wood,1,1,1,PASS,LOT,,25
+2420,Iguatemi,True,False,sulphur,2,3,3,PASS,LOT,,25
+2421,Vila Boa,True,False,tropical_wood,1,1,1,PASS,AMA,,25
+2422,Aganja,True,False,fruit,2,1,2,PASS,AMA,,25
+2423,Palmas,True,False,fruit,3,1,3,PASS,AMA,,25
+2424,Sao Luis,True,False,cattle,5,3,5,PASS,AMA,,35
+2425,Chapada,True,False,cotton,4,2,4,PASS,AMA,,25
+2426,Teresina,True,False,fruit,4,3,4,PASS,AMA,,35
+2427,Oieras,True,False,grain,3,2,3,PASS,AMA,,25
+2428,Paraiba,True,False,fruit,5,4,5,PASS,AMA,,35
+2429,Fortaleza,True,False,fish,4,3,4,PASS,AMA,,35
+2430,Crato,True,False,cotton,4,3,4,PASS,AMA,,25
+2431,Natal,True,False,cotton,5,4,5,PASS,AMA,,35
+2432,Recife,True,False,coffee,4,4,4,PASS,AMA,,35
+2433,Cabrobo,True,False,cotton,4,3,4,PASS,AMA,,25
+2434,Maceio,True,False,tobacco,4,4,4,PASS,AMA,,35
+2435,Aracaju,True,False,tobacco,3,4,4,PASS,AMA,,35
+2436,Salvador de Bahia,True,False,tobacco,2,3,3,PASS,AMA,,35
+2437,Juazeiro,True,False,tobacco,3,3,3,PASS,AMA,,25
+2438,Vila do Barra,True,False,cattle,2,2,2,PASS,AMA,,25
+2439,Porto Seguro,True,False,coffee,1,2,2,PASS,AMA,,35
+2440,Vitoria da Conquista,True,False,coffee,2,2,2,PASS,AMA,,35
+2441,Ouro Preto,True,False,iron,0,1,1,PASS,AMA,,35
+2442,Sabara,True,False,coal,1,0,1,PASS,AMA,,31
+2443,Januaria,True,False,fruit,1,1,1,PASS,AMA,,35
+2444,Paracatu,True,False,cattle,1,1,1,PASS,AMA,,25
+2445,Uberaba,True,False,iron,0,1,1,PASS,LOT,,25
+2446,Sao Joao del Rey,True,False,tropical_wood,1,1,1,PASS,LOT,,35
+2447,Rio de Janeiro,True,False,coffee,1,2,2,PASS,AMA,,35
+2448,Campos,True,False,coffee,1,2,2,PASS,AMA,,35
+2449,Vitoria,True,False,iron,0,2,2,PASS,AMA,,35
+2450,Sao Paulo,True,False,coffee,2,3,3,PASS,LOT,,40
+2451,Santos,True,False,coffee,2,2,2,PASS,LOT,,35
+2452,Campinas,True,False,coffee,1,2,2,PASS,LOT,,35
+2453,Assis,True,False,cattle,2,2,2,PASS,LOT,,35
+2454,Fiji,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2455,Iguape,True,False,coffee,1,3,3,PASS,LOT,,35
+2456,Araraquara,True,False,coffee,1,2,2,PASS,LOT,,35
+2457,Curitiba,True,False,iron,0,3,3,PASS,LOT,,35
+2458,Garapuava,True,False,fruit,1,3,3,PASS,LOT,,35
+2459,Lajes,True,False,iron,0,2,2,PASS,LOT,,35
+2460,Castro,True,False,grain,1,3,3,PASS,LOT,,35
+2461,Desterro,True,False,cattle,1,2,2,PASS,LOT,,35
+2462,Sao Miguel,True,False,tropical_wood,1,3,3,PASS,LOT,,35
+2463,Porto Alegre,True,False,iron,0,1,1,PASS,LOT,,35
+2464,Pelotas,True,False,coal,1,0,1,PASS,LOT,,35
+2465,Passo Fundo,True,False,tobacco,1,2,2,PASS,LOT,,35
+2466,Santa Maria,True,False,timber,1,1,1,PASS,LOT,,35
+2467,Alegrete,True,False,cattle,2,1,2,PASS,LOT,,35
+2468,Sydney,True,False,coal,1,0,1,PASS,DNG,,35
+2469,Newcastle,True,False,iron,0,1,1,PASS,DNG,,35
+2470,Port Macquarie,True,False,grain,1,2,2,PASS,DNG,,35
+2471,Ophir,True,False,grain,1,1,1,PASS,DNG,,35
+2472,Eden,True,False,grain,2,1,2,PASS,DNG,,35
+2473,Wagga Wagga,True,False,grain,2,2,2,PASS,DNG,,20
+2474,Moree,True,False,grain,1,2,2,PASS,DNG,,20
+2475,Broken Hill,True,False,grain,2,3,3,PASS,DNG,,20
+2476,Melbourne,True,False,wool,3,3,3,PASS,DNG,,35
+2477,Warmambool,True,False,wool,4,4,4,PASS,DNG,,35
+2478,Ballarat,True,False,wool,3,3,3,PASS,DNG,,35
+2479,Sale,True,False,grain,3,2,3,PASS,DNG,,35
+2480,Beechworth,True,False,wool,3,2,3,PASS,DNG,,35
+2481,Swan Hill,True,False,grain,3,3,3,PASS,DNG,,35
+2482,Tasmania,True,False,timber,-1,-1,-1,ISLAND,DNG,,35
+2483,Brisbane,True,False,cattle,2,3,3,PASS,DNG,,35
+2484,Gladstone,True,False,wool,3,4,4,PASS,DNG,,35
+2485,Clermont,True,False,cattle,3,4,4,PASS,DNG,,35
+2486,Toowoomba,True,False,cattle,2,3,3,PASS,DNG,,35
+2487,Townsville,True,False,cattle,4,5,5,PASS,,,35
+2488,Cooktown,True,False,tropical_wood,5,6,6,PASS,,,35
+2489,Longreach,True,False,cattle,3,4,4,PASS,,,35
+2490,Charleville,True,False,cattle,2,3,3,PASS,DNG,,20
+2491,Adelaide,True,False,wool,3,4,4,PASS,DNG,,35
+2492,Port Lincolon,True,False,wool,4,5,5,PASS,DNG,,35
+2493,Robe,True,False,wool,4,4,4,PASS,DNG,,35
+2494,Port Augusta,True,False,grain,3,4,4,PASS,DNG,,35
+2495,Oodnadatta,True,False,fruit,3,4,4,PASS,,,25
+2496,Tarcoola,True,False,wool,4,5,5,PASS,,,35
+2497,Perth,True,False,grain,6,7,7,WARN,,,35
+2498,Kojonup,True,False,grain,6,7,7,WARN,,,35
+2499,Geraldton,True,False,grain,6,7,7,WARN,,,35
+2500,Kalgoorlie,True,False,grain,5,6,6,PASS,,,25
+2501,Broome,True,False,grain,5,6,6,PASS,,,35
+2502,Dampier,True,False,grain,5,6,6,PASS,,,35
+2503,Wiluna,True,False,cattle,4,5,5,PASS,,,25
+2504,Esperance,True,False,fruit,5,6,6,PASS,,,35
+2505,Palmerston,True,False,grain,5,6,6,PASS,,,35
+2506,Tennant Creek,True,False,cattle,4,5,5,PASS,,,35
+2507,Alice Springs,True,False,cattle,4,5,5,PASS,,,25
+2508,Norfolk Island,True,False,fish,-1,-1,-1,ISLAND,,,30
+2509,Auckland,True,False,cattle,-1,-1,-1,ISLAND,AOT,,35
+2510,New Plymouth,True,False,cattle,-1,-1,-1,ISLAND,AOT,,35
+2511,Napier,True,False,cattle,-1,-1,-1,ISLAND,AOT,,35
+2512,Wellington,True,False,cattle,-1,-1,-1,ISLAND,AOT,,35
+2513,Dunedin,True,False,wool,-1,-1,-1,ISLAND,,,35
+2514,Hokitika,True,False,wool,-1,-1,-1,ISLAND,,,35
+2515,Christchurch,True,False,wool,-1,-1,-1,ISLAND,,,35
+2516,Nelson,True,False,cattle,-1,-1,-1,ISLAND,,,35
+2517,Guam,True,False,fish,-1,-1,-1,ISLAND,SPA,,25
+2518,Palau,True,False,fruit,-1,-1,-1,ISLAND,,,30
+2519,Yap,True,False,fish,-1,-1,-1,ISLAND,,,10
+2520,Taveuni,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2521,Saipan,True,False,fish,-1,-1,-1,ISLAND,SPA,,30
+2522,Marshall Islands,True,False,fish,-1,-1,-1,ISLAND,,,10
+2523,Nauru,True,False,fish,-1,-1,-1,ISLAND,,,15
+2524,Wake,True,False,fish,-1,-1,-1,ISLAND,AOT,,30
+2525,Marcus,True,False,fish,-1,-1,-1,ISLAND,,,10
+2526,Palmyra,True,False,fish,-1,-1,-1,ISLAND,HAW,,10
+2527,Gilbert Islands,True,False,fish,-1,-1,-1,ISLAND,,,15
+2528,Port Moresby,True,False,iron,0,7,7,WARN,,,10
+2529,Kerema,True,False,tropical_wood,1,6,6,PASS,,,10
+2530,Lae,True,False,coffee,1,6,6,PASS,,,10
+2531,Madang,True,False,coffee,2,6,6,PASS,,,10
+2532,Forte Sao Joaquim,True,False,tropical_wood,3,3,3,PASS,CLM,,15
+2533,Targu Mures,True,False,iron,0,2,2,PASS,HUN,,35
+2534,Solomon Islands,True,False,fruit,-1,-1,-1,ISLAND,,,15
+2535,New Hebrides,True,False,fish,-1,-1,-1,ISLAND,,,15
+2536,Santa Cruz Islands,True,False,fish,-1,-1,-1,ISLAND,,,15
+2537,New Britain,True,False,tropical_wood,-1,-1,-1,ISLAND,,,10
+2538,Novi Sad,True,False,wool,1,1,1,PASS,HUN,,35
+2539,Bougainville,True,False,tropical_wood,-1,-1,-1,ISLAND,,,15
+2540,Tonga,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2541,Ellice Islands,True,False,fish,-1,-1,-1,ISLAND,,,15
+2542,Wallis And Futuna,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2543,Apia,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2544,Pago Pago,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2545,Rarotonga,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2546,Tongareva,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2547,Tokelau,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2548,Niue,True,False,fish,-1,-1,-1,ISLAND,TUI,,15
+2549,Tarauaca,True,False,tropical_wood,1,2,2,PASS,,,15
+2550,Forte do Principe,True,False,tropical_wood,2,2,2,PASS,,,15
+2551,Marquesas,True,False,fish,-1,-1,-1,ISLAND,,,15
+2552,Pitcairn,True,False,fish,-1,-1,-1,ISLAND,,,15
+2553,Tuamotus,True,False,fish,-1,-1,-1,ISLAND,,,15
+2554,Posadas,True,False,cattle,2,3,3,PASS,LOT,,31
+2555,Augusta,True,False,cotton,1,1,1,PASS,PLA,,35
+2556,Asheville,True,False,tobacco,2,1,2,PASS,PLA,,35
+2557,Esbjerg,True,False,fruit,1,1,1,PASS,SCA,,35
+2558,De Aar,True,False,fruit,1,3,3,PASS,LWE,,35
+2559,Suhaj,True,False,cotton,2,3,3,PASS,EGY,,35
+2560,Darmstadt,True,False,fruit,2,3,3,PASS,HES,,40
+2561,Siegburg,True,False,cattle,1,1,1,PASS,BEG,,40
+2562,Tainan,True,False,timber,3,5,5,PASS,TNG,,32
+2563,Safi,True,False,grain,3,4,4,PASS,SPA,,35
+2564,Salima,True,False,cattle,2,4,4,PASS,,,30
+2565,Cebu,True,False,fish,2,-1,-1,ISLAND,TON,,35
+2566,Agartala,True,False,grain,4,3,4,PASS,BUR,,32
+2567,Gaeta,True,False,fish,2,1,2,PASS,ARA,,35
+2568,Lugano,True,False,wool,1,2,2,PASS,LOM,,32
+2569,Niksic,True,False,grain,1,1,1,PASS,MON,,35
+2570,Beauvais,True,False,grain,3,2,3,PASS,DUA,,31
+2571,Tauranga,True,False,cattle,-1,-1,-1,ISLAND,AOT,,35
+2572,Nan,True,False,opium,2,4,4,PASS,CAM,,35
+2573,Mboul,True,False,grain,1,5,5,PASS,,,25
+2574,Mochudi,True,False,wool,1,2,2,PASS,GRQ,,20
+2575,Ipoh,True,False,timber,3,1,3,PASS,JOH,,35
+2576,Natuna,True,False,fish,-1,-1,-1,ISLAND,BRU,,31
+2577,Pljevlja,True,False,iron,0,1,1,PASS,MON,,35
+2578,Tacna,True,False,wool,1,2,2,PASS,CLM,,20
+2579,Truk,True,False,fish,-1,-1,-1,ISLAND,,,10
+2580,Stara Ladoga,True,False,grain,2,5,5,PASS,NOV,,35
+2581,Mataka,True,False,grain,1,2,2,PASS,,,15
+2582,Kotor,True,False,fish,2,2,2,PASS,MON,,35
+2583,Cetinje,True,False,fruit,1,2,2,PASS,MON,,35
+2584,Bielsko,True,False,coal,1,0,1,PASS,BOH,,40
+2585,Matan as Sarah,True,False,wool,1,4,4,PASS,,,10
+2586,Al-Ahsa,True,False,grain,3,3,3,PASS,NEJ,,10
+2587,Kola,True,False,timber,1,7,7,WARN,NOV,,10
+2588,Onega,True,False,timber,2,4,4,PASS,NOV,,10
+2589,Kanin,True,False,fish,4,1,4,PASS,JAP,,30
+2590,Ceuta,True,False,fish,4,3,4,PASS,SPA,,35
+2591,Tranquebar,True,False,iron,0,2,2,PASS,,,10
+2592,Ungava,True,False,timber,4,1,4,PASS,VIN,,10
+2593,Fort George,True,False,timber,3,2,3,PASS,VIN,,10
+2594,Pickle,True,False,timber,2,1,2,PASS,VIN,,20
+2595,Nunavut,True,False,fish,2,4,4,PASS,VIN,,10
+2596,Fort Resolution,True,False,fish,1,3,3,PASS,,,15
+2597,Fort Vermilion,True,False,timber,2,2,2,PASS,,,15
+2598,Fort Liard,True,False,timber,3,3,3,PASS,,,10
+2599,Fort Yukon,True,False,fish,4,2,4,PASS,JAP,,15
+2600,Altamira,True,False,grain,3,1,3,PASS,,,20
+2601,Sandy Desert,True,False,grain,5,6,6,PASS,,,25
+2602,Roebourne,True,False,grain,6,7,7,WARN,,,35
+2603,Tanami,True,False,cattle,5,6,6,PASS,,,25
+2604,Normanton,True,False,tropical_wood,4,5,5,PASS,,,35
+2605,Gibson's Desert,True,False,grain,5,6,6,PASS,,,25
+2606,Aktogay,True,False,coal,1,0,1,PASS,CHG,,35
+2607,Taklamakan,True,False,cotton,3,2,3,PASS,CHG,,35
+2608,Khatgal,True,False,iron,0,1,1,PASS,CHG,,35
+2609,Araouane,True,False,grain,1,4,4,PASS,,,10
+2610,Oral,True,False,cattle,1,3,3,PASS,NOG,,35
+2611,Turgay,True,False,wool,1,1,1,PASS,CHG,,35
+2612,Zhambyl,True,False,coal,2,0,2,PASS,CHG,,35
+2613,Novyj Urengoj,True,False,timber,2,2,2,PASS,RUS,,15
+2614,Panajevsk,True,False,cotton,1,4,4,PASS,CHG,,35
+2615,Sidorovsk,True,False,timber,2,1,2,PASS,,,10
+2616,Korf,True,False,fish,3,2,3,PASS,AIN,,20
+2617,Amgun,True,False,coal,2,0,2,PASS,MCK,,32
+2618,Talaya,True,False,grain,3,5,5,PASS,AIN,,20
+2619,Indigirka,True,False,timber,1,5,5,PASS,,,10
+2620,Kolyma,True,False,cattle,2,4,4,PASS,AIN,,15
+2621,Srednekolymsk,True,False,timber,1,5,5,PASS,,,10
+2622,Majn,True,False,grain,1,4,4,PASS,,,15
+2623,Midway Island,True,False,fish,-1,-1,-1,ISLAND,HAW,,10
+2624,Loango,True,False,timber,1,7,7,WARN,,,20
+2625,Port Hope Simpson,True,False,fish,2,2,2,PASS,VIN,,15
+2626,Port Harrison,True,False,timber,3,1,3,PASS,VIN,,10
+2627,Fort Chimo,True,False,coal,3,0,3,PASS,VIN,,35
+2628,Attawapiskat,True,False,fish,1,4,4,PASS,CLM,,31
+2629,Beatton River,True,False,timber,2,3,3,PASS,,,15
+2630,Fairbanks,True,False,fish,4,2,4,PASS,JAP,,15
+2631,Yukon,True,False,fish,5,1,5,PASS,JAP,,15
+2632,Kwangchowan,True,False,silk,5,4,5,PASS,TAI,,32
+2633,Palana,True,False,fish,4,1,4,PASS,AIN,,15
+2634,Khatyrka,True,False,fish,3,3,3,PASS,AIN,,10
+2635,Kariba,True,False,grain,2,2,2,PASS,,,20
+2636,Aasiaat,True,False,grain,1,2,2,PASS,BRG,,35
+2637,Navarin,True,False,fish,3,4,4,PASS,AIN,,10
+2638,Sugoj,True,False,grain,2,5,5,PASS,AIN,,15
+2639,Susuman,True,False,fish,3,4,4,PASS,AIN,,20
+2640,Ugolnoe,True,False,fish,4,4,4,PASS,SIN,,31
+2641,Ajan,True,False,grain,4,2,4,PASS,AIN,,35
+2642,Tomtor,True,False,cattle,3,3,3,PASS,,,15
+2643,Honuu,True,False,grain,2,4,4,PASS,,,10
+2644,Tommot,True,False,timber,3,1,3,PASS,,,20
+2645,Artemovskij,True,False,coal,3,0,3,PASS,,,20
+2646,Niznevartovsk,True,False,coal,3,0,3,PASS,,,15
+2647,Lifau,True,False,fish,6,3,6,PASS,DUA,,35
+2648,Handyga,True,False,grain,4,2,4,PASS,,,35
+2649,Tomtor,True,False,grain,3,3,3,PASS,,,10
+2650,Malykaj,True,False,grain,2,1,2,PASS,,,15
+2651,Zigansk,True,False,timber,1,1,1,PASS,,,15
+2652,Kular,True,False,grain,3,4,4,PASS,,,10
+2653,Saskylah,True,False,timber,2,3,3,PASS,,,10
+2654,Hatanga,True,False,timber,2,3,3,PASS,,,10
+2655,Essej,True,False,iron,0,1,1,PASS,,,15
+2656,Vanavara,True,False,coal,2,0,2,PASS,,,15
+2657,Svetlogorsk,True,False,timber,2,3,3,PASS,,,10
+2658,Kheta,True,False,timber,2,3,3,PASS,,,35
+2659,Guba,True,False,timber,2,2,2,PASS,,,10
+2660,Anuj,True,False,grain,1,5,5,PASS,,,15
+2661,Anjuj,True,False,timber,1,5,5,PASS,,,10
+2662,Ambarcik,True,False,iron,0,5,5,PASS,,,15
+2663,Manily,True,False,grain,2,3,3,PASS,AIN,,15
+2664,Omolon,True,False,iron,0,6,6,PASS,ABU,,31
+2665,Cokurdah,True,False,timber,2,5,5,PASS,,,10
+2666,Komsomolskiy,True,False,grain,2,4,4,PASS,AIN,,10
+2667,Kazace,True,False,timber,3,4,4,PASS,,,10
+2668,Adyca,True,False,grain,3,4,4,PASS,,,10
+2669,Majja,True,False,iron,0,3,3,PASS,LOM,,35
+2670,Tiksi,True,False,timber,2,3,3,PASS,,,35
+2671,Lena,True,False,grain,2,2,2,PASS,,,15
+2672,Borogoncy,True,False,timber,4,3,4,PASS,,,15
+2673,Olenek,True,False,grain,1,2,2,PASS,,,10
+2674,Novyj Kajak,True,False,timber,4,3,4,PASS,,,15
+2675,Ajhal,True,False,grain,1,1,1,PASS,,,15
+2676,Kirensk,True,False,grain,3,1,3,PASS,CHG,,35
+2677,Nepa,True,False,coal,2,0,2,PASS,,,35
+2678,Bulgan,True,False,timber,1,1,1,PASS,CHG,,35
+2679,Khovd,True,False,cotton,1,1,1,PASS,CHG,,35
+2680,Dudinka,True,False,timber,1,2,2,PASS,,,10
+2681,Taz,True,False,tea,2,4,4,PASS,TNG,,35
+2682,Nadym,True,False,timber,1,2,2,PASS,,,10
+2683,Vasjugan,True,False,coal,2,0,2,PASS,SIB,,35
+2684,Aksarka,True,False,timber,2,2,2,PASS,,,10
+2685,Njagan,True,False,timber,1,1,1,PASS,SIB,,35
+2686,Isim,True,False,sulphur,1,1,1,PASS,SIB,,35
+2687,Amderma,True,False,fish,2,2,2,PASS,NOV,,10
+2688,Inta,True,False,timber,3,2,3,PASS,NOV,,10
+2689,Vojvoz,True,False,precious_metal,2,1,2,PASS,NOV,,15
+2690,Gornopravdinsk,True,False,grain,1,2,2,PASS,,,15
+2691,Vorgovo,True,False,grain,2,1,2,PASS,,,35
+2692,Kostino,True,False,grain,1,1,1,PASS,,,15
+2693,Kotuj,True,False,timber,1,2,2,PASS,,,10
+2694,Erbogacen,True,False,grain,1,1,1,PASS,,,15
+2695,Lensk,True,False,grain,2,1,2,PASS,,,20
+2696,Nerjungri,True,False,grain,4,2,4,PASS,,,20
+2697,Tygda,True,False,grain,3,1,3,PASS,AIN,,35
+2698,Slavgorod,True,False,coal,1,0,1,PASS,CHG,,35
+2699,Izma,True,False,timber,3,2,3,PASS,NOV,,10
+2700,Usogorsk,True,False,timber,2,1,2,PASS,NOV,,35
+2701,Cunyja,True,False,grain,1,1,1,PASS,,,35
+2702,Aralsk,True,False,wool,2,1,2,PASS,NOG,,30
+2703,V�nern,False,True,,-1,-1,-1,SEA,,,
+2704,V�ttern,False,True,,-1,-1,-1,SEA,,,
+2705,Gulf of Bothnia,False,True,,-1,-1,-1,SEA,,,
+2706,�lands Hav,False,True,,-1,-1,-1,SEA,,,
+2707,Gulf of Finland,False,True,,-1,-1,-1,SEA,,,
+2708,Western Baltic Sea,False,True,,-1,-1,-1,SEA,,,
+2709,Gulf of Riga,False,True,,-1,-1,-1,SEA,,,
+2710,Southern Baltic Sea,False,True,,-1,-1,-1,SEA,,,
+2711,�resund,False,True,,-1,-1,-1,SEA,,,
+2712,Kattegat,False,True,,-1,-1,-1,SEA,,,
+2713,Peipsi J�rv,False,True,,-1,-1,-1,SEA,,,
+2714,Ladoga,False,True,,-1,-1,-1,SEA,,,
+2715,Onega,False,True,,-1,-1,-1,SEA,,,
+2716,White Sea,False,True,,-1,-1,-1,SEA,,,
+2717,Lofoten Sea,False,True,,-1,-1,-1,SEA,,,
+2718,Northern Norwegian Sea,False,True,,-1,-1,-1,SEA,,,
+2719,Southern Norwegian Sea,False,True,,-1,-1,-1,SEA,,,
+2720,Skagerrack,False,True,,-1,-1,-1,SEA,,,
+2721,Helgoland Bight,False,True,,-1,-1,-1,SEA,,,
+2722,Coast of Holland,False,True,,-1,-1,-1,SEA,,,
+2723,Dogger Bank,False,True,,-1,-1,-1,SEA,,,
+2724,Straits of Dover,False,True,,-1,-1,-1,SEA,,,
+2725,The Channel,False,True,,-1,-1,-1,SEA,,,
+2726,Lands End,False,True,,-1,-1,-1,SEA,,,
+2727,Coast of Britanny,False,True,,-1,-1,-1,SEA,,,
+2728,Quiberon Bay,False,True,,-1,-1,-1,SEA,,,
+2729,Cote D'Argent,False,True,,-1,-1,-1,SEA,,,
+2730,Bay of Biscay,False,True,,-1,-1,-1,SEA,,,
+2731,Cantabrian Sea,False,True,,-1,-1,-1,SEA,,,
+2732,Tyne,False,True,,-1,-1,-1,SEA,,,
+2733,Firth of Forth,False,True,,-1,-1,-1,SEA,,,
+2734,The North Sea,False,True,,-1,-1,-1,SEA,,,
+2735,Moray Firth,False,True,,-1,-1,-1,SEA,,,
+2736,North Channel,False,True,,-1,-1,-1,SEA,,,
+2737,Irish Sea,False,True,,-1,-1,-1,SEA,,,
+2738,St. George's Channel,False,True,,-1,-1,-1,SEA,,,
+2739,Donegal Bay,False,True,,-1,-1,-1,SEA,,,
+2740,Dingle Bay,False,True,,-1,-1,-1,SEA,,,
+2741,Celtic Sea,False,True,,-1,-1,-1,SEA,,,
+2742,Western Approaches,False,True,,-1,-1,-1,SEA,,,
+2743,Finisterre Bay,False,True,,-1,-1,-1,SEA,,,
+2744,Lusitanian Sea,False,True,,-1,-1,-1,SEA,,,
+2745,Gulf of Cadiz,False,True,,-1,-1,-1,SEA,,,
+2746,Straits of Gibraltar,False,True,,-1,-1,-1,SEA,,,
+2747,Gulf of Almeira,False,True,,-1,-1,-1,SEA,,,
+2748,Gulf of Valencia,False,True,,-1,-1,-1,SEA,,,
+2749,Gulf of Lion,False,True,,-1,-1,-1,SEA,,,
+2750,Cote D'Azur,False,True,,-1,-1,-1,SEA,,,
+2751,Ligurian Sea,False,True,,-1,-1,-1,SEA,,,
+2752,Gulf of Mallocra,False,True,,-1,-1,-1,SEA,,,
+2753,Western Mediterranean,False,True,,-1,-1,-1,SEA,,,
+2754,Barbary Coast,False,True,,-1,-1,-1,SEA,,,
+2755,Cape Bon,False,True,,-1,-1,-1,SEA,,,
+2756,Tyrrenean Sea,False,True,,-1,-1,-1,SEA,,,
+2757,Bay of Naples,False,True,,-1,-1,-1,SEA,,,
+2758,Gulf of Gabes,False,True,,-1,-1,-1,SEA,,,
+2759,Malta Channel,False,True,,-1,-1,-1,SEA,,,
+2760,Straits of Messina,False,True,,-1,-1,-1,SEA,,,
+2761,Gulf of Venice,False,True,,-1,-1,-1,SEA,,,
+2762,Adriatic Sea,False,True,,-1,-1,-1,SEA,,,
+2763,Straits of Otranto,False,True,,-1,-1,-1,SEA,,,
+2764,Gulf of Taranto,False,True,,-1,-1,-1,SEA,,,
+2765,Ionian Sea,False,True,,-1,-1,-1,SEA,,,
+2766,Gulf of Sirte,False,True,,-1,-1,-1,SEA,,,
+2767,Gulf of Tobruk,False,True,,-1,-1,-1,SEA,,,
+2768,Bay of Alexandrian,False,True,,-1,-1,-1,SEA,,,
+2769,Palestinian Coast,False,True,,-1,-1,-1,SEA,,,
+2770,Gulf of Cyprus,False,True,,-1,-1,-1,SEA,,,
+2771,Sea of Crete,False,True,,-1,-1,-1,SEA,,,
+2772,Aegean Sea,False,True,,-1,-1,-1,SEA,,,
+2773,Sea of Marmara,False,True,,-1,-1,-1,SEA,,,
+2774,Gulf of Varna,False,True,,-1,-1,-1,SEA,,,
+2775,Gulf of Odessa,False,True,,-1,-1,-1,SEA,,,
+2776,Sea of Azov,False,True,,-1,-1,-1,SEA,,,
+2777,Eastern Black Sea,False,True,,-1,-1,-1,SEA,,,
+2778,Lake Balaton,False,True,,-1,-1,-1,SEA,,,
+2779,Caspian Sea,False,True,,-1,-1,-1,SEA,,,
+2780,Aral Sea,False,True,,-1,-1,-1,SEA,,,
+2781,Gulf of Suez,False,True,,-1,-1,-1,SEA,,,
+2782,Red Sea,False,True,,-1,-1,-1,SEA,,,
+2783,Straits of Obokk,False,True,,-1,-1,-1,SEA,,,
+2784,Bal el Mandeb,False,True,,-1,-1,-1,SEA,,,
+2785,Coast of Mascate,False,True,,-1,-1,-1,SEA,,,
+2786,Mascate Coast,False,True,,-1,-1,-1,SEA,,,
+2787,Straits of Hormuz,False,True,,-1,-1,-1,SEA,,,
+2788,Persian Gulf,False,True,,-1,-1,-1,SEA,,,
+2789,Gulf of Indus,False,True,,-1,-1,-1,SEA,,,
+2790,Gulf of Gujarat,False,True,,-1,-1,-1,SEA,,,
+2791,Laquedive Islands,False,True,,-1,-1,-1,SEA,,,
+2792,Coast of Malabar,False,True,,-1,-1,-1,SEA,,,
+2793,Comorin Cape,False,True,,-1,-1,-1,SEA,,,
+2794,Coast of Caramandel,False,True,,-1,-1,-1,SEA,,,
+2795,Coast of Orissa,False,True,,-1,-1,-1,SEA,,,
+2796,Ganges Delta,False,True,,-1,-1,-1,SEA,,,
+2797,Akyab Bay,False,True,,-1,-1,-1,SEA,,,
+2798,Irrawady Delta,False,True,,-1,-1,-1,SEA,,,
+2799,Andaman Sea,False,True,,-1,-1,-1,SEA,,,
+2800,Mergui Archipelago,False,True,,-1,-1,-1,SEA,,,
+2801,Straits of Malacca,False,True,,-1,-1,-1,SEA,,,
+2802,Nicobar Isles,False,True,,-1,-1,-1,SEA,,,
+2803,Coast of Atjeh,False,True,,-1,-1,-1,SEA,,,
+2804,Coast of Sumatra,False,True,,-1,-1,-1,SEA,,,
+2805,Christmas Island,False,True,,-1,-1,-1,SEA,,,
+2806,Coast of Java,False,True,,-1,-1,-1,SEA,,,
+2807,Coast of Surabaya,False,True,,-1,-1,-1,SEA,,,
+2808,Straits of Lombok,False,True,,-1,-1,-1,SEA,,,
+2809,Timor Sea,False,True,,-1,-1,-1,SEA,,,
+2810,The Moluccas,False,True,,-1,-1,-1,SEA,,,
+2811,Java Sea,False,True,,-1,-1,-1,SEA,,,
+2812,Straits of Makassar,False,True,,-1,-1,-1,SEA,,,
+2813,Karimata Strait,False,True,,-1,-1,-1,SEA,,,
+2814,Straits of Johore,False,True,,-1,-1,-1,SEA,,,
+2815,Malayan Sea,False,True,,-1,-1,-1,SEA,,,
+2816,Coast of Sarawk,False,True,,-1,-1,-1,SEA,,,
+2817,Mekong Delta,False,True,,-1,-1,-1,SEA,,,
+2818,Gulf of Siam,False,True,,-1,-1,-1,SEA,,,
+2819,Cam Rah Bay,False,True,,-1,-1,-1,SEA,,,
+2820,South China Sea,False,True,,-1,-1,-1,SEA,,,
+2821,Coast of Brunei,False,True,,-1,-1,-1,SEA,,,
+2822,Coast of Annam,False,True,,-1,-1,-1,SEA,,,
+2823,Gulf of Tonkin,False,True,,-1,-1,-1,SEA,,,
+2824,Guanghou Bay,False,True,,-1,-1,-1,SEA,,,
+2825,Taiwan Strait,False,True,,-1,-1,-1,SEA,,,
+2826,Yang Tse Delta,False,True,,-1,-1,-1,SEA,,,
+2827,Yellow Sea,False,True,,-1,-1,-1,SEA,,,
+2828,Korea Bay,False,True,,-1,-1,-1,SEA,,,
+2829,South Korean Sea,False,True,,-1,-1,-1,SEA,,,
+2830,North Korean Sea,False,True,,-1,-1,-1,SEA,,,
+2831,Coast of Olga,False,True,,-1,-1,-1,SEA,,,
+2832,Tatar Straits,False,True,,-1,-1,-1,SEA,,,
+2833,Amur Delta,False,True,,-1,-1,-1,SEA,,,
+2834,Baj of Ayan,False,True,,-1,-1,-1,SEA,,,
+2835,Bay of Komenskoie,False,True,,-1,-1,-1,SEA,,,
+2836,Coast of Kamchatska,False,True,,-1,-1,-1,SEA,,,
+2837,Oktothsk Sea,False,True,,-1,-1,-1,SEA,,,
+2838,Coast Sahkalin,False,True,,-1,-1,-1,SEA,,,
+2839,Soya Strait,False,True,,-1,-1,-1,SEA,,,
+2840,Tsugaru Strait,False,True,,-1,-1,-1,SEA,,,
+2841,Sea of Japan,False,True,,-1,-1,-1,SEA,,,
+2842,Amakusa Sea,False,True,,-1,-1,-1,SEA,,,
+2843,Setto Inland Sea,False,True,,-1,-1,-1,SEA,,,
+2844,Tokai Sea,False,True,,-1,-1,-1,SEA,,,
+2845,Ryukyu Islands,False,True,,-1,-1,-1,SEA,,,
+2846,Luzon Strait,False,True,,-1,-1,-1,SEA,,,
+2847,Paracel Islands,False,True,,-1,-1,-1,SEA,,,
+2848,Manila Bay,False,True,,-1,-1,-1,SEA,,,
+2849,Coast of Luzon,False,True,,-1,-1,-1,SEA,,,
+2850,Gulf of Leyte,False,True,,-1,-1,-1,SEA,,,
+2851,Sulu Sea,False,True,,-1,-1,-1,SEA,,,
+2852,Sea of Celebes,False,True,,-1,-1,-1,SEA,,,
+2853,Sea of Ternete,False,True,,-1,-1,-1,SEA,,,
+2854,Sea of Banda,False,True,,-1,-1,-1,SEA,,,
+2855,Philipine Sea,False,True,,-1,-1,-1,SEA,,,
+2856,Palau Islands,False,True,,-1,-1,-1,SEA,,,
+2857,Biak Bay,False,True,,-1,-1,-1,SEA,,,
+2858,Vilian Strait,False,True,,-1,-1,-1,SEA,,,
+2859,Trobrian Islands,False,True,,-1,-1,-1,SEA,,,
+2860,Torres Strait,False,True,,-1,-1,-1,SEA,,,
+2861,Arafuam Sea,False,True,,-1,-1,-1,SEA,,,
+2862,Kolepom Bay,False,True,,-1,-1,-1,SEA,,,
+2863,Gulf of Carpentaria,False,True,,-1,-1,-1,SEA,,,
+2864,Great Barrier Reef,False,True,,-1,-1,-1,SEA,,,
+2865,Capricorn Bay,False,True,,-1,-1,-1,SEA,,,
+2866,Cape Howe,False,True,,-1,-1,-1,SEA,,,
+2867,Bass Strait,False,True,,-1,-1,-1,SEA,,,
+2868,Kangaroo Island,False,True,,-1,-1,-1,SEA,,,
+2869,Great Australian Bight,False,True,,-1,-1,-1,SEA,,,
+2870,Cape Leuwiin,False,True,,-1,-1,-1,SEA,,,
+2871,Shark Bay,False,True,,-1,-1,-1,SEA,,,
+2872,Northwest Cape,False,True,,-1,-1,-1,SEA,,,
+2873,King Sound,False,True,,-1,-1,-1,SEA,,,
+2874,Tasman Sea,False,True,,-1,-1,-1,SEA,,,
+2875,Southern Tasman Sea,False,True,,-1,-1,-1,SEA,,,
+2876,Cook Strait,False,True,,-1,-1,-1,SEA,,,
+2877,Northern Tasman Sea,False,True,,-1,-1,-1,SEA,,,
+2878,Cape Farwell,False,True,,-1,-1,-1,SEA,,,
+2879,Coast of New Zealand,False,True,,-1,-1,-1,SEA,,,
+2880,Cantebury Bight,False,True,,-1,-1,-1,SEA,,,
+2881,Sea of Antarctica,False,True,,-1,-1,-1,SEA,,,
+2882,New Caledonian Sea,False,True,,-1,-1,-1,SEA,,,
+2883,Coral Sea,False,True,,-1,-1,-1,SEA,,,
+2884,Gilbert Sea,False,True,,-1,-1,-1,SEA,,,
+2885,Solomon Sea,False,True,,-1,-1,-1,SEA,,,
+2886,Nauru Island,False,True,,-1,-1,-1,SEA,,,
+2887,Melanesia Sea,False,True,,-1,-1,-1,SEA,,,
+2888,Micronesia Sea,False,True,,-1,-1,-1,SEA,,,
+2889,Yap Islands,False,True,,-1,-1,-1,SEA,,,
+2890,Mariana Islands,False,True,,-1,-1,-1,SEA,,,
+2891,Tinian Sea,False,True,,-1,-1,-1,SEA,,,
+2892,Iwo Jima Sea,False,True,,-1,-1,-1,SEA,,,
+2893,Taihei Ocean,False,True,,-1,-1,-1,SEA,,,
+2894,The Kuriles,False,True,,-1,-1,-1,SEA,,,
+2895,Bay of Uka,False,True,,-1,-1,-1,SEA,,,
+2896,Bay of Oljut,False,True,,-1,-1,-1,SEA,,,
+2897,Bay of Anadyr,False,True,,-1,-1,-1,SEA,,,
+2898,Western Pacific #12,False,True,,-1,-1,-1,SEA,,,
+2899,Horn of Africa,False,True,,-1,-1,-1,SEA,,,
+2900,Coast of Pepper,False,True,,-1,-1,-1,SEA,,,
+2901,Zanzibar Strait,False,True,,-1,-1,-1,SEA,,,
+2902,Mozambique Channel,False,True,,-1,-1,-1,SEA,,,
+2903,Diego Suarez Bay,False,True,,-1,-1,-1,SEA,,,
+2904,Western Arabian Sea,False,True,,-1,-1,-1,SEA,,,
+2905,Eastern Arabian Sea,False,True,,-1,-1,-1,SEA,,,
+2906,The Seychelles,False,True,,-1,-1,-1,SEA,,,
+2907,Coast of Tamatave,False,True,,-1,-1,-1,SEA,,,
+2908,The Mascareignes,False,True,,-1,-1,-1,SEA,,,
+2909,Gulf of Zambeze,False,True,,-1,-1,-1,SEA,,,
+2910,Coast of Natal,False,True,,-1,-1,-1,SEA,,,
+2911,Coast of Transkei,False,True,,-1,-1,-1,SEA,,,
+2912,Coast of Ciskei,False,True,,-1,-1,-1,SEA,,,
+2913,Cape of Good Hope,False,True,,-1,-1,-1,SEA,,,
+2914,Coast of Namibia,False,True,,-1,-1,-1,SEA,,,
+2915,Coast of Angola,False,True,,-1,-1,-1,SEA,,,
+2916,Gulf of Kongo,False,True,,-1,-1,-1,SEA,,,
+2917,Coast of Cameroon,False,True,,-1,-1,-1,SEA,,,
+2918,Gulf of Nigeria,False,True,,-1,-1,-1,SEA,,,
+2919,Ivory Coast,False,True,,-1,-1,-1,SEA,,,
+2920,Gold Coast,False,True,,-1,-1,-1,SEA,,,
+2921,Coast of Gamvia,False,True,,-1,-1,-1,SEA,,,
+2922,Coast of Guinea,False,True,,-1,-1,-1,SEA,,,
+2923,Maueretanian Coast,False,True,,-1,-1,-1,SEA,,,
+2924,Canarian Sea,False,True,,-1,-1,-1,SEA,,,
+2925,Coast of Morocco,False,True,,-1,-1,-1,SEA,,,
+2926,Jan Mayen Sea,False,True,,-1,-1,-1,SEA,,,
+2927,Spitzberg Sea,False,True,,-1,-1,-1,SEA,,,
+2928,Icelandic Sea,False,True,,-1,-1,-1,SEA,,,
+2929,Shetland Straits,False,True,,-1,-1,-1,SEA,,,
+2930,Coast of Iceland,False,True,,-1,-1,-1,SEA,,,
+2931,Northeastern Atlantic,False,True,,-1,-1,-1,SEA,,,
+2932,Rockall,False,True,,-1,-1,-1,SEA,,,
+2933,Denmark Strait,False,True,,-1,-1,-1,SEA,,,
+2934,Eastern Coast of Greenland,False,True,,-1,-1,-1,SEA,,,
+2935,Western Coast of Greenland,False,True,,-1,-1,-1,SEA,,,
+2936,Labrador Strait,False,True,,-1,-1,-1,SEA,,,
+2937,Baffin Bay,False,True,,-1,-1,-1,SEA,,,
+2938,Hudson Straits,False,True,,-1,-1,-1,SEA,,,
+2939,James Bay,False,True,,-1,-1,-1,SEA,,,
+2940,Western Hudson Bay,False,True,,-1,-1,-1,SEA,,,
+2941,Eastern Hudson Bay,False,True,,-1,-1,-1,SEA,,,
+2942,Foxe Bassin,False,True,,-1,-1,-1,SEA,,,
+2943,Gulf of St. Lawrence,False,True,,-1,-1,-1,SEA,,,
+2944,Cabot Strait,False,True,,-1,-1,-1,SEA,,,
+2945,Bay of Fundy,False,True,,-1,-1,-1,SEA,,,
+2946,Strait of Belle Isle,False,True,,-1,-1,-1,SEA,,,
+2947,Fortune Bay,False,True,,-1,-1,-1,SEA,,,
+2948,Notre Dame Bay,False,True,,-1,-1,-1,SEA,,,
+2949,Labrador Sea,False,True,,-1,-1,-1,SEA,,,
+2950,Greenland Sea,False,True,,-1,-1,-1,SEA,,,
+2951,Northern Atlantic,False,True,,-1,-1,-1,SEA,,,
+2952,Masschusetts Bay,False,True,,-1,-1,-1,SEA,,,
+2953,Chesapaeake Bay,False,True,,-1,-1,-1,SEA,,,
+2954,Cape Hatteras,False,True,,-1,-1,-1,SEA,,,
+2955,Coast of Carolina,False,True,,-1,-1,-1,SEA,,,
+2956,Coast of Florida,False,True,,-1,-1,-1,SEA,,,
+2957,Sea of Sargassos,False,True,,-1,-1,-1,SEA,,,
+2958,Florida Straits,False,True,,-1,-1,-1,SEA,,,
+2959,Apalachee Bay,False,True,,-1,-1,-1,SEA,,,
+2960,Mobile Bay,False,True,,-1,-1,-1,SEA,,,
+2961,Galveston Bay,False,True,,-1,-1,-1,SEA,,,
+2962,Tampico Bay,False,True,,-1,-1,-1,SEA,,,
+2963,Yucatan Sea,False,True,,-1,-1,-1,SEA,,,
+2964,Gulf of Mexico,False,True,,-1,-1,-1,SEA,,,
+2965,Yucatan Channel,False,True,,-1,-1,-1,SEA,,,
+2966,Belize Bay,False,True,,-1,-1,-1,SEA,,,
+2967,Moscitos Coast,False,True,,-1,-1,-1,SEA,,,
+2968,Gulf of Darien,False,True,,-1,-1,-1,SEA,,,
+2969,Jamica Channel,False,True,,-1,-1,-1,SEA,,,
+2970,Central Carribean,False,True,,-1,-1,-1,SEA,,,
+2971,Northwestern Carribean,False,True,,-1,-1,-1,SEA,,,
+2972,Venezualan Gulf,False,True,,-1,-1,-1,SEA,,,
+2973,Venezuelan Sea,False,True,,-1,-1,-1,SEA,,,
+2974,Eastern Carribean,False,True,,-1,-1,-1,SEA,,,
+2975,Windward Islands,False,True,,-1,-1,-1,SEA,,,
+2976,Lesser Antilles,False,True,,-1,-1,-1,SEA,,,
+2977,Turks & Caicos Sea,False,True,,-1,-1,-1,SEA,,,
+2978,Coast of Cuba,False,True,,-1,-1,-1,SEA,,,
+2979,Coast of Hispaniola,False,True,,-1,-1,-1,SEA,,,
+2980,Guyana Coast,False,True,,-1,-1,-1,SEA,,,
+2981,Bay of Belem,False,True,,-1,-1,-1,SEA,,,
+2982,Amazonas Gulf,False,True,,-1,-1,-1,SEA,,,
+2983,Coast of Brazil,False,True,,-1,-1,-1,SEA,,,
+2984,Coast of Recife,False,True,,-1,-1,-1,SEA,,,
+2985,Coast of Pernambuc,False,True,,-1,-1,-1,SEA,,,
+2986,Todos Santos Bay,False,True,,-1,-1,-1,SEA,,,
+2987,Rio De Janeiro,False,True,,-1,-1,-1,SEA,,,
+2988,Baia Parangua,False,True,,-1,-1,-1,SEA,,,
+2989,Rio De La Plata,False,True,,-1,-1,-1,SEA,,,
+2990,Bahia Blanca,False,True,,-1,-1,-1,SEA,,,
+2991,Coast of Patagonia,False,True,,-1,-1,-1,SEA,,,
+2992,Magellan Strait,False,True,,-1,-1,-1,SEA,,,
+2993,South Chilean Coast,False,True,,-1,-1,-1,SEA,,,
+2994,Coast of Chile,False,True,,-1,-1,-1,SEA,,,
+2995,Atacama Coast,False,True,,-1,-1,-1,SEA,,,
+2996,Arica Gulf,False,True,,-1,-1,-1,SEA,,,
+2997,Arequipa Bay,False,True,,-1,-1,-1,SEA,,,
+2998,Coast of Peru,False,True,,-1,-1,-1,SEA,,,
+2999,Guayaguil Bay,False,True,,-1,-1,-1,SEA,,,
+3000,Coast of Ecuador,False,True,,-1,-1,-1,SEA,,,
+3001,Gulf of Panama,False,True,,-1,-1,-1,SEA,,,
+3002,Bay of Costa Rica,False,True,,-1,-1,-1,SEA,,,
+3003,Acapulco Bay,False,True,,-1,-1,-1,SEA,,,
+3004,Manzazilla Bay,False,True,,-1,-1,-1,SEA,,,
+3005,Mazatlan Bay,False,True,,-1,-1,-1,SEA,,,
+3006,Gulf of California,False,True,,-1,-1,-1,SEA,,,
+3007,Coast of Baja,False,True,,-1,-1,-1,SEA,,,
+3008,Coast of California,False,True,,-1,-1,-1,SEA,,,
+3009,Santa Catalina Islands,False,True,,-1,-1,-1,SEA,,,
+3010,Coast of Oregon,False,True,,-1,-1,-1,SEA,,,
+3011,Coast of Columbia,False,True,,-1,-1,-1,SEA,,,
+3012,Hecate Strait,False,True,,-1,-1,-1,SEA,,,
+3013,Gulf of Alaska,False,True,,-1,-1,-1,SEA,,,
+3014,Coast of Alaska,False,True,,-1,-1,-1,SEA,,,
+3015,Kuskowim Bay,False,True,,-1,-1,-1,SEA,,,
+3016,Hatton Bank,False,True,,-1,-1,-1,SEA,,,
+3017,Eastern Gibbs Fracture,False,True,,-1,-1,-1,SEA,,,
+3018,Western Gibbs Fracture,False,True,,-1,-1,-1,SEA,,,
+3019,Iberian Shelf,False,True,,-1,-1,-1,SEA,,,
+3020,Sea of Azores,False,True,,-1,-1,-1,SEA,,,
+3021,Corner Seamounts,False,True,,-1,-1,-1,SEA,,,
+3022,New England Seamounts,False,True,,-1,-1,-1,SEA,,,
+3023,Sable Island Bank,False,True,,-1,-1,-1,SEA,,,
+3024,Blake Plataeu,False,True,,-1,-1,-1,SEA,,,
+3025,West Bermuda Sea,False,True,,-1,-1,-1,SEA,,,
+3026,East Bermuda Sea,False,True,,-1,-1,-1,SEA,,,
+3027,Some Funny Seaname,False,True,,-1,-1,-1,SEA,,,
+3028,Northern Guiana Basin,False,True,,-1,-1,-1,SEA,,,
+3029,Guiana Basin,False,True,,-1,-1,-1,SEA,,,
+3030,Southern Guiana Basin,False,True,,-1,-1,-1,SEA,,,
+3031,Canary Approach,False,True,,-1,-1,-1,SEA,,,
+3032,Cap Verde Approach,False,True,,-1,-1,-1,SEA,,,
+3033,Central Atlantic #1,False,True,,-1,-1,-1,SEA,,,
+3034,Central Atlantic #2,False,True,,-1,-1,-1,SEA,,,
+3035,Central Atlantic #3,False,True,,-1,-1,-1,SEA,,,
+3036,Central Atlantic #4,False,True,,-1,-1,-1,SEA,,,
+3037,Romanche Gap,False,True,,-1,-1,-1,SEA,,,
+3038,East Guinea Basin,False,True,,-1,-1,-1,SEA,,,
+3039,West Guinea Basin,False,True,,-1,-1,-1,SEA,,,
+3040,Coast of Falklands,False,True,,-1,-1,-1,SEA,,,
+3041,New Georgia Islands,False,True,,-1,-1,-1,SEA,,,
+3042,Western Atlantic #1,False,True,,-1,-1,-1,SEA,,,
+3043,Western Atlantic #2,False,True,,-1,-1,-1,SEA,,,
+3044,Western Atlantic #3,False,True,,-1,-1,-1,SEA,,,
+3045,Western Atlantic #4,False,True,,-1,-1,-1,SEA,,,
+3046,Western Atlantic #5,False,True,,-1,-1,-1,SEA,,,
+3047,Western Atlantic #6,False,True,,-1,-1,-1,SEA,,,
+3048,East of Magellans,False,True,,-1,-1,-1,SEA,,,
+3049,Central Atlantic #5,False,True,,-1,-1,-1,SEA,,,
+3050,Central Atlantic #6,False,True,,-1,-1,-1,SEA,,,
+3051,Central Atlantic #7,False,True,,-1,-1,-1,SEA,,,
+3052,Central Atlantic #8,False,True,,-1,-1,-1,SEA,,,
+3053,Eastern Atlantic #1,False,True,,-1,-1,-1,SEA,,,
+3054,Eastern Atlantic #2,False,True,,-1,-1,-1,SEA,,,
+3055,Eastern Atlantic #3,False,True,,-1,-1,-1,SEA,,,
+3056,Eastern Atlantic #4,False,True,,-1,-1,-1,SEA,,,
+3057,Eastern Atlantic #5,False,True,,-1,-1,-1,SEA,,,
+3058,Eastern Atlantic #6,False,True,,-1,-1,-1,SEA,,,
+3059,Southern Atlantic #1,False,True,,-1,-1,-1,SEA,,,
+3060,Southern Atlantic #2,False,True,,-1,-1,-1,SEA,,,
+3061,Southern Atlantic #3,False,True,,-1,-1,-1,SEA,,,
+3062,Southern Atlantic #4,False,True,,-1,-1,-1,SEA,,,
+3063,Cape of Storms,False,True,,-1,-1,-1,SEA,,,
+3064,Gulf of Bengal,False,True,,-1,-1,-1,SEA,,,
+3065,Northen Bay of Bengal,False,True,,-1,-1,-1,SEA,,,
+3066,Southern Bay of Bengal,False,True,,-1,-1,-1,SEA,,,
+3067,Ceylon Sea,False,True,,-1,-1,-1,SEA,,,
+3068,Coast of Maldives,False,True,,-1,-1,-1,SEA,,,
+3069,Indian Ocean #1,False,True,,-1,-1,-1,SEA,,,
+3070,Indian Ocean #2,False,True,,-1,-1,-1,SEA,,,
+3071,Indian Ocean #3,False,True,,-1,-1,-1,SEA,,,
+3072,Indian Ocean #4,False,True,,-1,-1,-1,SEA,,,
+3073,Indian Ocean #5,False,True,,-1,-1,-1,SEA,,,
+3074,Indian Ocean #6,False,True,,-1,-1,-1,SEA,,,
+3075,Indian Ocean #7,False,True,,-1,-1,-1,SEA,,,
+3076,Indian Ocean #8,False,True,,-1,-1,-1,SEA,,,
+3077,Indian Ocean #9,False,True,,-1,-1,-1,SEA,,,
+3078,Indian Ocean #10,False,True,,-1,-1,-1,SEA,,,
+3079,Indian Ocean #11,False,True,,-1,-1,-1,SEA,,,
+3080,Indian Ocean #12,False,True,,-1,-1,-1,SEA,,,
+3081,Indian Ocean #13,False,True,,-1,-1,-1,SEA,,,
+3082,Indian Ocean #14,False,True,,-1,-1,-1,SEA,,,
+3083,Indian Ocean #15,False,True,,-1,-1,-1,SEA,,,
+3084,Indian Ocean #16,False,True,,-1,-1,-1,SEA,,,
+3085,Indian Ocean #17,False,True,,-1,-1,-1,SEA,,,
+3086,Indian Ocean #18,False,True,,-1,-1,-1,SEA,,,
+3087,Indian Ocean #19,False,True,,-1,-1,-1,SEA,,,
+3088,Indian Ocean #20,False,True,,-1,-1,-1,SEA,,,
+3089,Indian Ocean #21,False,True,,-1,-1,-1,SEA,,,
+3090,Indian Ocean #22,False,True,,-1,-1,-1,SEA,,,
+3091,Indian Ocean #23,False,True,,-1,-1,-1,SEA,,,
+3092,Indian Ocean #24,False,True,,-1,-1,-1,SEA,,,
+3093,Indian Ocean #25,False,True,,-1,-1,-1,SEA,,,
+3094,Indian Ocean #26,False,True,,-1,-1,-1,SEA,,,
+3095,Indian Ocean #27,False,True,,-1,-1,-1,SEA,,,
+3096,Indian Ocean #28,False,True,,-1,-1,-1,SEA,,,
+3097,Indian Ocean #29,False,True,,-1,-1,-1,SEA,,,
+3098,Indian Ocean #30,False,True,,-1,-1,-1,SEA,,,
+3099,Indian Ocean #31,False,True,,-1,-1,-1,SEA,,,
+3100,Indian Ocean #32,False,True,,-1,-1,-1,SEA,,,
+3101,Lake Tchad,False,True,,-1,-1,-1,SEA,,,
+3102,Lake Victoria,False,True,,-1,-1,-1,SEA,,,
+3103,Lake Tangayika,False,True,,-1,-1,-1,SEA,,,
+3104,Lake Malawi,False,True,,-1,-1,-1,SEA,,,
+3105,Indian Ocean #33,False,True,,-1,-1,-1,SEA,,,
+3106,Lake Balchasj,False,True,,-1,-1,-1,SEA,,,
+3107,Lake Bajkal,False,True,,-1,-1,-1,SEA,,,
+3108,Lake Dongting,False,True,,-1,-1,-1,SEA,,,
+3109,Lake Titicaca,False,True,,-1,-1,-1,SEA,,,
+3110,Lake Nicaragua,False,True,,-1,-1,-1,SEA,,,
+3111,Northern Pacific #10,False,True,,-1,-1,-1,SEA,,,
+3112,Lake Ontario,False,True,,-1,-1,-1,SEA,,,
+3113,Lake Erie,False,True,,-1,-1,-1,SEA,,,
+3114,Lake Huron,False,True,,-1,-1,-1,SEA,,,
+3115,Lake Michigan,False,True,,-1,-1,-1,SEA,,,
+3116,Lake Superior,False,True,,-1,-1,-1,SEA,,,
+3117,Lake Nipigon,False,True,,-1,-1,-1,SEA,,,
+3118,Lake Winnipeg,False,True,,-1,-1,-1,SEA,,,
+3119,Western Pacific #1,False,True,,-1,-1,-1,SEA,,,
+3120,Western Pacific #2,False,True,,-1,-1,-1,SEA,,,
+3121,Western Pacific #3,False,True,,-1,-1,-1,SEA,,,
+3122,Western Pacific #4,False,True,,-1,-1,-1,SEA,,,
+3123,Western Pacific #5,False,True,,-1,-1,-1,SEA,,,
+3124,Western Pacific #6,False,True,,-1,-1,-1,SEA,,,
+3125,Western Pacific #7,False,True,,-1,-1,-1,SEA,,,
+3126,Western Pacific #8,False,True,,-1,-1,-1,SEA,,,
+3127,Western Pacific #9,False,True,,-1,-1,-1,SEA,,,
+3128,Western Pacific #10,False,True,,-1,-1,-1,SEA,,,
+3129,Western Pacific #11,False,True,,-1,-1,-1,SEA,,,
+3130,Northern Pacific #1,False,True,,-1,-1,-1,SEA,,,
+3131,Northern Pacific #2,False,True,,-1,-1,-1,SEA,,,
+3132,Northern Pacific #3,False,True,,-1,-1,-1,SEA,,,
+3133,Northern Pacific #4,False,True,,-1,-1,-1,SEA,,,
+3134,Northern Pacific #5,False,True,,-1,-1,-1,SEA,,,
+3135,Northern Pacific #6,False,True,,-1,-1,-1,SEA,,,
+3136,Northern Pacific #7,False,True,,-1,-1,-1,SEA,,,
+3137,Northern Pacific #8,False,True,,-1,-1,-1,SEA,,,
+3138,Northern Pacific #9,False,True,,-1,-1,-1,SEA,,,
+3139,Northern Pacific #10,False,True,,-1,-1,-1,SEA,,,
+3140,Central Pacific #1,False,True,,-1,-1,-1,SEA,,,
+3141,Central Pacific #2,False,True,,-1,-1,-1,SEA,,,
+3142,Central Pacific #3,False,True,,-1,-1,-1,SEA,,,
+3143,Central Pacific #4,False,True,,-1,-1,-1,SEA,,,
+3144,Central Pacific #5,False,True,,-1,-1,-1,SEA,,,
+3145,Central Pacific #6,False,True,,-1,-1,-1,SEA,,,
+3146,Central Pacific #7,False,True,,-1,-1,-1,SEA,,,
+3147,Central Pacific #8,False,True,,-1,-1,-1,SEA,,,
+3148,Central Pacific #9,False,True,,-1,-1,-1,SEA,,,
+3149,Central Pacific #10,False,True,,-1,-1,-1,SEA,,,
+3150,Coast of Hawaii,False,True,,-1,-1,-1,SEA,,,
+3151,Central Pacific #11,False,True,,-1,-1,-1,SEA,,,
+3152,Central Pacific #12,False,True,,-1,-1,-1,SEA,,,
+3153,Central Pacific #13,False,True,,-1,-1,-1,SEA,,,
+3154,Eastern Pacific #1,False,True,,-1,-1,-1,SEA,,,
+3155,Eastern Pacific #2,False,True,,-1,-1,-1,SEA,,,
+3156,Eastern Pacific #3,False,True,,-1,-1,-1,SEA,,,
+3157,Eastern Pacific #4,False,True,,-1,-1,-1,SEA,,,
+3158,Eastern Pacific #5,False,True,,-1,-1,-1,SEA,,,
+3159,Eastern Pacific #6,False,True,,-1,-1,-1,SEA,,,
+3160,Eastern Pacific #7,False,True,,-1,-1,-1,SEA,,,
+3161,Eastern Pacific #8,False,True,,-1,-1,-1,SEA,,,
+3162,Eastern Pacific #9,False,True,,-1,-1,-1,SEA,,,
+3163,Eastern Pacific #10,False,True,,-1,-1,-1,SEA,,,
+3164,Eastern Pacific #11,False,True,,-1,-1,-1,SEA,,,
+3165,Eastern Pacific #12,False,True,,-1,-1,-1,SEA,,,
+3166,Eastern Pacific #13,False,True,,-1,-1,-1,SEA,,,
+3167,Eastern Pacific #14,False,True,,-1,-1,-1,SEA,,,
+3168,Eastern Pacific #15,False,True,,-1,-1,-1,SEA,,,
+3169,Eastern Pacific #16,False,True,,-1,-1,-1,SEA,,,
+3170,Eastern Pacific #16,False,True,,-1,-1,-1,SEA,,,
+3171,Southern Pacifc #1,False,True,,-1,-1,-1,SEA,,,
+3172,Southern Pacific #2,False,True,,-1,-1,-1,SEA,,,
+3173,Southern Pacific #3,False,True,,-1,-1,-1,SEA,,,
+3174,Southern Pacific #4,False,True,,-1,-1,-1,SEA,,,
+3175,Southern Pacific #5,False,True,,-1,-1,-1,SEA,,,
+3176,Southern Pacific #6,False,True,,-1,-1,-1,SEA,,,
+3177,Southern Pacific #7,False,True,,-1,-1,-1,SEA,,,
+3178,Southern Pacific #8,False,True,,-1,-1,-1,SEA,,,
+3179,Southern Pacific #9,False,True,,-1,-1,-1,SEA,,,
+3180,Southern Pacific #10,False,True,,-1,-1,-1,SEA,,,
+3181,Southern Pacific #11,False,True,,-1,-1,-1,SEA,,,
+3182,Southern Pacific #12,False,True,,-1,-1,-1,SEA,,,
+3183,Southern Pacific #13,False,True,,-1,-1,-1,SEA,,,
+3184,Southern Pacific #14,False,True,,-1,-1,-1,SEA,,,
+3185,Southern Pacific #15,False,True,,-1,-1,-1,SEA,,,
+3186,Southern Pacific #16,False,True,,-1,-1,-1,SEA,,,
+3187,Southern Pacific #17,False,True,,-1,-1,-1,SEA,,,
+3188,Southern Pacific #18,False,True,,-1,-1,-1,SEA,,,
+3189,Southern Pacific #19,False,True,,-1,-1,-1,SEA,,,
+3190,Southern Pacific #20,False,True,,-1,-1,-1,SEA,,,
+3191,Southern Pacific #21,False,True,,-1,-1,-1,SEA,,,
+3192,Southern Pacific #22,False,True,,-1,-1,-1,SEA,,,
+3193,Southern Pacific #23,False,True,,-1,-1,-1,SEA,,,
+3194,Southern Pacific #24,False,True,,-1,-1,-1,SEA,,,
+3195,Southern Pacific #25,False,True,,-1,-1,-1,SEA,,,
+3196,Southern Pacific #26,False,True,,-1,-1,-1,SEA,,,
+3197,Southern Pacific #27,False,True,,-1,-1,-1,SEA,,,
+3198,Southern Pacific #28,False,True,,-1,-1,-1,SEA,,,
+3199,Southern Pacific #29,False,True,,-1,-1,-1,SEA,,,
+3200,Western Atlantic #7,False,True,,-1,-1,-1,SEA,,,
+3201,Western Atlantic #8,False,True,,-1,-1,-1,SEA,,,
+3202,Western Atlantic #9,False,True,,-1,-1,-1,SEA,,,
+3203,Western Atlantic #10,False,True,,-1,-1,-1,SEA,,,
+3204,Western Atlantic #11,False,True,,-1,-1,-1,SEA,,,
+3205,Central Atlantic #9,False,True,,-1,-1,-1,SEA,,,
+3206,Central Atlantic #10,False,True,,-1,-1,-1,SEA,,,
+3207,Central Atlantic #11,False,True,,-1,-1,-1,SEA,,,
+3208,Central Atlantic #12,False,True,,-1,-1,-1,SEA,,,
+3209,Central Atlantic #13,False,True,,-1,-1,-1,SEA,,,
+3210,Central Atlantic #14,False,True,,-1,-1,-1,SEA,,,
+3211,Central Atlantic #15,False,True,,-1,-1,-1,SEA,,,
+3212,Indian Ocean #37,False,True,,-1,-1,-1,SEA,,,
+3213,Indian Ocean #34,False,True,,-1,-1,-1,SEA,,,
+3214,Indian Ocean #35,False,True,,-1,-1,-1,SEA,,,
+3215,Indian Ocean #36,False,True,,-1,-1,-1,SEA,,,
+3216,Southern Pacific #30,False,True,,-1,-1,-1,SEA,,,
+3217,Southern Pacific #31,False,True,,-1,-1,-1,SEA,,,
+3218,Southern Pacific #32,False,True,,-1,-1,-1,SEA,,,
+3219,Southern Pacific #33,False,True,,-1,-1,-1,SEA,,,
+3220,Southern Pacific #34,False,True,,-1,-1,-1,SEA,,,
+3221,Southern Pacific #35,False,True,,-1,-1,-1,SEA,,,
+3222,Southern Pacific #36,False,True,,-1,-1,-1,SEA,,,
+3223,Southern Pacific #37,False,True,,-1,-1,-1,SEA,,,
+3224,Lake Tana,False,True,,-1,-1,-1,SEA,,,
+3225,Great Salt Lake,False,True,,-1,-1,-1,SEA,,,
+3226,Indian Ocean #38,False,True,,-1,-1,-1,SEA,,,
+3227,Great Slave Lake,False,True,,-1,-1,-1,SEA,,,
+3228,Lake Athabasca,False,True,,-1,-1,-1,SEA,,,
+3229,Reindeer Lake,False,True,,-1,-1,-1,SEA,,,
+3230,Gulf of Ob,False,True,,-1,-1,-1,SEA,,,
+3231,Lake Van,False,True,,-1,-1,-1,SEA,,,
+3232,Lake Urmia,False,True,,-1,-1,-1,SEA,,,
+3233,Issyk Kul,False,True,,-1,-1,-1,SEA,,,
+3234,Qinghai Lake,False,True,,-1,-1,-1,SEA,,,
+3235,Lake Poyang,False,True,,-1,-1,-1,SEA,,,
+3236,Lake Rudolf,False,True,,-1,-1,-1,SEA,,,
+3237,Northern Atlantic #2,False,True,,-1,-1,-1,SEA,,,
+3238,Lake Mweru,False,True,,-1,-1,-1,SEA,,,
+3239,Lake Champlain,False,True,,-1,-1,-1,SEA,,,
+3240,Lake Poopo,False,True,,-1,-1,-1,SEA,,,
+3241,Arctic Ocean,False,True,,-1,-1,-1,SEA,,,
+3242,Northern Atlantic #3,False,True,,-1,-1,-1,SEA,,,
+3243,Southern Pacific #38,False,True,,-1,-1,-1,SEA,,,
+3244,Western Pacific #13,False,True,,-1,-1,-1,SEA,,,
+3245,Southern Pacific #39,False,True,,-1,-1,-1,SEA,,,
+3246,Jan Mayen,True,False,fish,-1,-1,-1,ISLAND,SCA,,30
+3247,West Hawaii,False,True,,-1,-1,-1,SEA,,,
+3248,West Magellan Strait,False,True,,-1,-1,-1,SEA,,,
+3249,Kiritimati,True,False,fish,-1,-1,-1,ISLAND,,,15
+3250,Dead Sea,False,True,,-1,-1,-1,SEA,,,
+3251,Lake of the Woods,False,True,,-1,-1,-1,SEA,,,
+3252,Lake Nipissing,False,True,,-1,-1,-1,SEA,,,
+3253,Lake Simcoe,False,True,,-1,-1,-1,SEA,,,
+3254,Lake Winnebago,False,True,,-1,-1,-1,SEA,,,
+3255,Iber� lake,False,True,,-1,-1,-1,SEA,,,
+3256,Lake Saint-Jean,False,True,,-1,-1,-1,SEA,,,
+3257,Lake Manicouagan,False,True,,-1,-1,-1,SEA,,,
+3258,Lake Mistassini,False,True,,-1,-1,-1,SEA,,,
+3259,Lake Sakami,False,True,,-1,-1,-1,SEA,,,
+3260,Lobstick Lake,False,True,,-1,-1,-1,SEA,,,
+3261,Lake Bienville,False,True,,-1,-1,-1,SEA,,,
+3262,Clearwater Lakes,False,True,,-1,-1,-1,SEA,,,
+3263,Lake Qullinaaraaluk,False,True,,-1,-1,-1,SEA,,,
+3264,God's Lake,False,True,,-1,-1,-1,SEA,,,
+3265,Wollaston Lake,False,True,,-1,-1,-1,SEA,,,
+3266,Cree Lake,False,True,,-1,-1,-1,SEA,,,
+3267,Churchill Lake,False,True,,-1,-1,-1,SEA,,,
+3268,Nueltin Lake,False,True,,-1,-1,-1,SEA,,,
+3269,Kasba Lake,False,True,,-1,-1,-1,SEA,,,
+3270,Wholdaia Lake,False,True,,-1,-1,-1,SEA,,,
+3271,Dubawnt Lake,False,True,,-1,-1,-1,SEA,,,
+3272,Yathkyed Lake,False,True,,-1,-1,-1,SEA,,,
+3273,Baker Lake,False,True,,-1,-1,-1,SEA,,,
+3274,Schultz Lake,False,True,,-1,-1,-1,SEA,,,
+3275,Aberdeen Lake,False,True,,-1,-1,-1,SEA,,,
+3276,Clinton-Colden Lake,False,True,,-1,-1,-1,SEA,,,
+3277,Williston Lake,False,True,,-1,-1,-1,SEA,,,
+3278,Lake Okeechobee,False,True,,-1,-1,-1,SEA,,,
+3279,Lake Tuz,False,True,,-1,-1,-1,SEA,,,
+3280,Sevan Lake,False,True,,-1,-1,-1,SEA,,,
+3281,Therthar Lake,False,True,,-1,-1,-1,SEA,,,
+3282,Razazza Lake,False,True,,-1,-1,-1,SEA,,,
+3283,Lake Geneva,False,True,,-1,-1,-1,SEA,,,
+3284,Lake Constance,False,True,,-1,-1,-1,SEA,,,
+3285,Fagnano Lake,False,True,,-1,-1,-1,SEA,,,
+3286,Songkhla Lake,False,True,,-1,-1,-1,SEA,,,
+3287,Lake Gairdner,False,True,,-1,-1,-1,SEA,,,
+3288,Lake Torrens,False,True,,-1,-1,-1,SEA,,,
+3289,Lake Frome,False,True,,-1,-1,-1,SEA,,,
+3290,Lake Eyre,False,True,,-1,-1,-1,SEA,,,
+3291,Lake Mackay,False,True,,-1,-1,-1,SEA,,,
+3292,Lake Argyle,False,True,,-1,-1,-1,SEA,,,
+3293,Lake Rukwa,False,True,,-1,-1,-1,SEA,,,
+3294,Lake Mweru,False,True,,-1,-1,-1,SEA,,,
+3295,Taihu Lake,False,True,,-1,-1,-1,SEA,,,
+3296,Chott el Djerid,False,True,,-1,-1,-1,SEA,,,
+3297,Chott Melghir,False,True,,-1,-1,-1,SEA,,,
+3298,Chott el Hodna,False,True,,-1,-1,-1,SEA,,,
+3299,Chott Chergui,False,True,,-1,-1,-1,SEA,,,
+3300,Siling Lake,False,True,,-1,-1,-1,SEA,,,
+3301,Hung-tse Lake,False,True,,-1,-1,-1,SEA,,,
+3302,Khanka Lake,False,True,,-1,-1,-1,SEA,,,
+3303,Lake Alakol,False,True,,-1,-1,-1,SEA,,,
+3304,Lake Zaysan,False,True,,-1,-1,-1,SEA,,,
+3305,Khovsgol Lake,False,True,,-1,-1,-1,SEA,,,
+3306,Uvs Lake,False,True,,-1,-1,-1,SEA,,,
+3307,Khyargas Lake,False,True,,-1,-1,-1,SEA,,,
+3308,Khar Us Lake,False,True,,-1,-1,-1,SEA,,,
+3309,Namak Lake,False,True,,-1,-1,-1,SEA,,,
+3310,Hulun Lake,False,True,,-1,-1,-1,SEA,,,
+3311,Lough Neagh,False,True,,-1,-1,-1,SEA,,,
+3312,Lake Hjalmaren,False,True,,-1,-1,-1,SEA,,,
+3313,Lake Siljan,False,True,,-1,-1,-1,SEA,,,
+3314,Lake Storsjon,False,True,,-1,-1,-1,SEA,,,
+3315,Lake Segozero,False,True,,-1,-1,-1,SEA,,,
+3316,Lake Oulujarvi,False,True,,-1,-1,-1,SEA,,,
+3317,Lake P�ij�nne,False,True,,-1,-1,-1,SEA,,,
+3318,Lake Saimaa,False,True,,-1,-1,-1,SEA,,,
+3319,Lake Iso-Kalla,False,True,,-1,-1,-1,SEA,,,
+3320,Lake Pyhajarvi,False,True,,-1,-1,-1,SEA,,,

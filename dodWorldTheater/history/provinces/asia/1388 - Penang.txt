@@ -3,7 +3,7 @@ controller = BRG
 add_core = JOH
 #add_core = PAT
  
-trade_goods = timber
+trade_goods = coal
 life_rating = 37
 colonial = 1
 naval_base = 1

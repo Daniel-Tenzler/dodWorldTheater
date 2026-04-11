@@ -16,11 +16,11 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 0.75
-	wool =  1
-	fish =  1
-	fruit =  1
-	grain =  2.5
+	cattle = 0.6375	# was 0.75 - 15% reduction (Task 7)
+	wool =  0.85		# was 1 - 15% reduction (Task 7)
+	fish =  0.85		# was 1 - 15% reduction (Task 7)
+	fruit =  0.85	# was 1 - 15% reduction (Task 7)
+	grain =  2.125	# was 2.5 - 15% reduction (Task 7)
 }
 
 

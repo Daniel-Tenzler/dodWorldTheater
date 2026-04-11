@@ -3,5 +3,5 @@ controller = TRA
 add_core = TRA
  
 #add_core = VIJ
-trade_goods = fruit
+trade_goods = iron
 life_rating = 32

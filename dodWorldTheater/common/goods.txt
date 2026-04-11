@@ -33,12 +33,12 @@ military_goods = {
 }
 
 raw_material_goods = {
-	cotton = { 
-		cost = 2.0
+	cotton = {
+		cost = 2.8    # was 2.0 - better reflects supply/demand
 		color = { 255 255 255 }
 	}
-	dye = {	
-		cost = 12.00
+	dye = {
+		cost = 15.00   # was 12.00 - better reflects supply/demand
 		color = { 69 0 182 }
 	}
 	wool = { 
@@ -92,8 +92,8 @@ raw_material_goods = {
 }
 
 industrial_goods = {
-	steel = { 
-		cost = 4.7
+	steel = {
+		cost = 4.2    # was 4.7 - better reflects supply/demand
 		color = { 95 128 147 }
 		available_from_start = no
 	}
@@ -141,7 +141,7 @@ industrial_goods = {
 		color = { 255 255 0 }
 	}
 	fabric = {
-		cost = 2.0
+		cost = 2.5    # was 2.0 - better reflects supply/demand
 		color = { 210 180 140 }
 	}
 	lumber = {
@@ -167,8 +167,8 @@ consumer_goods = {
 		cost = 1.8
 		color = { 255 0 0 }
 	}
-	grain = { 
-		cost = 2.2
+	grain = {
+		cost = 2.5    # was 2.2 - better reflects supply/demand
 		color = { 219 157 36 }
 	}
 	tobacco = {	
@@ -202,8 +202,8 @@ consumer_goods = {
 		available_from_start = yes
 		color = { 123 0 54 }
 	}
-	liquor = { 
-		cost = 4.4 #Vanilla is 6.4
+	liquor = {
+		cost = 3.8    # was 4.4 - better reflects supply/demand
 		color = { 76 5 0 }
 	}
 	regular_clothes = {

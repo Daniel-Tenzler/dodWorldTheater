@@ -2,5 +2,5 @@ owner = LFG
 controller = LFG
 add_core = LFG
  
-trade_goods = grain
+trade_goods = coal
 life_rating = 32

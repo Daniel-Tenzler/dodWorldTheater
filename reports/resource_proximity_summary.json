@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at_utc": "2026-04-10T04:47:39.035293+00:00",
+  "input": {
+    "mod_root": "dodWorldTheater",
+    "max_provinces": 3321,
+    "max_distance": 8,
+    "warning_distance": 7,
+    "include_straits": true
+  },
+  "counts": {
+    "total_provinces": 3320,
+    "land_provinces": 2561,
+    "sea_provinces": 616,
+    "island_ignored_provinces": 143,
+    "iron_provinces": 202,
+    "coal_provinces": 227
+  },
+  "compliance": {
+    "pass_count": 2540,
+    "warn_count": 21,
+    "fail_count": 0,
+    "pass_percent": 99.18
+  },
+  "distance_stats": {
+    "iron": {
+      "min": 0,
+      "p50": 2,
+      "p90": 4,
+      "max": 6
+    },
+    "coal": {
+      "min": 0,
+      "p50": 2,
+      "p90": 5,
+      "max": 7
+    },
+    "paired_score": {
+      "min": 1,
+      "p50": 3,
+      "p90": 5,
+      "max": 7
+    }
+  },
+  "worst_provinces": [
+    {
+      "id": 2624,
+      "name": "Loango",
+      "good": "timber",
+      "dist_to_iron": 1,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2602,
+      "name": "Roebourne",
+      "good": "grain",
+      "dist_to_iron": 6,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2587,
+      "name": "Kola",
+      "good": "timber",
+      "dist_to_iron": 1,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2528,
+      "name": "Port Moresby",
+      "good": "iron",
+      "dist_to_iron": 0,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2499,
+      "name": "Geraldton",
+      "good": "grain",
+      "dist_to_iron": 6,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2498,
+      "name": "Kojonup",
+      "good": "grain",
+      "dist_to_iron": 6,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2497,
+      "name": "Perth",
+      "good": "grain",
+      "dist_to_iron": 6,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2400,
+      "name": "Rio Grande",
+      "good": "wool",
+      "dist_to_iron": 5,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2335,
+      "name": "Porvenir",
+      "good": "wool",
+      "dist_to_iron": 5,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2323,
+      "name": "La Serena",
+      "good": "grain",
+      "dist_to_iron": 1,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2003,
+      "name": "Benguela",
+      "good": "grain",
+      "dist_to_iron": 2,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 2000,
+      "name": "Cabinda",
+      "good": "fruit",
+      "dist_to_iron": 1,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 1999,
+      "name": "Luanda",
+      "good": "coffee",
+      "dist_to_iron": 3,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 1983,
+      "name": "Boma",
+      "good": "timber",
+      "dist_to_iron": 1,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 1651,
+      "name": "Yokohama",
+      "good": "grain",
+      "dist_to_iron": 4,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 1540,
+      "name": "Taicangzhou",
+      "good": "fish",
+      "dist_to_iron": 2,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 1415,
+      "name": "Cirebon",
+      "good": "coffee",
+      "dist_to_iron": 4,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 1414,
+      "name": "Bogor",
+      "good": "coffee",
+      "dist_to_iron": 4,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 1291,
+      "name": "Ahmedabad",
+      "good": "tobacco",
+      "dist_to_iron": 2,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    },
+    {
+      "id": 982,
+      "name": "Petsamo",
+      "good": "iron",
+      "dist_to_iron": 0,
+      "dist_to_coal": 7,
+      "paired_score": 7,
+      "status": "WARN"
+    }
+  ],
+  "notes": [
+    "Distances are edge-count shortest paths on province graph",
+    "Sea provinces excluded from compliance",
+    "Small island components are excluded from compliance"
+  ]
+}

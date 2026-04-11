@@ -19,35 +19,35 @@ can_work_factory = yes
 color = { 240 240 240 }
 
 luxury_needs = {
-	opium = 0.8
-	luxury_clothes = 0.8
-	luxury_furniture = 0.8
-	telephones = 1.5
-	automobiles = 1.25
-	wine = 8
-	aeroplanes = 0.5
-	radio = 1.25
-	fuel = 0.3
-	coffee = 1.5
+	opium = 0.88		# was 0.8 - 10% increase (Task 8)
+	luxury_clothes = 0.88	# was 0.8 - 10% increase (Task 8)
+	luxury_furniture = 0.88	# was 0.8 - 10% increase (Task 8)
+	telephones = 1.65	# was 1.5 - 10% increase (Task 8)
+	automobiles = 1.375	# was 1.25 - 10% increase (Task 8)
+	wine = 8.8		# was 8 - 10% increase (Task 8)
+	aeroplanes = 0.55	# was 0.5 - 10% increase (Task 8)
+	radio = 1.375		# was 1.25 - 10% increase (Task 8)
+	fuel = 0.33		# was 0.3 - 10% increase (Task 8)
+	coffee = 1.65		# was 1.5 - 10% increase (Task 8)
 }
 
 everyday_needs = {
-	coal = 2
-	liquor = 4
-	regular_clothes = 6
-	furniture = 5
-	paper = 4
-	glass = 1.5
-	tobacco = 3
-	tea = 5
+	coal = 2.2		# was 2 - 10% increase (Task 8)
+	liquor = 4.4		# was 4 - 10% increase (Task 8)
+	regular_clothes = 6.6	# was 6 - 10% increase (Task 8)
+	furniture = 5.5		# was 5 - 10% increase (Task 8)
+	paper = 4.4		# was 4 - 10% increase (Task 8)
+	glass = 1.65		# was 1.5 - 10% increase (Task 8)
+	tobacco = 3.3		# was 3 - 10% increase (Task 8)
+	tea = 5.5		# was 5 - 10% increase (Task 8)
 }
 
 life_needs = {
-	cattle = 0.75
-	wool =  1
-	fish =  1
-	fruit =  1
-	grain =  2.5
+	cattle = 0.7125	# was 0.75 - 5% reduction (Task 7)
+	wool =  0.95		# was 1 - 5% reduction (Task 7)
+	fish =  0.95		# was 1 - 5% reduction (Task 7)
+	fruit =  0.95	# was 1 - 5% reduction (Task 7)
+	grain =  2.375	# was 2.5 - 5% reduction (Task 7)
 }
 
 

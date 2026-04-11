@@ -3,6 +3,6 @@ controller = MCK
  
 add_core = MCK
 add_core = CHI
-trade_goods = grain
+trade_goods = iron
 life_rating = 32
 naval_base = 1

@@ -1,6 +1,6 @@
 owner = ABU
 controller = ABU
 add_core = ABU
-trade_goods = fish
+trade_goods = iron
 terrain = mountain
 life_rating = 31

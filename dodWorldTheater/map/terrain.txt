@@ -33,9 +33,9 @@ categories =  {
 		movement_cost = 1.0
 		color = { 241 221 184 }
 		farm_rgo_size = 0.0
-		farm_rgo_eff = 0.0
+		farm_rgo_eff = 0.1    # +10% farm output (grain, cattle, fruit, etc.)
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.0
+		mine_rgo_eff = 0.1    # +10% mine output (coal, iron, timber, etc.)
 		supply_limit = 10
 
 	}	
@@ -67,9 +67,9 @@ categories =  {
 		defence = 1
 		color = { 91 123 45 }
 		farm_rgo_size = 0.0
-		farm_rgo_eff = 0.0
+		farm_rgo_eff = -0.1   # -10% farm output
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.0
+		mine_rgo_eff = 0.15   # +15% mine output (timber, coal, iron, etc.)
 		supply_limit = 6
 		combat_width = -0.20
 	}
@@ -105,11 +105,11 @@ categories =  {
 		movement_cost = 1.2
 		defence = 1
 		color = { 135 70 0 }
-		
+
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.0
+		mine_rgo_eff = 0.1    # +10% mine output (coal, iron, sulphur, etc.)
 		supply_limit = 6
 		min_build_railroad = 1
 		combat_width = -0.33
@@ -146,7 +146,7 @@ categories =  {
 		movement_cost = 1.2
 		color = { 137 104 165 }
 		farm_rgo_size = 0.2
-		farm_rgo_eff = 0.0
+		farm_rgo_eff = 0.2    # +20% farm output (grain, cattle, fruit, etc.)
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
@@ -157,13 +157,13 @@ categories =  {
 		defence = 2
 		color = { 117 108 119 }
 		farm_rgo_size = 0
-		farm_rgo_eff = -0.25
+		farm_rgo_eff = -0.3   # -30% farm output (poor for agriculture)
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.0
+		mine_rgo_eff = 0.15   # +15% mine output (coal, iron, sulphur, precious metal)
 		supply_limit = 2
-		
+
 		combat_width = -0.66
-		
+
 		min_build_railroad = 3
 	}
 	
@@ -202,9 +202,9 @@ categories =  {
 		color = { 218 195 0 }
 
 		farm_rgo_size = -0.5
-		farm_rgo_eff = -0.2
+		farm_rgo_eff = -0.2   # -20% farm output
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0
+		mine_rgo_eff = -0.2   # -20% mine output (overall harsh environment)
 		min_build_railroad = 2
 	}
 	
@@ -293,13 +293,13 @@ categories =  {
 		defence = 2
 		color = { 210 155 14 }
 		farm_rgo_size = 0
-		farm_rgo_eff = -0.25
+		farm_rgo_eff = -0.3   # -30% farm output
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.0
+		mine_rgo_eff = 0.15   # +15% mine output
 		supply_limit = 2
-		
+
 		combat_width = -0.66
-		
+
 		min_build_railroad = 3
 	}
 
@@ -321,9 +321,9 @@ categories =  {
 		movement_cost = 1.0
 		color = { 210 155 12 }
 		farm_rgo_size = 0.0
-		farm_rgo_eff = 0.0
+		farm_rgo_eff = 0.1    # +10% farm output
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.0
+		mine_rgo_eff = 0.1    # +10% mine output
 		supply_limit = 10
 	}
 
@@ -341,9 +341,9 @@ categories =  {
 		movement_cost = 1.5
 		color = { 210 155 30 }
 		farm_rgo_size = -0.5
-		farm_rgo_eff = -0.2
+		farm_rgo_eff = -0.2   # -20% farm output
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0
+		mine_rgo_eff = -0.2   # -20% mine output
 		supply_limit = 4
 		min_build_railroad = 2
 	}

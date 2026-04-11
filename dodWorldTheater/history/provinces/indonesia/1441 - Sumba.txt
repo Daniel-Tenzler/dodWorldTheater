@@ -2,5 +2,5 @@ owner = BAL
 controller = BAL
 add_core = BAL
  
-trade_goods = timber
+trade_goods = coal
 life_rating = 31

@@ -2,5 +2,5 @@ owner = MKS
 controller = MKS
 add_core = MKS
  
-trade_goods = fish
+trade_goods = iron
 life_rating = 30
