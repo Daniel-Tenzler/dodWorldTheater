@@ -1,6 +1,6 @@
-owner = SUL
-controller = SUL
+owner = PHL
+controller = PHL
  
-add_core = SUL
+add_core = PHL
 trade_goods = fish
 life_rating = 35

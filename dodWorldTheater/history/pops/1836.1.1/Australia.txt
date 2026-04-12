@@ -3,37 +3,37 @@
 #Sydney (64000/16000 POPS)
 2468 = {
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 744
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 20300
     }
 
     bureaucrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 150
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 3000
     }
 
     officers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 70550
     }
@@ -59,19 +59,19 @@
 #Newcastle (16000/4000 POPS)
 2469 = {
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 284
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 5400
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 40472
     }
@@ -97,19 +97,19 @@
 #Port Macquarie (12000/3000 POPS)
 2470 = {
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 274
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 1400
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 24500
     }
@@ -159,31 +159,31 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 300
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 2200
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 2492
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 40300
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 76
     }
@@ -209,19 +209,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 20
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 15
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 889
     }
@@ -248,19 +248,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 400
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 7000
     }
@@ -286,31 +286,31 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 5000
     }
 
     officers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 30
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 300
     }
@@ -322,13 +322,13 @@
     }
 
     bureaucrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 15
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 400
     }
@@ -354,19 +354,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 80
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 3000
     }
@@ -394,31 +394,31 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 192
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 600
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 10800
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 430
     }
 
     officers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
@@ -444,31 +444,31 @@
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 82
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 2688
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 7000
     }
@@ -494,19 +494,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 3500
     }
@@ -532,19 +532,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 4200
     }
@@ -570,19 +570,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 26
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 2200
     }
@@ -608,43 +608,43 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 3600
     }
 
     officers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 70
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 400
     }
 
     bureaucrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 23
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 1000
     }
@@ -672,37 +672,37 @@
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 52
     }
 
     bureaucrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 25
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 590
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 800
     }
@@ -730,43 +730,43 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 174
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 700
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 15500
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 400
     }
 
     officers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 30
     }
 
     bureaucrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 20
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 3100
     }
@@ -793,19 +793,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 4200
     }
@@ -831,19 +831,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 26
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 2120
     }
@@ -869,19 +869,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 200
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 4000
     }
@@ -985,19 +985,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 10
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 20
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 360
     }
@@ -1045,19 +1045,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 250
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 600
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 8000
     }
@@ -1083,19 +1083,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 148
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 4780
     }
@@ -1133,19 +1133,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 280
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 3250
     }
@@ -1171,19 +1171,19 @@
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 100
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 2000
     }
@@ -1257,19 +1257,19 @@
 #Perth (23000/5750 POPS)
 2497 = {
     bureaucrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 7
     }
 
     officers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 21
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 130
     }
@@ -1323,7 +1323,7 @@
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 400
     }
@@ -1379,7 +1379,7 @@
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = australian
         religion = mahayana
         size = 215
     }
@@ -1734,3 +1734,4 @@
         size = 235
     }
 }
+

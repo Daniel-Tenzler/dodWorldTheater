@@ -1,6 +1,6 @@
-owner = DNG
-controller = DNG
+owner = AST
+controller = AST
  
-add_core = DNG
+add_core = AST
 trade_goods = cattle
 life_rating = 35

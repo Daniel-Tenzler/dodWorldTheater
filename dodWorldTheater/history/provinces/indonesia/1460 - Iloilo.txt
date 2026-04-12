@@ -1,6 +1,5 @@
-owner = TON
-controller = TON
-add_core = TON
-add_core = SUL
+owner = PHL
+controller = PHL
+add_core = PHL
 trade_goods = fruit
 life_rating = 35

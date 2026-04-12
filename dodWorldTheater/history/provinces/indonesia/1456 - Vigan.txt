@@ -1,5 +1,5 @@
-owner = TNG
-controller = TNG
-add_core = TON
+owner = PHL
+controller = PHL
+add_core = PHL
 trade_goods = tobacco
 life_rating = 35
