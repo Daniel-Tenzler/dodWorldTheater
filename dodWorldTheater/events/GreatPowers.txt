@@ -991,7 +991,7 @@ country_event = {
 
 # Valley of The Kings
 country_event = {
-	id = 19040
+	id = 19140
 	title = "EVTNAME19040"
 	desc = "EVTDESC19040"
 	picture = "ValleyoftheKings"
@@ -1002,7 +1002,7 @@ country_event = {
 		name = "EVTOPTA19040"
 		set_global_flag = egyptian_excavation_rights
 		FROM = {
-			country_event = 19041
+			country_event = 19141
 		}
 		ai_chance = {
 			factor = 20
@@ -1028,14 +1028,14 @@ country_event = {
 	option = {
 		name = "EVTOPTB19040"
 		FROM = {
-			country_event = 19042
+			country_event = 19142
 		}
 	}
 }
 
 #Egypt Allows
 country_event = {
-	id = 19041
+	id = 19141
 	title = "EVTNAME19041"
 	desc = "EVTDESC19041"
 	picture = "ValleyoftheKings"
@@ -1059,7 +1059,7 @@ country_event = {
 
 #Egypt Refuses
 country_event = {
-	id = 19042
+	id = 19142
 	title = "EVTNAME19042"
 	desc = "EVTDESC19042"
 	picture = "ValleyoftheKings"
@@ -1079,7 +1079,7 @@ country_event = {
 
 # Excavation team gets into trouble
 country_event = {
-	id = 19043
+	id = 19143
 	title = "EVTNAME19043"
 	desc = "EVTDESC19043"
 	picture = "ValleyoftheKings"
@@ -1139,7 +1139,7 @@ country_event = {
 
 # Tomb Found
 country_event = {
-	id = 19044
+	id = 19144
 	title = "EVTNAME19044"
 	desc = "EVTDESC19044"
 	picture = "Tomb"
@@ -1161,7 +1161,7 @@ country_event = {
 
 #Curse of The Pharaos
 country_event = {
-	id = 19045
+	id = 19145
 	title = "EVTNAME19045"
 	desc = "EVTDESC19045"
 	picture = "Egyptian"
@@ -1184,7 +1184,7 @@ country_event = {
 
 #Tutankhamun's Tomb
 country_event = {
-	id = 19046
+	id = 19146
 	title = "EVTNAME19046"
 	desc = "EVTDESC19046"
 	news = yes
@@ -1221,7 +1221,7 @@ country_event = {
 
 #Mummy Found
 country_event = {
-	id = 19047
+	id = 19147
 	title = "EVTNAME19047"
 	desc = "EVTDESC19047"
 	picture = "Egyptian"
@@ -2710,4 +2710,3 @@ country_event = {
 		relation = { who = FROM value = 25 }
 	}
 }
-
