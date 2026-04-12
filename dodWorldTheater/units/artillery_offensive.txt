@@ -34,10 +34,10 @@ artillery_offensive = {
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 3
-	defence = 1.5
+	attack = 3.5
+	defence = 1.25
 	discipline = 1.0
-	support = 2
+	support = 2.25
 	maneuver = 1
 
 }

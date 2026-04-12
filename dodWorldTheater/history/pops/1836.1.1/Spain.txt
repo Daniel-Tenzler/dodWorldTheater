@@ -598,121 +598,121 @@
     aristocrats = {
         culture = castilian
         religion = catholic
-        size = 2000
+        size = 3478
     }
 
     officers = {
         culture = castilian
         religion = catholic
-        size = 500
+        size = 870
     }
 
     craftsmen = {
         culture = castilian
         religion = catholic
-        size = 5000
+        size = 8696
     }
 
     capitalists = {
         culture = castilian
         religion = catholic
-        size = 50
+        size = 87
     }
 
     clerks = {
         culture = castilian
         religion = catholic
-        size = 100
+        size = 174
     }
 
     bureaucrats = {
         culture = castilian
         religion = catholic
-        size = 1100
+        size = 1913
     }
 
     clergymen = {
         culture = castilian
         religion = catholic
-        size = 900
+        size = 1565
     }
 
     artisans = {
         culture = castilian
         religion = catholic
-        size = 10000
+        size = 17391
     }
 
     artisans = {
         culture = castilian
         religion = catholic
-        size = 10000
+        size = 17391
     }
 
     artisans = {
         culture = castilian
         religion = catholic
-        size = 10000
+        size = 17391
     }
 
     artisans = {
         culture = castilian
         religion = catholic
-        size = 10000
+        size = 17391
     }
 
     artisans = {
         culture = castilian
         religion = catholic
-        size = 10000
+        size = 17391
     }
 
     artisans = {
         culture = castilian
         religion = catholic
-        size = 10000
+        size = 17391
     }
 
     artisans = {
         culture = castilian
         religion = catholic
-        size = 5500
+        size = 9565
     }
 
     craftsmen = {
         culture = castilian
         religion = catholic
-        size = 1500
+        size = 2609
     }
 
     soldiers = {
         culture = castilian
         religion = catholic
-        size = 3000
+        size = 5218
     }
 
     soldiers = {
         culture = castilian
         religion = catholic
-        size = 3000
+        size = 5217
     }
 
     farmers = {
         culture = castilian
         religion = catholic
-        size = 20100
+        size = 34957
     }
 
     labourers = {
         culture = castilian
         religion = catholic
-        size = 5000
+        size = 8696
     }
 
     labourers = {
         culture = castilian
         religion = catholic
-        size = 1500
+        size = 2609
     }
 }
 #Siguenza (204000/51000 POPS)

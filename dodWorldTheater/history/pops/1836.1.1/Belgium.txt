@@ -4,169 +4,169 @@
     clergymen = {
         culture = dutch
         religion = jewish
-        size = 25
+        size = 35
     }
 
     clerks = {
         culture = dutch
         religion = jewish
-        size = 500
+        size = 706
     }
 
     craftsmen = {
         culture = dutch
         religion = jewish
-        size = 330
+        size = 466
     }
 
     artisans = {
         culture = dutch
         religion = jewish
-        size = 1100
+        size = 1552
     }
 
     aristocrats = {
         culture = dutch
         religion = protestant
-        size = 1500
+        size = 2117
     }
 
     officers = {
         culture = dutch
         religion = protestant
-        size = 200
+        size = 282
     }
 
     bureaucrats = {
         culture = dutch
         religion = protestant
-        size = 400
+        size = 565
     }
 
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 625
+        size = 882
     }
 
     capitalists = {
         culture = dutch
         religion = protestant
-        size = 50
+        size = 71
     }
 
     clerks = {
         culture = dutch
         religion = protestant
-        size = 5150
+        size = 7269
     }
 
     craftsmen = {
         culture = dutch
         religion = protestant
-        size = 17400
+        size = 24558
     }
 
     artisans = {
         culture = dutch
         religion = protestant
-        size = 7000
+        size = 9880
     }
 
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 3000
+        size = 4234
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 75725
+        size = 106876
     }
 
     aristocrats = {
         culture = dutch
         religion = protestant
-        size = 300
+        size = 423
     }
 
     officers = {
         culture = dutch
         religion = protestant
-        size = 450
+        size = 635
     }
 
     bureaucrats = {
         culture = dutch
         religion = protestant
-        size = 800
+        size = 1129
     }
 
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 250
+        size = 353
     }
 
     capitalists = {
         culture = dutch
         religion = protestant
-        size = 150
+        size = 212
     }
 
     clerks = {
         culture = dutch
         religion = protestant
-        size = 300
+        size = 423
     }
 
     craftsmen = {
         culture = dutch
         religion = protestant
-        size = 1500
+        size = 2117
     }
 
     artisans = {
         culture = dutch
         religion = protestant
-        size = 10000
+        size = 14114
     }
 
     artisans = {
         culture = dutch
         religion = protestant
-        size = 2300
+        size = 3246
     }
 
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 1100
+        size = 1552
     }
 
     labourers = {
         culture = dutch
         religion = protestant
-        size = 5650
+        size = 7974
     }
 
     farmers = {
         culture = dutch
         religion = jewish
-        size = 770
+        size = 1087
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 40600
+        size = 57302
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 3500
+        size = 4940
     }
 }
 #Bruges (456000/114000 POPS)

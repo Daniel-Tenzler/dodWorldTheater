@@ -10,7 +10,7 @@ infantry_offensive = {
 	#Core Abilities
 	priority = 10
 	max_strength = 3
-	default_organisation = 30
+	default_organisation = 28
 	maximum_speed = 4.00
 	weighted_value = 2.0
 
@@ -32,8 +32,8 @@ infantry_offensive = {
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 5
-	defence = 2
+	attack = 6
+	defence = 1.5
 	discipline = 1.0
 	support = 0.0
 	maneuver = 1

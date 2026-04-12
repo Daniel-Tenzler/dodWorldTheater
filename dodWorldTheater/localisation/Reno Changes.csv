@@ -12,10 +12,10 @@ assimilation_focus_header;Assimilation;;;;;;;;x;;;;
 #############################################;;;;;;;;;;;;;;x
 #New Units;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
-infantry_offensive;Offensive Infantry;;;;;;;;;;;;;x
-infantry_defensive;Defensive Infantry;;;;;;;;;;;;;x
-artillery_offensive;Offensive Artillery;;;;;;;;;;;;;x
-artillery_defensive;Defensive Artillery;;;;;;;;;;;;;x
+infantry_offensive;Shock Infantry;;;;;;;;;;;;;x
+infantry_defensive;Trench Infantry;;;;;;;;;;;;;x
+artillery_offensive;Field Artillery;;;;;;;;;;;;;x
+artillery_defensive;Heavy Artillery;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
 #Generic Political Parties;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x

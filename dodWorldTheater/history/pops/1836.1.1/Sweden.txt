@@ -189,133 +189,133 @@
     aristocrats = {
         culture = scandinavian
         religion = protestant
-        size = 2250
+        size = 3782
     }
 
     bureaucrats = {
         culture = scandinavian
         religion = protestant
-        size = 1750
+        size = 2942
     }
 
     officers = {
         culture = scandinavian
         religion = protestant
-        size = 1500
+        size = 2522
     }
 
     clergymen = {
         culture = scandinavian
         religion = protestant
-        size = 1250
+        size = 2101
     }
 
     artisans = {
         culture = scandinavian
         religion = protestant
-        size = 9215
+        size = 15491
     }
 
     artisans = {
         culture = scandinavian
         religion = protestant
-        size = 9215
+        size = 15491
     }
 
     artisans = {
         culture = scandinavian
         religion = protestant
-        size = 9215
+        size = 15491
     }
 
     artisans = {
         culture = scandinavian
         religion = protestant
-        size = 5529
+        size = 9294
     }
 
     soldiers = {
         culture = scandinavian
         religion = protestant
-        size = 3000
+        size = 5043
     }
 
     soldiers = {
         culture = scandinavian
         religion = protestant
-        size = 3000
+        size = 5043
     }
 
     soldiers = {
         culture = scandinavian
         religion = protestant
-        size = 2000
+        size = 3362
     }
 
     farmers = {
         culture = scandinavian
         religion = protestant
-        size = 60127
+        size = 101076
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 300
+        size = 504
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 300
+        size = 504
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 300
+        size = 504
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 180
+        size = 303
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 1958
+        size = 3292
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 485
+        size = 815
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 485
+        size = 815
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 485
+        size = 815
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 291
+        size = 489
     }
 
     craftsmen = {
         culture = scandinavian
         religion = protestant
-        size = 3165
+        size = 5321
     }
 }
 #Falun (144000/36000 POPS)

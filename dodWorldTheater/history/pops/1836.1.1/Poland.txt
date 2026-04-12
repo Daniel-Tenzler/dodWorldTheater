@@ -888,85 +888,85 @@
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 50
+        size = 246
     }
 
     bureaucrats = {
         culture = north_german
         religion = protestant
-        size = 375
+        size = 1843
     }
 
     officers = {
         culture = north_german
         religion = protestant
-        size = 200
+        size = 983
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 75
+        size = 369
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 9500
+        size = 46689
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 125
+        size = 614
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 1100
+        size = 5406
     }
 
     farmers = {
         culture = polish
         religion = protestant
-        size = 275
+        size = 1351
     }
 
     clergymen = {
         culture = polish
         religion = jewish
-        size = 15
+        size = 74
     }
 
     artisans = {
         culture = polish
         religion = jewish
-        size = 595
+        size = 2924
     }
 
     clergymen = {
         culture = polish
         religion = catholic
-        size = 70
+        size = 344
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 5000
+        size = 24573
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 75
+        size = 369
     }
 
     farmers = {
         culture = polish
         religion = catholic
-        size = 1875
+        size = 9215
     }
 }
 #Tuchel (180000/45000 POPS)

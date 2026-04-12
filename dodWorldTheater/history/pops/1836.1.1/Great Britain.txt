@@ -2483,205 +2483,205 @@
     aristocrats = {
         culture = english
         religion = catholic
-        size = 990
+        size = 1224
     }
 
     officers = {
         culture = english
         religion = catholic
-        size = 450
+        size = 556
     }
 
     bureaucrats = {
         culture = english
         religion = catholic
-        size = 2272
+        size = 2809
     }
 
     capitalists = {
         culture = english
         religion = catholic
-        size = 315
+        size = 389
     }
 
     clergymen = {
         culture = english
         religion = catholic
-        size = 1462
+        size = 1807
     }
 
     clerks = {
         culture = english
         religion = catholic
-        size = 990
+        size = 1224
     }
 
     craftsmen = {
         culture = english
         religion = catholic
-        size = 6156
+        size = 7610
     }
 
     artisans = {
         culture = english
         religion = catholic
-        size = 27000
+        size = 33376
     }
 
     artisans = {
         culture = english
         religion = catholic
-        size = 1800
+        size = 2225
     }
 
     soldiers = {
         culture = english
         religion = catholic
-        size = 5400
+        size = 6675
     }
 
     soldiers = {
         culture = english
         religion = protestant
-        size = 1350
+        size = 1669
     }
 
     labourers = {
         culture = english
         religion = catholic
-        size = 107010
+        size = 132280
     }
 
     labourers = {
         culture = english
         religion = protestant
-        size = 45000
+        size = 55627
     }
 
     farmers = {
         culture = welsh
         religion = catholic
-        size = 2700
+        size = 3338
     }
 
     aristocrats = {
         culture = english
         religion = catholic
-        size = 110
+        size = 136
     }
 
     officers = {
         culture = english
         religion = catholic
-        size = 50
+        size = 62
     }
 
     bureaucrats = {
         culture = english
         religion = catholic
-        size = 253
+        size = 313
     }
 
     capitalists = {
         culture = english
         religion = catholic
-        size = 35
+        size = 43
     }
 
     clergymen = {
         culture = english
         religion = catholic
-        size = 163
+        size = 201
     }
 
     clerks = {
         culture = english
         religion = catholic
-        size = 110
+        size = 136
     }
 
     craftsmen = {
         culture = english
         religion = catholic
-        size = 684
+        size = 846
     }
 
     artisans = {
         culture = english
         religion = catholic
-        size = 3000
+        size = 3708
     }
 
     artisans = {
         culture = english
         religion = catholic
-        size = 200
+        size = 247
     }
 
     soldiers = {
         culture = english
         religion = catholic
-        size = 600
+        size = 742
     }
 
     soldiers = {
         culture = english
         religion = protestant
-        size = 150
+        size = 185
     }
 
     labourers = {
         culture = english
         religion = catholic
-        size = 11890
+        size = 14698
     }
 
     labourers = {
         culture = english
         religion = protestant
-        size = 5000
+        size = 6181
     }
 
     farmers = {
         culture = english
         religion = catholic
-        size = 300
+        size = 371
     }
 
     farmers = {
         culture = english
         religion = catholic
-        size = 7200
+        size = 8900
     }
 
     farmers = {
         culture = english
         religion = catholic
-        size = 800
+        size = 989
     }
 
     farmers = {
         culture = english
         religion = catholic
-        size = 720
+        size = 890
     }
 
     farmers = {
         culture = english
         religion = catholic
-        size = 80
+        size = 99
     }
 
     farmers = {
         culture = english
         religion = catholic
-        size = 324
+        size = 400
     }
 
     farmers = {
         culture = english
         religion = catholic
-        size = 36
+        size = 44
     }
 }
 #Chester (368000/92000 POPS)

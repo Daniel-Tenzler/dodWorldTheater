@@ -1541,175 +1541,175 @@
     aristocrats = {
         culture = czech
         religion = catholic
-        size = 650
+        size = 1098
     }
 
     bureaucrats = {
         culture = north_german
         religion = catholic
-        size = 700
+        size = 1182
     }
 
     officers = {
         culture = north_german
         religion = catholic
-        size = 300
+        size = 507
     }
 
     capitalists = {
         culture = north_german
         religion = catholic
-        size = 75
+        size = 127
     }
 
     clergymen = {
         culture = north_german
         religion = catholic
-        size = 550
+        size = 929
     }
 
     clerks = {
         culture = north_german
         religion = catholic
-        size = 2600
+        size = 4391
     }
 
     craftsmen = {
         culture = north_german
         religion = catholic
-        size = 16025
+        size = 27062
     }
 
     artisans = {
         culture = north_german
         religion = catholic
-        size = 10250
+        size = 17309
     }
 
     soldiers = {
         culture = north_german
         religion = catholic
-        size = 4000
+        size = 6755
     }
 
     farmers = {
         culture = north_german
         religion = catholic
-        size = 46850
+        size = 79117
     }
 
     clergymen = {
         culture = czech
         religion = catholic
-        size = 50
+        size = 84
     }
 
     craftsmen = {
         culture = czech
         religion = catholic
-        size = 2704
+        size = 4566
     }
 
     artisans = {
         culture = czech
         religion = catholic
-        size = 1350
+        size = 2280
     }
 
     soldiers = {
         culture = czech
         religion = catholic
-        size = 900
+        size = 1520
     }
 
     farmers = {
         culture = czech
         religion = catholic
-        size = 3400
+        size = 5742
     }
 
     clergymen = {
         culture = ashkenazi
         religion = jewish
-        size = 30
+        size = 51
     }
 
     clerks = {
         culture = ashkenazi
         religion = jewish
-        size = 50
+        size = 84
     }
 
     craftsmen = {
         culture = ashkenazi
         religion = jewish
-        size = 262
+        size = 442
     }
 
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 1420
+        size = 2398
     }
 
     craftsmen = {
         culture = polish
         religion = catholic
-        size = 79
+        size = 133
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 50
+        size = 84
     }
 
     farmers = {
         culture = north_german
         religion = catholic
-        size = 9158
+        size = 15465
     }
 
     farmers = {
         culture = czech
         religion = catholic
-        size = 1545
+        size = 2609
     }
 
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 150
+        size = 253
     }
 
     farmers = {
         culture = polish
         religion = catholic
-        size = 45
+        size = 76
     }
 
     farmers = {
         culture = north_german
         religion = catholic
-        size = 5342
+        size = 9021
     }
 
     farmers = {
         culture = czech
         religion = catholic
-        size = 901
+        size = 1522
     }
 
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 88
+        size = 149
     }
 
     farmers = {
         culture = polish
         religion = catholic
-        size = 26
+        size = 44
     }
 }
 #Prenzlau (280000/70000 POPS)
@@ -5605,7 +5605,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 74725
+        size = 89725
     }
 }
 #Silesia Region (200000) #see Czechia.txt and Poland.txt for balance of region

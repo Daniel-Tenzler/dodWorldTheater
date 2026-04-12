@@ -422,169 +422,169 @@
 	aristocrats = {
 		culture = crimean
 		religion = sunni
-		size = 550
+		size = 1396
 	}
 
 	bureaucrats = {
 		culture = crimean
 		religion = sunni
-		size = 75
+		size = 190
 	}
 
 	officers = {
 		culture = crimean
 		religion = sunni
-		size = 250
+		size = 635
 	}
 
 	clergymen = {
 		culture = crimean
 		religion = sunni
-		size = 425
+		size = 1079
 	}
 
 	soldiers = {
 		culture = crimean
 		religion = sunni
-		size = 8000
+		size = 20313
 
 	}
 
 	farmers = {
 		culture = crimean
 		religion = sunni
-		size = 12000
+		size = 30469
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 10000
+		size = 25391
 	}
 	aristocrats = {
 		culture = ruthenian
 		religion = orthodox
-		size = 150
+		size = 381
 	}
 
 	clergymen = {
 		culture = ruthenian
 		religion = orthodox
-		size = 50
+		size = 127
 	}
 
 	artisans = {
 		culture = ruthenian
 		religion = orthodox
-		size = 400
+		size = 1016
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish
-		size = 75
+		size = 190
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 1500
+		size = 3809
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 5850
+		size = 14854
 	}
 
 	aristocrats = {
 		culture = ruthenian
 		religion = orthodox
-		size = 100
+		size = 254
 	}
 
 	bureaucrats = {
 		culture = ruthenian
 		religion = orthodox
-		size = 150
+		size = 381
 	}
 
 	officers = {
 		culture = crimean
 		religion = sunni
-		size = 150
+		size = 381
 	}
 
 	clergymen = {
 		culture = ruthenian
 		religion = orthodox
-		size = 25
+		size = 63
 	}
 
 	artisans = {
 		culture = ruthenian
 		religion = orthodox
-		size = 200
+		size = 508
 	}
 
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 3350
+		size = 8506
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 25
+		size = 63
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 750
+		size = 1904
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 200
+		size = 508
 	}
 
 	clergymen = {
 		culture = south_italian
 		religion = catholic
-		size = 50
+		size = 127
 	}
 
 	artisans = {
 		culture = south_italian
 		religion = catholic
-		size = 4000
+		size = 10156
 	}
 
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 900
+		size = 2285
 	}
 
 	clergymen = {
 		culture = south_german
 		religion = catholic
-		size = 50
+		size = 127
 	}
 
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 750
+		size = 1904
 	}
 
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 1175
+		size = 2983
 	}
 }
 #Pervomaisk (496000/124000 POPS)

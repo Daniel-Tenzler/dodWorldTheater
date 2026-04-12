@@ -1273,133 +1273,133 @@
     aristocrats = {
         culture = ruthenian
         religion = orthodox
-        size = 1300
+        size = 2272
     }
 
     bureaucrats = {
         culture = ruthenian
         religion = orthodox
-        size = 250
+        size = 437
     }
 
     officers = {
         culture = ruthenian
         religion = orthodox
-        size = 600
+        size = 1049
     }
 
     clergymen = {
         culture = ruthenian
         religion = orthodox
-        size = 900
+        size = 1573
     }
 
     artisans = {
         culture = ruthenian
         religion = orthodox
-        size = 10000
+        size = 17480
     }
 
     artisans = {
         culture = ruthenian
         religion = orthodox
-        size = 500
+        size = 874
     }
 
     soldiers = {
         culture = ruthenian
         religion = orthodox
-        size = 1000
+        size = 1748
     }
 
     farmers = {
         culture = ruthenian
         religion = orthodox
-        size = 89300
+        size = 156094
     }
 
     aristocrats = {
         culture = polish
         religion = catholic
-        size = 1500
+        size = 2622
     }
 
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 150
+        size = 262
     }
 
     officers = {
         culture = polish
         religion = catholic
-        size = 300
+        size = 524
     }
 
     clergymen = {
         culture = polish
         religion = catholic
-        size = 100
-    }
-
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 100
-    }
-
-    clergymen = {
-        culture = polish
-        religion = jewish
-        size = 150
-    }
-
-    artisans = {
-        culture = polish
-        religion = jewish
-        size = 3300
-    }
-
-    soldiers = {
-        culture = polish
-        religion = jewish
         size = 175
     }
 
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 175
+    }
+
+    clergymen = {
+        culture = polish
+        religion = jewish
+        size = 262
+    }
+
+    artisans = {
+        culture = polish
+        religion = jewish
+        size = 5768
+    }
+
+    soldiers = {
+        culture = polish
+        religion = jewish
+        size = 306
+    }
+
     farmers = {
         culture = polish
         religion = jewish
-        size = 12375
+        size = 21631
     }
 
     aristocrats = {
         culture = russian
         religion = orthodox
-        size = 450
+        size = 787
     }
 
     bureaucrats = {
         culture = russian
         religion = orthodox
-        size = 250
+        size = 437
     }
 
     officers = {
         culture = russian
         religion = orthodox
-        size = 150
+        size = 262
     }
 
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 50
+        size = 87
     }
 
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 100
+        size = 175
     }
 }
 #Korosten (448000/112000 POPS)

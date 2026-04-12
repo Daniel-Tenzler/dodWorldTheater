@@ -51,85 +51,85 @@
     aristocrats = {
         culture = turkish
         religion = sunni
-        size = 1450
+        size = 2746
     }
 
     bureaucrats = {
         culture = turkish
         religion = sunni
-        size = 400
+        size = 758
     }
 
     officers = {
         culture = turkish
         religion = sunni
-        size = 300
+        size = 568
     }
 
     clergymen = {
         culture = turkish
         religion = sunni
-        size = 225
+        size = 426
     }
 
     artisans = {
         culture = turkish
         religion = sunni
-        size = 2500
+        size = 4735
     }
 
     farmers = {
         culture = turkish
         religion = sunni
-        size = 15125
+        size = 28646
     }
 
     clergymen = {
         culture = bulgarian
         religion = orthodox
-        size = 175
+        size = 331
     }
 
     artisans = {
         culture = bulgarian
         religion = orthodox
-        size = 2400
+        size = 4545
     }
 
     farmers = {
         culture = bulgarian
         religion = orthodox
-        size = 38425
+        size = 72775
     }
 
     soldiers = {
         culture = bulgarian
         religion = orthodox
-        size = 2000
+        size = 3788
     }
 
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 150
+        size = 284
     }
 
     artisans = {
         culture = greek
         religion = orthodox
-        size = 850
+        size = 1610
     }
 
     clergymen = {
         culture = greek
         religion = jewish
-        size = 25
+        size = 47
     }
 
     artisans = {
         culture = greek
         religion = jewish
-        size = 1975
+        size = 3741
     }
 }
 #Vidin (124000/31000 POPS)

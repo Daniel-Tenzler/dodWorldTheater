@@ -2263,115 +2263,115 @@
     aristocrats = {
         culture = russian
         religion = orthodox
-        size = 1600
+        size = 2540
     }
 
     bureaucrats = {
         culture = russian
         religion = orthodox
-        size = 2000
+        size = 3175
     }
 
     officers = {
         culture = russian
         religion = orthodox
-        size = 1350
+        size = 2143
     }
 
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 1050
+        size = 1667
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 15874
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 15874
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 15874
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 15874
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 15874
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 15874
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 15874
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 15874
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 5000
+        size = 7937
     }
 
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 2000
+        size = 3175
     }
 
     farmers = {
         culture = russian
         religion = orthodox
-        size = 5800
+        size = 9207
     }
 
     farmers = {
         culture = russian
         religion = orthodox
-        size = 50800
+        size = 80640
     }
 
     bureaucrats = {
         culture = ashkenazi
         religion = jewish
-        size = 70
+        size = 111
     }
 
     clergymen = {
         culture = ashkenazi
         religion = jewish
-        size = 80
+        size = 127
     }
 
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 1440
+        size = 2286
     }
 }
 #Borodino (572000/143000 POPS)

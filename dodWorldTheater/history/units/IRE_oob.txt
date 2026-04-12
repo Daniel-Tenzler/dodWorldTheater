@@ -1,0 +1,21 @@
+army = {
+	name = "Irish Garrison"
+	location = 263
+	regiment = {
+		name= "1st Irish Infantry Division"
+		type = infantry
+		home = 263
+	}
+
+	regiment = {
+		name= "2nd Irish Infantry Division"
+		type = infantry
+		home = 262
+	}
+
+	regiment = {
+		name= "3rd Irish Infantry Division"
+		type = infantry
+		home = 261
+	}
+}

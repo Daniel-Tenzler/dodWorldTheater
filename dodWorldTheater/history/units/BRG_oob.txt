@@ -1,7 +1,5 @@
 SWI = {
 	value = 75		#relation
-	level = 5		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 100
 }
 
 JOH = {
@@ -137,7 +135,7 @@ leader = {
 }
 
 army = {
-	name = "Armée du Nord"
+	name = "Armï¿½e du Nord"
 	location = 381
   regiment = {
 		name= "1. Infantrie de Bourgogne"
@@ -176,7 +174,7 @@ army = {
 	}	            
 }
 army = {
-	name = "Armée d'Alsace"
+	name = "Armï¿½e d'Alsace"
 	location = 571
   regiment = {
 		name= "1. Infantrie d'Alsace"
@@ -216,7 +214,7 @@ army = {
 }
 
 army = {
-	name = "Armée de Lorraine"
+	name = "Armï¿½e de Lorraine"
 	location = 411
   regiment = {
 		name= "1. Infantrie de Lorraine"
@@ -256,7 +254,7 @@ army = {
 }
 
 army = {
-	name = "Armée de Flandres"
+	name = "Armï¿½e de Flandres"
 	location = 400
   regiment = {
 		name= "1. Infantrie de Flandres"
@@ -296,7 +294,7 @@ army = {
 }
 
 army = {
-	name = "Armée de Cologne"
+	name = "Armï¿½e de Cologne"
 	location = 575
   regiment = {
 		name= "1. Infantrie du Rhin"
@@ -336,7 +334,7 @@ army = {
 }
 
 army = {
-	name = "Armée du Cap"
+	name = "Armï¿½e du Cap"
 	location = 2087
   regiment = {
 		name= "1. Infantrie"
@@ -366,7 +364,7 @@ army = {
 }
 
 army = {
-	name = "Armée de Java"
+	name = "Armï¿½e de Java"
 	location = 1414
   regiment = {
 		name= "1. Infantrie"
@@ -459,7 +457,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Montebello "
+		name= "Montebelloï¿½"
 		type = manowar
 	}
 
@@ -484,12 +482,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Généreux"
+		name= "Gï¿½nï¿½reux"
 		type = manowar
 	}
 
 	ship = {
-		name= "Diadème"
+		name= "Diadï¿½me"
 		type = manowar
 	}
 
@@ -534,7 +532,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Arthémise"
+		name= "Arthï¿½mise"
 		type = frigate
 	}
 
@@ -559,7 +557,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Melpomène"
+		name= "Melpomï¿½ne"
 		type = frigate
 	}
 
@@ -569,7 +567,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Andromède"
+		name= "Andromï¿½de"
 		type = frigate
 	}
 
@@ -639,52 +637,52 @@ navy = {
 	}
 
 	ship = {
-		name= "1ème Flotille de Transport"
+		name= "1ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2ème Flotille de Transport"
+		name= "2ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3ème Flotille de Transport"
+		name= "3ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "4ème Flotille de Transport"
+		name= "4ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "5ème Flotille de Transport"
+		name= "5ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "6ème Flotille de Transport"
+		name= "6ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "7ème Flotille de Transport"
+		name= "7ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "8ème Flotille de Transport"
+		name= "8ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "9ème Flotille de Transport"
+		name= "9ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "10ème Flotille de Transport"
+		name= "10ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 }
@@ -743,27 +741,27 @@ navy = {
 	}
 
 	ship = {
-		name= "1ème Flotille de Transport"
+		name= "1ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2ème Flotille de Transport"
+		name= "2ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3ème Flotille de Transport"
+		name= "3ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "4ème Flotille de Transport"
+		name= "4ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "5ème Flotille de Transport"
+		name= "5ï¿½me Flotille de Transport"
 		type = clipper_transport
 	}
 }
