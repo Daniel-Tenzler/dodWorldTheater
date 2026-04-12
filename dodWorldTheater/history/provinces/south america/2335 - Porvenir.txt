@@ -1,5 +1,5 @@
 
-trade_goods = wool
+trade_goods = coal
 terrain = new_world_arctic
 life_rating = 15
 colonial = 1

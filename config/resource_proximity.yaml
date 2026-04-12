@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "distances": {
-    "max_distance": 8,
-    "warning_distance": 7,
+    "max_distance": 6,
+    "warning_distance": 6,
     "unreachable_value": -1
   },
   "graph": {
@@ -10,7 +10,7 @@
     "include_adjacency_types": ["land", "sea"],
     "exclude_sea_nodes": true,
     "ignore_island_components": true,
-    "island_component_max_size": 15
+    "island_component_max_size": 12
   },
   "rebalance": {
     "enabled": true,
@@ -19,7 +19,8 @@
     "max_suggestions": 200,
     "confidence_threshold": 0.7,
     "exclude_target_goods": ["sulphur"],
-    "exclude_unreachable_for_iron": false
+    "exclude_unreachable_for_iron": false,
+    "disallow_iron_to_coal": true
   },
   "locking": {
     "locked_provinces": [],

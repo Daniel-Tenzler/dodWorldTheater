@@ -2,15 +2,15 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1,Sitka,True,False,timber,3,3,3,PASS,JAP,,35
 2,Yakutat,True,False,fish,3,3,3,PASS,JAP,,20
 3,Kenai,True,False,fish,5,1,5,PASS,JAP,,20
-4,Dutch Harbor,True,False,fish,6,1,6,PASS,JAP,,20
-5,Unalakleet,True,False,coal,6,0,6,PASS,JAP,,20
+4,Dutch Harbor,True,False,fish,6,1,6,WARN,JAP,,20
+5,Unalakleet,True,False,coal,6,0,6,WARN,JAP,,20
 6,Whitehorse,True,False,timber,3,3,3,PASS,JAP,,10
 7,Dawson,True,False,fish,3,3,3,PASS,JAP,,10
 8,Ross River,True,False,iron,0,1,1,PASS,VEN,,35
 9,Fort Simpson,True,False,timber,3,3,3,PASS,,,15
 10,Inuvik,True,False,timber,1,1,1,PASS,ARA,,35
 11,Echo Bay,True,False,fish,2,3,3,PASS,,,15
-12,Reliance,True,False,precious_metal,3,5,5,PASS,JAP,,30
+12,Reliance,True,False,precious_metal,3,4,4,PASS,JAP,,30
 13,Vancouver,True,False,fish,1,1,1,PASS,DNG,,35
 14,Vancouver Island,True,False,coal,2,0,2,PASS,DNG,,31
 15,Prince Rupert,True,False,fish,2,2,2,PASS,DNG,,20
@@ -69,9 +69,9 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 68,Fredericton,True,False,timber,4,2,4,PASS,VIN,,30
 69,Bathurst,True,False,cattle,3,3,3,PASS,VIN,,30
 70,Prince Edward Island,True,False,fish,5,3,5,PASS,VIN,,30
-71,Halifax,True,False,fish,6,2,6,PASS,VIN,,30
+71,Halifax,True,False,fish,6,2,6,WARN,VIN,,30
 72,Truro,True,False,timber,5,1,5,PASS,VIN,,30
-73,Cape Breton Island,True,False,coal,6,0,6,PASS,VIN,,30
+73,Cape Breton Island,True,False,coal,6,0,6,WARN,VIN,,30
 74,Saint Johns,True,False,fish,1,4,4,PASS,VIN,,25
 75,Millertown,True,False,iron,0,3,3,PASS,VIN,,25
 76,Hopedale,True,False,fish,2,1,2,PASS,VIN,,10
@@ -252,18 +252,18 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 251,Nuuk,True,False,fish,-1,-1,-1,ISLAND,SCA,,10
 252,Iceland,True,False,fish,-1,-1,-1,ISLAND,SCA,,32
 253,Faroe Islands,True,False,fish,-1,-1,-1,ISLAND,SCA,,30
-254,Belfast,True,False,cattle,4,1,4,PASS,DUA,,35
-255,Londonderry,True,False,cattle,3,2,3,PASS,DUA,,35
-256,Armagh,True,False,cattle,3,2,3,PASS,DUA,,35
-257,Donegal,True,False,cattle,3,3,3,PASS,DUA,,35
-258,Galway,True,False,cattle,1,4,4,PASS,DUA,,35
-259,Sligo,True,False,cattle,2,3,3,PASS,DUA,,35
-260,Cork,True,False,iron,0,5,5,PASS,DUA,,35
-261,Limerick,True,False,iron,0,5,5,PASS,DUA,,35
-262,Waterford,True,False,fish,1,4,4,PASS,DUA,,35
-263,Dublin,True,False,grain,3,3,3,PASS,DUA,,35
-264,Kildare,True,False,cattle,2,3,3,PASS,DUA,,35
-265,Wexford,True,False,fish,2,4,4,PASS,DUA,,35
+254,Belfast,True,False,cattle,4,1,4,PASS,IRE,,35
+255,Londonderry,True,False,cattle,3,2,3,PASS,IRE,,35
+256,Armagh,True,False,cattle,3,2,3,PASS,IRE,,35
+257,Donegal,True,False,cattle,3,3,3,PASS,IRE,,35
+258,Galway,True,False,cattle,1,4,4,PASS,IRE,,35
+259,Sligo,True,False,cattle,2,3,3,PASS,IRE,,35
+260,Cork,True,False,iron,0,5,5,PASS,IRE,,35
+261,Limerick,True,False,iron,0,5,5,PASS,IRE,,35
+262,Waterford,True,False,fish,1,4,4,PASS,IRE,,35
+263,Dublin,True,False,grain,3,3,3,PASS,IRE,,35
+264,Kildare,True,False,cattle,2,3,3,PASS,IRE,,35
+265,Wexford,True,False,fish,2,4,4,PASS,IRE,,35
 266,Aberdeen,True,False,iron,0,2,2,PASS,SCA,,35
 267,Inverness,True,False,sulphur,1,1,1,PASS,SCA,,35
 268,Dundee,True,False,fish,1,1,1,PASS,SCA,,35
@@ -304,12 +304,12 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 303,Southampton,True,False,fish,2,2,2,PASS,DUA,,35
 304,Isle of Man,True,False,fish,4,1,4,PASS,DUA,,35
 305,Trondheim,True,False,timber,1,4,4,PASS,SCA,,20
-306,Bodo,True,False,fish,2,5,5,PASS,SCA,,20
-307,Hammerfest,True,False,timber,1,6,6,PASS,SCA,,10
+306,Bodo,True,False,fish,2,3,3,PASS,SCA,,20
+307,Hammerfest,True,False,timber,1,2,2,PASS,SCA,,10
 308,Alesund,True,False,fish,1,5,5,PASS,SCA,,20
 309,Bergen,True,False,iron,0,5,5,PASS,SCA,,20
-310,Christiansand,True,False,fish,1,6,6,PASS,SCA,,35
-311,Skien,True,False,timber,1,6,6,PASS,SCA,,35
+310,Christiansand,True,False,fish,1,6,6,WARN,SCA,,35
+311,Skien,True,False,timber,1,6,6,WARN,SCA,,35
 312,Drammen,True,False,precious_metal,1,5,5,PASS,SCA,,35
 313,Christiania,True,False,fish,2,4,4,PASS,SCA,,40
 314,Hamar,True,False,grain,1,3,3,PASS,SCA,,20
@@ -319,7 +319,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 318,Sundsvall,True,False,timber,1,3,3,PASS,SCA,,35
 319,Ostersund,True,False,iron,0,3,3,PASS,SCA,,20
 320,Umea,True,False,timber,1,4,4,PASS,SCA,,20
-321,Lulea,True,False,timber,1,5,5,PASS,SCA,,10
+321,Lulea,True,False,timber,1,3,3,PASS,SCA,,10
 322,Stockholm,True,False,coal,1,0,1,PASS,SCA,,40
 323,Falun,True,False,iron,0,2,2,PASS,SCA,,35
 324,Uppsala,True,False,timber,1,1,1,PASS,SCA,,35
@@ -334,20 +334,20 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 333,Vaxjo,True,False,timber,2,3,3,PASS,SCA,,35
 334,Malmo,True,False,grain,3,4,4,PASS,SCA,,35
 335,Karlskrona,True,False,fish,3,4,4,PASS,SCA,,35
-336,Oulu,True,False,timber,1,5,5,PASS,SCA,,10
-337,Kajaani,True,False,timber,1,6,6,PASS,SCA,,10
-338,Tornio,True,False,iron,0,6,6,PASS,SCA,,10
-339,Viipuri,True,False,timber,1,5,5,PASS,SCA,,35
-340,Kotka,True,False,timber,2,5,5,PASS,SCA,,35
-341,Mikkeli,True,False,timber,1,5,5,PASS,SCA,,35
-342,Kuopio,True,False,iron,0,5,5,PASS,SCA,,35
+336,Oulu,True,False,timber,1,3,3,PASS,SCA,,10
+337,Kajaani,True,False,timber,1,3,3,PASS,SCA,,10
+338,Tornio,True,False,iron,0,2,2,PASS,SCA,,10
+339,Viipuri,True,False,timber,1,3,3,PASS,SCA,,35
+340,Kotka,True,False,timber,2,4,4,PASS,SCA,,35
+341,Mikkeli,True,False,timber,1,4,4,PASS,SCA,,35
+342,Kuopio,True,False,iron,0,3,3,PASS,SCA,,35
 343,Helsinki,True,False,grain,3,4,4,PASS,SCA,,35
 344,Hameenlinna,True,False,timber,2,4,4,PASS,SCA,,35
 345,Turku,True,False,grain,2,3,3,PASS,SCA,,35
 346,Vaasa,True,False,timber,1,4,4,PASS,SCA,,35
 347,Tampere,True,False,timber,2,4,4,PASS,SCA,,35
 348,Aland Islands,True,False,fish,2,2,2,PASS,SCA,,35
-349,Reval,True,False,grain,5,6,6,PASS,SCA,,40
+349,Reval,True,False,grain,5,6,6,WARN,SCA,,40
 350,Narva,True,False,cattle,4,5,5,PASS,SCA,,35
 351,Parnu,True,False,grain,4,5,5,PASS,SCA,,35
 352,Dorpat,True,False,cattle,3,4,4,PASS,SCA,,35
@@ -605,13 +605,13 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 604,Basel,True,False,fruit,1,1,1,PASS,SWI,,40
 605,Bern,True,False,iron,0,1,1,PASS,SWI,,40
 606,Lucern,True,False,timber,1,2,2,PASS,SWI,,40
-607,Geneva,True,False,grain,1,1,1,PASS,BRG,,33
-608,Neuchatel,True,False,coal,1,0,1,PASS,BRG,,32
+607,Geneva,True,False,grain,1,1,1,PASS,GNV,,33
+608,Neuchatel,True,False,coal,1,0,1,PASS,GNV,,32
 609,Sitten,True,False,coal,1,0,1,PASS,SAR,,31
 610,Ponape,True,False,fish,-1,-1,-1,ISLAND,,,10
 611,Chur,True,False,cattle,1,2,2,PASS,SWI,,40
 612,Innsbruck,True,False,timber,2,1,2,PASS,TIR,,40
-613,Salzburg,True,False,grain,1,1,1,PASS,BAV,,40
+613,Salzburg,True,False,grain,1,1,1,PASS,TIR,,40
 614,Bregenz,True,False,timber,1,2,2,PASS,SWI,,40
 615,Lienz,True,False,timber,1,1,1,PASS,TIR,,40
 616,Graz,True,False,iron,0,1,1,PASS,AUS,,35
@@ -899,41 +899,41 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 898,Antep,True,False,wool,2,3,3,PASS,TUR,,35
 899,Urfa,True,False,grain,1,3,3,PASS,TUR,,35
 900,Antioch,True,False,fruit,2,3,3,PASS,TUR,,35
-901,Dayr al-Zour,True,False,grain,1,4,4,PASS,TUR,,20
-902,Damascus,True,False,grain,2,6,6,PASS,TUR,,35
-903,Homs,True,False,grain,1,5,5,PASS,TUR,,35
-904,Hama,True,False,grain,2,5,5,PASS,TUR,,35
-905,Latakia,True,False,tobacco,1,4,4,PASS,TUR,,35
-906,Suwayda,True,False,grain,3,6,6,PASS,TUR,,10
-907,Palmyra,True,False,grain,2,5,5,PASS,TUR,,10
-908,Amman,True,False,grain,4,5,5,PASS,TUR,,35
-909,Jerash,True,False,grain,3,6,6,PASS,TUR,,31
-910,Ruwayshid,True,False,grain,4,5,5,PASS,TUR,,10
-911,Maan,True,False,cattle,3,5,5,PASS,TUR,,10
-912,Baalbeck,True,False,timber,1,6,6,PASS,TUR,,35
-913,Beirut,True,False,silk,1,6,6,PASS,TUR,,35
-914,Askaleh,True,False,iron,0,5,5,PASS,TUR,,35
-915,Sidon,True,False,fruit,2,7,7,WARN,TUR,,35
-916,Acre,True,False,fruit,3,6,6,PASS,TUR,,35
-917,Jerusalem,True,False,grain,5,5,5,PASS,TUR,,35
-918,Nablus,True,False,fruit,4,6,6,PASS,TUR,,35
-919,Jaffa,True,False,fruit,4,5,5,PASS,TUR,,35
-920,Gaza,True,False,grain,4,4,4,PASS,TUR,,35
-921,Beersheba,True,False,grain,5,4,5,PASS,TUR,,10
-922,Aqaba,True,False,wool,4,5,5,PASS,TUR,,20
+901,Dayr al-Zour,True,False,grain,1,3,3,PASS,TUR,,20
+902,Damascus,True,False,grain,2,1,2,PASS,TUR,,35
+903,Homs,True,False,grain,1,2,2,PASS,TUR,,35
+904,Hama,True,False,grain,2,3,3,PASS,TUR,,35
+905,Latakia,True,False,tobacco,1,3,3,PASS,TUR,,35
+906,Suwayda,True,False,grain,3,2,3,PASS,TUR,,10
+907,Palmyra,True,False,grain,2,2,2,PASS,TUR,,10
+908,Amman,True,False,grain,4,3,4,PASS,TUR,,35
+909,Jerash,True,False,grain,3,2,3,PASS,TUR,,31
+910,Ruwayshid,True,False,grain,4,4,4,PASS,TUR,,10
+911,Maan,True,False,cattle,3,3,3,PASS,TUR,,10
+912,Baalbeck,True,False,timber,1,1,1,PASS,TUR,,35
+913,Beirut,True,False,silk,1,1,1,PASS,TUR,,35
+914,Askaleh,True,False,iron,0,2,2,PASS,TUR,,35
+915,Sidon,True,False,coal,2,0,2,PASS,TUR,,35
+916,Acre,True,False,fruit,3,1,3,PASS,TUR,,35
+917,Jerusalem,True,False,grain,5,3,5,PASS,TUR,,35
+918,Nablus,True,False,fruit,4,2,4,PASS,TUR,,35
+919,Jaffa,True,False,fruit,4,2,4,PASS,TUR,,35
+920,Gaza,True,False,grain,4,3,4,PASS,TUR,,35
+921,Beersheba,True,False,grain,5,3,5,PASS,TUR,,10
+922,Aqaba,True,False,wool,4,4,4,PASS,TUR,,20
 923,Mosul,True,False,sulphur,2,4,4,PASS,IRQ,,35
 924,Arbil,True,False,wool,2,3,3,PASS,IRQ,,35
 925,Kirkuk,True,False,grain,2,3,3,PASS,IRQ,,35
 926,Baghdad,True,False,grain,3,5,5,PASS,IRQ,,35
 927,Samarra,True,False,grain,2,4,4,PASS,IRQ,,35
 928,Mendeli,True,False,grain,3,4,4,PASS,IRQ,,35
-929,Karbala,True,False,grain,3,5,5,PASS,IRQ,,35
+929,Karbala,True,False,grain,3,4,4,PASS,IRQ,,35
 930,Kut,True,False,grain,3,5,5,PASS,IRQ,,35
-931,Rutbah,True,False,sulphur,2,5,5,PASS,IRQ,,10
+931,Rutbah,True,False,sulphur,2,3,3,PASS,IRQ,,10
 932,Basra,True,False,fruit,3,5,5,PASS,IRQ,,35
-933,Nasiriyya,True,False,fruit,3,5,5,PASS,IRQ,,35
-934,Najaf,True,False,fruit,3,6,6,PASS,IRQ,,35
-935,Kuwait,True,False,fruit,3,6,6,PASS,ALH,,35
+933,Nasiriyya,True,False,fruit,3,4,4,PASS,IRQ,,35
+934,Najaf,True,False,fruit,3,4,4,PASS,IRQ,,35
+935,Kuwait,True,False,fruit,3,4,4,PASS,ALH,,35
 936,Grodno,True,False,grain,1,1,1,PASS,LIT,,35
 937,Brest-Litovsk,True,False,grain,2,1,2,PASS,PLC,,35
 938,Lida,True,False,iron,0,1,1,PASS,LIT,,35
@@ -980,19 +980,19 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 979,Rostov,True,False,coal,3,0,3,PASS,CRI,,40
 980,Luhansk,True,False,coal,2,0,2,PASS,CRI,,35
 981,Archangel,True,False,timber,2,3,3,PASS,NOV,,15
-982,Petsamo,True,False,iron,0,7,7,WARN,SCA,,10
-983,Kandalaksha,True,False,sulphur,1,6,6,PASS,NOV,,10
-984,Kostomushka,True,False,timber,1,5,5,PASS,NOV,,10
+982,Petsamo,True,False,iron,0,1,1,PASS,SCA,,10
+983,Kandalaksha,True,False,sulphur,1,1,1,PASS,NOV,,10
+984,Kostomushka,True,False,timber,1,2,2,PASS,NOV,,10
 985,Mezen,True,False,timber,3,2,3,PASS,NOV,,10
 986,Naryn Mar,True,False,timber,4,3,4,PASS,NOV,,10
 987,Ust Sysolsk,True,False,timber,3,2,3,PASS,NOV,,35
-988,Povyents,True,False,timber,2,5,5,PASS,NOV,,35
+988,Povyents,True,False,timber,2,3,3,PASS,NOV,,35
 989,Vologda,True,False,timber,1,3,3,PASS,NOV,,35
 990,Kotlas,True,False,timber,3,2,3,PASS,NOV,,35
 991,Uglich,True,False,timber,2,3,3,PASS,NOV,,35
 992,Belozersk,True,False,iron,0,3,3,PASS,NOV,,35
 993,Vyterga,True,False,timber,1,4,4,PASS,NOV,,35
-994,St Petersburg,True,False,grain,2,5,5,PASS,PSV,,40
+994,St Petersburg,True,False,grain,2,4,4,PASS,PSV,,40
 995,Petrozavorsk,True,False,grain,1,4,4,PASS,NOV,,35
 996,Luga,True,False,grain,3,5,5,PASS,PSV,,35
 997,Gdov,True,False,grain,3,4,4,PASS,PSV,,35
@@ -1156,11 +1156,11 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1155,Abha,True,False,wool,4,2,4,PASS,HDJ,,35
 1156,Kaf,True,False,wool,4,5,5,PASS,NEJ,,10
 1157,Riyadh,True,False,wool,4,4,4,PASS,NEJ,,35
-1158,Rafha,True,False,wool,3,5,5,PASS,NEJ,,10
+1158,Rafha,True,False,wool,3,4,4,PASS,NEJ,,10
 1159,Halaban,True,False,wool,4,4,4,PASS,NEJ,,10
 1160,Hail,True,False,wool,4,5,5,PASS,NEJ,,35
 1161,Sharawrah,True,False,wool,4,5,5,PASS,NEJ,,10
-1162,Bahrain,True,False,fruit,5,6,6,PASS,ABU,,34
+1162,Bahrain,True,False,fruit,5,6,6,WARN,ABU,,34
 1163,Qatif,True,False,fish,4,5,5,PASS,ALH,,35
 1164,Hufuf,True,False,grain,3,4,4,PASS,ALH,,35
 1165,Doha,True,False,fish,4,5,5,PASS,ABU,,34
@@ -1178,7 +1178,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1177,Socotra,True,False,fish,-1,-1,-1,ISLAND,SPA,,20
 1178,Sana,True,False,coffee,5,1,5,PASS,YEM,,35
 1179,Hodeida,True,False,grain,5,1,5,PASS,YEM,,35
-1180,Taizz,True,False,coal,6,0,6,PASS,YEM,,35
+1180,Taizz,True,False,coal,6,0,6,WARN,YEM,,35
 1181,Qaraganda,True,False,coal,1,0,1,PASS,CHG,,35
 1182,Guryev,True,False,opium,2,2,2,PASS,NOG,,35
 1183,Aqtobe,True,False,wool,1,2,2,PASS,NOG,,35
@@ -1227,18 +1227,18 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1226,Leh,True,False,wool,2,4,4,PASS,KAS,,35
 1227,Lahore,True,False,wool,4,5,5,PASS,AFG,,32
 1228,Multan,True,False,cattle,4,4,4,PASS,SIN,,32
-1229,Sialkot,True,False,cotton,4,6,6,PASS,AFG,,32
+1229,Sialkot,True,False,cotton,4,6,6,WARN,AFG,,32
 1230,Attock,True,False,wool,3,5,5,PASS,AFG,,32
-1231,Bahawalpur,True,False,cattle,4,5,5,PASS,SIN,,32
+1231,Bahawalpur,True,False,cattle,4,4,4,PASS,SIN,,32
 1232,Shahpur,True,False,wool,4,5,5,PASS,AFG,,32
 1233,Amritsar,True,False,fruit,3,5,5,PASS,AFG,,32
-1234,Firuzapur,True,False,wool,3,5,5,PASS,AFG,,32
+1234,Firuzapur,True,False,wool,3,4,4,PASS,AFG,,32
 1235,Simla,True,False,wool,2,4,4,PASS,MUG,,32
-1236,Delhi,True,False,fruit,2,5,5,PASS,MUG,,35
-1237,Panipat,True,False,cattle,2,5,5,PASS,MUG,,32
+1236,Delhi,True,False,fruit,2,4,4,PASS,MUG,,35
+1237,Panipat,True,False,cattle,2,4,4,PASS,MUG,,32
 1238,Dehra Dun,True,False,wool,1,4,4,PASS,MUG,,32
 1239,Meerut,True,False,grain,1,4,4,PASS,MUG,,32
-1240,Agra,True,False,dye,2,5,5,PASS,MUG,,32
+1240,Agra,True,False,dye,2,4,4,PASS,MUG,,32
 1241,Cawnpore,True,False,dye,2,4,4,PASS,MUG,,32
 1242,Lucknow,True,False,timber,1,4,4,PASS,MUG,,32
 1243,Allahabad,True,False,tobacco,2,3,3,PASS,MUG,,32
@@ -1262,46 +1262,46 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1261,Cuttack,True,False,grain,1,2,2,PASS,MUG,,32
 1262,Keunjahr,True,False,iron,0,1,1,PASS,MUG,,32
 1263,Sambalpur,True,False,grain,1,2,2,PASS,MUG,,32
-1264,Ajmer,True,False,precious_metal,3,6,6,PASS,MEW,,32
-1265,Jaisalmer,True,False,wool,4,5,5,PASS,JAS,,32
-1266,Jodhpur,True,False,fruit,3,5,5,PASS,JOD,,32
-1267,Bikaner,True,False,wool,3,6,6,PASS,BIK,,32
-1268,Jaipur,True,False,timber,3,5,5,PASS,JAI,,32
-1269,Udaipur,True,False,opium,2,5,5,PASS,MEW,,32
-1270,Gwalior,True,False,dye,2,4,4,PASS,MUG,,32
-1271,Indore,True,False,opium,1,5,5,PASS,MUG,,32
-1272,Bhopal,True,False,dye,2,4,4,PASS,MUG,,32
+1264,Ajmer,True,False,precious_metal,3,3,3,PASS,MEW,,32
+1265,Jaisalmer,True,False,wool,4,3,4,PASS,JAS,,32
+1266,Jodhpur,True,False,fruit,3,2,3,PASS,JOD,,32
+1267,Bikaner,True,False,wool,3,3,3,PASS,BIK,,32
+1268,Jaipur,True,False,timber,3,3,3,PASS,JAI,,32
+1269,Udaipur,True,False,opium,2,2,2,PASS,MEW,,32
+1270,Gwalior,True,False,dye,2,3,3,PASS,MUG,,32
+1271,Indore,True,False,opium,1,2,2,PASS,MUG,,32
+1272,Bhopal,True,False,dye,2,3,3,PASS,MUG,,32
 1273,Chatarpur,True,False,dye,3,3,3,PASS,MUG,,32
 1274,Rewa,True,False,cattle,2,2,2,PASS,MUG,,32
 1275,Jubulpore,True,False,dye,2,3,3,PASS,MUG,,32
-1276,Hoshangabad,True,False,dye,1,4,4,PASS,MUG,,32
+1276,Hoshangabad,True,False,dye,1,3,3,PASS,MUG,,32
 1277,Nagpur,True,False,dye,2,3,3,PASS,NAG,,32
-1278,Amarati,True,False,cattle,1,4,4,PASS,VIJ,,32
+1278,Amarati,True,False,cattle,1,3,3,PASS,VIJ,,32
 1279,Jagdalpur,True,False,grain,2,3,3,PASS,HYD,,32
 1280,Raipur,True,False,dye,2,2,2,PASS,NAG,,32
 1281,Bilaspur,True,False,grain,2,2,2,PASS,NAG,,32
 1282,Raigarh,True,False,grain,1,1,1,PASS,MUG,,32
 1283,Hyderabad,True,False,grain,3,4,4,PASS,HYD,,32
-1284,Aurangabad,True,False,cotton,1,4,4,PASS,VIJ,,32
+1284,Aurangabad,True,False,cotton,1,3,3,PASS,VIJ,,32
 1285,Nizamabad,True,False,fruit,2,3,3,PASS,HYD,,32
 1286,Gulbarga,True,False,cotton,2,4,4,PASS,VIJ,,32
 1287,Warangal,True,False,cotton,2,3,3,PASS,HYD,,32
-1288,Karachi,True,False,fruit,4,4,4,PASS,SIN,,35
-1289,Sukkur,True,False,grain,4,4,4,PASS,SIN,,35
-1290,Umarkot,True,False,cattle,3,5,5,PASS,SIN,,32
-1291,Ahmedabad,True,False,tobacco,2,7,7,WARN,BER,,32
-1292,Rajkot,True,False,fish,3,6,6,PASS,BER,,32
-1293,Mandvi,True,False,cotton,3,5,5,PASS,BER,,32
-1294,Patan,True,False,cotton,2,6,6,PASS,BER,,32
-1295,Baroda,True,False,fish,1,6,6,PASS,BER,,32
-1296,Surat,True,False,grain,1,6,6,PASS,BER,,32
-1297,Bombay,True,False,tobacco,1,6,6,PASS,VIJ,,32
-1298,Nasik,True,False,iron,0,5,5,PASS,VIJ,,32
-1299,Poona,True,False,grain,1,5,5,PASS,VIJ,,32
-1300,Bijapur,True,False,fruit,2,5,5,PASS,VIJ,,32
-1301,Kolhapur,True,False,fish,2,6,6,PASS,VIJ,,32
+1288,Karachi,True,False,fruit,4,3,4,PASS,SIN,,35
+1289,Sukkur,True,False,grain,4,3,4,PASS,SIN,,35
+1290,Umarkot,True,False,cattle,3,2,3,PASS,SIN,,32
+1291,Ahmedabad,True,False,coal,2,0,2,PASS,BER,,32
+1292,Rajkot,True,False,fish,3,1,3,PASS,BER,,32
+1293,Mandvi,True,False,cotton,3,2,3,PASS,BER,,32
+1294,Patan,True,False,cotton,2,1,2,PASS,BER,,32
+1295,Baroda,True,False,fish,1,1,1,PASS,BER,,32
+1296,Surat,True,False,grain,1,2,2,PASS,BER,,32
+1297,Bombay,True,False,tobacco,1,3,3,PASS,VIJ,,32
+1298,Nasik,True,False,iron,0,2,2,PASS,VIJ,,32
+1299,Poona,True,False,grain,1,3,3,PASS,VIJ,,32
+1300,Bijapur,True,False,fruit,2,4,4,PASS,VIJ,,32
+1301,Kolhapur,True,False,fish,2,4,4,PASS,VIJ,,32
 1302,Belgaum,True,False,fruit,3,5,5,PASS,VIJ,,32
-1303,Goa,True,False,fish,3,6,6,PASS,SPA,,32
+1303,Goa,True,False,fish,3,5,5,PASS,SPA,,32
 1304,Madras,True,False,cotton,3,3,3,PASS,MDR,,32
 1305,Vizagapatnam,True,False,tobacco,1,2,2,PASS,HYD,,32
 1306,Masulipatnam,True,False,grain,2,3,3,PASS,BRG,,32
@@ -1328,7 +1328,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1327,Jumla,True,False,iron,0,3,3,PASS,NEP,,25
 1328,Tumlong,True,False,wool,2,2,2,PASS,SIK,,32
 1329,Thimpu,True,False,wool,3,2,3,PASS,BHU,,25
-1330,Rangoon,True,False,grain,3,6,6,PASS,SPA,,35
+1330,Rangoon,True,False,grain,3,6,6,WARN,SPA,,35
 1331,Bassein,True,False,fish,3,5,5,PASS,SPA,,35
 1332,Pegu,True,False,grain,2,5,5,PASS,BUR,,35
 1333,Toungoo,True,False,opium,2,4,4,PASS,BUR,,35
@@ -1377,11 +1377,11 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1376,Vinh,True,False,grain,5,4,5,PASS,DAI,,34
 1377,Tourane,True,False,tobacco,5,3,5,PASS,DAI,,35
 1378,Pleiku,True,False,tobacco,5,2,5,PASS,CHP,,32
-1379,Quinhon,True,False,silk,6,2,6,PASS,CHP,,34
-1380,Saigon,True,False,coal,6,0,6,PASS,CHP,,40
+1379,Quinhon,True,False,silk,6,2,6,WARN,CHP,,34
+1380,Saigon,True,False,coal,6,0,6,WARN,CHP,,40
 1381,Dongquai,True,False,cotton,5,1,5,PASS,CHP,,34
 1382,Hatien,True,False,tropical_wood,5,1,5,PASS,CHP,,35
-1383,Vinhlong,True,False,grain,6,1,6,PASS,CHP,,35
+1383,Vinhlong,True,False,grain,6,1,6,WARN,CHP,,35
 1384,Singapore,True,False,tropical_wood,5,4,5,PASS,SCA,,35
 1385,Johor Bahru,True,False,tropical_wood,5,3,5,PASS,JOH,,37
 1386,Malacca,True,False,tropical_wood,5,3,5,PASS,JOH,,37
@@ -1397,29 +1397,29 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1396,Api,True,False,grain,2,3,3,PASS,SUL,,32
 1397,Sandakan,True,False,grain,3,4,4,PASS,SUL,,31
 1398,Jambi,True,False,grain,3,4,4,PASS,PLM,,31
-1399,Palembang,True,False,grain,4,5,5,PASS,PLM,,35
+1399,Palembang,True,False,grain,4,3,4,PASS,PLM,,35
 1400,Inderagiri,True,False,grain,3,3,3,PASS,PLM,,31
 1401,Siak,True,False,grain,2,2,2,PASS,PLM,,35
 1402,Tanjungpinang,True,False,timber,4,5,5,PASS,SCA,,30
-1403,Lampung,True,False,timber,4,5,5,PASS,PLM,,35
-1404,Palakpinang,True,False,timber,5,6,6,PASS,PLM,,32
+1403,Lampung,True,False,timber,4,2,4,PASS,PLM,,35
+1404,Palakpinang,True,False,timber,5,4,5,PASS,PLM,,32
 1405,Banda Aceh,True,False,coal,1,0,1,PASS,ATJ,,35
 1406,Medan,True,False,tobacco,1,1,1,PASS,ATJ,,38
 1407,Tapaktuan,True,False,iron,0,1,1,PASS,ATJ,,35
 1408,Padang,True,False,tobacco,2,3,3,PASS,PLM,,32
 1409,Sibolga,True,False,coffee,1,2,2,PASS,ATJ,,35
-1410,Bencoolen,True,False,tobacco,3,4,4,PASS,PLM,,35
+1410,Bencoolen,True,False,tobacco,3,3,3,PASS,PLM,,35
 1411,Gunungsitoli,True,False,fish,3,4,4,PASS,PLM,,32
-1412,Aden,True,False,fish,6,1,6,PASS,YEM,,35
-1413,Batavia,True,False,coffee,5,6,6,PASS,BRG,,35
-1414,Bogor,True,False,coffee,4,7,7,WARN,BRG,,35
-1415,Cirebon,True,False,coffee,4,7,7,WARN,JAV,,35
-1416,Yogyakarta,True,False,fruit,3,6,6,PASS,JAV,,35
-1417,Semarang,True,False,fruit,3,6,6,PASS,JAV,,35
-1418,Surabaya,True,False,sulphur,2,5,5,PASS,JAV,,35
-1419,Surakarta,True,False,fruit,2,5,5,PASS,JAV,,35
-1420,Probolinggo,True,False,sulphur,1,4,4,PASS,JAV,,35
-1421,Madura,True,False,sulphur,3,6,6,PASS,JAV,,35
+1412,Aden,True,False,fish,6,1,6,WARN,YEM,,35
+1413,Batavia,True,False,coffee,5,1,5,PASS,BRG,,35
+1414,Bogor,True,False,coal,4,0,4,PASS,BRG,,35
+1415,Cirebon,True,False,coffee,4,1,4,PASS,JAV,,35
+1416,Yogyakarta,True,False,fruit,3,1,3,PASS,JAV,,35
+1417,Semarang,True,False,fruit,3,2,3,PASS,JAV,,35
+1418,Surabaya,True,False,sulphur,2,3,3,PASS,JAV,,35
+1419,Surakarta,True,False,fruit,2,2,2,PASS,JAV,,35
+1420,Probolinggo,True,False,sulphur,1,3,3,PASS,JAV,,35
+1421,Madura,True,False,sulphur,3,4,4,PASS,JAV,,35
 1422,Muraleve,True,False,grain,2,2,2,PASS,KLM,,15
 1423,Banjarmasin,True,False,sulphur,3,2,3,PASS,KLM,,35
 1424,Pasir,True,False,sulphur,3,3,3,PASS,KLM,,35
@@ -1450,7 +1450,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1449,Ambon,True,False,grain,4,2,4,PASS,SCA,,30
 1450,Ceram,True,False,grain,4,3,4,PASS,SCA,,32
 1451,Aru,True,False,fish,4,4,4,PASS,DUA,,30
-1452,Biak,True,False,fish,3,6,6,PASS,,,30
+1452,Biak,True,False,fish,3,6,6,WARN,,,30
 1453,Sorong,True,False,fish,3,4,4,PASS,,,30
 1454,Merah,True,False,fish,2,5,5,PASS,,,10
 1455,Manila,True,False,coffee,3,-1,-1,ISLAND,TNG,,40
@@ -1473,9 +1473,9 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1472,Fengyang,True,False,tea,3,4,4,PASS,MCK,,32
 1473,Huizhou,True,False,tea,2,3,3,PASS,MIG,,32
 1474,Luzhou,True,False,cattle,2,3,3,PASS,TAI,,32
-1475,Ningguo,True,False,timber,2,4,4,PASS,MIG,,32
-1476,Sizhou,True,False,tea,4,5,5,PASS,MCK,,32
-1477,Taiping,True,False,silk,3,4,4,PASS,MIG,,32
+1475,Ningguo,True,False,timber,2,3,3,PASS,MIG,,32
+1476,Sizhou,True,False,tea,4,3,4,PASS,MCK,,32
+1477,Taiping,True,False,silk,3,3,3,PASS,MIG,,32
 1478,Yingzhou,True,False,tea,3,3,3,PASS,MCK,,32
 1479,Mukden,True,False,timber,1,2,2,PASS,MCK,,32
 1480,Jinzhou,True,False,timber,1,2,2,PASS,MCK,,32
@@ -1534,15 +1534,15 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1533,Jirim Chuulgan,True,False,timber,1,1,1,PASS,MCK,,32
 1534,Ulaan Chab Chuulghan,True,False,precious_metal,1,1,1,PASS,CHG,,35
 1535,Yeke Juu Chuulghan,True,False,timber,2,1,2,PASS,CHG,,35
-1536,Huaian,True,False,silk,4,5,5,PASS,MCK,,32
-1537,Changzhou,True,False,tea,2,5,5,PASS,MIG,,32
-1538,Shanghai,True,False,tea,1,6,6,PASS,MIG,,32
-1539,Suzhou,True,False,silk,1,6,6,PASS,MIG,,32
-1540,Taicangzhou,True,False,fish,2,7,7,WARN,MIG,,32
-1541,Tongzhou,True,False,tea,2,6,6,PASS,MIG,,32
+1536,Huaian,True,False,silk,4,3,4,PASS,MCK,,32
+1537,Changzhou,True,False,tea,2,2,2,PASS,MIG,,32
+1538,Shanghai,True,False,tea,1,1,1,PASS,MIG,,32
+1539,Suzhou,True,False,silk,1,1,1,PASS,MIG,,32
+1540,Taicangzhou,True,False,coal,2,0,2,PASS,MIG,,32
+1541,Tongzhou,True,False,tea,2,1,2,PASS,MIG,,32
 1542,Xuzhou,True,False,silk,3,4,4,PASS,MCK,,32
-1543,Yangzhou,True,False,silk,3,5,5,PASS,MCK,,32
-1544,Zhenjiang,True,False,silk,3,5,5,PASS,MIG,,32
+1543,Yangzhou,True,False,silk,3,2,3,PASS,MCK,,32
+1544,Zhenjiang,True,False,silk,3,2,3,PASS,MIG,,32
 1545,Nanchang,True,False,cattle,1,2,2,PASS,TAI,,32
 1546,Guangxin,True,False,tea,3,2,3,PASS,TAI,,32
 1547,Jian,True,False,tea,2,1,2,PASS,TAI,,32
@@ -1558,7 +1558,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1557,Balekungomi,True,False,coal,3,0,3,PASS,TIB,,32
 1558,Kegudo,True,False,grain,3,1,3,PASS,TIB,,32
 1559,Xian,True,False,timber,1,1,1,PASS,MCK,,32
-1560,Merauke,True,False,fish,2,6,6,PASS,,,10
+1560,Merauke,True,False,fish,2,6,6,WARN,,,10
 1561,Yenan,True,False,coal,1,0,1,PASS,MCK,,32
 1562,Hanzhong,True,False,coal,1,0,1,PASS,MCK,,32
 1563,Jinan,True,False,cotton,3,2,3,PASS,MCK,,32
@@ -1567,7 +1567,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1566,Qingdao,True,False,fruit,2,5,5,PASS,MCK,,32
 1567,Qingzhou,True,False,grain,2,4,4,PASS,MCK,,32
 1568,Taian,True,False,grain,3,3,3,PASS,MCK,,32
-1569,Weihaiwei,True,False,iron,0,6,6,PASS,MCK,,32
+1569,Weihaiwei,True,False,iron,0,6,6,WARN,MCK,,32
 1570,Wuding,True,False,grain,3,3,3,PASS,MCK,,32
 1571,Yizhou,True,False,tea,2,4,4,PASS,MCK,,32
 1572,Taiyuan,True,False,coal,2,0,2,PASS,MCK,,32
@@ -1602,9 +1602,9 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1601,Kunming,True,False,silk,3,3,3,PASS,TAI,,32
 1602,Dali,True,False,timber,3,2,3,PASS,TAI,,32
 1603,Puer,True,False,tea,4,3,4,PASS,TAI,,32
-1604,Hangzhou,True,False,silk,1,4,4,PASS,MIG,,32
-1605,Huzhou,True,False,silk,1,5,5,PASS,MIG,,32
-1606,Jiaxing,True,False,iron,0,5,5,PASS,MIG,,32
+1604,Hangzhou,True,False,silk,1,3,3,PASS,MIG,,32
+1605,Huzhou,True,False,silk,1,2,2,PASS,MIG,,32
+1606,Jiaxing,True,False,iron,0,2,2,PASS,MIG,,32
 1607,Jinhua,True,False,timber,2,3,3,PASS,MIG,,32
 1608,Ningbo,True,False,cotton,3,5,5,PASS,TNG,,32
 1609,Shaoxing,True,False,timber,2,4,4,PASS,MIG,,32
@@ -1643,20 +1643,20 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1642,Hakodate,True,False,coal,1,0,1,PASS,JAP,,35
 1643,Ishikara,True,False,fish,2,1,2,PASS,JAP,,10
 1644,Nemuru,True,False,timber,2,1,2,PASS,JAP,,10
-1645,Niigata,True,False,grain,2,4,4,PASS,JAP,,35
-1646,Kanazawa,True,False,fish,3,6,6,PASS,JAP,,35
-1647,Fukui,True,False,fish,3,5,5,PASS,JAP,,35
-1648,Toyama,True,False,tea,3,5,5,PASS,JAP,,35
-1649,Edo,True,False,grain,4,6,6,PASS,JAP,,40
-1650,Chiba,True,False,grain,4,6,6,PASS,JAP,,35
-1651,Yokohama,True,False,grain,4,7,7,WARN,JAP,,35
-1652,Urawa,True,False,silk,4,6,6,PASS,JAP,,35
-1653,Mito,True,False,fish,3,5,5,PASS,JAP,,35
+1645,Niigata,True,False,grain,2,3,3,PASS,JAP,,35
+1646,Kanazawa,True,False,fish,3,3,3,PASS,JAP,,35
+1647,Fukui,True,False,fish,3,3,3,PASS,JAP,,35
+1648,Toyama,True,False,tea,3,3,3,PASS,JAP,,35
+1649,Edo,True,False,grain,4,1,4,PASS,JAP,,40
+1650,Chiba,True,False,grain,4,2,4,PASS,JAP,,35
+1651,Yokohama,True,False,coal,4,0,4,PASS,JAP,,35
+1652,Urawa,True,False,silk,4,1,4,PASS,JAP,,35
+1653,Mito,True,False,fish,3,2,3,PASS,JAP,,35
 1654,Bonin,True,False,fish,-1,-1,-1,ISLAND,JAP,,15
 1655,Osaka,True,False,tea,1,4,4,PASS,JAP,,35
-1656,Wakayama,True,False,iron,0,5,5,PASS,JAP,,35
-1657,Kyoto,True,False,tea,2,4,4,PASS,JAP,,35
-1658,Nara,True,False,grain,1,5,5,PASS,JAP,,35
+1656,Wakayama,True,False,iron,0,4,4,PASS,JAP,,35
+1657,Kyoto,True,False,tea,2,3,3,PASS,JAP,,35
+1658,Nara,True,False,grain,1,3,3,PASS,JAP,,35
 1659,Kobe,True,False,cattle,2,3,3,PASS,JAP,,35
 1660,Fukuoka,True,False,tea,3,1,3,PASS,JAP,,35
 1661,Nagasaki,True,False,coal,3,0,3,PASS,JAP,,35
@@ -1667,15 +1667,15 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1666,Matsuyama,True,False,timber,3,1,3,PASS,JAP,,35
 1667,Tokushima,True,False,tobacco,3,2,3,PASS,JAP,,35
 1668,Sendai,True,False,grain,1,3,3,PASS,JAP,,35
-1669,Fukushima,True,False,fish,2,4,4,PASS,JAP,,35
+1669,Fukushima,True,False,fish,2,3,3,PASS,JAP,,35
 1670,Morioka,True,False,sulphur,1,2,2,PASS,JAP,,35
 1671,Akita,True,False,iron,0,2,2,PASS,JAP,,35
 1672,Aomori,True,False,iron,0,1,1,PASS,JAP,,35
 1673,Yamagata,True,False,silk,1,3,3,PASS,JAP,,35
-1674,Utsunomiya,True,False,tobacco,3,5,5,PASS,JAP,,35
-1675,Nagoya,True,False,silk,2,5,5,PASS,JAP,,35
-1676,Shizuoka,True,False,precious_metal,3,6,6,PASS,JAP,,35
-1677,Nagano,True,False,tea,3,5,5,PASS,JAP,,35
+1674,Utsunomiya,True,False,tobacco,3,2,3,PASS,JAP,,35
+1675,Nagoya,True,False,silk,2,2,2,PASS,JAP,,35
+1676,Shizuoka,True,False,precious_metal,3,1,3,PASS,JAP,,35
+1677,Nagano,True,False,tea,3,2,3,PASS,JAP,,35
 1678,Okinawa,True,False,grain,1,3,3,PASS,JAP,,35
 1679,Amari,True,False,iron,0,2,2,PASS,JAP,,35
 1680,Fez,True,False,grain,2,2,2,PASS,SPA,,35
@@ -1712,7 +1712,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1711,Ouargla,True,False,wool,2,2,2,PASS,MGH,,35
 1712,Tuggurt,True,False,wool,1,3,3,PASS,MGH,,35
 1713,Laghwat,True,False,grain,1,2,2,PASS,MGH,,35
-1714,Bechar,True,False,iron,0,6,6,PASS,INC,,35
+1714,Bechar,True,False,iron,0,3,3,PASS,INC,,35
 1715,Naama,True,False,wool,1,1,1,PASS,MGH,,35
 1716,Tindouf,True,False,fruit,1,3,3,PASS,,,10
 1717,Chenachene,True,False,grain,1,3,3,PASS,,,10
@@ -1731,8 +1731,8 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1730,Gabes,True,False,grain,2,5,5,PASS,TUN,,35
 1731,Tripoli,True,False,fruit,2,5,5,PASS,TUN,,35
 1732,Ghayran,True,False,fruit,1,5,5,PASS,TUN,,25
-1733,Misratah,True,False,fruit,2,6,6,PASS,TUN,,35
-1734,Sirt,True,False,wool,1,6,6,PASS,TUN,,35
+1733,Misratah,True,False,fruit,2,6,6,WARN,TUN,,35
+1734,Sirt,True,False,wool,1,6,6,WARN,TUN,,35
 1735,Benghazi,True,False,fruit,1,5,5,PASS,EGY,,35
 1736,Darna,True,False,fish,2,5,5,PASS,EGY,,35
 1737,Tobruk,True,False,grain,2,4,4,PASS,EGY,,35
@@ -1773,16 +1773,16 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1772,Ras Gharib,True,False,grain,2,2,2,PASS,EGY,,35
 1773,Aaiun,True,False,fish,1,4,4,PASS,,,10
 1774,Dakhla,True,False,wool,1,5,5,PASS,,,10
-1775,Nouakchott,True,False,fish,2,6,6,PASS,,,20
-1776,Rosso,True,False,wool,3,6,6,PASS,,,20
+1775,Nouakchott,True,False,fish,2,6,6,WARN,,,20
+1776,Rosso,True,False,wool,3,6,6,WARN,,,20
 1777,Aleg,True,False,wool,2,5,5,PASS,,,20
 1778,Maghama,True,False,timber,2,4,4,PASS,,,15
 1779,Shingit,True,False,grain,1,5,5,PASS,,,20
 1780,Tishit,True,False,fruit,2,2,2,PASS,MAC,,35
 1781,Walata,True,False,wool,1,4,4,PASS,,,10
 1782,Bir Murghayn,True,False,iron,0,4,4,PASS,,,10
-1783,Dakar,True,False,iron,0,6,6,PASS,,,25
-1784,Saint-Louis,True,False,fruit,2,6,6,PASS,VEN,,30
+1783,Dakar,True,False,iron,0,6,6,WARN,,,25
+1784,Saint-Louis,True,False,fruit,2,6,6,WARN,VEN,,30
 1785,Banjul,True,False,fruit,3,4,4,PASS,KRL,,35
 1786,Linguere,True,False,grain,2,5,5,PASS,,,20
 1787,Diourbel,True,False,grain,2,5,5,PASS,,,20
@@ -1839,7 +1839,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1838,Obeid,True,False,wool,3,5,5,PASS,,,30
 1839,Nuhud,True,False,grain,3,5,5,PASS,,,30
 1840,Kaduqli,True,False,wool,4,5,5,PASS,,,30
-1841,Fasher,True,False,wool,4,6,6,PASS,,,15
+1841,Fasher,True,False,wool,4,6,6,WARN,,,15
 1842,Junayah,True,False,grain,3,5,5,PASS,,,10
 1843,Waw,True,False,grain,4,5,5,PASS,,,15
 1844,Bor,True,False,grain,3,4,4,PASS,,,15
@@ -1963,53 +1963,53 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 1962,Bertoua,True,False,grain,2,3,3,PASS,,,15
 1963,Ngaoundere,True,False,tropical_wood,1,3,3,PASS,,,15
 1964,Maroua,True,False,fruit,1,4,4,PASS,,,15
-1965,Bangui,True,False,timber,2,5,5,PASS,,,15
+1965,Bangui,True,False,timber,2,4,4,PASS,,,15
 1966,Nola,True,False,cattle,2,4,4,PASS,,,15
 1967,Bouar,True,False,cattle,2,4,4,PASS,,,15
 1968,Bossangoa,True,False,grain,3,5,5,PASS,,,15
-1969,Zemio,True,False,cattle,4,6,6,PASS,,,15
-1970,Bangassou,True,False,timber,3,6,6,PASS,,,15
-1971,Ndele,True,False,cattle,3,6,6,PASS,,,15
-1972,Libreville,True,False,timber,1,5,5,PASS,,,20
+1969,Zemio,True,False,cattle,4,5,5,PASS,,,15
+1970,Bangassou,True,False,timber,3,4,4,PASS,,,15
+1971,Ndele,True,False,cattle,3,5,5,PASS,,,15
+1972,Libreville,True,False,timber,1,3,3,PASS,,,20
 1973,Bata,True,False,timber,1,4,4,PASS,,,20
-1974,Mayumbe,True,False,timber,1,6,6,PASS,,,20
-1975,Moanda,True,False,timber,1,5,5,PASS,,,15
-1976,Makokou,True,False,iron,0,4,4,PASS,,,15
-1977,Nkuna,True,False,fruit,1,6,6,PASS,,,20
-1978,Madingou,True,False,iron,0,6,6,PASS,,,15
+1974,Mayumbe,True,False,timber,1,2,2,PASS,,,20
+1975,Moanda,True,False,timber,1,2,2,PASS,,,15
+1976,Makokou,True,False,iron,0,3,3,PASS,,,15
+1977,Nkuna,True,False,fruit,1,1,1,PASS,,,20
+1978,Madingou,True,False,iron,0,1,1,PASS,,,15
 1979,Biloka,True,False,tropical_wood,2,5,5,PASS,CLM,,15
-1980,Djambala,True,False,timber,1,5,5,PASS,,,15
-1981,Impfondo,True,False,timber,1,4,4,PASS,,,15
-1982,Kinshasa,True,False,fruit,2,6,6,PASS,,,20
-1983,Boma,True,False,timber,1,7,7,WARN,,,20
-1984,Kananga,True,False,fruit,4,5,5,PASS,,,15
-1985,Kumbana,True,False,grain,3,6,6,PASS,,,15
-1986,Lusambo,True,False,tropical_wood,4,5,5,PASS,,,15
+1980,Djambala,True,False,timber,1,2,2,PASS,,,15
+1981,Impfondo,True,False,timber,1,3,3,PASS,,,15
+1982,Kinshasa,True,False,fruit,2,1,2,PASS,,,20
+1983,Boma,True,False,coal,1,0,1,PASS,,,20
+1984,Kananga,True,False,fruit,4,3,4,PASS,,,15
+1985,Kumbana,True,False,grain,3,2,3,PASS,,,15
+1986,Lusambo,True,False,tropical_wood,4,3,4,PASS,,,15
 1987,Bunkeya,True,False,grain,4,3,4,PASS,,,15
 1988,Mussumba,True,False,tropical_wood,3,4,4,PASS,,,15
 1989,Munza,True,False,tropical_wood,4,4,4,PASS,,,15
-1990,Nyangwe,True,False,fruit,4,5,5,PASS,,,15
+1990,Nyangwe,True,False,fruit,4,4,4,PASS,,,15
 1991,Uvira,True,False,fruit,4,5,5,PASS,,,15
-1992,Basoko,True,False,timber,3,6,6,PASS,,,15
-1993,Irebu,True,False,grain,2,5,5,PASS,,,15
-1994,Nsheng,True,False,grain,3,6,6,PASS,,,15
-1995,Gemena,True,False,cotton,2,5,5,PASS,,,15
-1996,Kisangani,True,False,tropical_wood,3,6,6,PASS,,,15
-1997,Mungbane,True,False,fruit,4,6,6,PASS,,,15
-1998,Baramo,True,False,fruit,3,6,6,PASS,,,15
-1999,Luanda,True,False,coffee,3,7,7,WARN,SCA,,35
-2000,Cabinda,True,False,fruit,1,7,7,WARN,,,20
-2001,Mbanza,True,False,fruit,2,6,6,PASS,SCA,,35
-2002,Quibala,True,False,coffee,2,6,6,PASS,,,25
-2003,Benguela,True,False,grain,2,7,7,WARN,SCA,,35
-2004,Mocamedes,True,False,fish,1,6,6,PASS,SCA,,35
-2005,Huambo,True,False,fruit,1,6,6,PASS,,,25
-2006,Kuito,True,False,fruit,1,5,5,PASS,,,15
-2007,Mavinga,True,False,grain,1,5,5,PASS,,,15
-2008,Ondjiva,True,False,iron,0,5,5,PASS,,,15
-2009,Malanje,True,False,fruit,2,5,5,PASS,,,15
-2010,Saurimo,True,False,cattle,3,5,5,PASS,,,15
-2011,Kubanda,True,False,grain,2,4,4,PASS,,,15
+1992,Basoko,True,False,timber,3,3,3,PASS,,,15
+1993,Irebu,True,False,grain,2,2,2,PASS,,,15
+1994,Nsheng,True,False,grain,3,2,3,PASS,,,15
+1995,Gemena,True,False,cotton,2,3,3,PASS,,,15
+1996,Kisangani,True,False,tropical_wood,3,4,4,PASS,,,15
+1997,Mungbane,True,False,fruit,4,5,5,PASS,,,15
+1998,Baramo,True,False,fruit,3,4,4,PASS,,,15
+1999,Luanda,True,False,coffee,3,2,3,PASS,SCA,,35
+2000,Cabinda,True,False,fruit,1,1,1,PASS,,,20
+2001,Mbanza,True,False,fruit,2,1,2,PASS,SCA,,35
+2002,Quibala,True,False,coffee,2,2,2,PASS,,,25
+2003,Benguela,True,False,grain,2,3,3,PASS,SCA,,35
+2004,Mocamedes,True,False,fish,1,4,4,PASS,SCA,,35
+2005,Huambo,True,False,fruit,1,3,3,PASS,,,25
+2006,Kuito,True,False,fruit,1,3,3,PASS,,,15
+2007,Mavinga,True,False,grain,1,4,4,PASS,,,15
+2008,Ondjiva,True,False,iron,0,4,4,PASS,,,15
+2009,Malanje,True,False,fruit,2,2,2,PASS,,,15
+2010,Saurimo,True,False,cattle,3,3,3,PASS,,,15
+2011,Kubanda,True,False,grain,2,3,3,PASS,,,15
 2012,Lusaka,True,False,grain,3,2,3,PASS,,,15
 2013,Mongu,True,False,cattle,2,4,4,PASS,,,15
 2014,Kasempa,True,False,grain,3,3,3,PASS,,,15
@@ -2019,10 +2019,10 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2018,Chipata,True,False,grain,4,1,4,PASS,,,15
 2019,Entebbe,True,False,tea,4,5,5,PASS,,,15
 2020,Mbarara,True,False,cotton,4,5,5,PASS,,,15
-2021,Masindi,True,False,coffee,4,6,6,PASS,,,15
+2021,Masindi,True,False,coffee,4,5,5,PASS,,,15
 2022,Kitgum,True,False,cotton,3,5,5,PASS,,,15
-2023,Jinja,True,False,cotton,3,6,6,PASS,,,15
-2024,Nairobi,True,False,grain,1,6,6,PASS,,,15
+2023,Jinja,True,False,cotton,3,6,6,WARN,,,15
+2024,Nairobi,True,False,grain,1,6,6,WARN,,,15
 2025,Marsabit,True,False,cattle,1,5,5,PASS,,,15
 2026,Lodwar,True,False,tea,2,5,5,PASS,,,15
 2027,Nakuru,True,False,tea,1,5,5,PASS,,,15
@@ -2077,7 +2077,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2076,Nokaneng,True,False,fruit,2,3,3,PASS,,,20
 2077,Tsabong,True,False,grain,1,3,3,PASS,GRQ,,15
 2078,Windhoek,True,False,wool,2,5,5,PASS,,,10
-2079,Swakopmund,True,False,fish,2,6,6,PASS,,,10
+2079,Swakopmund,True,False,fish,2,5,5,PASS,,,10
 2080,Tsumeb,True,False,wool,1,5,5,PASS,,,10
 2081,Linyati,True,False,tropical_wood,2,4,4,PASS,,,20
 2082,Otjinene,True,False,grain,1,4,4,PASS,,,20
@@ -2181,7 +2181,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2180,Chilpancingo,True,False,cattle,2,5,5,PASS,CLM,,35
 2181,Tuxtla,True,False,cotton,1,5,5,PASS,CLM,,30
 2182,Tapachula,True,False,cotton,1,4,4,PASS,CLM,,30
-2183,Merida,True,False,grain,3,6,6,PASS,CLM,,30
+2183,Merida,True,False,grain,3,6,6,WARN,CLM,,30
 2184,Campeche,True,False,timber,2,5,5,PASS,CLM,,30
 2185,Bacalar,True,False,timber,3,5,5,PASS,CLM,,30
 2186,Guatemala,True,False,coffee,2,3,3,PASS,CLM,,31
@@ -2219,7 +2219,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2218,Cayman Islands,True,False,fruit,-1,-1,-1,ISLAND,SPA,,35
 2219,Bahamas,True,False,cotton,-1,-1,-1,ISLAND,VEN,,35
 2220,Turks And Caicos,True,False,cotton,-1,-1,-1,ISLAND,VEN,,35
-2221,Nanjing,True,False,tea,3,5,5,PASS,MIG,,32
+2221,Nanjing,True,False,tea,3,3,3,PASS,MIG,,32
 2222,Puerto Rico,True,False,coffee,-1,-1,-1,ISLAND,SCA,,35
 2223,Saint Thomas,True,False,tobacco,-1,-1,-1,ISLAND,DUA,,35
 2224,Antigua,True,False,fruit,-1,-1,-1,ISLAND,ARA,,35
@@ -2238,7 +2238,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2237,Trinidad,True,False,cotton,-1,-1,-1,ISLAND,CLM,,35
 2238,Tobago,True,False,cotton,-1,-1,-1,ISLAND,KRL,,35
 2239,Georgetown,True,False,fruit,1,5,5,PASS,CLM,,32
-2240,Paramaribo,True,False,iron,0,6,6,PASS,CLM,,32
+2240,Paramaribo,True,False,iron,0,6,6,WARN,CLM,,32
 2241,Cayenne,True,False,timber,1,5,5,PASS,CLM,,32
 2242,Mahdia,True,False,tropical_wood,2,4,4,PASS,CLM,,15
 2243,Essequibo,True,False,fruit,2,4,4,PASS,CLM,,31
@@ -2303,16 +2303,16 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2302,Cusco,True,False,wool,1,1,1,PASS,CLM,,35
 2303,Puno,True,False,iron,0,2,2,PASS,CLM,,35
 2304,Arequipa,True,False,sulphur,1,1,1,PASS,CLM,,20
-2305,Antofagasta,True,False,wool,1,5,5,PASS,INC,,15
+2305,Antofagasta,True,False,wool,1,2,2,PASS,INC,,15
 2306,Sorocaba,True,False,coffee,1,3,3,PASS,LOT,,35
 2307,Iquique,True,False,cattle,1,4,4,PASS,INC,,15
 2308,Arica,True,False,wool,1,3,3,PASS,INC,,15
-2309,Calama,True,False,fish,2,5,5,PASS,INC,,15
+2309,Calama,True,False,fish,2,3,3,PASS,INC,,15
 2310,La Paz,True,False,cattle,1,3,3,PASS,INC,,35
 2311,Cochabamba,True,False,fruit,1,4,4,PASS,INC,,35
 2312,Oruro,True,False,iron,0,4,4,PASS,INC,,10
 2313,Chuquisaca,True,False,wool,1,3,3,PASS,INC,,35
-2314,Potosi,True,False,grain,1,4,4,PASS,INC,,15
+2314,Potosi,True,False,grain,1,3,3,PASS,INC,,15
 2315,Tarija,True,False,wool,2,3,3,PASS,INC,,35
 2316,Santa Cruz,True,False,fruit,2,3,3,PASS,,,30
 2317,San Ignacio,True,False,tropical_wood,3,2,3,PASS,,,25
@@ -2320,20 +2320,20 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2319,Santa Ana,True,False,timber,2,3,3,PASS,INC,,31
 2320,Riberalta,True,False,timber,2,3,3,PASS,,,25
 2321,Cobija,True,False,tropical_wood,1,3,3,PASS,,,31
-2322,Copiapo,True,False,iron,0,6,6,PASS,INC,,35
-2323,La Serena,True,False,grain,1,7,7,WARN,INC,,35
-2324,Santiago,True,False,grain,2,5,5,PASS,INC,,35
-2325,Valparaiso,True,False,fruit,1,6,6,PASS,INC,,35
-2326,Vina del Mar,True,False,cattle,2,6,6,PASS,INC,,35
-2327,Talca,True,False,grain,1,5,5,PASS,INC,,35
-2328,Valdivia,True,False,grain,2,5,5,PASS,,,35
-2329,Temuco,True,False,wool,1,5,5,PASS,,,35
-2330,Cauquenes,True,False,iron,0,6,6,PASS,INC,,35
-2331,Chillan,True,False,iron,0,5,5,PASS,,,35
-2332,Osorno,True,False,fish,2,4,4,PASS,,,35
-2333,Puerto Aisen,True,False,fruit,3,5,5,PASS,,,15
-2334,Punta Arenas,True,False,wool,4,6,6,PASS,CHL,,15
-2335,Porvenir,True,False,wool,5,7,7,WARN,,,15
+2322,Copiapo,True,False,iron,0,1,1,PASS,INC,,35
+2323,La Serena,True,False,coal,1,0,1,PASS,INC,,35
+2324,Santiago,True,False,grain,2,2,2,PASS,INC,,35
+2325,Valparaiso,True,False,fruit,1,2,2,PASS,INC,,35
+2326,Vina del Mar,True,False,cattle,2,1,2,PASS,INC,,35
+2327,Talca,True,False,grain,1,3,3,PASS,INC,,35
+2328,Valdivia,True,False,grain,2,4,4,PASS,,,35
+2329,Temuco,True,False,wool,1,4,4,PASS,,,35
+2330,Cauquenes,True,False,iron,0,3,3,PASS,INC,,35
+2331,Chillan,True,False,iron,0,4,4,PASS,,,35
+2332,Osorno,True,False,fish,2,3,3,PASS,,,35
+2333,Puerto Aisen,True,False,fruit,3,2,3,PASS,,,15
+2334,Punta Arenas,True,False,wool,4,1,4,PASS,CHL,,15
+2335,Porvenir,True,False,coal,5,0,5,PASS,,,15
 2336,Easter Island,True,False,fish,-1,-1,-1,ISLAND,RAP,,10
 2337,Fortin Falcon,True,False,tropical_wood,3,3,3,PASS,,,15
 2338,Puerto Gaurani,True,False,fish,2,2,2,PASS,,,15
@@ -2366,45 +2366,45 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2365,Villa Angela,True,False,timber,3,4,4,PASS,NAN,,15
 2366,Formosa,True,False,timber,4,4,4,PASS,,,15
 2367,Xolotas,True,False,timber,3,4,4,PASS,,,15
-2368,Salta,True,False,wool,1,5,5,PASS,INC,,35
-2369,Jujuy,True,False,wool,2,5,5,PASS,INC,,31
-2370,Cochinoca,True,False,wool,1,5,5,PASS,INC,,31
+2368,Salta,True,False,wool,1,3,3,PASS,INC,,35
+2369,Jujuy,True,False,wool,2,4,4,PASS,INC,,31
+2370,Cochinoca,True,False,wool,1,3,3,PASS,INC,,31
 2371,Equia,True,False,timber,2,4,4,PASS,INC,,31
 2372,Rivadavia,True,False,timber,2,4,4,PASS,INC,,15
-2373,Tucuman,True,False,fruit,2,6,6,PASS,INC,,35
-2374,Catamarca,True,False,wool,1,5,5,PASS,INC,,35
-2375,Vinchina,True,False,iron,0,6,6,PASS,INC,,35
-2376,Santiago del Estero,True,False,timber,2,5,5,PASS,NAN,,35
+2373,Tucuman,True,False,fruit,2,4,4,PASS,INC,,35
+2374,Catamarca,True,False,wool,1,3,3,PASS,INC,,35
+2375,Vinchina,True,False,iron,0,2,2,PASS,INC,,35
+2376,Santiago del Estero,True,False,timber,2,4,4,PASS,NAN,,35
 2377,Anatuya,True,False,timber,2,4,4,PASS,NAN,,15
 2378,Mailin,True,False,timber,1,4,4,PASS,NAN,,35
 2379,Cordoba de Argentina,True,False,iron,0,4,4,PASS,NAN,,35
 2380,Villa Nueva,True,False,grain,1,4,4,PASS,NAN,,35
 2381,Rio Cuarto,True,False,cattle,1,3,3,PASS,NAN,,35
 2382,Renanco,True,False,wool,2,2,2,PASS,NAN,,15
-2383,San Luis,True,False,grain,1,4,4,PASS,NAN,,35
+2383,San Luis,True,False,grain,1,3,3,PASS,NAN,,35
 2384,Mercedes,True,False,cattle,2,3,3,PASS,NAN,,15
-2385,La Rioja,True,False,wool,1,6,6,PASS,INC,,35
-2386,Santa Rita,True,False,fruit,1,5,5,PASS,NAN,,35
-2387,San Juan,True,False,fruit,2,5,5,PASS,INC,,35
-2388,Calingasta,True,False,fruit,1,6,6,PASS,INC,,35
-2389,Mendoza,True,False,fruit,2,5,5,PASS,INC,,35
-2390,San Rafael,True,False,fruit,2,4,4,PASS,NAN,,15
+2385,La Rioja,True,False,wool,1,2,2,PASS,INC,,35
+2386,Santa Rita,True,False,fruit,1,3,3,PASS,NAN,,35
+2387,San Juan,True,False,fruit,2,2,2,PASS,INC,,35
+2388,Calingasta,True,False,fruit,1,1,1,PASS,INC,,35
+2389,Mendoza,True,False,fruit,2,2,2,PASS,INC,,35
+2390,San Rafael,True,False,fruit,2,3,3,PASS,NAN,,15
 2391,Nequen,True,False,cattle,1,4,4,PASS,,,15
 2392,Viedma,True,False,wool,3,3,3,PASS,,,15
 2393,Telen,True,False,wool,3,2,3,PASS,NAN,,15
 2394,Bariloche,True,False,wool,2,3,3,PASS,,,15
 2395,Curaco,True,False,cattle,2,3,3,PASS,NAN,,15
 2396,Rawson,True,False,wool,3,4,4,PASS,,,15
-2397,Esquel,True,False,wool,3,4,4,PASS,,,15
-2398,Puerto Deseado,True,False,wool,4,5,5,PASS,,,15
-2399,Rio Galleagos,True,False,wool,4,6,6,PASS,,,15
-2400,Rio Grande,True,False,wool,5,7,7,WARN,,,15
+2397,Esquel,True,False,wool,3,3,3,PASS,,,15
+2398,Puerto Deseado,True,False,wool,4,3,4,PASS,,,15
+2399,Rio Galleagos,True,False,wool,4,2,4,PASS,,,15
+2400,Rio Grande,True,False,wool,5,1,5,PASS,,,15
 2401,Marabitanas,True,False,tobacco,2,2,2,PASS,CLM,,15
 2402,Manaus,True,False,tropical_wood,3,3,3,PASS,,,20
 2403,Cachoeira,True,False,tobacco,3,3,3,PASS,,,15
 2404,Tefe,True,False,tropical_wood,2,3,3,PASS,,,15
 2405,Borba,True,False,tropical_wood,3,2,3,PASS,,,15
-2406,Cocos Islands,True,False,fish,4,6,6,PASS,TNG,,32
+2406,Cocos Islands,True,False,fish,4,6,6,WARN,TNG,,32
 2407,Tabatinga,True,False,timber,2,3,3,PASS,,,15
 2408,Oriximina,True,False,tropical_wood,2,4,4,PASS,CLM,,15
 2409,Saint Vincent,True,False,cotton,-1,-1,-1,ISLAND,SPA,,35
@@ -2486,26 +2486,26 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2485,Clermont,True,False,cattle,3,4,4,PASS,DNG,,35
 2486,Toowoomba,True,False,cattle,2,3,3,PASS,DNG,,35
 2487,Townsville,True,False,cattle,4,5,5,PASS,,,35
-2488,Cooktown,True,False,tropical_wood,5,6,6,PASS,,,35
+2488,Cooktown,True,False,tropical_wood,5,6,6,WARN,,,35
 2489,Longreach,True,False,cattle,3,4,4,PASS,,,35
 2490,Charleville,True,False,cattle,2,3,3,PASS,DNG,,20
 2491,Adelaide,True,False,wool,3,4,4,PASS,DNG,,35
-2492,Port Lincolon,True,False,wool,4,5,5,PASS,DNG,,35
+2492,Port Lincolon,True,False,wool,4,4,4,PASS,DNG,,35
 2493,Robe,True,False,wool,4,4,4,PASS,DNG,,35
 2494,Port Augusta,True,False,grain,3,4,4,PASS,DNG,,35
-2495,Oodnadatta,True,False,fruit,3,4,4,PASS,,,25
-2496,Tarcoola,True,False,wool,4,5,5,PASS,,,35
-2497,Perth,True,False,grain,6,7,7,WARN,,,35
-2498,Kojonup,True,False,grain,6,7,7,WARN,,,35
-2499,Geraldton,True,False,grain,6,7,7,WARN,,,35
-2500,Kalgoorlie,True,False,grain,5,6,6,PASS,,,25
-2501,Broome,True,False,grain,5,6,6,PASS,,,35
-2502,Dampier,True,False,grain,5,6,6,PASS,,,35
-2503,Wiluna,True,False,cattle,4,5,5,PASS,,,25
-2504,Esperance,True,False,fruit,5,6,6,PASS,,,35
-2505,Palmerston,True,False,grain,5,6,6,PASS,,,35
+2495,Oodnadatta,True,False,fruit,3,3,3,PASS,,,25
+2496,Tarcoola,True,False,wool,4,3,4,PASS,,,35
+2497,Perth,True,False,coal,6,0,6,WARN,,,35
+2498,Kojonup,True,False,grain,6,1,6,WARN,,,35
+2499,Geraldton,True,False,grain,6,1,6,WARN,,,35
+2500,Kalgoorlie,True,False,grain,5,1,5,PASS,,,25
+2501,Broome,True,False,grain,5,4,5,PASS,,,35
+2502,Dampier,True,False,grain,5,2,5,PASS,,,35
+2503,Wiluna,True,False,cattle,4,2,4,PASS,,,25
+2504,Esperance,True,False,fruit,5,2,5,PASS,,,35
+2505,Palmerston,True,False,grain,5,5,5,PASS,,,35
 2506,Tennant Creek,True,False,cattle,4,5,5,PASS,,,35
-2507,Alice Springs,True,False,cattle,4,5,5,PASS,,,25
+2507,Alice Springs,True,False,cattle,4,4,4,PASS,,,25
 2508,Norfolk Island,True,False,fish,-1,-1,-1,ISLAND,,,30
 2509,Auckland,True,False,cattle,-1,-1,-1,ISLAND,AOT,,35
 2510,New Plymouth,True,False,cattle,-1,-1,-1,ISLAND,AOT,,35
@@ -2526,10 +2526,10 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2525,Marcus,True,False,fish,-1,-1,-1,ISLAND,,,10
 2526,Palmyra,True,False,fish,-1,-1,-1,ISLAND,HAW,,10
 2527,Gilbert Islands,True,False,fish,-1,-1,-1,ISLAND,,,15
-2528,Port Moresby,True,False,iron,0,7,7,WARN,,,10
-2529,Kerema,True,False,tropical_wood,1,6,6,PASS,,,10
-2530,Lae,True,False,coffee,1,6,6,PASS,,,10
-2531,Madang,True,False,coffee,2,6,6,PASS,,,10
+2528,Port Moresby,True,False,iron,0,7,7,FAIL,,,10
+2529,Kerema,True,False,tropical_wood,1,6,6,WARN,,,10
+2530,Lae,True,False,coffee,1,6,6,WARN,,,10
+2531,Madang,True,False,coffee,2,6,6,WARN,,,10
 2532,Forte Sao Joaquim,True,False,tropical_wood,3,3,3,PASS,CLM,,15
 2533,Targu Mures,True,False,iron,0,2,2,PASS,HUN,,35
 2534,Solomon Islands,True,False,fruit,-1,-1,-1,ISLAND,,,15
@@ -2585,8 +2585,8 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2584,Bielsko,True,False,coal,1,0,1,PASS,BOH,,40
 2585,Matan as Sarah,True,False,wool,1,4,4,PASS,,,10
 2586,Al-Ahsa,True,False,grain,3,3,3,PASS,NEJ,,10
-2587,Kola,True,False,timber,1,7,7,WARN,NOV,,10
-2588,Onega,True,False,timber,2,4,4,PASS,NOV,,10
+2587,Kola,True,False,coal,1,0,1,PASS,NOV,,10
+2588,Onega,True,False,timber,2,3,3,PASS,NOV,,10
 2589,Kanin,True,False,fish,4,1,4,PASS,JAP,,30
 2590,Ceuta,True,False,fish,4,3,4,PASS,SPA,,35
 2591,Tranquebar,True,False,iron,0,2,2,PASS,,,10
@@ -2599,11 +2599,11 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2598,Fort Liard,True,False,timber,3,3,3,PASS,,,10
 2599,Fort Yukon,True,False,fish,4,2,4,PASS,JAP,,15
 2600,Altamira,True,False,grain,3,1,3,PASS,,,20
-2601,Sandy Desert,True,False,grain,5,6,6,PASS,,,25
-2602,Roebourne,True,False,grain,6,7,7,WARN,,,35
-2603,Tanami,True,False,cattle,5,6,6,PASS,,,25
+2601,Sandy Desert,True,False,grain,5,4,5,PASS,,,25
+2602,Roebourne,True,False,grain,6,3,6,WARN,,,35
+2603,Tanami,True,False,cattle,5,5,5,PASS,,,25
 2604,Normanton,True,False,tropical_wood,4,5,5,PASS,,,35
-2605,Gibson's Desert,True,False,grain,5,6,6,PASS,,,25
+2605,Gibson's Desert,True,False,grain,5,3,5,PASS,,,25
 2606,Aktogay,True,False,coal,1,0,1,PASS,CHG,,35
 2607,Taklamakan,True,False,cotton,3,2,3,PASS,CHG,,35
 2608,Khatgal,True,False,iron,0,1,1,PASS,CHG,,35
@@ -2622,7 +2622,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2621,Srednekolymsk,True,False,timber,1,5,5,PASS,,,10
 2622,Majn,True,False,grain,1,4,4,PASS,,,15
 2623,Midway Island,True,False,fish,-1,-1,-1,ISLAND,HAW,,10
-2624,Loango,True,False,timber,1,7,7,WARN,,,20
+2624,Loango,True,False,timber,1,2,2,PASS,,,20
 2625,Port Hope Simpson,True,False,fish,2,2,2,PASS,VIN,,15
 2626,Port Harrison,True,False,timber,3,1,3,PASS,VIN,,10
 2627,Fort Chimo,True,False,coal,3,0,3,PASS,VIN,,35
@@ -2645,7 +2645,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2644,Tommot,True,False,timber,3,1,3,PASS,,,20
 2645,Artemovskij,True,False,coal,3,0,3,PASS,,,20
 2646,Niznevartovsk,True,False,coal,3,0,3,PASS,,,15
-2647,Lifau,True,False,fish,6,3,6,PASS,DUA,,35
+2647,Lifau,True,False,fish,6,3,6,WARN,DUA,,35
 2648,Handyga,True,False,grain,4,2,4,PASS,,,35
 2649,Tomtor,True,False,grain,3,3,3,PASS,,,10
 2650,Malykaj,True,False,grain,2,1,2,PASS,,,15
@@ -2662,7 +2662,7 @@ id,name,is_land,is_sea,good,dist_to_iron,dist_to_coal,paired_score,status,owner_
 2661,Anjuj,True,False,timber,1,5,5,PASS,,,10
 2662,Ambarcik,True,False,iron,0,5,5,PASS,,,15
 2663,Manily,True,False,grain,2,3,3,PASS,AIN,,15
-2664,Omolon,True,False,iron,0,6,6,PASS,ABU,,31
+2664,Omolon,True,False,iron,0,6,6,WARN,ABU,,31
 2665,Cokurdah,True,False,timber,2,5,5,PASS,,,10
 2666,Komsomolskiy,True,False,grain,2,4,4,PASS,AIN,,10
 2667,Kazace,True,False,timber,3,4,4,PASS,,,10

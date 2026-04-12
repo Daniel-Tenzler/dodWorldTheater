@@ -2,5 +2,5 @@ owner = TIR
 controller = TIR
 add_core = TIR
 add_core = GER
-trade_goods = grain
+trade_goods = iron
 life_rating = 40

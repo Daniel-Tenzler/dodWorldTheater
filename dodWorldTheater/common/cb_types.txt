@@ -5564,7 +5564,7 @@ conquest_low = {
 		}
 	}
 
-	badboy_factor = 1.0
+	badboy_factor = 0.8
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -5578,7 +5578,7 @@ conquest_low = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	construction_speed = 0.5
+	construction_speed = 0.83
 	
 	on_add = {
 		move_issue_percentage = { 

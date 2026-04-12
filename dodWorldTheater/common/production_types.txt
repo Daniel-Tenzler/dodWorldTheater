@@ -305,7 +305,7 @@ machine_parts_factory = {
 		coal = 3		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
-	value = 3.6			#65.7
+	value = 2.88			#65.7
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.2
@@ -592,7 +592,7 @@ canned_food_factory = {
 		fish = 4 		#6	total input+maint = 29.15
 	}
 	output_goods = canned_food 
-	value = 2.1			#33.6
+	value = 2.52			#33.6
 	bonus = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.075
@@ -620,7 +620,7 @@ canned_food_cattle_factory = {
 		grain = 4 		#8.8
 	}
 	output_goods = canned_food 
-	value = 2.1			#33.6
+	value = 2.52			#33.6
 	bonus = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.075
@@ -645,7 +645,7 @@ canned_food_fish_factory = {
 		grain = 4 		#8.8
 	}
 	output_goods = canned_food 
-	value = 2.1			#33.6
+	value = 2.52			#33.6
 	bonus = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.075
@@ -784,7 +784,7 @@ cement_factory = {
 		coal = 12		#27.6		total input+maint = 37
 	} 
 	output_goods = cement 
-	value = 3			#48
+	value = 2.4			#48
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.4
@@ -1157,7 +1157,7 @@ artisan_machine_parts = {
 		coal = 5		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
-	value = 1.8			#65.7
+	value = 1.44			#65.7
 	
 	owner = {
 		poptype = artisans 
@@ -1426,7 +1426,7 @@ artisan_canned_food = {
 		fish = 12 		#18	total input+maint = 85
 	}
 	output_goods = canned_food 
-	value = 6			#96
+	value = 7.2			#96
 	
 	owner = {
 		poptype = artisans 
@@ -1551,7 +1551,7 @@ artisan_cement = {
 		coal = 12		#27.6		total input+maint = 37
 	} 
 	output_goods = cement 
-	value = 3			#48
+	value = 2.4			#48
 	
 	owner = {
 		poptype = artisans 

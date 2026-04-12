@@ -28,6 +28,7 @@ DEFAULT_CONFIG = {
         "confidence_threshold": 0.7,
         "exclude_target_goods": ["sulphur"],
         "exclude_unreachable_for_iron": True,
+        "disallow_iron_to_coal": True,
     },
     "locking": {
         "locked_provinces": [],
@@ -544,6 +545,7 @@ def generate_suggestions(
     suggestion_actions,
     exclude_target_goods,
     exclude_unreachable_for_iron,
+    disallow_iron_to_coal,
 ):
     suggestions = []
     failed = [r for r in province_rows if r["status"] == "FAIL" and r["id"] not in locked_provinces]
@@ -571,10 +573,13 @@ def generate_suggestions(
         target = provinces[row["id"]]
         need = needed_good_for_row(row)
         current_good = target.get("good") or ""
+        current_good_lower = current_good.lower()
 
-        if current_good.lower() in exclude_target_goods:
+        if current_good_lower in exclude_target_goods:
             continue
         if exclude_unreachable_for_iron and need == "iron" and row["dist_to_iron"] < 0:
+            continue
+        if disallow_iron_to_coal and current_good_lower == "iron" and need == "coal":
             continue
 
         # Prefer direct replacement when both actions are enabled.
@@ -790,6 +795,7 @@ def run_analyzer(mod_root, config_path, reports_dir, patches_dir):
             suggestion_actions=config["rebalance"].get("suggestion_actions", ["replace", "swap"]),
             exclude_target_goods=exclude_target_goods,
             exclude_unreachable_for_iron=bool(config["rebalance"].get("exclude_unreachable_for_iron", True)),
+            disallow_iron_to_coal=bool(config["rebalance"].get("disallow_iron_to_coal", True)),
         )
 
     write_summary_json(reports_dir / "resource_proximity_summary.json", summary)

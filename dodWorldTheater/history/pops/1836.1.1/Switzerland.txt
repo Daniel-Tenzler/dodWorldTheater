@@ -267,81 +267,81 @@
 }
 #Vaud & Valais Region (444000)
 #Geneva (316000/79000 POPS)
-607 = {
+	607 = {
 	aristocrats = {
 		culture = burgundian
 		religion = protestant
-		size = 500
+		size = 1000
 	}
 
 	bureaucrats = {
 		culture = burgundian
 		religion = protestant
-		size = 200
+		size = 400
 	}
 
 	officers = {
 		culture = burgundian
 		religion = protestant
-		size = 110
+		size = 220
 	}
 
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 650
+		size = 1300
 	}
 
 	artisans = {
 		culture = burgundian
 		religion = protestant
-		size = 7000
+		size = 14000
 	}
 
 	soldiers = {
 		culture = burgundian
 		religion = protestant
-		size = 2200
+		size = 4400
 
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 68550
+		size = 137100
 	}
 }
 #Neuchatel (56000/14000 POPS)
-608 = {
+	608 = {
 	aristocrats = {
 		culture = burgundian
 		religion = protestant
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 125
+		size = 250
 	}
 
 	artisans = {
 		culture = burgundian
 		religion = protestant
-		size = 3000
+		size = 6000
 	}
 
 	soldiers = {
 		culture = burgundian
 		religion = protestant
-		size = 150
+		size = 300
 
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 10625
+		size = 21250
 	}
 }
 #Sitten (72000/18000) POPS
