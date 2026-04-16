@@ -187,6 +187,7 @@ private_bank_monitoring = {
 		factory_goods_throughput = {
 			paper =  0.05
 		}
+		administrative_efficiency = 0.01
 	}
 }
 market_behaviour_monitoring = {
@@ -204,7 +205,7 @@ market_behaviour_monitoring = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 2
 	}
 }
 #mutual_funds
@@ -212,7 +213,7 @@ buying_on_margin = {
 	limit = { mutual_funds = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 3
 		modifier = {
 			factor = 2
 			ruling_party_ideology = liberal
@@ -223,7 +224,8 @@ buying_on_margin = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+		factory_cost = -0.03
+		factory_throughput = 0.01
 	}
 }
 #ad_hoc_money_bill_printing
@@ -662,7 +664,7 @@ karl_kautsky = {
 		permanent_prestige = 1 
 	}
 }
-jean_jaurès = {
+jean_jaurï¿½s = {
 	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
@@ -812,7 +814,7 @@ william_cunningham = {
 	}
 }
 #neoclassical_theory
-johann_heinrich_von_thünen = {
+johann_heinrich_von_thï¿½nen = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
@@ -831,7 +833,7 @@ johann_heinrich_von_thünen = {
 		increase_research = 0.01 
 	}
 }
-léon_walras = {
+lï¿½on_walras = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
@@ -1040,7 +1042,7 @@ joseph_schumpeter = {
 		increase_research = 0.01 
 	}
 }
-eugen_von_böhm_bawerk = {
+eugen_von_bï¿½hm_bawerk = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
@@ -1775,7 +1777,7 @@ i_scientific_management = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
 	}
 }
 human_resource_development = {
@@ -1793,6 +1795,7 @@ human_resource_development = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
+		factory_input = -0.01
 	}
 }
