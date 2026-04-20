@@ -924,6 +924,64 @@ stainless_steel = {
 #early_railroad
 #iron_railroad
 #steel_railroad
+
+#experimental_railroad
+railway_survey_crews = {
+	limit = { experimental_railroad = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_responsibility = 1
+		}
+		modifier = {
+			factor = 2
+			invention = work_specialization
+		}
+	}
+	effect = {
+		mobilisation_size = 0.005
+	}
+}
+
+#early_railroad
+standardized_railway_timetables = {
+	limit = { early_railroad = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			experimental_railroad = 1
+		}
+		modifier = {
+			factor = 2
+			organized_factories = 1
+		}
+	}
+	effect = {
+		factory_input = -0.01
+	}
+}
+
+#iron_railroad
+iron_bridge_networks = {
+	limit = { iron_railroad = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			early_railroad = 1
+		}
+		modifier = {
+			factor = 2
+			cheap_iron = 1
+		}
+	}
+	effect = {
+		factory_throughput = 0.01
+	}
+}
+
 #medicine
 combat_medicine = {
 	limit = { medicine = 1 }

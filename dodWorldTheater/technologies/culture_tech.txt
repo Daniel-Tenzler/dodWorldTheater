@@ -694,6 +694,7 @@ introspectionism = {
 	area = psychology
 	year = 1836
 	cost = 3600
+	education_efficiency = 0.02
 
 
 	regular_experience_level = 5
@@ -724,6 +725,7 @@ associationism = {
 	area = psychology
 	year = 1840
 	cost = 7200
+	education_efficiency = 0.02
 
 	regular_experience_level = 5
 	reinforce_rate = 0.05
@@ -752,6 +754,7 @@ experimental_psychology = {
 	area = psychology
 	year = 1870
 	cost = 10800
+	education_efficiency = 0.02
 
 	regular_experience_level = 5
 	reinforce_rate = 0.05
@@ -776,6 +779,7 @@ psychological_intelligence = {
 	area = psychology
 	year = 1875
 	cost = 14440
+	education_efficiency = 0.02
 
 	regular_experience_level = 5
 	reinforce_rate = 0.05
@@ -800,6 +804,7 @@ psychoanalysis = {
 	area = psychology
 	year = 1890
 	cost = 18000
+	education_efficiency = 0.02
 
 	regular_experience_level = 5
 	reinforce_rate = 0.05
@@ -825,6 +830,7 @@ behaviorism = {
 	area = psychology
 	year = 1900
 	cost = 21600
+	education_efficiency = 0.02
 
 	regular_experience_level = 5
 	reinforce_rate = 0.05

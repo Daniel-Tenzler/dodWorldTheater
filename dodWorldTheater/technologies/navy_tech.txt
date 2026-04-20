@@ -1894,6 +1894,7 @@ naval_professionalism = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
+	education_efficiency = 0.02
 	navy_base = {
 		default_organisation = 5
 	}
@@ -2173,6 +2174,7 @@ naval_nco_training = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
+	education_efficiency = 0.02
 	navy_base = {
 		default_organisation = 5
 	}
@@ -2256,6 +2258,7 @@ modern_naval_training = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
+	education_efficiency = 0.02
 	navy_base = {
 		default_organisation = 5
 	}

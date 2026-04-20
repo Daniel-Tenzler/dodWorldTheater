@@ -1799,3 +1799,64 @@ human_resource_development = {
 		factory_input = -0.01
 	}
 }
+
+#private_banks
+commercial_letter_of_credit = {
+	limit = { private_banks = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 2
+			trade_policy = free_trade
+		}
+	}
+	effect = {
+		factory_cost = -0.01
+	}
+}
+
+#no_standard
+regional_note_clearing = {
+	limit = { no_standard = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 2
+			administrative_efficiency = 0.3
+		}
+	}
+	effect = {
+		administrative_efficiency = 0.01
+	}
+}
+
+#freedom_of_trade
+commodity_exchange_bulletins = {
+	limit = { freedom_of_trade = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			trade_policy = free_trade
+		}
+		modifier = {
+			factor = 2
+			invention = multitude_of_financial_instruments
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02
+		mine_rgo_eff = 0.02
+	}
+}

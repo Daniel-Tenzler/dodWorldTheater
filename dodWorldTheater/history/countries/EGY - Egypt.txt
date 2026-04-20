@@ -73,7 +73,7 @@ oob = "EGY_oob.txt"
 }
 1861.1.1 = {
 
-nationalvalue = nv_tradition
+nationalvalue = nv_education
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons

@@ -1775,3 +1775,44 @@ the_talkies = {
 	core_pop_consciousness_modifier = 0.04
 	core_pop_militancy_modifier = -0.01
 }
+
+#classicism_n_early_romanticism
+national_academies_of_art = {
+	limit = { classicism_n_early_romanticism = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 2
+			prestige = 20
+		}
+	}
+	effect = {
+		shared_prestige = 5
+	}
+}
+
+#introspectionism
+applied_military_psychology = {
+	limit = { introspectionism = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			army_professionalism = 1
+		}
+		modifier = {
+			factor = 2
+			military_staff_system = 1
+		}
+	}
+	effect = {
+		reinforce_rate = 0.01
+		regular_experience_level = 2
+	}
+}

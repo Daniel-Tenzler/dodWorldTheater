@@ -13,6 +13,9 @@ rebel =
 
 administrative_efficiency = yes
 
+research_points = 1
+research_optimum = 0.01
+
 tax_eff = 1.0
 
 life_needs_income = {

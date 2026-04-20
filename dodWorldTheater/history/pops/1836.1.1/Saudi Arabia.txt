@@ -1,83 +1,83 @@
 #Hijaz Region (440000)
 #under the "rule" of Egypt in 1836
-#Mecca (196000/49000 POPS)
+#Mecca (196000/132500 POPS)
 1151 = {
     aristocrats = {
         culture = bedouin
         religion = sunni
-        size = 400
+        size = 800
     }
 
     bureaucrats = {
         culture = bedouin
         religion = sunni
-        size = 100
+        size = 300
     }
 
     officers = {
         culture = bedouin
         religion = sunni
-        size = 125
+        size = 250
     }
 
     clergymen = {
         culture = bedouin
         religion = sunni
-        size = 375
+        size = 900
     }
 
     artisans = {
         culture = bedouin
         religion = sunni
-        size = 6500
+        size = 16000
     }
 
     soldiers = {
         culture = bedouin
         religion = sunni
-        size = 1000
+        size = 2400
     }
 
     farmers = {
         culture = bedouin
         religion = sunni
-        size = 18500
+        size = 50000
     }
 
     aristocrats = {
         culture = bedouin
         religion = sunni
-        size = 400
+        size = 800
     }
 
     clergymen = {
         culture = bedouin
         religion = sunni
-        size = 125
+        size = 400
     }
 
     artisans = {
         culture = bedouin
         religion = sunni
-        size = 1100
+        size = 3000
     }
 
     soldiers = {
         culture = bedouin
         religion = sunni
-        size = 250
+        size = 700
     }
 
     farmers = {
         culture = bedouin
         religion = sunni
-        size = 20125
+        size = 52000
     }
 
     slaves = {
         culture = bedouin
         religion = animist
-        size = 2000
+        size = 5000
     }
 }
 #Jidda (100000/25000 POPS)

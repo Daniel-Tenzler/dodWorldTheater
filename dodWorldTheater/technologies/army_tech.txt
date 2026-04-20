@@ -988,6 +988,7 @@ military_statistics = {
 	year = 1850
 	cost = 10800
 	unciv_military = yes
+	education_efficiency = 0.02
 	
 	army_base = {
 		default_organisation = 5
@@ -1207,6 +1208,7 @@ army_professionalism = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
+	education_efficiency = 0.02
 	morale = 0.1
 
 	military_tactics = 0.25
@@ -1371,6 +1373,7 @@ army_nco_training = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
+	education_efficiency = 0.02
 	morale = 0.25
 	
 
@@ -1468,5 +1471,4 @@ great_war_experience = {
 		}
 	}
 }
-
 

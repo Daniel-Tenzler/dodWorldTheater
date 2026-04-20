@@ -17,6 +17,91 @@
 #	}
 #}
 
+#post_nelsonian_thought
+signal_book_revisions = {
+	limit = { post_nelsonian_thought = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			the_command_principle = 1
+		}
+		modifier = {
+			factor = 2
+			alphabetic_flag_signaling = 1
+		}
+	}
+	effect = {
+		navy_base = {
+			default_organisation = 3
+		}
+	}
+}
+
+#naval_design_bureaus
+hydrodynamic_hull_trials = {
+	limit = { naval_design_bureaus = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			clipper_design = 1
+		}
+		modifier = {
+			factor = 2
+			the_command_principle = 1
+		}
+	}
+	effect = {
+		frigate = {
+			maximum_speed = 1
+		}
+		manowar = {
+			maximum_speed = 1
+		}
+	}
+}
+
+#alphabetic_flag_signaling
+fleet_signal_codex = {
+	limit = { alphabetic_flag_signaling = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			naval_plans = 1
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_ships = 20
+		}
+	}
+	effect = {
+		supply_range = 0.05
+	}
+}
+
+#the_command_principle
+fleet_training_cruises = {
+	limit = { the_command_principle = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			post_nelsonian_thought = 1
+		}
+		modifier = {
+			factor = 2
+			naval_professionalism = 1
+		}
+	}
+	effect = {
+		navy_base = {
+			default_organisation = 2
+		}
+	}
+}
+
 #battleship_column_doctrine
 long_range_fire_tactic = {
 	limit = { battleship_column_doctrine = 1 }
@@ -2068,3 +2153,199 @@ naval_exercises = {
 	}
 }
 
+#targeted_ship_specializations
+plotting_room_drills = {
+	limit = { naval_plans = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = enemy_plotting_cards
+		}
+		modifier = {
+			factor = 2
+			invention = target_hit_profile_analysis
+		}
+	}
+	effect = {
+		cruiser = {
+			default_organisation = 1
+		}
+	}
+}
+
+interdiction_scorecards = {
+	limit = { naval_statistics = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = empirical_interdiction_reports
+		}
+		modifier = {
+			factor = 2
+			invention = naval_strike_success_criterium
+		}
+	}
+	effect = {
+		commerce_raider = {
+			torpedo_attack = 1
+		}
+	}
+}
+
+underway_engine_maintenance = {
+	limit = { naval_logistics = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = underway_refueling
+		}
+		modifier = {
+			factor = 2
+			invention = ammunition_conservation_system
+		}
+	}
+	effect = {
+		steam_transport = {
+			supply_consumption = -0.05
+		}
+		cruiser = {
+			supply_consumption = -0.05
+		}
+	}
+}
+
+command_signal_books = {
+	limit = { naval_directionism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = political_lobbying
+		}
+		modifier = {
+			factor = 2
+			invention = radio_telegraphy
+		}
+	}
+	effect = {
+		battleship = {
+			default_organisation = 1
+		}
+		dreadnought = {
+			default_organisation = 1
+		}
+	}
+}
+
+professional_damage_control = {
+	limit = { naval_professionalism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = combat_station_training
+		}
+		modifier = {
+			factor = 2
+			invention = societal_status
+		}
+	}
+	effect = {
+		ironclad = {
+			hull = 1
+		}
+		monitor = {
+			hull = 1
+		}
+		battleship = {
+			hull = 1
+		}
+	}
+}
+
+decision_cycle_orders = {
+	limit = { naval_decision_making = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = continuous_issuing_of_orders
+		}
+		modifier = {
+			factor = 2
+			invention = independent_command
+		}
+	}
+	effect = {
+		cruiser = {
+			maximum_speed = 1
+		}
+	}
+}
+
+risk_managed_screening = {
+	limit = { naval_risk_management = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = wargames
+		}
+		modifier = {
+			factor = 2
+			invention = alternative_plans
+		}
+	}
+	effect = {
+		commerce_raider = {
+			maximum_speed = 1
+			hull = 1
+		}
+	}
+}
+
+nco_gunnery_crews = {
+	limit = { naval_nco_training = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = nco_combat_station_training
+		}
+		modifier = {
+			factor = 2
+			invention = nco_tactical_training
+		}
+	}
+	effect = {
+		cruiser = {
+			gun_power = 1
+		}
+	}
+}
+
+modern_task_force_rotation = {
+	limit = { modern_naval_training = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = naval_exercises
+		}
+		modifier = {
+			factor = 2
+			invention = amphibious_warfare_training
+		}
+	}
+	effect = {
+		dreadnought = {
+			default_organisation = 2
+		}
+		steam_transport = {
+			maximum_speed = 1
+		}
+	}
+}
